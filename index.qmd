@@ -20,7 +20,9 @@ listing:
   fields: [date, title, description]
   feed: true
   exclude:
-    categories: "draft*"
+    categories: 
+    - "draft*"
+    - "diary*"
 ---
 
 <center>

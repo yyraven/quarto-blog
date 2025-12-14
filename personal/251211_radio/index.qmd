@@ -1,7 +1,7 @@
 ---
 title: "音乐电台｜2025 音乐与我的四季"
 date: "2025-12-11"
-categories: [radio, fun, music, 2025, 中文]
+categories: [radio, music, 中文]
 ---
 
 *我感觉有必要把这个四季音乐推荐系列提前一个月，六月份已经是夏天了，而三月份肯定是春天。*

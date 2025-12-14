@@ -1,24 +1,18 @@
 ---
-title: "观后感 | All Watched Over by Machines of Loving Grace"
+title: "观后感 | 一切皆被慈爱的机器所注视"
 date: "2024-04-01"
-categories: [review, movie, documentary, 中文]
+categories: [review, documentary, 中文]
 ---
 
->I like to think (and
->the sooner the better!)
->of a cybernetic meadow
+> I like to think (and the sooner the better!) of a cybernetic meadow
 >
->where mammals and computers
->live together in mutually
->programming harmony
+> where mammals and computers live together in mutually programming harmony
 >
->like pure water
->touching clear sky.
+> like pure water touching clear sky.
 >
->[*“All Watched Over by Machines of Loving Grace” by Richard Brautigan*](https://allpoetry.com/All-Watched-Over-By-Machines-Of-Loving-Grace)
+> [*“All Watched Over by Machines of Loving Grace” by Richard Brautigan*](https://allpoetry.com/All-Watched-Over-By-Machines-Of-Loving-Grace)
 
 这部纪录片的标题来源于这首作于嬉皮年代的小诗。在生活在当代的导演看来，应当是绝佳的讽刺吧。
----
 
 ## 观后感
 
@@ -54,7 +48,7 @@ categories: [review, movie, documentary, 中文]
 
 但绝对不是无聊的片子，质量还是非常高的。大家都可以去看看！
 
----
+------------------------------------------------------------------------
 
 ### 资源
 
@@ -71,7 +65,6 @@ categories: [review, movie, documentary, 中文]
 相当于是文字版的纪录片。
 
 [All Watched Over by Machines of Loving Grace (TV series)](https://en.wikipedia.org/wiki/All_Watched_Over_by_Machines_of_Loving_Grace_(TV_series))
----
 
 至于我为什么会想到看这个纪录片？
 

@@ -27,15 +27,17 @@ I enjoy digital painting, reading, [birdwatching](personal/nd_birding/index.qmd)
 
 ### Why Blogging
 
-This blog started as a class project to build a professional profile in one of my biostats classes. Over time, I decided to make it more personal. Blogging offers a peaceful online experience without big company manipulation - no ads, no infinite scrolling. So, what you'll see here would be a mix of life science-related and more fun/personal projects. I sometimes also write in Chinese. You can filter them using tags.
+This blog started as a class project to build a professional profile. Over time, I decided to make it more personal. Blogging offers a peaceful online experience without big company manipulation - no ads, no infinite scrolling, no censorship. So, what you'll see here would be a mix of life science-related and more fun/personal posts. You can filter them by tags.
+
+个人生活/兴趣内容主要用中文写作，因为不想失去用中文写长文章的能力。
 
 ------------------------------------------------------------------------
 
 ### Why's it called *'Raven's Nest'*
 
-*'Raven'* has always been my online name, so I adopted it as my favicon/logo. Corvids like shiny trinkets, and I think blogging nowadays is like collecting and displaying trinkets online - maybe there are some inherent resemblance?
+*'Raven'* is my online name, so I adopted it as my logo. Corvids like shiny trinkets, and I think blogging nowadays is like collecting and displaying trinkets online - maybe there are some inherent resemblance?
 
-When I lived in Baltimore, I used to see flocks of American crows and fish crows gathering on trees during colder times at dusk and dawn. Sometimes what you think is a tree would actually be a flock of birds. I tried to re-create that effect in the homepage XD
+When I lived in Baltimore, I used to see flocks of crows gathering on trees during colder times at dusk and dawn. Sometimes what you think that are leaves would actually be a flock of birds. I tried to re-create that effect in the homepage XD
 
 ------------------------------------------------------------------------
 

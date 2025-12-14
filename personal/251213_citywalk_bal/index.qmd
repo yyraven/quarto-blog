@@ -1,7 +1,7 @@
 ---
 title: "遛弯指南 | 巴尔的摩：港口·排屋·爱伦坡"
 date: "2025-12-13"
-categories: [draft, citywalk, travel, baltimore, 中文]
+categories: [draft, travel, baltimore, 中文]
 ---
 
 ::: callout

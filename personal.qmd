@@ -5,9 +5,10 @@ listing:
   sort: "date desc"
   type: table
   categories: true
+  date-format: short
   sort-ui: true
   filter-ui: true
-  fields: [date, title, categories, reading-time]
+  fields: [date, title]
   feed: true
   exclude:
     categories: "draft*"

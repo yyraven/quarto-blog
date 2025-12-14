@@ -792,7 +792,8 @@
   <category>book</category>
   <category>movie</category>
   <category>music</category>
-  <category>fun</category>
+  <category>documentary</category>
+  <category>review</category>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/nd_personal_library/</guid>
   <pubDate>Fri, 12 Dec 2025 05:00:00 GMT</pubDate>
@@ -946,12 +947,76 @@
 © 2024-2025 RavensNest.
 </center> ]]></description>
   <category>radio</category>
-  <category>fun</category>
   <category>music</category>
-  <category>2025</category>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/251211_radio/</guid>
   <pubDate>Thu, 11 Dec 2025 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>日记 | 黑狗</title>
+  <link>https://yyraven.github.io/quarto-blog/personal/250320_diary/</link>
+  <description><![CDATA[ 
+<div class="mylikebutton">♥</div>
+
+
+
+
+<p>最近又处在僵死期，正在很努力地复健。不能让形而上的恐慌夺走我真正生活的能力。并且我也得明白，哪些是真正对我好的娱乐，哪些只是一时的消遣。</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 51%">
+<col style="width: 48%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>good for my soul</th>
+<th>junk food</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>音乐与诗歌，好的歌词就是诗</td>
+<td>视奸社交媒体</td>
+</tr>
+<tr class="even">
+<td>小说和哲学</td>
+<td>键政</td>
+</tr>
+<tr class="odd">
+<td>画画，不局限于同人作品</td>
+<td>Wikipedia diving</td>
+</tr>
+<tr class="even">
+<td>与真实的人类在线下真诚的相处、交流、约会</td>
+<td>吃垃圾食品 + body negative thoughts</td>
+</tr>
+<tr class="odd">
+<td>新鲜空气，大海，鸟鸣，树木</td>
+<td>不起床，靠睡觉消磨时间、逃避现实</td>
+</tr>
+<tr class="even">
+<td>乐观心态，从心所欲，少纠结</td>
+<td>在行动前因为自己不可控的因素纠结个不停</td>
+</tr>
+</tbody>
+</table>
+<p>世界的确是在往更差劲的方向发展，我们都明白。这5年对于我来说就仿佛凝滞了一般，我也明白。在一切天真的乐观主义都不能够再将我蒙蔽的时刻——每次再次抬起头面对现实，都会因为伤口再次撕开而感到更加新鲜火辣的疼痛，而这个疼痛的程度在我试图掩盖时只会不断加深而不是愈合——想要继续相信未来，就需要发展出一种全新的乐观主义，而我觉得这种乐观主义不是靠翻书能找到的。我必须勇敢坚强地生活，需要去感受当下时代的脉搏，在那之中寻找我能所珍视的东西，而不是在脑海内部构建理想国；因为后者只会让人身心俱疲，以至于导向自杀冲动。需要和心理医生多聊聊。对自己诚实。如果感觉把自己内心的想法告诉别人会紧张，就多和日记聊聊。现代生活是垃圾，当代生活更是，但你还有有志做艺术家的，不是吗？把不满收集起来，发泄出来，用一种内敛真诚的表达方式；不能屈从于你不喜欢的社会架构和主流风潮，也不能被他们打败。遵从本性生活，以个人的头脑作为最小的武装单位发起抗争吧。</p>
+<blockquote class="blockquote">
+<p>停电之后，暂时摆脱了/坚硬的时刻，倒转的河/肥胖的城市，驱赶着所有拒绝沉默的人</p>
+</blockquote>
+<hr>
+<p>复健成功了一半，至少可以这么说。我猜以后自己得学着怎么一辈子和这只黑狗做斗争了——“斗争”是个坏词儿——学着怎么一辈子和这只黑狗相处。身体是革命的本钱，我们一元论者把心理健康也算成身体的一部分。体会自己的情感和需求，就像驾驶EVA一样驾驶自己的肉身，像驯服一条烈马一样驯服自己。其实EVA的比喻很有启发性，如果同步率下降了的话，再怎么希望机器启动也是不会成功的，只有把自己的需求当成第一步才行。</p>
+<p>以后几个需要警觉的坏信号：睡眠周期紊乱，无法专注30分钟以上，食欲不振，早晨醒来后很不想出门，感觉不到快乐和对未来的期待，自杀冲动。这种事的发生证明了你是要休息，而不是“你真糟糕”。</p>
+
+
+
+<center>
+© 2024-2025 RavensNest.
+</center> ]]></description>
+  <category>diary</category>
+  <category>中文</category>
+  <guid>https://yyraven.github.io/quarto-blog/personal/250320_diary/</guid>
+  <pubDate>Thu, 20 Mar 2025 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>All About Birding</title>
@@ -2077,8 +2142,8 @@
 <p><em>Click on the map to see pictures of birds! Urban sites marked in pink while rural sites marked in green.</em></p>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-fbb1dce060a68ac431fb" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-fbb1dce060a68ac431fb">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[38.44166,39.32439,36.00323,47.66241,45.88458,30.09336,27.12898,35.01526,34.0333,40.45827,40.42716,40.02938,31.36978],[-76.11781999999999,-77.7255,-78.93374,-122.43432,-123.96861,-90.43263,100.24284,135.67181,-118.6742,-86.93805999999999,-86.93183999999999,116.38406,120.57274],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"green","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/bald_eagle_2504.JPG\" width=\"90\"> <img src=\"birdspics/wilson_s_snipe_2501.JPG\" width=\"90\"><\/br> <br>L: Bald Eagle; R: Wilson's Snipe<\/br>","<br><img src=\"birdspics/turkey_vulture_2403.JPG\" width=\"90\"> <img src=\"birdspics/great_blue_heron_2403.JPG\" width=\"90\"><\/br><br>L: Turkey Vulture; R: Great Blue Heron<\/br>","<br><img src=\"birdspics/northern_cardinal_2203.jpg\" width=\"90\"> <img src=\"birdspics/red_tailed_hawk_2201.jpg\" width=\"90\"><\/br> <br>L: Northern Cardinal; R: Red-tailed Hawk<\/br>","<br><img src=\"birdspics/caspian_tern_2407.JPG\" width=\"90\"> <img src=\"birdspics/glaucous_winged_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Caspian Tern; R: Glaucous-winged Gull<\/br>","<br><img src=\"birdspics/common_murre_2407.JPG\" width=\"90\"> <img src=\"birdspics/california_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Common Murre; R: California Gull<\/br>","<br><img src=\"birdspics/great_egret_2203.JPG\" width=\"90\"><\/br> <br>Great Egret<\/br>","<br><img src=\"birdspics/red_billed_blue_magpie_2303.JPG\" width=\"90\"> <img src=\"birdspics/white_wagtail_2303.JPG\" width=\"90\"><\/br> <br>L: Red-billed Blue-Magpie; R: White Wagtail<\/br>","<br><img src=\"birdspics/gray_heron_1907.jpg\" width=\"90\"> <img src=\"birdspics/great_cormorant_1907.jpg\" width=\"90\"><\/br> <br>L: Gray Heron; R: Great Cormorant<\/br>","<br><img src=\"birdspics/brown_pelican_2506.jpg\" width=\"90\"> <img src=\"birdspics/gadwall_2506.jpg\" width=\"90\"><\/br> <br>L: Brown Pelican; R: Gadwall<\/br>","<br><img src=\"birdspics/american_white_pelican_2504.JPeG\" width=\"90\"><img src=\"birdspics/greater_yellowlegs_2510.JPG\" width=\"90\"><\/br> <br>L: American White Pelican; R: Greater Yellowlegs<\/br>","<br><img src=\"birdspics/northern_flicker_2510.JPG\" width=\"90\"><img src=\"birdspics/chipping_sparrow_2510.JPG\" width=\"90\"><\/br> <br>L: Northern Flicker; R: Chipping Sparrow<\/br>","<br><img src=\"birdspics/oriental_reed_warbler_2507.JPG\" width=\"90\"><img src=\"birdspics/common_kingfisher_2507.JPG\" width=\"90\"><\/br> <br>L: Oriental Reed Warbler; R: Common Kingfisher<\/br>","<br><img src=\"birdspics/pheasant_tailed_jacana_2507.JPG\" width=\"90\"><img src=\"birdspics/eurasian_moorhen_2507.JPG\" width=\"90\"><\/br> <br>L: Pheasant-tailed Jacana; R: Eurasian Moorhen<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[39.27909,40.69019,29.66037,31.39642,31.30295,39.98998,30.74135,40.11208,39.95549,36.058381,37.52121,39.92546,35.04778,33.94711],[-76.59966,-74.04423,91.11783,120.90624,120.6159,116.26826,104.14193,113.1376,-75.18196,120.32057,121.45454,116.38925,118.37511,-83.37813],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"pink","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/ring_billed_gull_2503.JPG\" width=\"90\"> <img src=\"birdspics/double_crested_cormorant_2310.JPG\" width=\"90\"><\/br> <br>L: Ring-billed Gull; R: Double-crested Cormorant<\/br> ","<br><img src=\"birdspics/american_herring_gull_2401.JPG\" width=\"90\"> <img src=\"birdspics/brant_2401.JPG\" width=\"90\"><\/br> <br>L: American Herring Gull; R: Brant<\/br>","<br><img src=\"birdspics/ruddy_shelduck_1912.jpg\" width=\"90\"> <img src=\"birdspics/bar_headed_goose_1912.jpg\" width=\"90\"><\/br> <br>L: Ruddy Shelduck; R: Bar-headed Goose<\/br>","<br><img src=\"birdspics/long_tailed_shrike_2302.jpg\" width=\"90\"><\/br> <br>Long-tailed Shrike<\/br>","<br><img src=\"birdspics/spotted_dove_2011.jpeg\" width=\"90\"> <img src=\"birdspics/eurasian_tree_sparrow_1911.jpg\" width=\"90\"><\/br> <br>L: Spotted Dove; R: Eurasian Tree Sparrow<\/br>","<br><img src=\"birdspics/mandarin_duck_juv_2306.JPG\" width=\"90\"><\/br> <br>Mandarin Duck<\/br>","<br><img src=\"birdspics/white_browed_laughingthrush_2007.JPG\" width=\"90\"><\/br> <br>White-browed Laughingthrush<\/br>","<br><img src=\"birdspics/eurasian_crag_martin_2306.jpg\" width=\"90\"><\/br> <br>Eurasian Crag-Martin<\/br>","<br><img src=\"birdspics/gray_catbird_2406.JPG\" width=\"90\"> <img src=\"birdspics/red_winged_blackbird_2504.JPG\" width=\"90\"><\/br> <br>L: Gray Catbird; R: Red-winged Blackbird<\/br>","<br><img src=\"birdspics/black_tailed_gull_2507.JPG\" width=\"90\"><\/br> <br>Black Tailed Gull<\/br>","<br><img src=\"birdspics/grey_capped_greenfinch_2507.JPG\" width=\"90\"><img src=\"birdspics/light_vented_bulbul_2507.JPG\" width=\"90\"><\/br> <br>L: Grey-capped Greenfinch; R: Light-vented Bulbul<\/br>","<br><img src=\"birdspics/azure_winged_magpie_2507.JPG\" width=\"90\"><img src=\"birdspics/carrion_crow_2507.JPG\" width=\"90\"><\/br> <br>L: Azure-winged Magpie; R: Carrion Crow<\/br>","<br><img src=\"birdspics/whiskered_tern_2507.JPG\" width=\"90\"><img src=\"birdspics/black_crowned_night_heron_2507.JPG\" width=\"90\"><\/br> <br>L: Whiskered Tern; R: Black-crowned Night Heron<\/br>","<br><img src=\"birdspics/brown_thrasher_2505.JPeG\" width=\"90\"><\/br> <br> Brown Thrasher<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addControl","args":["<style>\n  .leaflet-popup-content-wrapper {\n    background: rgba(255, 255, 255, 0.5);\n    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);\n    border-radius: 10px;\n    text-align: center;\n    padding: 3px;\n  }\n  .leaflet-popup-tip {\n    background: rgba(255, 255, 255, 0.7);\n  }\n  .leaflet-popup-content {\n    font-family: 'Comic Sans MS', cursive, sans-serif;\n    line-height: 1.1;\n    white-space: pre-wrap;\n  }\n<\/style>","topleft",null,"info legend"]},{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[27.12898,47.66241],"lng":[-123.96861,135.67181]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-95d3c6755c72aeca980f" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-95d3c6755c72aeca980f">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[38.44166,39.32439,36.00323,47.66241,45.88458,30.09336,27.12898,35.01526,34.0333,40.45827,40.42716,40.02938,31.36978],[-76.11781999999999,-77.7255,-78.93374,-122.43432,-123.96861,-90.43263,100.24284,135.67181,-118.6742,-86.93805999999999,-86.93183999999999,116.38406,120.57274],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"green","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/bald_eagle_2504.JPG\" width=\"90\"> <img src=\"birdspics/wilson_s_snipe_2501.JPG\" width=\"90\"><\/br> <br>L: Bald Eagle; R: Wilson's Snipe<\/br>","<br><img src=\"birdspics/turkey_vulture_2403.JPG\" width=\"90\"> <img src=\"birdspics/great_blue_heron_2403.JPG\" width=\"90\"><\/br><br>L: Turkey Vulture; R: Great Blue Heron<\/br>","<br><img src=\"birdspics/northern_cardinal_2203.jpg\" width=\"90\"> <img src=\"birdspics/red_tailed_hawk_2201.jpg\" width=\"90\"><\/br> <br>L: Northern Cardinal; R: Red-tailed Hawk<\/br>","<br><img src=\"birdspics/caspian_tern_2407.JPG\" width=\"90\"> <img src=\"birdspics/glaucous_winged_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Caspian Tern; R: Glaucous-winged Gull<\/br>","<br><img src=\"birdspics/common_murre_2407.JPG\" width=\"90\"> <img src=\"birdspics/california_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Common Murre; R: California Gull<\/br>","<br><img src=\"birdspics/great_egret_2203.JPG\" width=\"90\"><\/br> <br>Great Egret<\/br>","<br><img src=\"birdspics/red_billed_blue_magpie_2303.JPG\" width=\"90\"> <img src=\"birdspics/white_wagtail_2303.JPG\" width=\"90\"><\/br> <br>L: Red-billed Blue-Magpie; R: White Wagtail<\/br>","<br><img src=\"birdspics/gray_heron_1907.jpg\" width=\"90\"> <img src=\"birdspics/great_cormorant_1907.jpg\" width=\"90\"><\/br> <br>L: Gray Heron; R: Great Cormorant<\/br>","<br><img src=\"birdspics/brown_pelican_2506.jpg\" width=\"90\"> <img src=\"birdspics/gadwall_2506.jpg\" width=\"90\"><\/br> <br>L: Brown Pelican; R: Gadwall<\/br>","<br><img src=\"birdspics/american_white_pelican_2504.JPeG\" width=\"90\"><img src=\"birdspics/greater_yellowlegs_2510.JPG\" width=\"90\"><\/br> <br>L: American White Pelican; R: Greater Yellowlegs<\/br>","<br><img src=\"birdspics/northern_flicker_2510.JPG\" width=\"90\"><img src=\"birdspics/chipping_sparrow_2510.JPG\" width=\"90\"><\/br> <br>L: Northern Flicker; R: Chipping Sparrow<\/br>","<br><img src=\"birdspics/oriental_reed_warbler_2507.JPG\" width=\"90\"><img src=\"birdspics/common_kingfisher_2507.JPG\" width=\"90\"><\/br> <br>L: Oriental Reed Warbler; R: Common Kingfisher<\/br>","<br><img src=\"birdspics/pheasant_tailed_jacana_2507.JPG\" width=\"90\"><img src=\"birdspics/eurasian_moorhen_2507.JPG\" width=\"90\"><\/br> <br>L: Pheasant-tailed Jacana; R: Eurasian Moorhen<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[39.27909,40.69019,29.66037,31.39642,31.30295,39.98998,30.74135,40.11208,39.95549,36.058381,37.52121,39.92546,35.04778,33.94711],[-76.59966,-74.04423,91.11783,120.90624,120.6159,116.26826,104.14193,113.1376,-75.18196,120.32057,121.45454,116.38925,118.37511,-83.37813],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"pink","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/ring_billed_gull_2503.JPG\" width=\"90\"> <img src=\"birdspics/double_crested_cormorant_2310.JPG\" width=\"90\"><\/br> <br>L: Ring-billed Gull; R: Double-crested Cormorant<\/br> ","<br><img src=\"birdspics/american_herring_gull_2401.JPG\" width=\"90\"> <img src=\"birdspics/brant_2401.JPG\" width=\"90\"><\/br> <br>L: American Herring Gull; R: Brant<\/br>","<br><img src=\"birdspics/ruddy_shelduck_1912.jpg\" width=\"90\"> <img src=\"birdspics/bar_headed_goose_1912.jpg\" width=\"90\"><\/br> <br>L: Ruddy Shelduck; R: Bar-headed Goose<\/br>","<br><img src=\"birdspics/long_tailed_shrike_2302.jpg\" width=\"90\"><\/br> <br>Long-tailed Shrike<\/br>","<br><img src=\"birdspics/spotted_dove_2011.jpeg\" width=\"90\"> <img src=\"birdspics/eurasian_tree_sparrow_1911.jpg\" width=\"90\"><\/br> <br>L: Spotted Dove; R: Eurasian Tree Sparrow<\/br>","<br><img src=\"birdspics/mandarin_duck_juv_2306.JPG\" width=\"90\"><\/br> <br>Mandarin Duck<\/br>","<br><img src=\"birdspics/white_browed_laughingthrush_2007.JPG\" width=\"90\"><\/br> <br>White-browed Laughingthrush<\/br>","<br><img src=\"birdspics/eurasian_crag_martin_2306.jpg\" width=\"90\"><\/br> <br>Eurasian Crag-Martin<\/br>","<br><img src=\"birdspics/gray_catbird_2406.JPG\" width=\"90\"> <img src=\"birdspics/red_winged_blackbird_2504.JPG\" width=\"90\"><\/br> <br>L: Gray Catbird; R: Red-winged Blackbird<\/br>","<br><img src=\"birdspics/black_tailed_gull_2507.JPG\" width=\"90\"><\/br> <br>Black Tailed Gull<\/br>","<br><img src=\"birdspics/grey_capped_greenfinch_2507.JPG\" width=\"90\"><img src=\"birdspics/light_vented_bulbul_2507.JPG\" width=\"90\"><\/br> <br>L: Grey-capped Greenfinch; R: Light-vented Bulbul<\/br>","<br><img src=\"birdspics/azure_winged_magpie_2507.JPG\" width=\"90\"><img src=\"birdspics/carrion_crow_2507.JPG\" width=\"90\"><\/br> <br>L: Azure-winged Magpie; R: Carrion Crow<\/br>","<br><img src=\"birdspics/whiskered_tern_2507.JPG\" width=\"90\"><img src=\"birdspics/black_crowned_night_heron_2507.JPG\" width=\"90\"><\/br> <br>L: Whiskered Tern; R: Black-crowned Night Heron<\/br>","<br><img src=\"birdspics/brown_thrasher_2505.JPeG\" width=\"90\"><\/br> <br> Brown Thrasher<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addControl","args":["<style>\n  .leaflet-popup-content-wrapper {\n    background: rgba(255, 255, 255, 0.5);\n    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);\n    border-radius: 10px;\n    text-align: center;\n    padding: 3px;\n  }\n  .leaflet-popup-tip {\n    background: rgba(255, 255, 255, 0.7);\n  }\n  .leaflet-popup-content {\n    font-family: 'Comic Sans MS', cursive, sans-serif;\n    line-height: 1.1;\n    white-space: pre-wrap;\n  }\n<\/style>","topleft",null,"info legend"]},{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[27.12898,47.66241],"lng":[-123.96861,135.67181]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <hr>
@@ -2434,7 +2499,8 @@
 <figcaption>My High School - The Place Where It All Begins</figcaption>
 </figure>
 </div>
-</div></div><p>Thanks Qinyi who introduced me to the world of birding. I will always remember watching night heron with you sitting next to Bixia Pond back in 2019 in the afternoon before taking a Biology exam.</p>
+</div></div><p><a href="yelu.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img src="https://yyraven.github.io/quarto-blog/personal/nd_birding/yelu.jpeg" class="img-fluid"></a></p>
+<p>Thanks my friend who introduced me to the world of birding. I will always remember watching night heron with you sitting next to Bixia Pond back in 2019 in the afternoon before taking a Biology exam.</p>
 
 
 </section>
@@ -2442,9 +2508,9 @@
 <center>
 © 2024-2025 RavensNest.
 </center> ]]></description>
-  <category>fun</category>
   <category>birding</category>
-  <category>web development</category>
+  <category>travel</category>
+  <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/nd_birding/</guid>
   <pubDate>Wed, 08 Jan 2025 05:00:00 GMT</pubDate>
 </item>
@@ -2505,6 +2571,8 @@
   <category>dashboard</category>
   <category>R</category>
   <category>R Shiny</category>
+  <category>biology</category>
+  <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/work/241219_RESPweather_dashboard/</guid>
   <pubDate>Thu, 19 Dec 2024 05:00:00 GMT</pubDate>
 </item>
@@ -2617,7 +2685,6 @@
 © 2024-2025 RavensNest.
 </center> ]]></description>
   <category>radio</category>
-  <category>fun</category>
   <category>music</category>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/241214_radio/</guid>
@@ -2767,6 +2834,7 @@
 </center> ]]></description>
   <category>biology</category>
   <category>resources</category>
+  <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/work/241109_useful_bio_links/</guid>
   <pubDate>Sat, 09 Nov 2024 05:00:00 GMT</pubDate>
 </item>
@@ -5537,14 +5605,43 @@ Miller, John W. 2024. <span>“Johnwmillr/<span>LyricsGenius</span>.”</span> <
 Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span> <span>Hit</span> <span>Its</span> <span>Stride</span> in 2023.”</span> <em>Pitchfork</em>. <a href="https://pitchfork.com/features/article/the-shoegaze-revival-hit-its-stride-in-2023/">https://pitchfork.com/features/article/the-shoegaze-revival-hit-its-stride-in-2023/</a>.
 </div>
 </div></section></div> ]]></description>
-  <category>fun</category>
   <category>data analysis</category>
   <category>text analysis</category>
   <category>sentiment analysis</category>
   <category>music</category>
   <category>R</category>
+  <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/</guid>
   <pubDate>Fri, 08 Nov 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>滚妹人格 | 分割世界的桥</title>
+  <link>https://yyraven.github.io/quarto-blog/personal/241029_review_oys/</link>
+  <description><![CDATA[ 
+<div class="mylikebutton">♥</div>
+
+
+
+
+<p>千里奔袭去纽约看万青了，在现在已经完全沉迷盯鞋的当下，听到4年前最初接触国瑶时候听的音乐，还是觉得非常触动。不能免俗地，我最喜欢的还是一专的秦皇岛。22年寒假前夕，和🎵在宿舍里因为所有的一切——疫情、未来——而困惑不已时，我们就在听这首歌。她和我说，秦皇岛是北方人疗养的地方。森林公园的桥在白森森的月光下闪耀，她说她会想起这首歌。我好想在布鲁克林大桥之类的地方唱它呀，可惜Terminal 5周围没有桥。</p>
+<p>新专也好听，感觉全东海岸的中国人都来了。我们在安可的时候从2楼跑到1楼，几近在永嘉彗星的节奏里窒息。是啊，怎么感觉我喜欢的歌都是以江河湖海为意象的。能够忍受巴尔的摩的一大原因也是因为它有海，被Sea power和Ride音乐浪漫化以后的大海，一年四季都在盘旋的海鸥，海水里沉沉浮浮的水母……</p>
+<blockquote class="blockquote">
+<p>站在能分割世界的桥 还是看不清 在那些时刻 遮蔽我们 黑暗的心 究竟是什么</p>
+<p>住在我心里孤独的 孤独的海怪 痛苦之王 开始厌倦 深海的光 停滞的海浪</p>
+<p>站在能看到灯火的桥 还是看不清 在那些夜晚 照亮我们 黑暗的心 究竟是什么</p>
+<p>于是他默默追逐着 横渡海峡 年轻的人 看着他们 为了彼岸 骄傲的 骄傲的 灭亡</p>
+</blockquote>
+
+
+
+<center>
+© 2024-2025 RavensNest.
+</center> ]]></description>
+  <category>music</category>
+  <category>review</category>
+  <category>中文</category>
+  <guid>https://yyraven.github.io/quarto-blog/personal/241029_review_oys/</guid>
+  <pubDate>Tue, 29 Oct 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>First Blog Post! &amp; Blogging Resources</title>
@@ -5583,6 +5680,7 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 </center> ]]></description>
   <category>blogging</category>
   <category>resources</category>
+  <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/work/240913_first_post/</guid>
   <pubDate>Fri, 13 Sep 2024 04:00:00 GMT</pubDate>
 </item>
@@ -5658,9 +5756,9 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 <h3 class="anchored" data-anchor-id="简评延伸阅读">简评+延伸阅读</h3>
 <p>这周继续推荐我们的老朋友Ride。这次是收录在三专Carnival of Light里的曲子birdman和1000 miles。请允许博主沉浸在ride-mania里直接给上满分吧（是不是取消评分环节比较好？每次我想推荐曲子的时候，我都想给满分）。</p>
 <ul>
-<li><p><strong><a href="https://www.musicradar.com/news/guitars/rides-andy-bell-my-top-5-tips-for-guitarists-629305">Andy Bell给吉他手的五个小建议 Ride’s Andy Bell: my top 5 tips for guitarists</a></strong> 提到了birdman是特殊调弦，高音E→D。希望有一天我的技术能达到开始应用这些小技巧的程度。</p></li>
-<li><p><strong><a href="https://www.youtube.com/watch?v=vwobEIHCy0k">Ride的94年Glastonbury现场</a></strong> 开场曲是birdman，第三曲是1000 miles，最后一曲是mouse trap。现在都是很喜欢的曲子，但第一次看这个视频的时候眼睛里只有这个金毛粉墨镜的骚包造型…哥你当时到底在想什么…</p></li>
-<li><p><strong><a href="https://www.youtube.com/watch?v=RsEXtyxDl3w">Birdman的TOTP</a></strong> 这个粉墨镜是94年的必备造型吗哈哈。</p></li>
+<li><p><a href="https://www.musicradar.com/news/guitars/rides-andy-bell-my-top-5-tips-for-guitarists-629305"><strong>Andy Bell给吉他手的五个小建议 Ride’s Andy Bell: my top 5 tips for guitarists</strong></a> 提到了birdman是特殊调弦，高音E→D。希望有一天我的技术能达到开始应用这些小技巧的程度。</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=vwobEIHCy0k"><strong>Ride的94年Glastonbury现场</strong></a> 开场曲是birdman，第三曲是1000 miles，最后一曲是mouse trap。现在都是很喜欢的曲子，但第一次看这个视频的时候眼睛里只有这个金毛粉墨镜的骚包造型…哥你当时到底在想什么…</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=RsEXtyxDl3w"><strong>Birdman的TOTP</strong></a> 这个粉墨镜是94年的必备造型吗哈哈。</p></li>
 </ul>
 <hr>
 </section>
@@ -5899,15 +5997,13 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 © 2024-2025 RavensNest.
 </center> ]]></description>
   <category>radio</category>
-  <category>fun</category>
   <category>music</category>
-  <category>2024</category>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/240618_radio/</guid>
   <pubDate>Tue, 18 Jun 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>观后感 | All Watched Over by Machines of Loving Grace</title>
+  <title>观后感 | 一切皆被慈爱的机器所注视</title>
   <link>https://yyraven.github.io/quarto-blog/personal/240401_review_allwatched/</link>
   <description><![CDATA[ 
 <div class="mylikebutton">♥</div>
@@ -5922,7 +6018,6 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 <p><a href="https://allpoetry.com/All-Watched-Over-By-Machines-Of-Loving-Grace"><em>“All Watched Over by Machines of Loving Grace” by Richard Brautigan</em></a></p>
 </blockquote>
 <p>这部纪录片的标题来源于这首作于嬉皮年代的小诗。在生活在当代的导演看来，应当是绝佳的讽刺吧。</p>
-<hr>
 <section id="观后感" class="level2">
 <h2 class="anchored" data-anchor-id="观后感">观后感</h2>
 <section id="episode-1love-power" class="level3">
@@ -5962,7 +6057,6 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 <h4 class="anchored" data-anchor-id="wikipedia">Wikipedia</h4>
 <p>相当于是文字版的纪录片。</p>
 <p><a href="https://en.wikipedia.org/wiki/All_Watched_Over_by_Machines_of_Loving_Grace_(TV_series)">All Watched Over by Machines of Loving Grace (TV series)</a></p>
-<hr>
 <p>至于我为什么会想到看这个纪录片？</p>
 <p>是因为ride的新歌<a href="https://www.youtube.com/watch?v=YbpaV8e5EKQ">Essaouira</a>的歌词…感谢Mark Gardener一如既往的掉书袋习惯（和我一如既往的考据党习惯）。</p>
 
@@ -5975,11 +6069,206 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 © 2024-2025 RavensNest.
 </center> ]]></description>
   <category>review</category>
-  <category>movie</category>
   <category>documentary</category>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/240401_review_allwatched/</guid>
   <pubDate>Mon, 01 Apr 2024 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>滚妹人格 | 属于我的蒙娜丽莎</title>
+  <link>https://yyraven.github.io/quarto-blog/personal/240120_review_ride/</link>
+  <description><![CDATA[ 
+<div class="mylikebutton">♥</div>
+
+
+
+
+<p><strong>这</strong>是我在2024年1月看完RIDE/The Charlatans的Between Nowehere Tour以后在狂热状态下写的日记。<span class="blur">再也吹不出那样的彩虹屁，看了也会红着脸躲避</span></p>
+<p>现在冷静地思考，感觉当时看完演出以后的那种快乐到眩晕的状态可能一辈子都不会再体验了。之前因为疫情原因，大学期间只看过校园乐队的小演出和我不太喜欢的大团的arena演出。那一次是我第一次在这么近这么小的场馆里看到水平很棒的、我也很喜欢的乐队的演出，身边还有我很喜欢的朋友；还在下雪，当时我还是那种喜欢下雪的刚搬到北方的南方人，还没有开始讨厌冬天。四个人在我面前简直就是根本不够看。第一次看到吉他手离我这么近地表演吉他solo。就。冲击力。当时喝酒也没经验狂灌了一整瓶。并且费城那个场馆的音量是我去过最响的当时我又不知道要戴耳塞，最后耳鸣了一晚上。然后拖着这个破听力和朋友躺在床上不停地反刍。再也不可能有了这种感觉…</p>
+<hr>
+<p>妈呀，火车太晃了。现在我正在Inner Harbor的Shake Shack写这份日记。总之是非常不错的周末。在周五中午开完组会后和🧁去学校里玩雪，玩了一个小时，然后乘Amtrak去了费城，在🎵家和🐑以及🎵的室友一起吃了晚饭，她们做的腊肠饭，牛仔骨和虾饺，每个都好吃得离谱，非常满足。</p>
+<p>18:45我们打车去了Union Transfer。过程中我一直非常担心演出被取消，因为整个美国东北部都在下大雪，🎵和我大学的官方活动都取消了。到达目的地以后发现等的人排成了一条长队，就感觉安心太多了，并且也很开心这么多人愿意提早一个小时过来等。观察了一下，观众群体以中年白人为主。再来一些白人青少年，除了一位我在Instagram上关注的日本阿姨和我们3个以外，基本都是清一色的白人。我们接着就用护照过了安检，买了酒。我们尝试了绿洲最爱的Guinness，挺好喝的。然后就跑到前面去等着了，心情简直就是飘飘欲仙的激动。说实在的，我已经在所有可能的社交平台上表达过我的激动了，但还是忍不住想要再表达一次。</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figs/pic_2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Union Transfer平面图"><img src="https://yyraven.github.io/quarto-blog/personal/240120_review_ride/figs/pic_2.jpg" class="img-fluid figure-img" alt="Union Transfer平面图"></a></p>
+<figcaption>Union Transfer平面图</figcaption>
+</figure>
+</div>
+</div></div><p>隔壁乐队（The Charlatans）的部分我迅速带过，他们的主唱巨会营业，就，当你还在为“我不是单纯来朝圣的，有5%的我是想演出结束后发Instagram”这样的心情而感到愧疚时，Tim Burgess已经在演出中间掏出手机号召大家挥手蹦迪，然后把手机倒过来拍自己了，网感未免有点太好。</p>
+<p>然后就是中场休息（此时酒瓶已空）。灯光是绿色的，我们站在第三排左侧的位置等着巡演工作人员把东西摆好调好。我和朋友开玩笑说，待会儿可能就没有这么多营业了，因为Mark和Andy都有吉他在手上，腾不出手来指挥蹦迪。最先搬上来的是写着RIDE的底鼓（kick drum）。然后是三个效果器板，Steve在左侧，中间是Mark的，右边是Andy的。虽然完全不懂单块，依然有一种强烈的瘙痒的冲动让我踮着脚努力想看清楚板上到底有什么。伟大的建筑一般的电路系统啊。Mark有一个红色的块，上面的两行光点不停的来回闪动。吉他也搬出来了，两把Rickenbacker，一把樱桃红的，一把红色的；两把Gretsch，一把红的<span class="blur">(其实是Trini Lopez)</span>，一把原木色的。</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figs/pic_1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="宝具！"><img src="https://yyraven.github.io/quarto-blog/personal/240120_review_ride/figs/pic_1.jpg" class="img-fluid figure-img" alt="宝具！"></a></p>
+<figcaption>宝具！</figcaption>
+</figure>
+</div>
+</div></div><p>音响里切到了The Narcissist。我忽然觉得这是我在TBOD发行半年后第一次真正的与这首歌共情。<q>My heart is quickened, I could not tear myself away.</q> 与朋友们微醺的站在台下等着喜爱的乐队上台的感觉如此之好。人生能有几次这样的经历呀？之前一直吐槽这首歌是Damon年近60终于把抑郁症治好了，现在只觉得幸福。可能是疫情的原因吧，大家都会愈发珍惜身边珍贵的联系。<q>I’m gonna shine a light in your eyes. You probably gonna shine it back to me, but I won’t fall this time.</q></p>
+<p>接着，灯光渐暗，音乐变成低沉而逐渐加快的鼓点。后台的灯光亮起来，嘈杂的声响落了下来，最后变成一阵阵的欢呼和尖叫。乐队成员上台了，我一边狂跳一边举着一个Love from China的牌牌，然后Mark问大家好吗？准备好了吗？那就开始吧。</p>
+<p>Seagull，狂风暴雨一般的嘶鸣声；Kaleidoscope，脑浆跟着吉他一起旋转；In a different place, 灯光似乎和音乐一起升腾；Polar bear, “如果云会唱歌，那就这就是它的声音…” Dreams burn down之前，Mark逗观众一定要报出歌名才演，我发出尖锐的爆鸣声。Loz的鼓太帅了，每一首歌都很完美。做实验的时候听听音乐。在冬季在海边闲逛看海时听的音乐，现在就在离我如此之近的舞台上，以这样暴力这样直接这样美丽的方式爆炸，震碎我的鼓膜，直达灵魂。Vapour trail的时候我没有录像，而是开始百分百的投入合唱。基本聋了，所以听到Andy的声音是完全变形了的，但还是很开心。清新的旋律和单纯美丽的歌词，像第一次点开Nowhere的那一刻一般，就像常识意义上初恋的感觉。Tim给Here and Now合了口琴，从未觉得口琴能如此的有一种近乎暴力的美感。然后是Nowhere, Lannoy Point, Monaco和新歌peace sign。前排的姐姐们应该是铁粉，在副歌的时候特别给面子的应援。收尾曲是Leave Them All Behind。那段采样出来的时候我真的要哭了，Mark喝了一口他那蜂蜜威士忌，Andy看着笑一笑，Steve和铺垫着前奏。然后两把Gretsch一起加进来。天呐，我离得那么近，近的可以看到每一个和弦变换和每一个推弦，所有的声音以一种迷幻又充满力量的方式在脑后一块酸涩的区域混合起来。<q>I don’t care about the colors, I don’t care about the light, I don’t care about the truth.</q> 然后是吉他独奏。主旋律的变奏加上哇音踏板，音符跟着鼓点迸发出来，如此明亮，仿佛鸟儿沐浴着晨光从混沌的黑暗中挣扎而出。最后是一浪高过一浪的音墙，——刹车失效的公路旅行和不会有终点的逃亡……</p>
+<p>接着魔法师停下了魔咒，Andy说，谢谢，希望我们很能很快再见。 Loz给大家拍了照，我们在上面。</p>
+<p>再接着就是长长的，似乎永远不会结束的后劲。乘着这份飘飘欲坠的心情，我花了35刀买了丑丑的巡演T恤，在Union Transfer “sold out”的告示牌前面拍了照，在回🎵家的出租车上跟着广播哼Starman，最后变成合唱；第二天幸福而无所顾忌的倒在费城美术馆前洁白的松软的积雪上。</p>
+<p>回到巴尔的摩后，真的感觉有变得更加热爱生活。我对🎵说，想把这一刻的幸福全部榨出来，风干储存，这样每次想回忆的时候就能掏出来看看，就有又有力量可以再继续生活了。我真的可以如此贪心吗？但至少到星期三的现在，我坐在实验室的椅子上写这篇日记时，那种不可思议的快乐的心情依然存在。<q>Maybe it’s really, really, really can happen!</q></p>
+
+
+
+<center>
+© 2024-2025 RavensNest.
+</center> ]]></description>
+  <category>music</category>
+  <category>review</category>
+  <category>中文</category>
+  <guid>https://yyraven.github.io/quarto-blog/personal/240120_review_ride/</guid>
+  <pubDate>Sat, 20 Jan 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>日记 | 又是一年青年节</title>
+  <link>https://yyraven.github.io/quarto-blog/personal/220504_diary/</link>
+  <description><![CDATA[ 
+<div class="mylikebutton">♥</div>
+
+
+
+
+<p>又是一年青年节。</p>
+<p>我想来点理想主义，想为我的人生我的精神我的时代找点意义。高中的时候至少有语文课有历史课。学国际史的时候只要老师还不是行尸走肉，总会好好讲法国大革命以及前后发生的一切。语文课会讲群星闪耀时，人类的精神是会闪光的。上大学前我曾这么想过：以后每天都要有学习的时间，玩儿的时间，读书的时间和发呆的时间——现在回想一下，一方面书相比高中时候读得太少，另一方面是这四件事都非常私人化，接触的人也太少，一直这样下去容易钻牛角尖。</p>
+<p>从高中起就一直把鲁迅先生《热风》里那段“如果竟没有炬火，我便是唯一的光”贴在书撑上，但在实际执行上却遇到了很多困难。作为一个大学生，我到底能做什么呢？看着社会新闻辗转难眠的夜晚，除了点点屏幕转发评论以外似乎什么都做不了，第二天醒来一切都404，什么记录都不会留下；而“在自己的本职上发光发热就好”这种理论，放到现实生活里也就是好好学习好好考试，和高中两耳不闻窗外事的状态也没什么区别。充斥着现代娱乐的大学生活真的让人好空虚，信息来源增多了理论基础却没跟上，多得是无根浮萍一般的抱怨和口嗨，发泄了一时的情绪却没有任何实际的效用，难道我甘愿就这么烂在现代社会的疮疤里吗。</p>
+<p>上通识课的时候M在文摘里批判无政府主义，意大利老安那其教授呵呵一笑说你根本不了解无政府主义。其实我也感觉自己经常这样，每天钻牛角尖，但稍微多了解一下就能发现自己以为的死路其实不过是整个路线网中的一条罢了。教授上课明着鄙视DS人，对生物人（我和M和两位友友）没说啥，可能真的还挺喜欢舌灿莲花的M和我。其实我想说学STEM何尝不是一种逃避…至少对我来说是一种逃避。逃避自己身为政治动物的现实吧。</p>
+<p>思而不学则殆，很简单的道理。简而言之就是多读书，不要逃避文科（因为即使学了理还是常常为了社会新闻和哲学问题彻夜难眠），不要逃避思考（即不能放任自己从情绪/立场出发看问题），努力朝着合格的现代公民和靠谱的成年人这个目标迈进。值得欣慰的是无论如何这三年来的确成长了很多，虽然也多了许多的困惑，但也是逐渐找到所谓的unknown unknown的过程吧？</p>
+
+
+
+<center>
+© 2024-2025 RavensNest.
+</center> ]]></description>
+  <category>diary</category>
+  <category>中文</category>
+  <guid>https://yyraven.github.io/quarto-blog/personal/220504_diary/</guid>
+  <pubDate>Wed, 04 May 2022 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>日记 | 荚蒾</title>
+  <link>https://yyraven.github.io/quarto-blog/personal/210824_diary/</link>
+  <description><![CDATA[ 
+<div class="mylikebutton">♥</div>
+
+
+
+
+<center>
+<strong>红莓花</strong>
+</center>
+<p>就很怨恨也很怀念这件事。让我彻底想明白了感情存在的意义和表达的方法，虽然现在实践经验还不多，但总归在思想上打通了它发展的道路。最好笑的是这完全是自己在钻牛角尖把自己给整抑郁了，红莓花你知不知道这件事我都难讲。感情爆炸的结果就是你现在根本不敢讲当时多少东西是真的存在过，多少东西只是我的脑子在现实空间的投射。毕竟人的脑子有多不可靠大家都知道。</p>
+<p>查到俄语原文的红莓花儿是荚蒾。那也是白色的了，当时为什么会用红莓花儿来比喻你呢。<cite>“Милый мой, хороший, догадайся сам”</cite></p>
+<p>殚精竭虑地找了个典雅的比喻用来告慰我的初恋，而你的名字就和夏天的风一样，在看到六月白白的栀子花的一瞬间就想到了。还真是好玩的隐喻啊……</p>
+<p>并且我真的是够贱，青春期读的所有悲情爱情小说，弗洛伦蒂诺和费尔明娜（你算什么弗洛伦蒂诺），赫里内勒多和阿玛兰妲（你算什么赫里内勒多），贾宝玉和林黛玉（你算什么贾宝玉，而我又算什么林黛玉）甚至EVA（你也算不上明日香），都用来代红莓花，你给我任何好处了吗？真的是。16岁的我，画一颗甜枣就争着想用你的手扇自己巴掌……无法享受当下相处的任何时光，每一分每一秒都是焦灼，不知道自己想要什么，只知道我对你有强烈的感情，而这种感情即将把我烧死了。唉。而栀子花，你给我的都是鼓励和善良，让我开始反思自己的乖戾和愤世嫉俗是不是理所应当的……你多好。只是站在那里就够了，就能把我从自毁里救出来。所以我一直觉得单恋比起献殷勤，更加是一个对自我的挖掘过程，将对方的优缺点投射在自己身上，在一遍一遍的比较中找出自己需要进步的地方和对方“也不是那么厉害嘛”的地方。所以我本质上不是认为两个人寂寞了就会互相吸引的</p>
+<p>但现在在解构了爱情以后发现实际上也就是两个寂寞的平凡人互相吸引互相告慰罢了。毕竟我也不是阿玛兰妲，也不是费尔明娜。甚至费尔明娜也柴米油盐过了大半辈子呢，最后与弗洛伦蒂诺的结合带来的也不过是垂垂暮年的又几日柴米油盐。但他们能从中感到幸福，或许吧。有的时候裸睡醒来觉得如果我能把整个上半身趴在别人身上就好了，这是一种动物本能的幸福感，猫猫被挠下巴的幸福感。</p>
+<p>人果然还是群居动物。发现那么多人和我一样困在Nihilism里感觉果然好多了（叹</p>
+<hr>
+<center>
+<strong>发现有人居然不是每天都很忧郁这一点才是令人最惊讶的</strong>
+</center>
+<p>或者说我的生命底调就是非常忧郁的。没有接受刺激的时候就很忧郁，也不知道为什么。</p>
+<p>说是敏感的人一般原生家庭不和睦（但实际上黏糊糊），小时候遭到不公平对待（小学时期的确，班里的氛围挺相互猜忌的，在家里也被爷爷骂，不过也不至于），父母离异（并没有），但在这一切的一切发生以前，我妈就说我小时候一被陌生人碰到就哭，宁愿自己呆着也没有和同学厮混翻一起……</p>
+<p>所以这是为什么呢。</p>
+<p>长大以后这种独自相处的时间就变成我逐渐构建起自己忧郁的世界观的时间</p>
+<p>“人生本来就是没有意义的”</p>
+<p>……</p>
+<p>这种忧郁感来自何方……</p>
+<p>其实我觉得百年孤独实在是对我影响非常大的一本书。15岁读的……从此构成了我对爱情、或者说感性世界一切认识的基础</p>
+<p>情欲、爱、孤独</p>
+<p>孤独……</p>
+<hr>
+<center>
+<strong>为什么说离开荚蒾时的我处在人生中最抑郁的时间</strong>
+</center>
+<p>一个是刚上高中，成绩落差很大自尊心破碎而产生的自卑心理（当时被爱情的热血掩盖了，没能及时觉察真正的本质原因），能从日记里一直过于神化你的成就看出来。</p>
+<p>一个是无意义感……因为开始思考人生的意义，下意识觉得追赶别人这一件事已经不能激起我的动力了吧（现在的确，单纯的比较再也支持不了我了，这是翻初中的日记翻到有那么多对竞争对手的痛骂时忽然发现的）。记得当时写，听了职业生涯规划大会，看到玥和她女朋友亲亲热热地一起去打球，感觉做什么都没有意思，做一桶泡面或者做浮萍就此在阳关下烂掉和做高中生的意义并无不同。但是<cite>“只要你冲我笑一下，也就有了做数学题的动力。或者只要风油精抹太阳穴就可以了。”</cite>当时一直觉得我活下去的原因一个是怕家人伤心，一个是怕痛。实在是不知道奋斗的快感和意义到底是什么、即使是某一个年级位比以及基于此的分解目标，也不明白到底是为了什么……可能就是最后一点自尊心在支着跑下去……所以最后真的在考场上整个人是抽离的</p>
+<p>现阶段坚信的人生意义说是在大学找到的也不为过。所以我是很相信学校提供的“非物质/实用/成绩价值”的……因为如果不彻底想通，人就不会有前进的动力。大学真的能塑造一个人。</p>
+<p>要说高中带给了我什么，主要是温柔和善良。谢谢五班，谢谢世界上最温柔的班主任，还有我的好朋友小王和佳，还有我的栀子花。另外就是加强了一点我本来就有的傲气和忧郁，这个得感谢杭老师，啊对，杭老师还叫我们不要不努力光做梦。</p>
+<p>红莓花，你到底为我的青春做了什么贡献，我也不明白。似乎全部都是负面影响：十六岁开始抑郁差不多一整年、一遇到男的就一惊一乍怕重蹈覆辙不说，现在爱情也变成我能彻底抽离解构的存在了（不过我这个见一个爱一个的性格怪不了你，我从小就这样）。对爱情去神圣化、开始逐渐接受异性的正常存在也是到了大学以后的事……谢谢小W……不过你到底带给了我什么呢。最好的说法是你是我的青春在马尔克斯世界里的投射。或者说你在马尔克斯世界里的投射是我的青春。想不明白。以后每次告诫自己都是“不要暗恋”、“不要stk”、“不要贬低自我价值”、“不要爱上滤镜里的那个人”、“不要被吊桥效应冲昏头脑”……似乎你是彻底的反面范本……现在想起来也没啥好心动的。日本文学男，无聊透了。倒也不是因为你所以不喜欢日本文学的……最早觉得你也不过如此就是因为你喜欢日本文学。</p>
+<p>总之现在我也不恨你了，也没什么好恨的，我不也狠狠在情绪上刺伤过你吗。你也有理由恨我呢。当时多傻，以为只要在对方心里尽可能留下深刻的痕迹就公平了。现在才知道原来对喜欢的人可以很温柔。</p>
+<hr>
+<center>
+<strong>看了一会儿知乎的心理学矫情小论文</strong>
+</center>
+<p>看起来我的确是曾经有过回避型依恋的显著特征，但也明显被治愈了很多，感谢妈咪，感谢朋友们。</p>
+<p>不过那上面也说回避型如果没有经受过重大打击是意识不到自己的思维方式有问题的。唉，红莓花，你可能是我的牺牲品吧，我的高考数学成绩也是我的牺牲品。不过人生有那么长，有那么多条路呢。这么想，用破碎的一年换以后的大半辈子精神世界不再（那么）痛苦，似乎也是一件好事。并且我也没太伤害到你……希望吧。</p>
+<p>也可以说EVA最后大家围成一圈拍手的场景狠狠地治愈了我。就，逃避又有什么错，接纳又有什么错。不开EVA妈妈也会爱你，开EVA不是因为爸爸的要求，而是因为“我想要”保护我爱的人。“我可以呆在这个世界！”</p>
+<p>真不知道自己的心理问题哪儿来的。和小W说我一旦上头就会忍不住把情绪内化为刀狠狠戳自己，搅得自己不得安宁，没法干任何事。小W说她才不会呢。我说可能是因为单恋吧。唉。小W真好。她和栀子花就是两个能指出我“不正常”之处，但在引导上又很细心，共情得也很温柔的人。真好。妈妈有的时候，或者说大多数时候也是很好的。我永远记得因为在初三不能有效安慰小PP而落泪时，妈妈说你其实已经做得很好了。小王自己是母单，没有太大说服力，不过她也能听我说话，不以为我是异类，并且最近明显心理也成长得越来越好了。真好。大家都在长大，长大也不只是坏事。其实SY和XF姐也很好。只是我初中的时候还是太傲……红莓花你真是有好大作用啊！</p>
+<p>不过开口还是很难为情。</p>
+<p>加持良治是所有自以为心理出了问题的矫情女孩的理想完美恋人吧……<cite>“人是无法完全理解别人的，甚至能否理解自己都值得怀疑，百分百互相理解是不可能的。不过呢，正因为如此，人们才会努力去了解自己和他人，所以人生才会有乐趣啊”</cite></p>
+<p>同样是无条件的爱，我还是喜欢加持多过渚薰，因为薰像一个天使，像一个神。和加持与美里一样在夏天的出租房里胡天胡地真是我对浪漫的终极想象。</p>
+
+
+
+<center>
+© 2024-2025 RavensNest.
+</center> ]]></description>
+  <category>diary</category>
+  <category>中文</category>
+  <guid>https://yyraven.github.io/quarto-blog/personal/210824_diary/</guid>
+  <pubDate>Tue, 24 Aug 2021 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>书信 | 妹亲启：高中生活完全不指南</title>
+  <link>https://yyraven.github.io/quarto-blog/personal/210804_to_sister/</link>
+  <description><![CDATA[ 
+<div class="mylikebutton">♥</div>
+
+
+
+
+<p>21年给妹写的信，祝贺她考上高中</p>
+<hr>
+<p>亲爱的妞妞：</p>
+<p>生日快乐！祝贺你考上目标高中！</p>
+<p>本来起草了一篇万字长信，后来一想，没有什么比生日时候收到一封啰啰嗦嗦自鸣得意的说教更扫兴了。于是我把想说的话浓缩成三点：</p>
+<ol type="1">
+<li><p>高中不仅仅是为高考做准备，打开视野，独立思考，尽情享受你的高中生活吧！</p></li>
+<li><p>我的语文老师曾说，应试教育是手段，不是目的。鲜活的年轻生命都受不了枷锁，但带着镣铐努力跳完这一段舞，你能看到更广阔的天地。</p></li>
+<li><p>心理健康很重要！必要时请向他人寻求帮助。</p></li>
+</ol>
+<p>最后，再次祝你生日快乐！</p>
+<p>渡鸦</p>
+<p>P.S. 礼物说明</p>
+<p>六月底的时候你说想要DND桌游，可惜我暂时没找到正版的，于是送你一套跑团骰子。常言道，扔骰子的意义在于你把它往天上一抛，就知道自己到底想选什么了！</p>
+<p>还有一本是《房思琪的初恋乐园》，不知道你有没有看过。性犯罪比我们想象中的更频繁，千万警惕可能的骚扰行为！</p>
+<hr>
+<details>
+<summary>
+那篇啰啰嗦嗦自鸣得意的说教
+</summary>
+<p>亲爱的妞妞：</p>
+<p>15岁生日快乐！恭喜你升入理想的高中！</p>
+<p>本来想写一篇万字长信，但回头一想，自己如果在生日当天收到一封洋洋自得的所谓“经验总结”，说不定白眼都要翻到天上去。不过分享欲是抑制不住的，如果你有兴趣的话烦请继续看下去啦！</p>
+<p>我的母校XX中学以放浪不羁的校风闻名。受此影响，我认为高中的意义不仅仅是为高考厉兵秣马，更重要的是打开视野，审视自己，学会独立思考，为独立面对社会打下基础。即使不谈这些久远的意义，就谈高中，永远指望着抽象的目标奋斗也是不现实的。尤其是高三的时候，每天的重复劳动会让人怀疑人生，这时候抬头看看窗外像鸽子一样立在枝头的玉兰花，就觉得自己不仅仅是一台答题机器，而是站在这片土地上的一个人。</p>
+<p>不过，既然选择了高考的道路，应试教育便是逃不过的话题。这一点上我并不是专家：我一直是兴趣驱动型的人，纯粹的奋斗不能让我感到快乐——上述的语文老师经常吼我“渡鸦，醒醒！”我能提供的有限经验和教训如下（应该也是老生常谈了）：首先，不要放弃任何一个知识点，尤其是理科，以后补起来得从地基开始补。老师脾气暴躁、阴阳怪气都不重要，不懂就问，不要因为和老师赌气就放弃自己的分数。然后，练习真的有用。高中知识都不会特别难，本质就是刷分，沉住气去练基本上都能练会。最后，成绩波动非常正常。我本人位比有从19%跳水到91%过，物理全卷只做对了三道题，数学十道填空错八道，都熬下来了，顶多关在厕所哭一会儿，找心理老师聊一会儿。</p>
+<p>高中在我心里的另一个意义就是同学情谊。很幸运，我的班级氛围很好，我在这里认识了很铁有趣的朋友和许多非常欣赏的人，每天上课下课叽叽喳喳从火影忍者聊到感受态细菌和电磁场最后一大题，很开心。至于感情——我不知道你是不是这么想的，但我进高中时定下的目标就是：“要有最好的朋友，要有喜欢的人，要有爱好的学科和理想。”其他愿望基本实现，只有喜欢的人这一点以比较悲剧的方式结尾；教训是，如果感情强烈到了伤害自己的地步，最好找个人倾诉一番。无论如何，不要鄙视自己的感情；荷尔蒙会和青春年华一起在几年内迅速褪去，一切经历都是值得珍视的。</p>
+<p>啰嗦到这里，我单独提一下老师。好老师对人的正面影响有多大不必多说。但也有素质不行的老师，从上课一直阴阳怪气贬低学生，到直接上手打上脚踢的都有。这时候不要怕，要知道他才是那个仗着一点权力就胡天胡地的垃圾，自己并不是犯错的那个；必要的情况可以寻求校方或者家长的帮助。并非不信任你的心理素质，只是我的一个高中同学被数学老师贬低到崩溃退学了，非常可惜。一定不能让自己的人生毁在这种人身上。关于性犯罪方面的问题，请参照生日礼物之一《房思琪的初恋乐园》（或许你已经看过）。</p>
+<p>最后，再次祝你生日快乐！六月底的时候你说想要DND桌游，可惜我暂时没找到正版的，于是送你一套跑团骰子，以后遇到什么无法解决的难题，捏住两枚一扔就知道该选什么了～</p>
+<p>送上我最喜欢的女诗人茨维塔耶娃诗一首：</p>
+<blockquote class="blockquote">
+<p>“很快从燕子——变成女巫！ 青春！我们马上将告别…… 让我与你在风中小站片刻！ 我黝黑的青春！请安慰你的姐妹！</p>
+<p>让紫红的裙子像火苗一般闪烁， 我的青春！我肤色黝黑的 小鸽子！我的灵魂的碎片！ 我的青春！安慰我，跳舞吧！</p>
+<p>挥舞着天蓝色的纱巾， 喜怒无常的青春！我俩 尽情儿玩耍！跳吧，跳得热火朝天！ 别了，我金色的青春，琥珀的青春！</p>
+<p>我不无用意地握起你的双手， 像告别情人一般与你告别。 从内心深处迸发出来的青春—— 我的青春！走吧，去找别人！ ”</p>
+</blockquote>
+<p>渡鸦</p>
+</details>
+
+
+
+<center>
+© 2024-2025 RavensNest.
+</center> ]]></description>
+  <category>diary</category>
+  <category>中文</category>
+  <guid>https://yyraven.github.io/quarto-blog/personal/210804_to_sister/</guid>
+  <pubDate>Wed, 04 Aug 2021 04:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

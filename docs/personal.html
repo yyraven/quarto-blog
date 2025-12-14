@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
@@ -193,7 +193,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="2024">2024 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="2025">2025 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="birding">birding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="book">book <span class="quarto-category-count">(1)</span></div><div class="category" data-category="documentary">documentary <span class="quarto-category-count">(1)</span></div><div class="category" data-category="fun">fun <span class="quarto-category-count">(5)</span></div><div class="category" data-category="movie">movie <span class="quarto-category-count">(2)</span></div><div class="category" data-category="music">music <span class="quarto-category-count">(4)</span></div><div class="category" data-category="radio">radio <span class="quarto-category-count">(3)</span></div><div class="category" data-category="review">review <span class="quarto-category-count">(1)</span></div><div class="category" data-category="web development">web development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="中文">中文 <span class="quarto-category-count">(5)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(12)</span></div><div class="category" data-category="EN">EN <span class="quarto-category-count">(1)</span></div><div class="category" data-category="birding">birding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="book">book <span class="quarto-category-count">(1)</span></div><div class="category" data-category="diary">diary <span class="quarto-category-count">(4)</span></div><div class="category" data-category="documentary">documentary <span class="quarto-category-count">(2)</span></div><div class="category" data-category="movie">movie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="music">music <span class="quarto-category-count">(6)</span></div><div class="category" data-category="radio">radio <span class="quarto-category-count">(3)</span></div><div class="category" data-category="review">review <span class="quarto-category-count">(4)</span></div><div class="category" data-category="travel">travel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="中文">中文 <span class="quarto-category-count">(11)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -252,97 +252,103 @@ window.Quarto = {
 <th>
 <a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
 </th>
-<th>
-Categories
-</th>
-<th>
-Reading Time
-</th>
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="book,movie,music,fun,中文" data-listing-date-sort="1765515600000" data-listing-file-modified-sort="1765663734224" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="660" data-listing-title-sort="置顶 | 工业风豆瓣" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-categories="book,movie,music,documentary,review,中文" data-listing-date-sort="1765515600000" data-listing-file-modified-sort="1765678924486" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="660" data-listing-title-sort="置顶 | 工业风豆瓣" data-listing-filename-sort="index.qmd">
 <td>
-<span class="listing-date">Dec 12, 2025</span>
+<span class="listing-date">12/12/25</span>
 </td>
 <td>
 <a href="./personal/nd_personal_library/index.html" class="title listing-title">置顶 | 工业风豆瓣</a>
 </td>
-<td>
-<span class="listing-categories">book, movie, music, fun, 中文</span>
-</td>
-<td>
-<span class="listing-reading-time">4 min</span>
-</td>
 </tr>
-<tr data-index="1" data-categories="radio,fun,music,2025,中文" data-listing-date-sort="1765429200000" data-listing-file-modified-sort="1765662707201" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="289" data-listing-title-sort="音乐电台｜2025 音乐与我的四季" data-listing-filename-sort="index.qmd">
+<tr data-index="1" data-categories="radio,music,中文" data-listing-date-sort="1765429200000" data-listing-file-modified-sort="1765678844455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="289" data-listing-title-sort="音乐电台｜2025 音乐与我的四季" data-listing-filename-sort="index.qmd">
 <td>
-<span class="listing-date">Dec 11, 2025</span>
+<span class="listing-date">12/11/25</span>
 </td>
 <td>
 <a href="./personal/251211_radio/index.html" class="title listing-title">音乐电台｜2025 音乐与我的四季</a>
 </td>
+</tr>
+<tr data-index="2" data-categories="diary,中文" data-listing-date-sort="1742443200000" data-listing-file-modified-sort="1765677356313" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="273" data-listing-title-sort="日记 | 黑狗" data-listing-filename-sort="index.qmd">
 <td>
-<span class="listing-categories">radio, fun, music, 2025, 中文</span>
+<span class="listing-date">3/20/25</span>
 </td>
 <td>
-<span class="listing-reading-time">2 min</span>
+<a href="./personal/250320_diary/index.html" class="title listing-title">日记 | 黑狗</a>
 </td>
 </tr>
-<tr data-index="2" data-categories="fun,birding,web development" data-listing-date-sort="1736312400000" data-listing-file-modified-sort="1765663713864" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2274" data-listing-title-sort="All About Birding" data-listing-filename-sort="index.qmd">
+<tr data-index="3" data-categories="birding,travel,EN" data-listing-date-sort="1736312400000" data-listing-file-modified-sort="1765678896231" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2275" data-listing-title-sort="All About Birding" data-listing-filename-sort="index.qmd">
 <td>
-<span class="listing-date">Jan 8, 2025</span>
+<span class="listing-date">1/8/25</span>
 </td>
 <td>
 <a href="./personal/nd_birding/index.html" class="title listing-title">All About Birding</a>
 </td>
-<td>
-<span class="listing-categories">fun, birding, web development</span>
-</td>
-<td>
-<span class="listing-reading-time">12 min</span>
-</td>
 </tr>
-<tr data-index="3" data-categories="radio,fun,music,中文" data-listing-date-sort="1734152400000" data-listing-file-modified-sort="1765662627093" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="226" data-listing-title-sort="音乐电台｜2024 音乐与我的四季" data-listing-filename-sort="index.qmd">
+<tr data-index="4" data-categories="radio,music,中文" data-listing-date-sort="1734152400000" data-listing-file-modified-sort="1765678802963" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="226" data-listing-title-sort="音乐电台｜2024 音乐与我的四季" data-listing-filename-sort="index.qmd">
 <td>
-<span class="listing-date">Dec 14, 2024</span>
+<span class="listing-date">12/14/24</span>
 </td>
 <td>
 <a href="./personal/241214_radio/index.html" class="title listing-title">音乐电台｜2024 音乐与我的四季</a>
 </td>
+</tr>
+<tr data-index="5" data-categories="music,review,中文" data-listing-date-sort="1730174400000" data-listing-file-modified-sort="1765678596657" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29" data-listing-title-sort="滚妹人格 | 分割世界的桥" data-listing-filename-sort="index.qmd">
 <td>
-<span class="listing-categories">radio, fun, music, 中文</span>
+<span class="listing-date">10/29/24</span>
 </td>
 <td>
-<span class="listing-reading-time">2 min</span>
+<a href="./personal/241029_review_oys/index.html" class="title listing-title">滚妹人格 | 分割世界的桥</a>
 </td>
 </tr>
-<tr data-index="4" data-categories="radio,fun,music,2024,中文" data-listing-date-sort="1718683200000" data-listing-file-modified-sort="1765603708684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="961" data-listing-title-sort="音乐电台｜2024 上半年的一周一曲" data-listing-filename-sort="index.qmd">
+<tr data-index="6" data-categories="radio,music,中文" data-listing-date-sort="1718683200000" data-listing-file-modified-sort="1765678774134" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="990" data-listing-title-sort="音乐电台｜2024 上半年的一周一曲" data-listing-filename-sort="index.qmd">
 <td>
-<span class="listing-date">Jun 18, 2024</span>
+<span class="listing-date">6/18/24</span>
 </td>
 <td>
 <a href="./personal/240618_radio/index.html" class="title listing-title">音乐电台｜2024 上半年的一周一曲</a>
 </td>
+</tr>
+<tr data-index="7" data-categories="review,documentary,中文" data-listing-date-sort="1711944000000" data-listing-file-modified-sort="1765677480430" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="109" data-listing-title-sort="观后感 | 一切皆被慈爱的机器所注视" data-listing-filename-sort="index.qmd">
 <td>
-<span class="listing-categories">radio, fun, music, 2024, 中文</span>
+<span class="listing-date">4/1/24</span>
 </td>
 <td>
-<span class="listing-reading-time">5 min</span>
+<a href="./personal/240401_review_allwatched/index.html" class="title listing-title">观后感 | 一切皆被慈爱的机器所注视</a>
 </td>
 </tr>
-<tr data-index="5" data-categories="review,movie,documentary,中文" data-listing-date-sort="1711944000000" data-listing-file-modified-sort="1765602269223" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="101" data-listing-title-sort="观后感 | All Watched Over by Machines of Loving Grace" data-listing-filename-sort="index.qmd">
+<tr data-index="8" data-categories="music,review,中文" data-listing-date-sort="1705726800000" data-listing-file-modified-sort="1765678564744" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95" data-listing-title-sort="滚妹人格 | 属于我的蒙娜丽莎" data-listing-filename-sort="index.qmd">
 <td>
-<span class="listing-date">Apr 1, 2024</span>
+<span class="listing-date">1/20/24</span>
 </td>
 <td>
-<a href="./personal/240401_review_allwatched/index.html" class="title listing-title">观后感 | All Watched Over by Machines of Loving Grace</a>
+<a href="./personal/240120_review_ride/index.html" class="title listing-title">滚妹人格 | 属于我的蒙娜丽莎</a>
+</td>
+</tr>
+<tr data-index="9" data-categories="diary,中文" data-listing-date-sort="1651636800000" data-listing-file-modified-sort="1765677841485" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2" data-listing-title-sort="日记 | 又是一年青年节" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">5/4/22</span>
 </td>
 <td>
-<span class="listing-categories">review, movie, documentary, 中文</span>
+<a href="./personal/220504_diary/index.html" class="title listing-title">日记 | 又是一年青年节</a>
+</td>
+</tr>
+<tr data-index="10" data-categories="diary,中文" data-listing-date-sort="1629777600000" data-listing-file-modified-sort="1765677535140" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="日记 | 荚蒾" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">8/24/21</span>
 </td>
 <td>
-<span class="listing-reading-time">1 min</span>
+<a href="./personal/210824_diary/index.html" class="title listing-title">日记 | 荚蒾</a>
+</td>
+</tr>
+<tr data-index="11" data-categories="diary,中文" data-listing-date-sort="1628049600000" data-listing-file-modified-sort="1765671986529" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25" data-listing-title-sort="书信 | 妹亲启：高中生活完全不指南" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">8/4/21</span>
+</td>
+<td>
+<a href="./personal/210804_to_sister/index.html" class="title listing-title">书信 | 妹亲启：高中生活完全不指南</a>
 </td>
 </tr>
 </tbody>

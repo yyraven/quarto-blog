@@ -1,7 +1,7 @@
 ---
 title: "置顶 | 工业风豆瓣"
 date: "2025-12-12"
-categories: [book, movie, music, fun, 中文]
+categories: [book, movie, music, documentary, review, 中文]
 lightbox: false
 output:
   html_document:

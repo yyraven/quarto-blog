@@ -5,11 +5,12 @@ listing:
     - personal/**/*.qmd
     - work/**/*.qmd
   sort: "date desc"
+  date-format: short
   type: table
   categories: true
   sort-ui: true
   filter-ui: true
-  fields: [date, title, categories, reading-time]
+  fields: [date, title]
   feed: true
   exclude:
     categories: "draft*"

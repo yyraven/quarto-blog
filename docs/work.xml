@@ -75,6 +75,8 @@
   <category>dashboard</category>
   <category>R</category>
   <category>R Shiny</category>
+  <category>biology</category>
+  <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/work/241219_RESPweather_dashboard/</guid>
   <pubDate>Thu, 19 Dec 2024 05:00:00 GMT</pubDate>
 </item>
@@ -222,6 +224,7 @@
 </center> ]]></description>
   <category>biology</category>
   <category>resources</category>
+  <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/work/241109_useful_bio_links/</guid>
   <pubDate>Sat, 09 Nov 2024 05:00:00 GMT</pubDate>
 </item>
@@ -2992,12 +2995,12 @@ Miller, John W. 2024. <span>“Johnwmillr/<span>LyricsGenius</span>.”</span> <
 Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span> <span>Hit</span> <span>Its</span> <span>Stride</span> in 2023.”</span> <em>Pitchfork</em>. <a href="https://pitchfork.com/features/article/the-shoegaze-revival-hit-its-stride-in-2023/">https://pitchfork.com/features/article/the-shoegaze-revival-hit-its-stride-in-2023/</a>.
 </div>
 </div></section></div> ]]></description>
-  <category>fun</category>
   <category>data analysis</category>
   <category>text analysis</category>
   <category>sentiment analysis</category>
   <category>music</category>
   <category>R</category>
+  <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/</guid>
   <pubDate>Fri, 08 Nov 2024 05:00:00 GMT</pubDate>
 </item>
@@ -3038,6 +3041,7 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 </center> ]]></description>
   <category>blogging</category>
   <category>resources</category>
+  <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/work/240913_first_post/</guid>
   <pubDate>Fri, 13 Sep 2024 04:00:00 GMT</pubDate>
 </item>

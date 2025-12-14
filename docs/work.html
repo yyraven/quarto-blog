@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-image','listing-title','listing-categories','listing-description','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -193,7 +193,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R Shiny">R Shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="biology">biology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blogging">blogging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dashboard">dashboard <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data analysis">data analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="fun">fun <span class="quarto-category-count">(1)</span></div><div class="category" data-category="music">music <span class="quarto-category-count">(1)</span></div><div class="category" data-category="resources">resources <span class="quarto-category-count">(2)</span></div><div class="category" data-category="respiratory virus">respiratory virus <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sentiment analysis">sentiment analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="text analysis">text analysis <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="EN">EN <span class="quarto-category-count">(4)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R Shiny">R Shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="biology">biology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="blogging">blogging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dashboard">dashboard <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data analysis">data analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="music">music <span class="quarto-category-count">(1)</span></div><div class="category" data-category="resources">resources <span class="quarto-category-count">(2)</span></div><div class="category" data-category="respiratory virus">respiratory virus <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sentiment analysis">sentiment analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="text analysis">text analysis <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -220,21 +220,21 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
      <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
          <option value="listing-date-sort" data-direction="asc">
           Date - Oldest
         </option>
          <option value="listing-date-sort" data-direction="desc">
           Date - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
         </option>
      </select>
   </div>
@@ -243,82 +243,185 @@ window.Quarto = {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-Categories
-</th>
-<th>
-Reading Time
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="data analysis,respiratory virus,dashboard,R,R Shiny" data-listing-date-sort="1734584400000" data-listing-file-modified-sort="1765663772225" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253" data-listing-title-sort="Weather-Respiratory Disease Correlation Explorer" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Dec 19, 2024</span>
-</td>
-<td>
-<a href="./work/241219_RESPweather_dashboard/index.html" class="title listing-title">Weather-Respiratory Disease Correlation Explorer</a>
-</td>
-<td>
-<span class="listing-categories">data analysis, respiratory virus, dashboard, R, R Shiny</span>
-</td>
-<td>
-<span class="listing-reading-time">2 min</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="biology,resources" data-listing-date-sort="1731128400000" data-listing-file-modified-sort="1765439752869" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="518" data-listing-title-sort="Bookmarks for Biologists" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Nov 9, 2024</span>
-</td>
-<td>
-<a href="./work/241109_useful_bio_links/index.html" class="title listing-title">Bookmarks for Biologists</a>
-</td>
-<td>
-<span class="listing-categories">biology, resources</span>
-</td>
-<td>
-<span class="listing-reading-time">3 min</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="fun,data analysis,text analysis,sentiment analysis,music,R" data-listing-date-sort="1731042000000" data-listing-file-modified-sort="1765594167459" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3500" data-listing-title-sort="Who Is The Saddest Shoegaze Band?" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Nov 8, 2024</span>
-</td>
-<td>
-<a href="./work/241108_lyric_analysis/index.html" class="title listing-title">Who Is The Saddest Shoegaze Band?</a>
-</td>
-<td>
-<span class="listing-categories">fun, data analysis, text analysis, sentiment analysis, music, R</span>
-</td>
-<td>
-<span class="listing-reading-time">18 min</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="blogging,resources" data-listing-date-sort="1726200000000" data-listing-file-modified-sort="1765663961043" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112" data-listing-title-sort="First Blog Post! &amp; Blogging Resources" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">Sep 13, 2024</span>
-</td>
-<td>
-<a href="./work/240913_first_post/index.html" class="title listing-title">First Blog Post! &amp; Blogging Resources</a>
-</td>
-<td>
-<span class="listing-categories">blogging, resources</span>
-</td>
-<td>
-<span class="listing-reading-time">1 min</span>
-</td>
-</tr>
-</tbody>
-</table>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="data analysis,respiratory virus,dashboard,R,R Shiny,biology,EN" data-listing-date-sort="1734584400000" data-listing-file-modified-sort="1765679084304" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
+<div class="thumbnail">
+<p><a href="./work/241219_RESPweather_dashboard/index.html" class="no-external"></a></p><a href="./work/241219_RESPweather_dashboard/index.html" class="no-external">
+<p class="card-img-top"><img src="work/241219_RESPweather_dashboard/photo/shiny1.PNG" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./work/241219_RESPweather_dashboard/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./work/241219_RESPweather_dashboard/index.html" class="no-external">Weather-Respiratory Disease Correlation Explorer</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./work/241219_RESPweather_dashboard/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data analysis'); return false;">
+data analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('respiratory virus'); return false;">
+respiratory virus
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dashboard'); return false;">
+dashboard
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R Shiny'); return false;">
+R Shiny
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('biology'); return false;">
+biology
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EN'); return false;">
+EN
+</div>
+</div>
+<div class="listing-description">
+<a href="./work/241219_RESPweather_dashboard/index.html" class="no-external">This <strong>Weather-Respiratory Diseases Correlation Explorer</strong> R Shiny Dashboard aims to investigate the relationship between climate and weather-related conditions and outbreaks of…<strong></strong><strong></strong></a>
+</div>
+</div>
+<div class="metadata">
+<a href="./work/241219_RESPweather_dashboard/index.html" class="no-external">
+<div class="listing-date">
+12/19/24
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="biology,resources,EN" data-listing-date-sort="1731128400000" data-listing-file-modified-sort="1765679062427" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="518">
+<div class="thumbnail">
+<p><a href="./work/241109_useful_bio_links/index.html" class="no-external"></a></p><a href="./work/241109_useful_bio_links/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+</a><p><a href="./work/241109_useful_bio_links/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./work/241109_useful_bio_links/index.html" class="no-external">Bookmarks for Biologists</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./work/241109_useful_bio_links/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('biology'); return false;">
+biology
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('resources'); return false;">
+resources
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EN'); return false;">
+EN
+</div>
+</div>
+<div class="listing-description">
+<a href="./work/241109_useful_bio_links/index.html" class="no-external">NCBI BLAST/Basic Local Alignment Search Tool: Just BLAST.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./work/241109_useful_bio_links/index.html" class="no-external">
+<div class="listing-date">
+11/9/24
+</div>
+<div class="listing-reading-time">
+3 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="data analysis,text analysis,sentiment analysis,music,R,EN" data-listing-date-sort="1731042000000" data-listing-file-modified-sort="1765679027489" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3500">
+<div class="thumbnail">
+<p><a href="./work/241108_lyric_analysis/index.html" class="no-external"></a></p><a href="./work/241108_lyric_analysis/index.html" class="no-external">
+<p class="card-img-top"><img src="work/241108_lyric_analysis/photo/Youmademerealise.png" alt="My bloody valentine’s 1988 EP ‘You made me realise’ is a classic shoegaze record." style="height: 150px;"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./work/241108_lyric_analysis/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./work/241108_lyric_analysis/index.html" class="no-external">Who Is The Saddest Shoegaze Band?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./work/241108_lyric_analysis/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data analysis'); return false;">
+data analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('text analysis'); return false;">
+text analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('sentiment analysis'); return false;">
+sentiment analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('music'); return false;">
+music
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EN'); return false;">
+EN
+</div>
+</div>
+<div class="listing-description">
+<a href="./work/241108_lyric_analysis/index.html" class="no-external">I’m interested in the ‘shoegaze’ subgenre of indie rock. This less-known genre, also called ‘the scene that celebrates itself’, rose from the noise pop scene in the late 80s…<em></em><span class="citation" data-cites="sherburne_shoegaze_2023"></span></a>
+</div>
+</div>
+<div class="metadata">
+<a href="./work/241108_lyric_analysis/index.html" class="no-external">
+<div class="listing-date">
+11/8/24
+</div>
+<div class="listing-reading-time">
+18 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="blogging,resources,EN" data-listing-date-sort="1726200000000" data-listing-file-modified-sort="1765678994798" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
+<div class="thumbnail">
+<p><a href="./work/240913_first_post/index.html" class="no-external"></a></p><a href="./work/240913_first_post/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+</a><p><a href="./work/240913_first_post/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./work/240913_first_post/index.html" class="no-external">First Blog Post! &amp; Blogging Resources</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./work/240913_first_post/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('blogging'); return false;">
+blogging
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('resources'); return false;">
+resources
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EN'); return false;">
+EN
+</div>
+</div>
+<div class="listing-description">
+<a href="./work/240913_first_post/index.html" class="no-external"><span class="emoji" data-emoji="tada">🎉</span> Hi, this is my first blog post!</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./work/240913_first_post/index.html" class="no-external">
+<div class="listing-date">
+9/13/24
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>

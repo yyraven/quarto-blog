@@ -3,11 +3,13 @@ title: "Work"
 listing:
   contents: work/**/*.qmd
   sort: "date desc"
-  type: table
+  type: default
+  image-height: 150px
+  date-format: short
   categories: true
   sort-ui: true
   filter-ui: true
-  fields: [date, title, categories, reading-time]
+  fields: [date, image, title, categories, description, reading-time]
   feed: true
   exclude:
     categories: "draft*"

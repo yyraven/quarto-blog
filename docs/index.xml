@@ -792,7 +792,8 @@
   <category>book</category>
   <category>movie</category>
   <category>music</category>
-  <category>fun</category>
+  <category>documentary</category>
+  <category>review</category>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/nd_personal_library/</guid>
   <pubDate>Fri, 12 Dec 2025 05:00:00 GMT</pubDate>
@@ -946,9 +947,7 @@
 © 2024-2025 RavensNest.
 </center> ]]></description>
   <category>radio</category>
-  <category>fun</category>
   <category>music</category>
-  <category>2025</category>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/251211_radio/</guid>
   <pubDate>Thu, 11 Dec 2025 05:00:00 GMT</pubDate>
@@ -2077,8 +2076,8 @@
 <p><em>Click on the map to see pictures of birds! Urban sites marked in pink while rural sites marked in green.</em></p>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-fbb1dce060a68ac431fb" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-fbb1dce060a68ac431fb">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[38.44166,39.32439,36.00323,47.66241,45.88458,30.09336,27.12898,35.01526,34.0333,40.45827,40.42716,40.02938,31.36978],[-76.11781999999999,-77.7255,-78.93374,-122.43432,-123.96861,-90.43263,100.24284,135.67181,-118.6742,-86.93805999999999,-86.93183999999999,116.38406,120.57274],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"green","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/bald_eagle_2504.JPG\" width=\"90\"> <img src=\"birdspics/wilson_s_snipe_2501.JPG\" width=\"90\"><\/br> <br>L: Bald Eagle; R: Wilson's Snipe<\/br>","<br><img src=\"birdspics/turkey_vulture_2403.JPG\" width=\"90\"> <img src=\"birdspics/great_blue_heron_2403.JPG\" width=\"90\"><\/br><br>L: Turkey Vulture; R: Great Blue Heron<\/br>","<br><img src=\"birdspics/northern_cardinal_2203.jpg\" width=\"90\"> <img src=\"birdspics/red_tailed_hawk_2201.jpg\" width=\"90\"><\/br> <br>L: Northern Cardinal; R: Red-tailed Hawk<\/br>","<br><img src=\"birdspics/caspian_tern_2407.JPG\" width=\"90\"> <img src=\"birdspics/glaucous_winged_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Caspian Tern; R: Glaucous-winged Gull<\/br>","<br><img src=\"birdspics/common_murre_2407.JPG\" width=\"90\"> <img src=\"birdspics/california_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Common Murre; R: California Gull<\/br>","<br><img src=\"birdspics/great_egret_2203.JPG\" width=\"90\"><\/br> <br>Great Egret<\/br>","<br><img src=\"birdspics/red_billed_blue_magpie_2303.JPG\" width=\"90\"> <img src=\"birdspics/white_wagtail_2303.JPG\" width=\"90\"><\/br> <br>L: Red-billed Blue-Magpie; R: White Wagtail<\/br>","<br><img src=\"birdspics/gray_heron_1907.jpg\" width=\"90\"> <img src=\"birdspics/great_cormorant_1907.jpg\" width=\"90\"><\/br> <br>L: Gray Heron; R: Great Cormorant<\/br>","<br><img src=\"birdspics/brown_pelican_2506.jpg\" width=\"90\"> <img src=\"birdspics/gadwall_2506.jpg\" width=\"90\"><\/br> <br>L: Brown Pelican; R: Gadwall<\/br>","<br><img src=\"birdspics/american_white_pelican_2504.JPeG\" width=\"90\"><img src=\"birdspics/greater_yellowlegs_2510.JPG\" width=\"90\"><\/br> <br>L: American White Pelican; R: Greater Yellowlegs<\/br>","<br><img src=\"birdspics/northern_flicker_2510.JPG\" width=\"90\"><img src=\"birdspics/chipping_sparrow_2510.JPG\" width=\"90\"><\/br> <br>L: Northern Flicker; R: Chipping Sparrow<\/br>","<br><img src=\"birdspics/oriental_reed_warbler_2507.JPG\" width=\"90\"><img src=\"birdspics/common_kingfisher_2507.JPG\" width=\"90\"><\/br> <br>L: Oriental Reed Warbler; R: Common Kingfisher<\/br>","<br><img src=\"birdspics/pheasant_tailed_jacana_2507.JPG\" width=\"90\"><img src=\"birdspics/eurasian_moorhen_2507.JPG\" width=\"90\"><\/br> <br>L: Pheasant-tailed Jacana; R: Eurasian Moorhen<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[39.27909,40.69019,29.66037,31.39642,31.30295,39.98998,30.74135,40.11208,39.95549,36.058381,37.52121,39.92546,35.04778,33.94711],[-76.59966,-74.04423,91.11783,120.90624,120.6159,116.26826,104.14193,113.1376,-75.18196,120.32057,121.45454,116.38925,118.37511,-83.37813],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"pink","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/ring_billed_gull_2503.JPG\" width=\"90\"> <img src=\"birdspics/double_crested_cormorant_2310.JPG\" width=\"90\"><\/br> <br>L: Ring-billed Gull; R: Double-crested Cormorant<\/br> ","<br><img src=\"birdspics/american_herring_gull_2401.JPG\" width=\"90\"> <img src=\"birdspics/brant_2401.JPG\" width=\"90\"><\/br> <br>L: American Herring Gull; R: Brant<\/br>","<br><img src=\"birdspics/ruddy_shelduck_1912.jpg\" width=\"90\"> <img src=\"birdspics/bar_headed_goose_1912.jpg\" width=\"90\"><\/br> <br>L: Ruddy Shelduck; R: Bar-headed Goose<\/br>","<br><img src=\"birdspics/long_tailed_shrike_2302.jpg\" width=\"90\"><\/br> <br>Long-tailed Shrike<\/br>","<br><img src=\"birdspics/spotted_dove_2011.jpeg\" width=\"90\"> <img src=\"birdspics/eurasian_tree_sparrow_1911.jpg\" width=\"90\"><\/br> <br>L: Spotted Dove; R: Eurasian Tree Sparrow<\/br>","<br><img src=\"birdspics/mandarin_duck_juv_2306.JPG\" width=\"90\"><\/br> <br>Mandarin Duck<\/br>","<br><img src=\"birdspics/white_browed_laughingthrush_2007.JPG\" width=\"90\"><\/br> <br>White-browed Laughingthrush<\/br>","<br><img src=\"birdspics/eurasian_crag_martin_2306.jpg\" width=\"90\"><\/br> <br>Eurasian Crag-Martin<\/br>","<br><img src=\"birdspics/gray_catbird_2406.JPG\" width=\"90\"> <img src=\"birdspics/red_winged_blackbird_2504.JPG\" width=\"90\"><\/br> <br>L: Gray Catbird; R: Red-winged Blackbird<\/br>","<br><img src=\"birdspics/black_tailed_gull_2507.JPG\" width=\"90\"><\/br> <br>Black Tailed Gull<\/br>","<br><img src=\"birdspics/grey_capped_greenfinch_2507.JPG\" width=\"90\"><img src=\"birdspics/light_vented_bulbul_2507.JPG\" width=\"90\"><\/br> <br>L: Grey-capped Greenfinch; R: Light-vented Bulbul<\/br>","<br><img src=\"birdspics/azure_winged_magpie_2507.JPG\" width=\"90\"><img src=\"birdspics/carrion_crow_2507.JPG\" width=\"90\"><\/br> <br>L: Azure-winged Magpie; R: Carrion Crow<\/br>","<br><img src=\"birdspics/whiskered_tern_2507.JPG\" width=\"90\"><img src=\"birdspics/black_crowned_night_heron_2507.JPG\" width=\"90\"><\/br> <br>L: Whiskered Tern; R: Black-crowned Night Heron<\/br>","<br><img src=\"birdspics/brown_thrasher_2505.JPeG\" width=\"90\"><\/br> <br> Brown Thrasher<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addControl","args":["<style>\n  .leaflet-popup-content-wrapper {\n    background: rgba(255, 255, 255, 0.5);\n    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);\n    border-radius: 10px;\n    text-align: center;\n    padding: 3px;\n  }\n  .leaflet-popup-tip {\n    background: rgba(255, 255, 255, 0.7);\n  }\n  .leaflet-popup-content {\n    font-family: 'Comic Sans MS', cursive, sans-serif;\n    line-height: 1.1;\n    white-space: pre-wrap;\n  }\n<\/style>","topleft",null,"info legend"]},{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[27.12898,47.66241],"lng":[-123.96861,135.67181]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-95d3c6755c72aeca980f" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-95d3c6755c72aeca980f">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[38.44166,39.32439,36.00323,47.66241,45.88458,30.09336,27.12898,35.01526,34.0333,40.45827,40.42716,40.02938,31.36978],[-76.11781999999999,-77.7255,-78.93374,-122.43432,-123.96861,-90.43263,100.24284,135.67181,-118.6742,-86.93805999999999,-86.93183999999999,116.38406,120.57274],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"green","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/bald_eagle_2504.JPG\" width=\"90\"> <img src=\"birdspics/wilson_s_snipe_2501.JPG\" width=\"90\"><\/br> <br>L: Bald Eagle; R: Wilson's Snipe<\/br>","<br><img src=\"birdspics/turkey_vulture_2403.JPG\" width=\"90\"> <img src=\"birdspics/great_blue_heron_2403.JPG\" width=\"90\"><\/br><br>L: Turkey Vulture; R: Great Blue Heron<\/br>","<br><img src=\"birdspics/northern_cardinal_2203.jpg\" width=\"90\"> <img src=\"birdspics/red_tailed_hawk_2201.jpg\" width=\"90\"><\/br> <br>L: Northern Cardinal; R: Red-tailed Hawk<\/br>","<br><img src=\"birdspics/caspian_tern_2407.JPG\" width=\"90\"> <img src=\"birdspics/glaucous_winged_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Caspian Tern; R: Glaucous-winged Gull<\/br>","<br><img src=\"birdspics/common_murre_2407.JPG\" width=\"90\"> <img src=\"birdspics/california_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Common Murre; R: California Gull<\/br>","<br><img src=\"birdspics/great_egret_2203.JPG\" width=\"90\"><\/br> <br>Great Egret<\/br>","<br><img src=\"birdspics/red_billed_blue_magpie_2303.JPG\" width=\"90\"> <img src=\"birdspics/white_wagtail_2303.JPG\" width=\"90\"><\/br> <br>L: Red-billed Blue-Magpie; R: White Wagtail<\/br>","<br><img src=\"birdspics/gray_heron_1907.jpg\" width=\"90\"> <img src=\"birdspics/great_cormorant_1907.jpg\" width=\"90\"><\/br> <br>L: Gray Heron; R: Great Cormorant<\/br>","<br><img src=\"birdspics/brown_pelican_2506.jpg\" width=\"90\"> <img src=\"birdspics/gadwall_2506.jpg\" width=\"90\"><\/br> <br>L: Brown Pelican; R: Gadwall<\/br>","<br><img src=\"birdspics/american_white_pelican_2504.JPeG\" width=\"90\"><img src=\"birdspics/greater_yellowlegs_2510.JPG\" width=\"90\"><\/br> <br>L: American White Pelican; R: Greater Yellowlegs<\/br>","<br><img src=\"birdspics/northern_flicker_2510.JPG\" width=\"90\"><img src=\"birdspics/chipping_sparrow_2510.JPG\" width=\"90\"><\/br> <br>L: Northern Flicker; R: Chipping Sparrow<\/br>","<br><img src=\"birdspics/oriental_reed_warbler_2507.JPG\" width=\"90\"><img src=\"birdspics/common_kingfisher_2507.JPG\" width=\"90\"><\/br> <br>L: Oriental Reed Warbler; R: Common Kingfisher<\/br>","<br><img src=\"birdspics/pheasant_tailed_jacana_2507.JPG\" width=\"90\"><img src=\"birdspics/eurasian_moorhen_2507.JPG\" width=\"90\"><\/br> <br>L: Pheasant-tailed Jacana; R: Eurasian Moorhen<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[39.27909,40.69019,29.66037,31.39642,31.30295,39.98998,30.74135,40.11208,39.95549,36.058381,37.52121,39.92546,35.04778,33.94711],[-76.59966,-74.04423,91.11783,120.90624,120.6159,116.26826,104.14193,113.1376,-75.18196,120.32057,121.45454,116.38925,118.37511,-83.37813],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"pink","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/ring_billed_gull_2503.JPG\" width=\"90\"> <img src=\"birdspics/double_crested_cormorant_2310.JPG\" width=\"90\"><\/br> <br>L: Ring-billed Gull; R: Double-crested Cormorant<\/br> ","<br><img src=\"birdspics/american_herring_gull_2401.JPG\" width=\"90\"> <img src=\"birdspics/brant_2401.JPG\" width=\"90\"><\/br> <br>L: American Herring Gull; R: Brant<\/br>","<br><img src=\"birdspics/ruddy_shelduck_1912.jpg\" width=\"90\"> <img src=\"birdspics/bar_headed_goose_1912.jpg\" width=\"90\"><\/br> <br>L: Ruddy Shelduck; R: Bar-headed Goose<\/br>","<br><img src=\"birdspics/long_tailed_shrike_2302.jpg\" width=\"90\"><\/br> <br>Long-tailed Shrike<\/br>","<br><img src=\"birdspics/spotted_dove_2011.jpeg\" width=\"90\"> <img src=\"birdspics/eurasian_tree_sparrow_1911.jpg\" width=\"90\"><\/br> <br>L: Spotted Dove; R: Eurasian Tree Sparrow<\/br>","<br><img src=\"birdspics/mandarin_duck_juv_2306.JPG\" width=\"90\"><\/br> <br>Mandarin Duck<\/br>","<br><img src=\"birdspics/white_browed_laughingthrush_2007.JPG\" width=\"90\"><\/br> <br>White-browed Laughingthrush<\/br>","<br><img src=\"birdspics/eurasian_crag_martin_2306.jpg\" width=\"90\"><\/br> <br>Eurasian Crag-Martin<\/br>","<br><img src=\"birdspics/gray_catbird_2406.JPG\" width=\"90\"> <img src=\"birdspics/red_winged_blackbird_2504.JPG\" width=\"90\"><\/br> <br>L: Gray Catbird; R: Red-winged Blackbird<\/br>","<br><img src=\"birdspics/black_tailed_gull_2507.JPG\" width=\"90\"><\/br> <br>Black Tailed Gull<\/br>","<br><img src=\"birdspics/grey_capped_greenfinch_2507.JPG\" width=\"90\"><img src=\"birdspics/light_vented_bulbul_2507.JPG\" width=\"90\"><\/br> <br>L: Grey-capped Greenfinch; R: Light-vented Bulbul<\/br>","<br><img src=\"birdspics/azure_winged_magpie_2507.JPG\" width=\"90\"><img src=\"birdspics/carrion_crow_2507.JPG\" width=\"90\"><\/br> <br>L: Azure-winged Magpie; R: Carrion Crow<\/br>","<br><img src=\"birdspics/whiskered_tern_2507.JPG\" width=\"90\"><img src=\"birdspics/black_crowned_night_heron_2507.JPG\" width=\"90\"><\/br> <br>L: Whiskered Tern; R: Black-crowned Night Heron<\/br>","<br><img src=\"birdspics/brown_thrasher_2505.JPeG\" width=\"90\"><\/br> <br> Brown Thrasher<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addControl","args":["<style>\n  .leaflet-popup-content-wrapper {\n    background: rgba(255, 255, 255, 0.5);\n    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);\n    border-radius: 10px;\n    text-align: center;\n    padding: 3px;\n  }\n  .leaflet-popup-tip {\n    background: rgba(255, 255, 255, 0.7);\n  }\n  .leaflet-popup-content {\n    font-family: 'Comic Sans MS', cursive, sans-serif;\n    line-height: 1.1;\n    white-space: pre-wrap;\n  }\n<\/style>","topleft",null,"info legend"]},{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[27.12898,47.66241],"lng":[-123.96861,135.67181]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <hr>
@@ -2434,7 +2433,8 @@
 <figcaption>My High School - The Place Where It All Begins</figcaption>
 </figure>
 </div>
-</div></div><p>Thanks Qinyi who introduced me to the world of birding. I will always remember watching night heron with you sitting next to Bixia Pond back in 2019 in the afternoon before taking a Biology exam.</p>
+</div></div><p><a href="yelu.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img src="https://yyraven.github.io/quarto-blog/personal/nd_birding/yelu.jpeg" class="img-fluid"></a></p>
+<p>Thanks my friend who introduced me to the world of birding. I will always remember watching night heron with you sitting next to Bixia Pond back in 2019 in the afternoon before taking a Biology exam.</p>
 
 
 </section>
@@ -2442,9 +2442,9 @@
 <center>
 © 2024-2025 RavensNest.
 </center> ]]></description>
-  <category>fun</category>
   <category>birding</category>
-  <category>web development</category>
+  <category>travel</category>
+  <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/nd_birding/</guid>
   <pubDate>Wed, 08 Jan 2025 05:00:00 GMT</pubDate>
 </item>
@@ -2505,6 +2505,8 @@
   <category>dashboard</category>
   <category>R</category>
   <category>R Shiny</category>
+  <category>biology</category>
+  <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/work/241219_RESPweather_dashboard/</guid>
   <pubDate>Thu, 19 Dec 2024 05:00:00 GMT</pubDate>
 </item>
@@ -2617,7 +2619,6 @@
 © 2024-2025 RavensNest.
 </center> ]]></description>
   <category>radio</category>
-  <category>fun</category>
   <category>music</category>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/241214_radio/</guid>
@@ -2767,6 +2768,7 @@
 </center> ]]></description>
   <category>biology</category>
   <category>resources</category>
+  <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/work/241109_useful_bio_links/</guid>
   <pubDate>Sat, 09 Nov 2024 05:00:00 GMT</pubDate>
 </item>
@@ -5537,14 +5539,43 @@ Miller, John W. 2024. <span>“Johnwmillr/<span>LyricsGenius</span>.”</span> <
 Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span> <span>Hit</span> <span>Its</span> <span>Stride</span> in 2023.”</span> <em>Pitchfork</em>. <a href="https://pitchfork.com/features/article/the-shoegaze-revival-hit-its-stride-in-2023/">https://pitchfork.com/features/article/the-shoegaze-revival-hit-its-stride-in-2023/</a>.
 </div>
 </div></section></div> ]]></description>
-  <category>fun</category>
   <category>data analysis</category>
   <category>text analysis</category>
   <category>sentiment analysis</category>
   <category>music</category>
   <category>R</category>
+  <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/</guid>
   <pubDate>Fri, 08 Nov 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>滚妹人格 | 分割世界的桥</title>
+  <link>https://yyraven.github.io/quarto-blog/personal/241029_review_oys/</link>
+  <description><![CDATA[ 
+<div class="mylikebutton">♥</div>
+
+
+
+
+<p>千里奔袭去纽约看万青了，在现在已经完全沉迷盯鞋的当下，听到4年前最初接触国瑶时候听的音乐，还是觉得非常触动。不能免俗地，我最喜欢的还是一专的秦皇岛。22年寒假前夕，和🎵在宿舍里因为所有的一切——疫情、未来——而困惑不已时，我们就在听这首歌。她和我说，秦皇岛是北方人疗养的地方。森林公园的桥在白森森的月光下闪耀，她说她会想起这首歌。我好想在布鲁克林大桥之类的地方唱它呀，可惜Terminal 5周围没有桥。</p>
+<p>新专也好听，感觉全东海岸的中国人都来了。我们在安可的时候从2楼跑到1楼，几近在永嘉彗星的节奏里窒息。是啊，怎么感觉我喜欢的歌都是以江河湖海为意象的。能够忍受巴尔的摩的一大原因也是因为它有海，被Sea power和Ride音乐浪漫化以后的大海，一年四季都在盘旋的海鸥，海水里沉沉浮浮的水母……</p>
+<blockquote class="blockquote">
+<p>站在能分割世界的桥 还是看不清 在那些时刻 遮蔽我们 黑暗的心 究竟是什么</p>
+<p>住在我心里孤独的 孤独的海怪 痛苦之王 开始厌倦 深海的光 停滞的海浪</p>
+<p>站在能看到灯火的桥 还是看不清 在那些夜晚 照亮我们 黑暗的心 究竟是什么</p>
+<p>于是他默默追逐着 横渡海峡 年轻的人 看着他们 为了彼岸 骄傲的 骄傲的 灭亡</p>
+</blockquote>
+
+
+
+<center>
+© 2024-2025 RavensNest.
+</center> ]]></description>
+  <category>music</category>
+  <category>review</category>
+  <category>中文</category>
+  <guid>https://yyraven.github.io/quarto-blog/personal/241029_review_oys/</guid>
+  <pubDate>Tue, 29 Oct 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>First Blog Post! &amp; Blogging Resources</title>
@@ -5583,6 +5614,7 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 </center> ]]></description>
   <category>blogging</category>
   <category>resources</category>
+  <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/work/240913_first_post/</guid>
   <pubDate>Fri, 13 Sep 2024 04:00:00 GMT</pubDate>
 </item>
@@ -5658,9 +5690,9 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 <h3 class="anchored" data-anchor-id="简评延伸阅读">简评+延伸阅读</h3>
 <p>这周继续推荐我们的老朋友Ride。这次是收录在三专Carnival of Light里的曲子birdman和1000 miles。请允许博主沉浸在ride-mania里直接给上满分吧（是不是取消评分环节比较好？每次我想推荐曲子的时候，我都想给满分）。</p>
 <ul>
-<li><p><strong><a href="https://www.musicradar.com/news/guitars/rides-andy-bell-my-top-5-tips-for-guitarists-629305">Andy Bell给吉他手的五个小建议 Ride’s Andy Bell: my top 5 tips for guitarists</a></strong> 提到了birdman是特殊调弦，高音E→D。希望有一天我的技术能达到开始应用这些小技巧的程度。</p></li>
-<li><p><strong><a href="https://www.youtube.com/watch?v=vwobEIHCy0k">Ride的94年Glastonbury现场</a></strong> 开场曲是birdman，第三曲是1000 miles，最后一曲是mouse trap。现在都是很喜欢的曲子，但第一次看这个视频的时候眼睛里只有这个金毛粉墨镜的骚包造型…哥你当时到底在想什么…</p></li>
-<li><p><strong><a href="https://www.youtube.com/watch?v=RsEXtyxDl3w">Birdman的TOTP</a></strong> 这个粉墨镜是94年的必备造型吗哈哈。</p></li>
+<li><p><a href="https://www.musicradar.com/news/guitars/rides-andy-bell-my-top-5-tips-for-guitarists-629305"><strong>Andy Bell给吉他手的五个小建议 Ride’s Andy Bell: my top 5 tips for guitarists</strong></a> 提到了birdman是特殊调弦，高音E→D。希望有一天我的技术能达到开始应用这些小技巧的程度。</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=vwobEIHCy0k"><strong>Ride的94年Glastonbury现场</strong></a> 开场曲是birdman，第三曲是1000 miles，最后一曲是mouse trap。现在都是很喜欢的曲子，但第一次看这个视频的时候眼睛里只有这个金毛粉墨镜的骚包造型…哥你当时到底在想什么…</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=RsEXtyxDl3w"><strong>Birdman的TOTP</strong></a> 这个粉墨镜是94年的必备造型吗哈哈。</p></li>
 </ul>
 <hr>
 </section>
@@ -5899,15 +5931,13 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 © 2024-2025 RavensNest.
 </center> ]]></description>
   <category>radio</category>
-  <category>fun</category>
   <category>music</category>
-  <category>2024</category>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/240618_radio/</guid>
   <pubDate>Tue, 18 Jun 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>观后感 | All Watched Over by Machines of Loving Grace</title>
+  <title>观后感 | 一切皆被慈爱的机器所注视</title>
   <link>https://yyraven.github.io/quarto-blog/personal/240401_review_allwatched/</link>
   <description><![CDATA[ 
 <div class="mylikebutton">♥</div>
@@ -5922,7 +5952,6 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 <p><a href="https://allpoetry.com/All-Watched-Over-By-Machines-Of-Loving-Grace"><em>“All Watched Over by Machines of Loving Grace” by Richard Brautigan</em></a></p>
 </blockquote>
 <p>这部纪录片的标题来源于这首作于嬉皮年代的小诗。在生活在当代的导演看来，应当是绝佳的讽刺吧。</p>
-<hr>
 <section id="观后感" class="level2">
 <h2 class="anchored" data-anchor-id="观后感">观后感</h2>
 <section id="episode-1love-power" class="level3">
@@ -5962,7 +5991,6 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 <h4 class="anchored" data-anchor-id="wikipedia">Wikipedia</h4>
 <p>相当于是文字版的纪录片。</p>
 <p><a href="https://en.wikipedia.org/wiki/All_Watched_Over_by_Machines_of_Loving_Grace_(TV_series)">All Watched Over by Machines of Loving Grace (TV series)</a></p>
-<hr>
 <p>至于我为什么会想到看这个纪录片？</p>
 <p>是因为ride的新歌<a href="https://www.youtube.com/watch?v=YbpaV8e5EKQ">Essaouira</a>的歌词…感谢Mark Gardener一如既往的掉书袋习惯（和我一如既往的考据党习惯）。</p>
 
@@ -5975,11 +6003,60 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 © 2024-2025 RavensNest.
 </center> ]]></description>
   <category>review</category>
-  <category>movie</category>
   <category>documentary</category>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/240401_review_allwatched/</guid>
   <pubDate>Mon, 01 Apr 2024 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>滚妹人格 | 属于我的蒙娜丽莎</title>
+  <link>https://yyraven.github.io/quarto-blog/personal/240120_review_ride/</link>
+  <description><![CDATA[ 
+<div class="mylikebutton">♥</div>
+
+
+
+
+<p><strong>这</strong>是我在2024年1月看完RIDE/The Charlatans的Between Nowehere Tour以后在狂热状态下写的日记。<span class="blur">再也吹不出那样的彩虹屁，看了也会红着脸躲避</span></p>
+<p>现在冷静地思考，感觉当时看完演出以后的那种快乐到眩晕的状态可能一辈子都不会再体验了。之前因为疫情原因，大学期间只看过校园乐队的小演出和我不太喜欢的大团的arena演出。那一次是我第一次在这么近这么小的场馆里看到水平很棒的、我也很喜欢的乐队的演出，身边还有我很喜欢的朋友；还在下雪，当时我还是那种喜欢下雪的刚搬到北方的南方人，还没有开始讨厌冬天。四个人在我面前简直就是根本不够看。第一次看到吉他手离我这么近地表演吉他solo。就。冲击力。当时喝酒也没经验狂灌了一整瓶。并且费城那个场馆的音量是我去过最响的当时我又不知道要戴耳塞，最后耳鸣了一晚上。然后拖着这个破听力和朋友躺在床上不停地反刍。再也不可能有了这种感觉…</p>
+<hr>
+<p>妈呀，火车太晃了。现在我正在Inner Harbor的Shake Shack写这份日记。总之是非常不错的周末。在周五中午开完组会后和🧁去学校里玩雪，玩了一个小时，然后乘Amtrak去了费城，在🎵家和🐑以及🎵的室友一起吃了晚饭，她们做的腊肠饭，牛仔骨和虾饺，每个都好吃得离谱，非常满足。</p>
+<p>18:45我们打车去了Union Transfer。过程中我一直非常担心演出被取消，因为整个美国东北部都在下大雪，🎵和我大学的官方活动都取消了。到达目的地以后发现等的人排成了一条长队，就感觉安心太多了，并且也很开心这么多人愿意提早一个小时过来等。观察了一下，观众群体以中年白人为主。再来一些白人青少年，除了一位我在Instagram上关注的日本阿姨和我们3个以外，基本都是清一色的白人。我们接着就用护照过了安检，买了酒。我们尝试了绿洲最爱的Guinness，挺好喝的。然后就跑到前面去等着了，心情简直就是飘飘欲仙的激动。说实在的，我已经在所有可能的社交平台上表达过我的激动了，但还是忍不住想要再表达一次。</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figs/pic_2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Union Transfer平面图"><img src="https://yyraven.github.io/quarto-blog/personal/240120_review_ride/figs/pic_2.jpg" class="img-fluid figure-img" alt="Union Transfer平面图"></a></p>
+<figcaption>Union Transfer平面图</figcaption>
+</figure>
+</div>
+</div></div><p>隔壁乐队（The Charlatans）的部分我迅速带过，他们的主唱巨会营业，就，当你还在为“我不是单纯来朝圣的，有5%的我是想演出结束后发Instagram”这样的心情而感到愧疚时，Tim Burgess已经在演出中间掏出手机号召大家挥手蹦迪，然后把手机倒过来拍自己了，网感未免有点太好。</p>
+<p>然后就是中场休息（此时酒瓶已空）。灯光是绿色的，我们站在第三排左侧的位置等着巡演工作人员把东西摆好调好。我和朋友开玩笑说，待会儿可能就没有这么多营业了，因为Mark和Andy都有吉他在手上，腾不出手来指挥蹦迪。最先搬上来的是写着RIDE的底鼓（kick drum）。然后是三个效果器板，Steve在左侧，中间是Mark的，右边是Andy的。虽然完全不懂单块，依然有一种强烈的瘙痒的冲动让我踮着脚努力想看清楚板上到底有什么。伟大的建筑一般的电路系统啊。Mark有一个红色的块，上面的两行光点不停的来回闪动。吉他也搬出来了，两把Rickenbacker，一把樱桃红的，一把红色的；两把Gretsch，一把红的<span class="blur">(其实是Trini Lopez)</span>，一把原木色的。</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figs/pic_1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="宝具！"><img src="https://yyraven.github.io/quarto-blog/personal/240120_review_ride/figs/pic_1.jpg" class="img-fluid figure-img" alt="宝具！"></a></p>
+<figcaption>宝具！</figcaption>
+</figure>
+</div>
+</div></div><p>音响里切到了The Narcissist。我忽然觉得这是我在TBOD发行半年后第一次真正的与这首歌共情。<q>My heart is quickened, I could not tear myself away.</q> 与朋友们微醺的站在台下等着喜爱的乐队上台的感觉如此之好。人生能有几次这样的经历呀？之前一直吐槽这首歌是Damon年近60终于把抑郁症治好了，现在只觉得幸福。可能是疫情的原因吧，大家都会愈发珍惜身边珍贵的联系。<q>I’m gonna shine a light in your eyes. You probably gonna shine it back to me, but I won’t fall this time.</q></p>
+<p>接着，灯光渐暗，音乐变成低沉而逐渐加快的鼓点。后台的灯光亮起来，嘈杂的声响落了下来，最后变成一阵阵的欢呼和尖叫。乐队成员上台了，我一边狂跳一边举着一个Love from China的牌牌，然后Mark问大家好吗？准备好了吗？那就开始吧。</p>
+<p>Seagull，狂风暴雨一般的嘶鸣声；Kaleidoscope，脑浆跟着吉他一起旋转；In a different place, 灯光似乎和音乐一起升腾；Polar bear, “如果云会唱歌，那就这就是它的声音…” Dreams burn down之前，Mark逗观众一定要报出歌名才演，我发出尖锐的爆鸣声。Loz的鼓太帅了，每一首歌都很完美。做实验的时候听听音乐。在冬季在海边闲逛看海时听的音乐，现在就在离我如此之近的舞台上，以这样暴力这样直接这样美丽的方式爆炸，震碎我的鼓膜，直达灵魂。Vapour trail的时候我没有录像，而是开始百分百的投入合唱。基本聋了，所以听到Andy的声音是完全变形了的，但还是很开心。清新的旋律和单纯美丽的歌词，像第一次点开Nowhere的那一刻一般，就像常识意义上初恋的感觉。Tim给Here and Now合了口琴，从未觉得口琴能如此的有一种近乎暴力的美感。然后是Nowhere, Lannoy Point, Monaco和新歌peace sign。前排的姐姐们应该是铁粉，在副歌的时候特别给面子的应援。收尾曲是Leave Them All Behind。那段采样出来的时候我真的要哭了，Mark喝了一口他那蜂蜜威士忌，Andy看着笑一笑，Steve和铺垫着前奏。然后两把Gretsch一起加进来。天呐，我离得那么近，近的可以看到每一个和弦变换和每一个推弦，所有的声音以一种迷幻又充满力量的方式在脑后一块酸涩的区域混合起来。<q>I don’t care about the colors, I don’t care about the light, I don’t care about the truth.</q> 然后是吉他独奏。主旋律的变奏加上哇音踏板，音符跟着鼓点迸发出来，如此明亮，仿佛鸟儿沐浴着晨光从混沌的黑暗中挣扎而出。最后是一浪高过一浪的音墙，——刹车失效的公路旅行和不会有终点的逃亡……</p>
+<p>接着魔法师停下了魔咒，Andy说，谢谢，希望我们很能很快再见。 Loz给大家拍了照，我们在上面。</p>
+<p>再接着就是长长的，似乎永远不会结束的后劲。乘着这份飘飘欲坠的心情，我花了35刀买了丑丑的巡演T恤，在Union Transfer “sold out”的告示牌前面拍了照，在回🎵家的出租车上跟着广播哼Starman，最后变成合唱；第二天幸福而无所顾忌的倒在费城美术馆前洁白的松软的积雪上。</p>
+<p>回到巴尔的摩后，真的感觉有变得更加热爱生活。我对🎵说，想把这一刻的幸福全部榨出来，风干储存，这样每次想回忆的时候就能掏出来看看，就有又有力量可以再继续生活了。我真的可以如此贪心吗？但至少到星期三的现在，我坐在实验室的椅子上写这篇日记时，那种不可思议的快乐的心情依然存在。<q>Maybe it’s really, really, really can happen!</q></p>
+
+
+
+<center>
+© 2024-2025 RavensNest.
+</center> ]]></description>
+  <category>music</category>
+  <category>review</category>
+  <category>中文</category>
+  <guid>https://yyraven.github.io/quarto-blog/personal/240120_review_ride/</guid>
+  <pubDate>Sat, 20 Jan 2024 05:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
