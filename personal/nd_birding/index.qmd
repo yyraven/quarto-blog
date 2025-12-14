@@ -2,14 +2,13 @@
 title: "All About Birding"
 date: "2025-01-08"
 categories: [birding, travel, EN]
+toc: true
 output:
   html_document:
     code_folding: hide
 ---
 
-::: column-page
-![Shorebirds at Blackwater Natural Wildlife Reservoir, Cambridge MD, Mar '25](headline.jpg){group="banners"}
-:::
+![Shorebirds at Blackwater Natural Wildlife Reservoir, Cambridge MD, Mar '25](headline.jpg)
 
 # Introduction
 
@@ -347,9 +346,9 @@ fillOpacity = 1, radius = 5) %>%
 # End Notes
 
 ::: column-margin
-![My High School - The Place Where It All Begins](footbanner.jpg){group="banners"}
-:::
-
 ![](yelu.jpeg)
+
+![My High School - The Place Where It All Begins](footbanner.jpg)
+:::
 
 Thanks my friend who introduced me to the world of birding. I will always remember watching night heron with you sitting next to Bixia Pond back in 2019 in the afternoon before taking a Biology exam.

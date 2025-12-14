@@ -32,3 +32,5 @@ format:
           <div class="mylikebutton">Kudos ♥</div> <script src="../../scripts/mylikebutton.js"></script>
 
 lightbox: true
+
+sidebar: personal

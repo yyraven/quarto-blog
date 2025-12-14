@@ -12,6 +12,10 @@ website:
   site-path: "/"
   body-footer: |
     <center>© 2024-2025 RavensNest.</center>
+  page-navigation: true
+  bread-crumbs: false
+  search:
+    location: navbar
   navbar:
     left:
     - text: Work
@@ -25,11 +29,41 @@ website:
       href: about.qmd
     - text: RSS
       href: index.xml
-    - icon: github
-      href: https://github.com/yyraven
+
+  sidebar:
+    - id: personal
+      style: "floating"
+      border: false
+      background: none
+      foreground: "#635d5d"
+      collapse-level: -1
+      contents:
+        - text: "All About Birding"
+          href: personal/nd_birding/index.qmd
+        - section: "Review"
+          contents:
+            - personal/nd_personal_library/index.qmd
+            - auto: "personal/*review*/*.qmd"
+        - section: "Radio"
+          contents:
+            - auto: "personal/*radio*/*.qmd"
+        - section: "Diary"
+          contents:
+            - auto: "personal/*diary*/*.qmd"
+    - id: work
+      contents: work
+      style: "floating"
+      border: false
+      background: none
+      foreground: "#635d5d"
+      collapse-level: 0
 
 format:
   html:
+    grid:
+      sidebar-width: 150px
+      margin-width: 250px
+      body-width: 1000px
     theme:
         - morph
         - custom.scss

@@ -5,6 +5,7 @@ format:
   html:
     page-layout: article
 navbar: false
+sidebar: false
 listing:
   id: latest
   contents: 
@@ -35,11 +36,12 @@ listing:
 
 </center>
 
-------------------------------------------------------------------------
+#### + latest +
+
+::: {#latest}
+:::
 
 ::: column-margin
-
-------------------------------------------------------------------------
 
 #### + links +
 
@@ -55,35 +57,23 @@ listing:
 
 [Archive](archive.qmd){.button}
 
-[GitHub](https://github.com/yyraven) \| [Email](mailto:cosmicraven0530@gmail.com) \| [RSS](index.xml)
+[Email](mailto:cosmicraven0530@gmail.com) \| [RSS](index.xml)
 
-------------------------------------------------------------------------
+---
+<center>
+
+![](figs/2512.jpg) First winter in midwest :-\>
+
+</center>
 :::
 
 #### + status +
 
 \+ I've been constantly updating my birding blog... [**Check it out!**](personal/nd_birding/index.qmd)
 
-\+ 251211 Now you can play mouse chasing with the little black cat.
-
-::: grid
-::: g-col-4
-![](figs/2512.jpg) First winter in midwest :-\>
-:::
-
-::: g-col-6
-##### + now reading/playing +
+\+ Now you can play mouse chasing with the little black cat.
 
 📖 *Not in My Neighborhood* by *Antero Pietila*
-
-🎧 *Did you know there's a tunnel under Ocean Blvd* by *Lana Del Rey*
-:::
-:::
-
-#### + latest +
-
-::: {#latest}
-:::
 
 ------------------------------------------------------------------------
 
