@@ -234,3 +234,12 @@ details p {
 .blur:hover {
   filter: blur(0);
 }
+
+.listing-actions-group,
+.input-group,
+.form-select, {
+  font-family: 'Noto Serif', 'Noto Serif SC', serif;
+  background: none !important;
+  box-shadow: none !important;
+  font-size: 1rem;
+}
