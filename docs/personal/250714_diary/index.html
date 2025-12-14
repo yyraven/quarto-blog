@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="">
-<meta name="dcterms.date" content="2024-12-19">
+<meta name="dcterms.date" content="2025-07-14">
 
-<title>Weather-Respiratory Disease Correlation Explorer – Raven’s Nest</title>
+<title>日记 | 我做小姨，真的假的 – Raven’s Nest</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -42,9 +42,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Weather-Respiratory Disease Correlation Explorer – Raven’s Nest">
+<meta property="og:title" content="日记 | 我做小姨，真的假的 – Raven’s Nest">
 <meta property="og:description" content="Raven’s Nest, a personal blog">
-<meta property="og:image" content="https://yyraven.github.io/quarto-blog/work/241219_RESPweather_dashboard/figs/preview.png">
+<meta property="og:image" content="https://yyraven.github.io/quarto-blog/personal/250714_diary/figs/preview.png">
 <meta property="og:site_name" content="Raven's Nest">
 </head>
 
@@ -135,16 +132,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#project" id="toc-project" class="nav-link active" data-scroll-target="#project">Project</a></li>
-  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features">Features</a></li>
-  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -152,15 +141,10 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Weather-Respiratory Disease Correlation Explorer</h1>
+<h1 class="title">日记 | 我做小姨，真的假的</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">data analysis</div>
-    <div class="quarto-category">respiratory virus</div>
-    <div class="quarto-category">dashboard</div>
-    <div class="quarto-category">R</div>
-    <div class="quarto-category">R Shiny</div>
-    <div class="quarto-category">biology</div>
-    <div class="quarto-category">EN</div>
+    <div class="quarto-category">diary</div>
+    <div class="quarto-category">中文</div>
   </div>
   </div>
 
@@ -172,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 19, 2024</p>
+      <p class="date">July 14, 2025</p>
     </div>
   </div>
   
@@ -184,45 +168,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project" class="level1">
-<h1>Project</h1>
-<p>This <a href="https://yunyiru.shinyapps.io/RESPweather_dashboard/"><strong>Weather-Respiratory Diseases Correlation Explorer</strong></a> R Shiny Dashboard aims to investigate the relationship between climate and weather-related conditions and outbreaks of two respiratory viruses, <strong>influenza</strong> and <strong>respiratory syncytial virus (RSV)</strong>.</p>
-<p><a href="photo/shiny1.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="photo/shiny1.PNG" class="img-fluid"></a></p>
-<p>Influenza is an RNA virus from the <em>Orthomyxoviridae</em> family that frequently mutates, causing seasonal epidemics, while RSV is an RNA virus from the <em>Paramyxoviridae</em> family that primarily affects young children and the elderly, often leading to severe lower respiratory infections. Both viruses pose significant public health challenges due to their widespread transmission and potential for severe disease.</p>
-<p>Climate and weather conditions can influence the activity and spread of both viruses. Studies have suggested that factors like <strong>cold temperatures</strong>, <strong>low indoor humidity</strong>, <strong>limited sunlight</strong>, and <strong>rapid weather changes</strong> may increase the risk of disease outbreaks.</p>
-</section>
-<section id="features" class="level1">
-<h1>Features</h1>
-<ul>
-<li><strong>Weekly Rates</strong>: This dashboard uses <a href="https://data.cdc.gov/Public-Health-Surveillance/Rates-of-Laboratory-Confirmed-RSV-COVID-19-and-Flu/kvib-3txy/about_data">CDC RESP-NET data</a> to give an overview of influenza and rsv hospitalization rates of each state from 2018 to 2024. The user can select year, state, and pathogen of interest using the interactive filters.</li>
-</ul>
-<p><a href="photo/shiny2.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="photo/shiny2.PNG" class="img-fluid"></a></p>
-<ul>
-<li><strong>Weather Explorer</strong>: This dashboard integrates <a href="https://open-meteo.com/">environmental parameter data</a> from openmeteo API and respiratory virus-associated hospitalization rate data to perform regression analysis. The user can select year, state, weather variable and pathogen of interest using the interactive filters.</li>
-</ul>
-<p><a href="photo/shiny3.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="photo/shiny3.PNG" class="img-fluid"></a></p>
-</section>
-<section id="data" class="level1">
-<h1>Data</h1>
-<ul>
-<li><p><strong>Respiratory Virus Related Hospitalization Rate</strong>: Disease rate data were scrapped from <a href="https://data.cdc.gov/Public-Health-Surveillance/Rates-of-Laboratory-Confirmed-RSV-COVID-19-and-Flu/kvib-3txy/about_data">CDC RESP-NET</a>.</p></li>
-<li><p><strong>Environmental Parameters</strong>: Weather data were scrapped from <a href="https://open-meteo.com/">Openmeteo API</a>.</p></li>
-</ul>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Please go to the <a href="https://github.com/jhu-statprogramming-fall-2024/project4-team-mmi">source repository</a> for more details.</p>
-</div>
-</div>
-</div>
-<hr>
-<p><em>This is a class project of Johns Hopkins University <a href="https://www.stephaniehicks.com/jhustatprogramming2024/">Biostatistics 140.777 Statistical Programming Paradigms</a> course</em>.</p>
+<p>我有了一个快四岁的侄女。虽然实际上是三年前就有了，但两年前见到她的时候她还是一小坨不会说话也不会互动的小东西，现在已经变成了会唱歌跳舞的非常非常可爱的小姑娘，时光飞逝啊！我是喜欢小孩的人，看着她我真的从心底希望她不要被世界上的任何东西伤害到，希望她快快乐乐长大，并且希望我能见证这一切。</p>
+<p>让我每天照顾她都行，虽然感觉这么小的小孩还是容易一碰就坏，等她大点上小学了我真的愿意让她暑假来我办公室玩。希望到时候不要失业！</p>
+<p>小小孩的照顾者真的好辛苦。小孩有无数个只有自己懂的世界观需要照顾者去理解去哄，但她真的好可爱，我愿意为她记住那六种不同的小猫的名字……虽然这个数量增加到五六十事情就变得不好玩了</p>
+<p>跟同龄人在一起觉得这两年就像没有存在过一样，但和这种小孩在一起就真的觉得自己是上一辈的人了。想到她上大学的时候自己已经快四十了，就觉得好可怕！即使还是比较适应被喊姐姐但在她面前也真的只能被喊小姨了。我是小姨。</p>
 
 
-</section>
 
 <center>
 © 2024-2025 RavensNest.
@@ -651,38 +602,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 </div> <!-- /content -->
 <div class="mylikebutton">Kudos ♥</div> <script src="../../scripts/mylikebutton.js"></script>
-<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 
