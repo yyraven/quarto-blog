@@ -1,0 +1,262 @@
+/*-- scss:defaults --*/
+/* Color Palette */
+$body-bg: #feecfa;
+$body-color: #000;
+$link-color: #000;
+$link-hover-color: #000;
+$code-color: #000;
+$code-bg: #f3e2f0;
+$code-block-bg: $code-bg;
+$h2-font-size: 1.6rem;
+$headings-font-weight: 700;
+
+/* Spacing and Borders */
+$padding: 1.2rem;
+$margin: 1rem;
+$border-radius: 0;
+$border: none;
+$divider-color: $link-color;
+$shadow-color: rgba($body-bg, 0.8);
+
+/*-- scss:mixins --*/
+/* Mixin for sharp corners */
+@mixin sharp-corners {
+  border-radius: 0;
+}
+
+@font-face {
+  font-family: 'pixel';
+  src: url('figs/zpix.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pixel_mono';
+  src: url('figs/Unifontexmono-lxY45.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*-- scss:rules --*/
+/* Base Styles */
+body {
+  background-color: $body-bg;
+  color: $body-color;
+  font-family: 'pixel', monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: $padding;
+}
+
+/* Links */
+a {
+  color: $link-color;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration-style: wavy;
+  }
+}
+
+/* Code */
+code {
+  background-color: $code-bg;
+  color: $code-color;
+  padding: 0.2rem 0.4rem;
+  @include sharp-corners();
+  font-family: 'pixel_mono', 'pixel', monospace;
+  font-size: 1rem;
+}
+
+pre {
+  background-color: $code-block-bg;
+  color: $code-color;
+  padding: $padding;
+  @include sharp-corners();
+  overflow-x: auto;
+  font-family: 'pixel_mono', 'pixel', monospace;
+  font-size: 1rem;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'pixel', monospace;
+  color: $link-color;
+  margin: $margin 0;
+}
+
+/* Buttons */
+.button {
+  background-color: $link-color;
+  color: $body-bg;
+  border: 1px solid $link-color;
+  padding: 0.1rem 0.1rem;
+  @include sharp-corners();
+  font-family: 'pixel_mono', 'pixel', monospace;
+  font-size: 1rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+  background-image: none;
+  box-shadow: none;
+
+  &:hover {
+    color: $body-bg;
+    background-color: $link-hover-color;
+    border-color: $link-hover-color;
+  }
+}
+
+/* Blockquotes */
+blockquote {
+  background-color: $code-block-bg;
+  border-left: 4px solid $link-color;
+  padding: 1rem;
+  color: $body-color;
+  margin: $margin 0;
+  @include sharp-corners();
+  font-style: italic;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  padding-left: 2rem;
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Divider Line */
+hr {
+  border: none;
+  height: auto;
+  text-align: center;
+  margin: 2rem 0;
+  opacity: 1;
+
+  &::before {
+    content: "⇢⇢+~+~+⇠⇠";
+    color: $divider-color;
+    font-family:   'pixel', monospace;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+  }
+}
+
+/* Section */
+.section {
+  padding: 2rem;
+  margin: 2rem 0;
+  background-color: #ffffff;
+  @include sharp-corners();
+  border: 2px solid $divider-color;
+}
+
+/* Navbar */
+.navbar {
+  background: $body-bg;
+  color: $link-color;
+  border-bottom: none;
+  font-family: 'pixel', monospace;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  padding: 0.2rem 1rem;
+  font-size: 0.8rem;
+  line-height: 1;
+}
+
+.sidebar {
+  color: $body-color;
+}
+
+.sidebar a.active {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.sidebar ul ul {
+  padding-left: 0.6rem;
+}
+
+/*disable responsive sidebar on mobile*/
+@media (max-width: 992px) {
+  .quarto-btn-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .flex-grow-1 {
+    pointer-events: none;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+.bird-swap {
+  content: url("figs/crow_s.png");
+  transition: 0.3s ease;
+}
+
+.bird-swap:hover {
+  content: url("figs/crow_s_flip.png");
+}
+
+
+details p {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  color: $link-color;
+  font-size: 0.8rem;
+}
+
+.photo-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 0.5rem 0;
+}
+
+.blur {
+  filter: blur(3px);
+  transition: filter 0.3s ease;
+}
+
+.blur:hover {
+  filter: blur(0);
+}
+
+.listing-actions-group,
+.input-group,
+.form-select, {
+  font-family: 'pixel', monospace;
+  background: none !important;
+  box-shadow: none !important;
+  font-size: 1rem;
+}
+
+.callout,
+.quarto-listing-table,
+.quarto-post,
+.quarto-header,
+.zindex-over-content,
+.quarto-appendix, {
+  border: none !important;
+}
+
+html {
+  scrollbar-color: $body-color $body-bg;
+  scrollbar-width: thin; // optional
+  border-radius: 0;
+}

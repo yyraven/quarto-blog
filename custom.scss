@@ -32,7 +32,7 @@ $shadow-color: rgba($body-bg, 0.8);
 body {
   background-color: $body-bg;
   color: $body-color;
-  font-family: 'Noto Serif', 'Noto Serif SC', serif;
+  font-family: 'NISC', 'Noto Serif', 'Noto Serif SC', serif;
   font-size: 0.9rem;
   line-height: 1.5;
   margin: 0;
@@ -182,13 +182,13 @@ hr {
 }
 
 /*disable responsive sidebar on mobile*/
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .quarto-btn-toggle {
     display: none;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .flex-grow-1 {
     pointer-events: none;
   }
@@ -242,4 +242,20 @@ details p {
   background: none !important;
   box-shadow: none !important;
   font-size: 1rem;
+}
+
+html {
+  scrollbar-color: $link-color $body-bg;
+  scrollbar-gutter: none!important;
+  scrollbar-width: thin; // optional
+  border-radius: 0;
+}
+
+.callout,
+.quarto-listing-table,
+.quarto-post,
+.quarto-header,
+.zindex-over-content,
+.quarto-appendix, {
+  border: none !important;
 }
