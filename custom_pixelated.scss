@@ -2,10 +2,10 @@
 /* Color Palette */
 $body-bg: #feecfa;
 $body-color: #000;
-$link-color: #000;
-$link-hover-color: #000;
-$code-color: #000;
-$code-bg: #f3e2f0;
+$link-color: rgb(233,120,233);
+$link-hover-color: #00FFFF;
+$code-color: #0000FF;
+$code-bg: rgb(235,210,239);
 $code-block-bg: $code-bg;
 $h2-font-size: 1.6rem;
 $headings-font-weight: 700;
@@ -15,7 +15,7 @@ $padding: 1.2rem;
 $margin: 1rem;
 $border-radius: 0;
 $border: none;
-$divider-color: $link-color;
+$divider-color: $body-color;
 $shadow-color: rgba($body-bg, 0.8);
 
 /*-- scss:mixins --*/
@@ -41,6 +41,8 @@ $shadow-color: rgba($body-bg, 0.8);
 /*-- scss:rules --*/
 /* Base Styles */
 body {
+  background-image: url("figs/bg_ngo.png");
+  background-repeat: repeat;
   background-color: $body-bg;
   color: $body-color;
   font-family: 'pixel', monospace;
@@ -89,24 +91,25 @@ h1, h2, h3, h4, h5, h6 {
   margin: $margin 0;
 }
 
+h1 .pulse {
+  font-size: 3.5rem;
+  color: $body-bg;
+  -webkit-text-stroke: 1px $body-color;
+}
+
 /* Buttons */
 .button {
-  background-color: $link-color;
-  color: $body-bg;
-  border: 1px solid $link-color;
+  background-color: none;
+  color: $link-color;
   padding: 0.1rem 0.1rem;
   @include sharp-corners();
-  font-family: 'pixel_mono', 'pixel', monospace;
   font-size: 1rem;
   cursor: pointer;
   letter-spacing: 1px;
-  background-image: none;
-  box-shadow: none;
 
   &:hover {
     color: $body-bg;
     background-color: $link-hover-color;
-    border-color: $link-hover-color;
   }
 }
 
@@ -159,7 +162,7 @@ hr {
 
 /* Navbar */
 .navbar {
-  background: $body-bg;
+  background: none !important;
   color: $link-color;
   border-bottom: none;
   font-family: 'pixel', monospace;
@@ -229,8 +232,7 @@ details p {
 }
 
 .blur {
-  filter: blur(3px);
-  transition: filter 0.3s ease;
+  filter: blur(2px);
 }
 
 .blur:hover {
@@ -251,8 +253,10 @@ details p {
 .quarto-post,
 .quarto-header,
 .zindex-over-content,
-.quarto-appendix, {
+.quarto-appendix,
+.cell-output-display, {
   border: none !important;
+  background: none !important;
 }
 
 html {

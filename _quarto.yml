@@ -66,6 +66,6 @@ format:
       body-width: 1000px
     theme:
         - morph
-        - custom.scss
+        - custom_pixelated.scss
 
 callout-appearance: simple
