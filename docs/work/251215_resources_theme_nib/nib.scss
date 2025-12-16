@@ -1,0 +1,186 @@
+/* This scss file is based on the bootstrap theme 'morph' */
+/* author: yyraven https://github.com/yyraven */
+
+/*-- scss:defaults --*/
+/* Color Palette */
+$body-bg: #f4f4f4;
+$body-color: #222222;
+$link-color: #635d5d;
+$link-hover-color: #9f3838;
+$code-color: #222222;
+$code-bg: #e7e7e7;
+$code-block-bg: $code-bg;
+
+/* Spacing and Borders */
+$padding: 1.2rem;
+$margin: 1rem;
+$border-radius: 0;
+$divider-color: $link-color;
+* {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=VT323&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*-- scss:rules --*/
+/* Base Styles */
+body {
+  background-color: $body-bg;
+  color: $body-color;
+  font-family: 'Noto Serif', 'Noto Serif SC', serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: $padding;
+}
+
+/* Links */
+a {
+  color: $link-color;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration-style: wavy;
+  }
+}
+
+/* Code */
+code {
+  background-color: $code-bg;
+  color: $code-color;
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Special Elite', 'Noto Serif SC', cursive;
+  color: $link-color;
+  margin: $margin 0;
+}
+
+/* Buttons */
+.button {
+  background-color: $link-color;
+  color: $body-bg;
+  border: 1px solid $link-color;
+  padding: 0.1rem 0.1rem;
+  font-family: 'Special Elite', 'Noto Serif SC', cursive;
+  font-size: 1rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+  background-image: none;
+
+  &:hover {
+    color: $body-bg;
+    background-color: $link-hover-color;
+    border-color: $link-hover-color;
+  }
+}
+
+/* Blockquotes */
+blockquote {
+  background-color: $code-block-bg;
+  border-left: 4px solid $link-color;
+  padding: 1rem;
+  font-style: italic;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  padding-left: 2rem;
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Divider */
+hr {
+  border: none;
+  text-align: center;
+  margin: 2rem 0;
+  opacity: 1;
+
+  &::before {
+    content: "⇢⇢+~+~+⇠⇠";
+    font-family: 'Special Elite', 'Noto Serif SC', cursive;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+  }
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, $body-bg, rgba(255,255,255,0.1));
+  border-bottom: 2px solid;
+  font-family: 'Special Elite', 'Noto Serif SC', cursive;
+  text-transform: lowercase;
+  transition: all 0.3s ease;
+  padding: 0.2rem 1rem;
+}
+
+/* Sidebar */
+.sidebar a:hover {
+  transform: translateX(2px);
+}
+
+.sidebar a.active {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.sidebar ul ul {
+  padding-left: 0.6rem;
+  opacity: 0.85;
+}
+
+/* disable responsive sidebar on mobile */
+@media (max-width: 992px) {
+  .quarto-btn-toggle {
+    display: none;
+  }
+  .flex-grow-1 {
+    pointer-events: none;
+  }
+}
+
+/* Details */
+details p {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  color: $link-color;
+  font-size: 0.8rem;
+}
+
+/* Scrollbar */
+html {
+  scrollbar-color: $link-color $code-bg;
+  scrollbar-gutter: none!important;
+  scrollbar-width: thin; // optional
+  border-radius: 0;
+}
+
+/* Drop borders */
+.callout,
+.quarto-listing-table,
+.quarto-post,
+.quarto-header,
+.zindex-over-content,
+.quarto-appendix, {
+  border: none !important;
+}
+
+.listing-actions-group,
+.input-group,
+.form-select, {
+  font-family: 'Noto Serif', 'Noto Serif SC', serif;
+  background: none !important;
+  font-size: 1rem;
+}

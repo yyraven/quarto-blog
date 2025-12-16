@@ -1,0 +1,28 @@
+---
+title: "InternetOD — Pixelated CSS Theme for Quarto"
+date: "2025-12-15"
+categories: [web development, css, scss, blogging, resources, EN]
+image: kangelprofile.jpeg
+---
+
+This post introduces the 'InternetOD' theme used on this blog inspired by the video game 'Needy Girl Overdose'.
+
+It is a customization based on the Bootstrap 'Morph' theme, providing a cute, pixelated, retro, and Jirai Kei-feeling interface.
+
+![](internetod.jpg)
+
+[InternetOD.zip](internetod.zip)
+
+To use this theme in Quarto, download and decompress the zip file above, put it in your blog folder, and add the following configuration to `_quarto.yml`:
+
+```yaml
+format:
+  html:
+    theme:
+        - morph
+        - internetod.scss
+```
+
+![](kangelprofile.jpeg)
+![](yyan.gif)
+

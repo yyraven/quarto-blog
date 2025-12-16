@@ -3,14 +3,14 @@ title: "Work"
 listing:
   contents: work/**/*.qmd
   sort: "date desc"
-  type: default
+  type: grid
   image-height: 150px
   date-format: short
   categories: true
   sort-ui: true
   filter-ui: true
   fields: [date, image, title, categories, description, reading-time]
-  feed: true
+  max-description-length: 50
   exclude:
     categories: "draft*"
 page-layout: full

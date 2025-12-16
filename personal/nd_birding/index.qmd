@@ -51,7 +51,7 @@ Now I have spotted `r nrow(bird_list)` birds.
 *Click on the map to see pictures of birds! Urban sites marked in pink while rural sites marked in green.*
 
 ```{r map, echo = FALSE}
-#| column: page
+#| column: main
 
 library(leaflet)
 library(htmltools)
@@ -331,15 +331,15 @@ fillOpacity = 1, radius = 5) %>%
 
 -   **General Recourses**
 
-[eBird](https://ebird.org/home){.button} [Cornell Lab of Ornithology/Merlin Bird ID](https://merlin.allaboutbirds.org/){.button} [BirdWeb](https://birdweb.org/birdweb/){.button} [Audubon Society](https://www.audubon.org/){.button} [Sibagu The Ornithological Linguist](http://www.sibagu.com/index.html){.button} [International Crane Foundation](https://www.savingcranes.org/){.button}
+[eBird](https://ebird.org/home) |  [Cornell Lab of Ornithology/Merlin Bird ID](https://merlin.allaboutbirds.org/) |  [BirdWeb](https://birdweb.org/birdweb/) |  [Audubon Society](https://www.audubon.org/) |  [Sibagu The Ornithological Linguist](http://www.sibagu.com/index.html) |  [International Crane Foundation](https://www.savingcranes.org/) 
 
 -   **Local**: Greater Lafayette Area/Indiana
 
-[Indiana Audubon Society](https://indianaaudubon.org/){.button} [Indiana Birding Trail](https://indianabirdingtrail.com/){.button} [Purdue Bird Club](https://www.instagram.com/birdclubpu/){.button} [Purdue University Forestry](https://www.purdue.edu/fnr/extension/){.button}
+[Indiana Audubon Society](https://indianaaudubon.org/) |  [Indiana Birding Trail](https://indianabirdingtrail.com/) |  [Purdue Bird Club](https://www.instagram.com/birdclubpu/) |  [Purdue University Forestry](https://www.purdue.edu/fnr/extension/)
 
 -   **Local**: Baltimore/Maryland
 
-[Maryland Ornithological Society](https://mdbirds.org/){.button} [Birder's Guide to Maryland & DC](https://birdersguidemddc.org/){.button} [Howard County Bird Club](https://howardbirds.website/){.button} [Audubon Maryland-DC](https://md.audubon.org/){.button}
+[Maryland Ornithological Society](https://mdbirds.org/) |  [Birder's Guide to Maryland & DC](https://birdersguidemddc.org/) |  [Howard County Bird Club](https://howardbirds.website/) |  [Audubon Maryland-DC](https://md.audubon.org/)
 
 ------------------------------------------------------------------------
 

@@ -17,7 +17,144 @@
 <width>144</width>
 </image>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Fri, 12 Dec 2025 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 15 Dec 2025 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>InternetOD — Pixelated CSS Theme for Quarto</title>
+  <link>https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/</link>
+  <description><![CDATA[ 
+<div class="mylikebutton">♥</div>
+
+
+
+
+<p>This post introduces the ‘InternetOD’ theme used on this blog inspired by the video game ‘Needy Girl Overdose’.</p>
+<p>It is a customization based on the Bootstrap ‘Morph’ theme, providing a cute, pixelated, retro, and Jirai Kei-feeling interface.</p>
+<p><a href="internetod.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/internetod.jpg" class="img-fluid"></a></p>
+<p><a href="internetod.zip">InternetOD.zip</a></p>
+<p>To use this theme in Quarto, download and decompress the zip file above, put it in your blog folder, and add the following configuration to <code>_quarto.yml</code>:</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">format</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb1-2"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">html</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb1-3"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb1-4"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> morph</span></span>
+<span id="cb1-5"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> internetod.scss</span></span></code></pre></div>
+<p><img src="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/kangelprofile.jpeg" class="img-fluid"> <img src="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/yyan.gif" class="img-fluid"></p>
+
+
+
+<center>
+© 2024-2025 RavensNest.
+</center> ]]></description>
+  <category>web development</category>
+  <category>css</category>
+  <category>scss</category>
+  <category>blogging</category>
+  <category>resources</category>
+  <category>EN</category>
+  <guid>https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/</guid>
+  <pubDate>Mon, 15 Dec 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/kangelprofile.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Nib — Elegant CSS Theme for Quarto</title>
+  <link>https://yyraven.github.io/quarto-blog/work/251215_resources_theme_nib/</link>
+  <description><![CDATA[ 
+<div class="mylikebutton">♥</div>
+
+
+
+
+<p>This post introduces the ‘Nib’ theme used on this blog.</p>
+<p>It is a customization based on the Bootstrap ‘Morph’ theme, aiming for a minimal, elegant, and book-like reading experience.</p>
+<p><a href="nib.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_nib/nib.jpg" class="img-fluid"></a></p>
+<p><a href="nib.scss">SCSS file</a></p>
+<p>To use this theme in Quarto, download the file above and add the following configuration to <code>_quarto.yml</code>:</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">format</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb1-2"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">html</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb1-3"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb1-4"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> morph</span></span>
+<span id="cb1-5"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> nib.scss</span></span></code></pre></div>
+
+
+
+<center>
+© 2024-2025 RavensNest.
+</center> ]]></description>
+  <category>web development</category>
+  <category>css</category>
+  <category>scss</category>
+  <category>blogging</category>
+  <category>resources</category>
+  <category>EN</category>
+  <guid>https://yyraven.github.io/quarto-blog/work/251215_resources_theme_nib/</guid>
+  <pubDate>Mon, 15 Dec 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_nib/nib.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>置顶 | 工业风豆瓣</title>
   <link>https://yyraven.github.io/quarto-blog/personal/nd_personal_library/</link>
@@ -2073,9 +2210,9 @@
 <h2 class="anchored" data-anchor-id="map">Birding Around the World: Interactive Map</h2>
 <p><em>Click on the map to see pictures of birds! Urban sites marked in pink while rural sites marked in green.</em></p>
 <div class="cell page-columns page-full">
-<div class="cell-output-display column-page">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-05f5062fd5fabf12dbcf" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-05f5062fd5fabf12dbcf">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[38.44166,39.32439,36.00323,47.66241,45.88458,30.09336,27.12898,35.01526,34.0333,40.45827,40.42716,40.02938,31.36978],[-76.11781999999999,-77.7255,-78.93374,-122.43432,-123.96861,-90.43263,100.24284,135.67181,-118.6742,-86.93805999999999,-86.93183999999999,116.38406,120.57274],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"green","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/bald_eagle_2504.JPG\" width=\"90\"> <img src=\"birdspics/wilson_s_snipe_2501.JPG\" width=\"90\"><\/br> <br>L: Bald Eagle; R: Wilson's Snipe<\/br>","<br><img src=\"birdspics/turkey_vulture_2403.JPG\" width=\"90\"> <img src=\"birdspics/great_blue_heron_2403.JPG\" width=\"90\"><\/br><br>L: Turkey Vulture; R: Great Blue Heron<\/br>","<br><img src=\"birdspics/northern_cardinal_2203.jpg\" width=\"90\"> <img src=\"birdspics/red_tailed_hawk_2201.jpg\" width=\"90\"><\/br> <br>L: Northern Cardinal; R: Red-tailed Hawk<\/br>","<br><img src=\"birdspics/caspian_tern_2407.JPG\" width=\"90\"> <img src=\"birdspics/glaucous_winged_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Caspian Tern; R: Glaucous-winged Gull<\/br>","<br><img src=\"birdspics/common_murre_2407.JPG\" width=\"90\"> <img src=\"birdspics/california_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Common Murre; R: California Gull<\/br>","<br><img src=\"birdspics/great_egret_2203.JPG\" width=\"90\"><\/br> <br>Great Egret<\/br>","<br><img src=\"birdspics/red_billed_blue_magpie_2303.JPG\" width=\"90\"> <img src=\"birdspics/white_wagtail_2303.JPG\" width=\"90\"><\/br> <br>L: Red-billed Blue-Magpie; R: White Wagtail<\/br>","<br><img src=\"birdspics/gray_heron_1907.jpg\" width=\"90\"> <img src=\"birdspics/great_cormorant_1907.jpg\" width=\"90\"><\/br> <br>L: Gray Heron; R: Great Cormorant<\/br>","<br><img src=\"birdspics/brown_pelican_2506.jpg\" width=\"90\"> <img src=\"birdspics/gadwall_2506.jpg\" width=\"90\"><\/br> <br>L: Brown Pelican; R: Gadwall<\/br>","<br><img src=\"birdspics/american_white_pelican_2504.JPeG\" width=\"90\"><img src=\"birdspics/greater_yellowlegs_2510.JPG\" width=\"90\"><\/br> <br>L: American White Pelican; R: Greater Yellowlegs<\/br>","<br><img src=\"birdspics/northern_flicker_2510.JPG\" width=\"90\"><img src=\"birdspics/chipping_sparrow_2510.JPG\" width=\"90\"><\/br> <br>L: Northern Flicker; R: Chipping Sparrow<\/br>","<br><img src=\"birdspics/oriental_reed_warbler_2507.JPG\" width=\"90\"><img src=\"birdspics/common_kingfisher_2507.JPG\" width=\"90\"><\/br> <br>L: Oriental Reed Warbler; R: Common Kingfisher<\/br>","<br><img src=\"birdspics/pheasant_tailed_jacana_2507.JPG\" width=\"90\"><img src=\"birdspics/eurasian_moorhen_2507.JPG\" width=\"90\"><\/br> <br>L: Pheasant-tailed Jacana; R: Eurasian Moorhen<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[39.27909,40.69019,29.66037,31.39642,31.30295,39.98998,30.74135,40.11208,39.95549,36.058381,37.52121,39.92546,35.04778,33.94711],[-76.59966,-74.04423,91.11783,120.90624,120.6159,116.26826,104.14193,113.1376,-75.18196,120.32057,121.45454,116.38925,118.37511,-83.37813],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"pink","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/ring_billed_gull_2503.JPG\" width=\"90\"> <img src=\"birdspics/double_crested_cormorant_2310.JPG\" width=\"90\"><\/br> <br>L: Ring-billed Gull; R: Double-crested Cormorant<\/br> ","<br><img src=\"birdspics/american_herring_gull_2401.JPG\" width=\"90\"> <img src=\"birdspics/brant_2401.JPG\" width=\"90\"><\/br> <br>L: American Herring Gull; R: Brant<\/br>","<br><img src=\"birdspics/ruddy_shelduck_1912.jpg\" width=\"90\"> <img src=\"birdspics/bar_headed_goose_1912.jpg\" width=\"90\"><\/br> <br>L: Ruddy Shelduck; R: Bar-headed Goose<\/br>","<br><img src=\"birdspics/long_tailed_shrike_2302.jpg\" width=\"90\"><\/br> <br>Long-tailed Shrike<\/br>","<br><img src=\"birdspics/spotted_dove_2011.jpeg\" width=\"90\"> <img src=\"birdspics/eurasian_tree_sparrow_1911.jpg\" width=\"90\"><\/br> <br>L: Spotted Dove; R: Eurasian Tree Sparrow<\/br>","<br><img src=\"birdspics/mandarin_duck_juv_2306.JPG\" width=\"90\"><\/br> <br>Mandarin Duck<\/br>","<br><img src=\"birdspics/white_browed_laughingthrush_2007.JPG\" width=\"90\"><\/br> <br>White-browed Laughingthrush<\/br>","<br><img src=\"birdspics/eurasian_crag_martin_2306.jpg\" width=\"90\"><\/br> <br>Eurasian Crag-Martin<\/br>","<br><img src=\"birdspics/gray_catbird_2406.JPG\" width=\"90\"> <img src=\"birdspics/red_winged_blackbird_2504.JPG\" width=\"90\"><\/br> <br>L: Gray Catbird; R: Red-winged Blackbird<\/br>","<br><img src=\"birdspics/black_tailed_gull_2507.JPG\" width=\"90\"><\/br> <br>Black Tailed Gull<\/br>","<br><img src=\"birdspics/grey_capped_greenfinch_2507.JPG\" width=\"90\"><img src=\"birdspics/light_vented_bulbul_2507.JPG\" width=\"90\"><\/br> <br>L: Grey-capped Greenfinch; R: Light-vented Bulbul<\/br>","<br><img src=\"birdspics/azure_winged_magpie_2507.JPG\" width=\"90\"><img src=\"birdspics/carrion_crow_2507.JPG\" width=\"90\"><\/br> <br>L: Azure-winged Magpie; R: Carrion Crow<\/br>","<br><img src=\"birdspics/whiskered_tern_2507.JPG\" width=\"90\"><img src=\"birdspics/black_crowned_night_heron_2507.JPG\" width=\"90\"><\/br> <br>L: Whiskered Tern; R: Black-crowned Night Heron<\/br>","<br><img src=\"birdspics/brown_thrasher_2505.JPeG\" width=\"90\"><\/br> <br> Brown Thrasher<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addControl","args":["<style>\n  .leaflet-popup-content-wrapper {\n    background: rgba(255, 255, 255, 0.5);\n    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);\n    border-radius: 10px;\n    text-align: center;\n    padding: 3px;\n  }\n  .leaflet-popup-tip {\n    background: rgba(255, 255, 255, 0.7);\n  }\n  .leaflet-popup-content {\n    font-family: 'Comic Sans MS', cursive, sans-serif;\n    line-height: 1.1;\n    white-space: pre-wrap;\n  }\n<\/style>","topleft",null,"info legend"]},{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[27.12898,47.66241],"lng":[-123.96861,135.67181]}},"evals":[],"jsHooks":[]}</script>
+<div class="cell-output-display column-main">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-4c14aa3a3d118a01206d" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-4c14aa3a3d118a01206d">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[38.44166,39.32439,36.00323,47.66241,45.88458,30.09336,27.12898,35.01526,34.0333,40.45827,40.42716,40.02938,31.36978],[-76.11781999999999,-77.7255,-78.93374,-122.43432,-123.96861,-90.43263,100.24284,135.67181,-118.6742,-86.93805999999999,-86.93183999999999,116.38406,120.57274],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"green","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/bald_eagle_2504.JPG\" width=\"90\"> <img src=\"birdspics/wilson_s_snipe_2501.JPG\" width=\"90\"><\/br> <br>L: Bald Eagle; R: Wilson's Snipe<\/br>","<br><img src=\"birdspics/turkey_vulture_2403.JPG\" width=\"90\"> <img src=\"birdspics/great_blue_heron_2403.JPG\" width=\"90\"><\/br><br>L: Turkey Vulture; R: Great Blue Heron<\/br>","<br><img src=\"birdspics/northern_cardinal_2203.jpg\" width=\"90\"> <img src=\"birdspics/red_tailed_hawk_2201.jpg\" width=\"90\"><\/br> <br>L: Northern Cardinal; R: Red-tailed Hawk<\/br>","<br><img src=\"birdspics/caspian_tern_2407.JPG\" width=\"90\"> <img src=\"birdspics/glaucous_winged_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Caspian Tern; R: Glaucous-winged Gull<\/br>","<br><img src=\"birdspics/common_murre_2407.JPG\" width=\"90\"> <img src=\"birdspics/california_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Common Murre; R: California Gull<\/br>","<br><img src=\"birdspics/great_egret_2203.JPG\" width=\"90\"><\/br> <br>Great Egret<\/br>","<br><img src=\"birdspics/red_billed_blue_magpie_2303.JPG\" width=\"90\"> <img src=\"birdspics/white_wagtail_2303.JPG\" width=\"90\"><\/br> <br>L: Red-billed Blue-Magpie; R: White Wagtail<\/br>","<br><img src=\"birdspics/gray_heron_1907.jpg\" width=\"90\"> <img src=\"birdspics/great_cormorant_1907.jpg\" width=\"90\"><\/br> <br>L: Gray Heron; R: Great Cormorant<\/br>","<br><img src=\"birdspics/brown_pelican_2506.jpg\" width=\"90\"> <img src=\"birdspics/gadwall_2506.jpg\" width=\"90\"><\/br> <br>L: Brown Pelican; R: Gadwall<\/br>","<br><img src=\"birdspics/american_white_pelican_2504.JPeG\" width=\"90\"><img src=\"birdspics/greater_yellowlegs_2510.JPG\" width=\"90\"><\/br> <br>L: American White Pelican; R: Greater Yellowlegs<\/br>","<br><img src=\"birdspics/northern_flicker_2510.JPG\" width=\"90\"><img src=\"birdspics/chipping_sparrow_2510.JPG\" width=\"90\"><\/br> <br>L: Northern Flicker; R: Chipping Sparrow<\/br>","<br><img src=\"birdspics/oriental_reed_warbler_2507.JPG\" width=\"90\"><img src=\"birdspics/common_kingfisher_2507.JPG\" width=\"90\"><\/br> <br>L: Oriental Reed Warbler; R: Common Kingfisher<\/br>","<br><img src=\"birdspics/pheasant_tailed_jacana_2507.JPG\" width=\"90\"><img src=\"birdspics/eurasian_moorhen_2507.JPG\" width=\"90\"><\/br> <br>L: Pheasant-tailed Jacana; R: Eurasian Moorhen<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[39.27909,40.69019,29.66037,31.39642,31.30295,39.98998,30.74135,40.11208,39.95549,36.058381,37.52121,39.92546,35.04778,33.94711],[-76.59966,-74.04423,91.11783,120.90624,120.6159,116.26826,104.14193,113.1376,-75.18196,120.32057,121.45454,116.38925,118.37511,-83.37813],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"pink","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/ring_billed_gull_2503.JPG\" width=\"90\"> <img src=\"birdspics/double_crested_cormorant_2310.JPG\" width=\"90\"><\/br> <br>L: Ring-billed Gull; R: Double-crested Cormorant<\/br> ","<br><img src=\"birdspics/american_herring_gull_2401.JPG\" width=\"90\"> <img src=\"birdspics/brant_2401.JPG\" width=\"90\"><\/br> <br>L: American Herring Gull; R: Brant<\/br>","<br><img src=\"birdspics/ruddy_shelduck_1912.jpg\" width=\"90\"> <img src=\"birdspics/bar_headed_goose_1912.jpg\" width=\"90\"><\/br> <br>L: Ruddy Shelduck; R: Bar-headed Goose<\/br>","<br><img src=\"birdspics/long_tailed_shrike_2302.jpg\" width=\"90\"><\/br> <br>Long-tailed Shrike<\/br>","<br><img src=\"birdspics/spotted_dove_2011.jpeg\" width=\"90\"> <img src=\"birdspics/eurasian_tree_sparrow_1911.jpg\" width=\"90\"><\/br> <br>L: Spotted Dove; R: Eurasian Tree Sparrow<\/br>","<br><img src=\"birdspics/mandarin_duck_juv_2306.JPG\" width=\"90\"><\/br> <br>Mandarin Duck<\/br>","<br><img src=\"birdspics/white_browed_laughingthrush_2007.JPG\" width=\"90\"><\/br> <br>White-browed Laughingthrush<\/br>","<br><img src=\"birdspics/eurasian_crag_martin_2306.jpg\" width=\"90\"><\/br> <br>Eurasian Crag-Martin<\/br>","<br><img src=\"birdspics/gray_catbird_2406.JPG\" width=\"90\"> <img src=\"birdspics/red_winged_blackbird_2504.JPG\" width=\"90\"><\/br> <br>L: Gray Catbird; R: Red-winged Blackbird<\/br>","<br><img src=\"birdspics/black_tailed_gull_2507.JPG\" width=\"90\"><\/br> <br>Black Tailed Gull<\/br>","<br><img src=\"birdspics/grey_capped_greenfinch_2507.JPG\" width=\"90\"><img src=\"birdspics/light_vented_bulbul_2507.JPG\" width=\"90\"><\/br> <br>L: Grey-capped Greenfinch; R: Light-vented Bulbul<\/br>","<br><img src=\"birdspics/azure_winged_magpie_2507.JPG\" width=\"90\"><img src=\"birdspics/carrion_crow_2507.JPG\" width=\"90\"><\/br> <br>L: Azure-winged Magpie; R: Carrion Crow<\/br>","<br><img src=\"birdspics/whiskered_tern_2507.JPG\" width=\"90\"><img src=\"birdspics/black_crowned_night_heron_2507.JPG\" width=\"90\"><\/br> <br>L: Whiskered Tern; R: Black-crowned Night Heron<\/br>","<br><img src=\"birdspics/brown_thrasher_2505.JPeG\" width=\"90\"><\/br> <br> Brown Thrasher<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addControl","args":["<style>\n  .leaflet-popup-content-wrapper {\n    background: rgba(255, 255, 255, 0.5);\n    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);\n    border-radius: 10px;\n    text-align: center;\n    padding: 3px;\n  }\n  .leaflet-popup-tip {\n    background: rgba(255, 255, 255, 0.7);\n  }\n  .leaflet-popup-content {\n    font-family: 'Comic Sans MS', cursive, sans-serif;\n    line-height: 1.1;\n    white-space: pre-wrap;\n  }\n<\/style>","topleft",null,"info legend"]},{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[27.12898,47.66241],"lng":[-123.96861,135.67181]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <hr>
@@ -2410,15 +2547,15 @@
 <ul>
 <li><strong>General Recourses</strong></li>
 </ul>
-<p><a href="https://ebird.org/home" class="button">eBird</a> <a href="https://merlin.allaboutbirds.org/" class="button">Cornell Lab of Ornithology/Merlin Bird ID</a> <a href="https://birdweb.org/birdweb/" class="button">BirdWeb</a> <a href="https://www.audubon.org/" class="button">Audubon Society</a> <a href="http://www.sibagu.com/index.html" class="button">Sibagu The Ornithological Linguist</a> <a href="https://www.savingcranes.org/" class="button">International Crane Foundation</a></p>
+<p><a href="https://ebird.org/home">eBird</a> | <a href="https://merlin.allaboutbirds.org/">Cornell Lab of Ornithology/Merlin Bird ID</a> | <a href="https://birdweb.org/birdweb/">BirdWeb</a> | <a href="https://www.audubon.org/">Audubon Society</a> | <a href="http://www.sibagu.com/index.html">Sibagu The Ornithological Linguist</a> | <a href="https://www.savingcranes.org/">International Crane Foundation</a></p>
 <ul>
 <li><strong>Local</strong>: Greater Lafayette Area/Indiana</li>
 </ul>
-<p><a href="https://indianaaudubon.org/" class="button">Indiana Audubon Society</a> <a href="https://indianabirdingtrail.com/" class="button">Indiana Birding Trail</a> <a href="https://www.instagram.com/birdclubpu/" class="button">Purdue Bird Club</a> <a href="https://www.purdue.edu/fnr/extension/" class="button">Purdue University Forestry</a></p>
+<p><a href="https://indianaaudubon.org/">Indiana Audubon Society</a> | <a href="https://indianabirdingtrail.com/">Indiana Birding Trail</a> | <a href="https://www.instagram.com/birdclubpu/">Purdue Bird Club</a> | <a href="https://www.purdue.edu/fnr/extension/">Purdue University Forestry</a></p>
 <ul>
 <li><strong>Local</strong>: Baltimore/Maryland</li>
 </ul>
-<p><a href="https://mdbirds.org/" class="button">Maryland Ornithological Society</a> <a href="https://birdersguidemddc.org/" class="button">Birder’s Guide to Maryland &amp; DC</a> <a href="https://howardbirds.website/" class="button">Howard County Bird Club</a> <a href="https://md.audubon.org/" class="button">Audubon Maryland-DC</a></p>
+<p><a href="https://mdbirds.org/">Maryland Ornithological Society</a> | <a href="https://birdersguidemddc.org/">Birder’s Guide to Maryland &amp; DC</a> | <a href="https://howardbirds.website/">Howard County Bird Club</a> | <a href="https://md.audubon.org/">Audubon Maryland-DC</a></p>
 <hr>
 </section>
 <section id="end-notes" class="level1 page-columns page-full">
@@ -2448,7 +2585,7 @@
 </item>
 <item>
   <title>Weather-Respiratory Disease Correlation Explorer</title>
-  <link>https://yyraven.github.io/quarto-blog/work/241219_RESPweather_dashboard/</link>
+  <link>https://yyraven.github.io/quarto-blog/work/241219_project_RESPweather_dashboard/</link>
   <description><![CDATA[ 
 <div class="mylikebutton">♥</div>
 
@@ -2458,7 +2595,7 @@
 <section id="project" class="level1">
 <h1>Project</h1>
 <p>This <a href="https://yunyiru.shinyapps.io/RESPweather_dashboard/"><strong>Weather-Respiratory Diseases Correlation Explorer</strong></a> R Shiny Dashboard aims to investigate the relationship between climate and weather-related conditions and outbreaks of two respiratory viruses, <strong>influenza</strong> and <strong>respiratory syncytial virus (RSV)</strong>.</p>
-<p><a href="photo/shiny1.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://yyraven.github.io/quarto-blog/work/241219_RESPweather_dashboard/photo/shiny1.PNG" class="img-fluid"></a></p>
+<p><a href="photo/shiny1.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://yyraven.github.io/quarto-blog/work/241219_project_RESPweather_dashboard/photo/shiny1.PNG" class="img-fluid"></a></p>
 <p>Influenza is an RNA virus from the <em>Orthomyxoviridae</em> family that frequently mutates, causing seasonal epidemics, while RSV is an RNA virus from the <em>Paramyxoviridae</em> family that primarily affects young children and the elderly, often leading to severe lower respiratory infections. Both viruses pose significant public health challenges due to their widespread transmission and potential for severe disease.</p>
 <p>Climate and weather conditions can influence the activity and spread of both viruses. Studies have suggested that factors like <strong>cold temperatures</strong>, <strong>low indoor humidity</strong>, <strong>limited sunlight</strong>, and <strong>rapid weather changes</strong> may increase the risk of disease outbreaks.</p>
 </section>
@@ -2467,11 +2604,11 @@
 <ul>
 <li><strong>Weekly Rates</strong>: This dashboard uses <a href="https://data.cdc.gov/Public-Health-Surveillance/Rates-of-Laboratory-Confirmed-RSV-COVID-19-and-Flu/kvib-3txy/about_data">CDC RESP-NET data</a> to give an overview of influenza and rsv hospitalization rates of each state from 2018 to 2024. The user can select year, state, and pathogen of interest using the interactive filters.</li>
 </ul>
-<p><a href="photo/shiny2.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://yyraven.github.io/quarto-blog/work/241219_RESPweather_dashboard/photo/shiny2.PNG" class="img-fluid"></a></p>
+<p><a href="photo/shiny2.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://yyraven.github.io/quarto-blog/work/241219_project_RESPweather_dashboard/photo/shiny2.PNG" class="img-fluid"></a></p>
 <ul>
 <li><strong>Weather Explorer</strong>: This dashboard integrates <a href="https://open-meteo.com/">environmental parameter data</a> from openmeteo API and respiratory virus-associated hospitalization rate data to perform regression analysis. The user can select year, state, weather variable and pathogen of interest using the interactive filters.</li>
 </ul>
-<p><a href="photo/shiny3.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://yyraven.github.io/quarto-blog/work/241219_RESPweather_dashboard/photo/shiny3.PNG" class="img-fluid"></a></p>
+<p><a href="photo/shiny3.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://yyraven.github.io/quarto-blog/work/241219_project_RESPweather_dashboard/photo/shiny3.PNG" class="img-fluid"></a></p>
 </section>
 <section id="data" class="level1">
 <h1>Data</h1>
@@ -2505,7 +2642,7 @@
   <category>R Shiny</category>
   <category>biology</category>
   <category>EN</category>
-  <guid>https://yyraven.github.io/quarto-blog/work/241219_RESPweather_dashboard/</guid>
+  <guid>https://yyraven.github.io/quarto-blog/work/241219_project_RESPweather_dashboard/</guid>
   <pubDate>Thu, 19 Dec 2024 05:00:00 GMT</pubDate>
 </item>
 <item>
@@ -2624,7 +2761,7 @@
 </item>
 <item>
   <title>Bookmarks for Biologists</title>
-  <link>https://yyraven.github.io/quarto-blog/work/241109_useful_bio_links/</link>
+  <link>https://yyraven.github.io/quarto-blog/work/241109_resources_useful_bio_links/</link>
   <description><![CDATA[ 
 <div class="mylikebutton">♥</div>
 
@@ -2767,12 +2904,13 @@
   <category>biology</category>
   <category>resources</category>
   <category>EN</category>
-  <guid>https://yyraven.github.io/quarto-blog/work/241109_useful_bio_links/</guid>
+  <guid>https://yyraven.github.io/quarto-blog/work/241109_resources_useful_bio_links/</guid>
   <pubDate>Sat, 09 Nov 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
   <title>Who Is The Saddest Shoegaze Band?</title>
-  <link>https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/</link>
+  <link>https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/</link>
   <description><![CDATA[ 
 <div class="mylikebutton">♥</div>
 
@@ -2788,7 +2926,7 @@
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="photo/Youmademerealise.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="My bloody valentine’s 1988 EP ‘You made me realise’ is a classic shoegaze record."><img src="https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/photo/Youmademerealise.png" class="img-fluid figure-img" alt="My bloody valentine’s 1988 EP ‘You made me realise’ is a classic shoegaze record."></a></p>
+<p><a href="photo/Youmademerealise.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="My bloody valentine’s 1988 EP ‘You made me realise’ is a classic shoegaze record."><img src="https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/photo/Youmademerealise.png" class="img-fluid figure-img" alt="My bloody valentine’s 1988 EP ‘You made me realise’ is a classic shoegaze record."></a></p>
 <figcaption>My bloody valentine’s 1988 EP ‘You made me realise’ is a classic shoegaze record.</figcaption>
 </figure>
 </div>
@@ -2811,7 +2949,7 @@
 <h2 class="anchored" data-anchor-id="data-acquisition-wrangling">Data Acquisition &amp; Wrangling</h2>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/photo/loveless.png" class="img-fluid"> <img src="https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/photo/nowhere.jpg" class="img-fluid"> <img src="https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/photo/souvlaki.jpeg" class="img-fluid"></p>
+<p><img src="https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/photo/loveless.png" class="img-fluid"> <img src="https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/photo/nowhere.jpg" class="img-fluid"> <img src="https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/photo/souvlaki.jpeg" class="img-fluid"></p>
 </div></div><section id="data-acquisition" class="level3">
 <h3 class="anchored" data-anchor-id="data-acquisition">Data Acquisition</h3>
 <p>Lyrics from all studio albums of the ‘big three’ bands in the shoegaze genre - <em>my bloody valentine (mbv)</em>, <em>Ride</em>, and <em>slowdive</em> - are retrieved from <a href="https://genius.com/">Genius.com</a> using a Python package named <a href="https://www.johnwmillr.com/scraping-genius-lyrics/">lyricsgenius</a> <span class="citation" data-cites="miller_johnwmillrlyricsgenius_2024">(Miller 2024)</span> based on Genius API. Please see the author’s instructions for details.</p>
@@ -3460,7 +3598,7 @@ font-style: inherit;">'Word size based on frequency. Only the top 30 results are
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><a href="index_files/figure-html/q1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/index_files/figure-html/q1-1.png" class="img-fluid figure-img" width="672"></a></p>
+<p><a href="index_files/figure-html/q1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/index_files/figure-html/q1-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
 </div>
 </div>
@@ -3546,7 +3684,7 @@ font-style: inherit;">1</span>))</span></code></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><a href="index_files/figure-html/q2-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/index_files/figure-html/q2-1.png" class="img-fluid figure-img" width="672"></a></p>
+<p><a href="index_files/figure-html/q2-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/index_files/figure-html/q2-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
 </div>
 </div>
@@ -3947,7 +4085,7 @@ font-style: inherit;">greatest hits'</span></span>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><a href="index_files/figure-html/q3.2-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/index_files/figure-html/q3.2-1.png" class="img-fluid figure-img" width="672"></a></p>
+<p><a href="index_files/figure-html/q3.2-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/index_files/figure-html/q3.2-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
 </div>
 </div>
@@ -4194,7 +4332,7 @@ font-style: inherit;">'Time'</span></span>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><a href="index_files/figure-html/q4-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/index_files/figure-html/q4-1.png" class="img-fluid figure-img" width="672"></a></p>
+<p><a href="index_files/figure-html/q4-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/index_files/figure-html/q4-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
 </div>
 </div>
@@ -4684,7 +4822,7 @@ font-style: inherit;">'Album'</span></span>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><a href="index_files/figure-html/ride who writes what-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/index_files/figure-html/ride who writes what-1.png" class="img-fluid figure-img" width="672"></a></p>
+<p><a href="index_files/figure-html/ride who writes what-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/index_files/figure-html/ride who writes what-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
 </div>
 </div>
@@ -4891,7 +5029,7 @@ font-style: inherit;">'Count'</span></span>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><a href="index_files/figure-html/ride most frequent words-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/index_files/figure-html/ride most frequent words-1.png" class="img-fluid figure-img" width="672"></a></p>
+<p><a href="index_files/figure-html/ride most frequent words-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/index_files/figure-html/ride most frequent words-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
 </div>
 </div>
@@ -5072,7 +5210,7 @@ font-style: inherit;">'Album'</span></span>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><a href="index_files/figure-html/ride the word for each album-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/index_files/figure-html/ride the word for each album-1.png" class="img-fluid figure-img" width="672"></a></p>
+<p><a href="index_files/figure-html/ride the word for each album-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/index_files/figure-html/ride the word for each album-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
 </div>
 </div>
@@ -5309,7 +5447,7 @@ font-style: inherit;">'Lyricist'</span></span>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><a href="index_files/figure-html/ride who is more depressed-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/index_files/figure-html/ride who is more depressed-1.png" class="img-fluid figure-img" width="672"></a></p>
+<p><a href="index_files/figure-html/ride who is more depressed-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/index_files/figure-html/ride who is more depressed-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
 </div>
 </div>
@@ -5509,7 +5647,7 @@ font-style: inherit;">'Album'</span></span>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><a href="index_files/figure-html/ride who is getting more depressed-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/index_files/figure-html/ride who is getting more depressed-1.png" class="img-fluid figure-img" width="672"></a></p>
+<p><a href="index_files/figure-html/ride who is getting more depressed-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/index_files/figure-html/ride who is getting more depressed-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
 </div>
 </div>
@@ -5543,7 +5681,7 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
   <category>music</category>
   <category>R</category>
   <category>EN</category>
-  <guid>https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/</guid>
+  <guid>https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/</guid>
   <pubDate>Fri, 08 Nov 2024 05:00:00 GMT</pubDate>
 </item>
 <item>
@@ -5579,7 +5717,7 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 </item>
 <item>
   <title>First Blog Post! &amp; Blogging Resources</title>
-  <link>https://yyraven.github.io/quarto-blog/work/240913_first_post/</link>
+  <link>https://yyraven.github.io/quarto-blog/work/240913_resources_first_post/</link>
   <description><![CDATA[ 
 <div class="mylikebutton">♥</div>
 
@@ -5615,8 +5753,9 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
   <category>blogging</category>
   <category>resources</category>
   <category>EN</category>
-  <guid>https://yyraven.github.io/quarto-blog/work/240913_first_post/</guid>
+  <guid>https://yyraven.github.io/quarto-blog/work/240913_resources_first_post/</guid>
   <pubDate>Fri, 13 Sep 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
   <title>音乐电台｜2024 上半年的一周一曲</title>

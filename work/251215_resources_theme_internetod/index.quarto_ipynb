@@ -1,0 +1,53 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Customized CSS Theme: Focused\"\n",
+        "date: \"2025-12-15\"\n",
+        "categories: [web development, css, scss, blogging, resources, EN]\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "Here is to share the theme 'focused' used by this blog :->\n",
+        "\n",
+        "Based on the bootstrap theme ['morph'](https://bootswatch.com/morph/), this customized theme offers a simple and elegant reading experience for readers to 100% engage in the content itself.\n",
+        "\n",
+        "[CSS file](../../focused.scss)\n",
+        "\n",
+        "For use in Quarto, paste the following code to `_quarto.yml`.\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "```{yaml echo = FALSE}\n",
+        "format:\n",
+        "  html:\n",
+        "    grid:\n",
+        "      sidebar-width: 150px\n",
+        "      margin-width: 250px\n",
+        "      body-width: 1000px\n",
+        "    theme:\n",
+        "        - morph\n",
+        "        - focused.scss\n",
+        "\n",
+        "callout-appearance: simple\n",
+        "```"
+      ],
+      "id": "e03e2d3d"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

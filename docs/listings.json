@@ -20,15 +20,17 @@
   {
     "listing": "/index.html",
     "items": [
+      "/work/251215_resources_theme_internetod/index.html",
+      "/work/251215_resources_theme_nib/index.html",
       "/personal/nd_personal_library/index.html",
       "/personal/251211_radio/index.html",
       "/personal/nd_birding/index.html",
-      "/work/241219_RESPweather_dashboard/index.html",
+      "/work/241219_project_RESPweather_dashboard/index.html",
       "/personal/241214_radio/index.html",
-      "/work/241109_useful_bio_links/index.html",
-      "/work/241108_lyric_analysis/index.html",
+      "/work/241109_resources_useful_bio_links/index.html",
+      "/work/241108_project_lyric_analysis/index.html",
       "/personal/241029_review_oys/index.html",
-      "/work/240913_first_post/index.html",
+      "/work/240913_resources_first_post/index.html",
       "/personal/240618_radio/index.html",
       "/personal/240401_review_allwatched/index.html",
       "/personal/240120_review_ride/index.html"
@@ -37,26 +39,30 @@
   {
     "listing": "/work.html",
     "items": [
-      "/work/241219_RESPweather_dashboard/index.html",
-      "/work/241109_useful_bio_links/index.html",
-      "/work/241108_lyric_analysis/index.html",
-      "/work/240913_first_post/index.html"
+      "/work/251215_resources_theme_internetod/index.html",
+      "/work/251215_resources_theme_nib/index.html",
+      "/work/241219_project_RESPweather_dashboard/index.html",
+      "/work/241109_resources_useful_bio_links/index.html",
+      "/work/241108_project_lyric_analysis/index.html",
+      "/work/240913_resources_first_post/index.html"
     ]
   },
   {
     "listing": "/archive.html",
     "items": [
+      "/work/251215_resources_theme_internetod/index.html",
+      "/work/251215_resources_theme_nib/index.html",
       "/personal/nd_personal_library/index.html",
       "/personal/251211_radio/index.html",
       "/personal/250714_diary/index.html",
       "/personal/250320_diary/index.html",
       "/personal/nd_birding/index.html",
-      "/work/241219_RESPweather_dashboard/index.html",
+      "/work/241219_project_RESPweather_dashboard/index.html",
       "/personal/241214_radio/index.html",
-      "/work/241109_useful_bio_links/index.html",
-      "/work/241108_lyric_analysis/index.html",
+      "/work/241109_resources_useful_bio_links/index.html",
+      "/work/241108_project_lyric_analysis/index.html",
       "/personal/241029_review_oys/index.html",
-      "/work/240913_first_post/index.html",
+      "/work/240913_resources_first_post/index.html",
       "/personal/240618_radio/index.html",
       "/personal/240401_review_allwatched/index.html",
       "/personal/240120_review_ride/index.html",

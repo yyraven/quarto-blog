@@ -1,20 +1,23 @@
 ---
-title: "Gallery"
-from: markdown
-format: 
-  html:
-    page-layout: article
+title: ""
 lightbox: true
+toc: false
 ---
 
-------------------------------------------------------------------------
+<center>
+
+# Gallery
 
 ## Homepage Archive
 
-![Dec '25 First winter in midwest :-\>](figs/2512.jpg){group="home"}
+::: photo-row
+![Dec '25 First winter in midwest :-\>](figs/2512.jpg){.home}
+:::
 
 ------------------------------------------------------------------------
 
 Pete Townshend.![](figs/gifs_7.gif)
 
 ------------------------------------------------------------------------
+
+</center>

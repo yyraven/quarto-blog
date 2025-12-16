@@ -2,7 +2,6 @@
 title: ""
 toc: false
 ---
-
 <center>
 
 ### Me <img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/>
@@ -29,7 +28,7 @@ I enjoy digital painting, reading, [birdwatching](personal/nd_birding/index.qmd)
 
 This blog started as a class project to build a professional profile. Over time, I decided to make it more personal. Blogging offers a peaceful online experience without big company manipulation - no ads, no infinite scrolling, no censorship. So, what you'll see here would be a mix of life science-related and more fun/personal posts. You can filter them by tags.
 
-个人生活/兴趣内容主要用中文写作，因为不想失去用中文写长文章的能力。
+个人生活/兴趣内容主要用中文写作
 
 ------------------------------------------------------------------------
 

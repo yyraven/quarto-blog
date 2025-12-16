@@ -51,12 +51,18 @@ website:
           contents:
             - auto: "personal/*diary*/*.qmd"
     - id: work
-      contents: work
       style: "floating"
       border: false
       background: none
       foreground: "#635d5d"
-      collapse-level: 0
+      collapse-level: -1
+      contents:
+        - section: "Projects"
+          contents:
+            - auto: "work/*project*/*.qmd"
+        - section: "Resources"
+          contents:
+            - auto: "work/*resources*/*.qmd"
 
 format:
   html:
@@ -66,6 +72,6 @@ format:
       body-width: 1000px
     theme:
         - morph
-        - custom_pixelated.scss
+        - focused.scss
 
 callout-appearance: simple
