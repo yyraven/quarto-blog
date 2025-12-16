@@ -1,37 +1,46 @@
-/* This scss file is based on the bootstrap theme 'morph' */
-/* author: yyraven https://github.com/yyraven */
-
 /*-- scss:defaults --*/
 /* Color Palette */
-$body-bg: #f4f4f4;
-$body-color: #222222;
-$link-color: #635d5d;
-$link-hover-color: #9f3838;
-$code-color: #222222;
-$code-bg: #e7e7e7;
+$body-bg: #d3d3d3;
+$body-color: #000;
+$link-color: #38D5BE;
+$link-hover-color: #38D5BE;
+$code-color: #38D5BE;
+$code-bg: #A9A9A9;
 $code-block-bg: $code-bg;
+$h2-font-size: 1.6rem;
+$headings-font-weight: 700;
 
 /* Spacing and Borders */
 $padding: 1.2rem;
 $margin: 1rem;
 $border-radius: 0;
-$divider-color: $link-color;
+$border: none;
+$divider-color: $body-color;
 * {
   box-shadow: none !important;
   text-shadow: none !important;
 }
 
-/* Imported Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=VT323&display=swap');
+@font-face {
+  font-family: 'pixel';
+  src: url('figs/zpix.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: 'pixel_mono';
+  src: url('figs/Unifontexmono-lxY45.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
 
 /*-- scss:rules --*/
 /* Base Styles */
 body {
   background-color: $body-bg;
   color: $body-color;
-  font-family: 'Noto Serif', 'Noto Serif SC', serif;
+  font-family: 'pixel', monospace;
   font-size: 0.9rem;
   line-height: 1.5;
   margin: 0;
@@ -54,32 +63,40 @@ a {
 code {
   background-color: $code-bg;
   color: $code-color;
-  font-family: 'Noto Sans Mono', monospace;
+  padding: 0.2rem 0.4rem;
+  font-family: 'pixel_mono', 'pixel', monospace;
+  font-size: 1rem;
+}
+
+pre {
+  background-color: $code-block-bg;
+  color: $code-color;
+  padding: $padding;
+  overflow-x: auto;
+  font-family: 'pixel_mono', 'pixel', monospace;
+  font-size: 1rem;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Special Elite', 'Noto Serif SC', cursive;
+  font-family: 'pixel', monospace;
   color: $link-color;
   margin: $margin 0;
+  border-bottom: none !important;
+  text-decoration: none !important;
 }
 
 /* Buttons */
 .button {
-  background-color: $link-color;
-  color: $body-bg;
-  border: 1px solid $link-color;
+  background-color: transparent;
+  color: $link-color;
   padding: 0.1rem 0.1rem;
-  font-family: 'Special Elite', 'Noto Serif SC', cursive;
   font-size: 1rem;
-  cursor: pointer;
   letter-spacing: 1px;
-  background-image: none;
 
   &:hover {
     color: $body-bg;
     background-color: $link-hover-color;
-    border-color: $link-hover-color;
   }
 }
 
@@ -88,6 +105,8 @@ blockquote {
   background-color: $code-block-bg;
   border-left: 4px solid $link-color;
   padding: 1rem;
+  color: $body-color;
+  margin: $margin 0;
   font-style: italic;
 }
 
@@ -101,16 +120,16 @@ ul {
   }
 }
 
-/* Divider */
+/* Divider Line */
 hr {
-  border: none;
+  height: auto;
   text-align: center;
   margin: 2rem 0;
   opacity: 1;
 
   &::before {
     content: "⇢⇢+~+~+⇠⇠";
-    font-family: 'Special Elite', 'Noto Serif SC', cursive;
+    color: $divider-color;
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
   }
@@ -118,37 +137,27 @@ hr {
 
 /* Navbar */
 .navbar {
-  background: linear-gradient(90deg, $body-bg, rgba(255,255,255,0.1));
-  border-bottom: 2px solid;
-  font-family: 'Special Elite', 'Noto Serif SC', cursive;
+  background: none !important;
+  color: $link-color;
+  border-bottom: none;
+  font-family: 'pixel', monospace;
   text-transform: lowercase;
-  transition: all 0.3s ease;
+  letter-spacing: 1px;
   padding: 0.2rem 1rem;
+  font-size: 0.8rem;
+  line-height: 1;
 }
 
-/* Sidebar */
-.sidebar a:hover {
-  transform: translateX(2px);
+.sidebar {
+  color: $body-color;
 }
 
 .sidebar a.active {
   text-decoration: underline;
-  text-underline-offset: 3px;
 }
 
 .sidebar ul ul {
   padding-left: 0.6rem;
-  opacity: 0.85;
-}
-
-/* disable responsive sidebar on mobile */
-@media (max-width: 992px) {
-  .quarto-btn-toggle {
-    display: none;
-  }
-  .flex-grow-1 {
-    pointer-events: none;
-  }
 }
 
 /* Details */
@@ -159,34 +168,45 @@ details p {
   font-size: 0.8rem;
 }
 
+/* Disable responsive sidebar on mobile */
+@media (max-width: 992px) {
+  .quarto-btn-toggle {
+    display: none;
+  }
+  .flex-grow-1 {
+    pointer-events: none;
+  }
+}
+
 /* Scrollbar */
 html {
-  scrollbar-color: $link-color $code-bg;
-  scrollbar-gutter: none!important;
-  scrollbar-width: thin; // optional
+  scrollbar-color: $body-color $body-bg;
+  scrollbar-width: thin;
   border-radius: 0;
 }
 
-/* Drop borders */
+/* Drop Borders */
+.listing-actions-group,
+.input-group,
+.form-select, {
+  font-family: 'pixel', monospace;
+  background: none !important;
+  font-size: 1rem;
+}
+
 .callout,
 .quarto-listing-table,
 .quarto-post,
 .quarto-header,
 .zindex-over-content,
-.quarto-appendix, {
+.quarto-appendix,
+.cell-output-display, {
   border: none !important;
+  background: none !important;
 }
 
-.listing-actions-group,
-.input-group,
-.form-select, {
-  font-family: 'Noto Serif', 'Noto Serif SC', serif;
-  background: none !important;
-  font-size: 1rem;
-}
 
 /*-- scss:actions --*/
-/* bird swap */
 .bird-swap {
   content: url("figs/crow_s.png");
   transition: 0.3s ease;
@@ -196,7 +216,6 @@ html {
   content: url("figs/crow_s_flip.png");
 }
 
-/* photo row */
 .photo-row {
   display: flex;
   flex-direction: row;
@@ -207,19 +226,15 @@ html {
   padding: 0.5rem 0;
 }
 
-/* blur */
 .blur {
-  filter: blur(3px);
-  transition: filter 0.3s ease;
+  filter: blur(2px);
 }
 
 .blur:hover {
   filter: blur(0);
 }
 
-.wordcount {
-  padding-top: 0;
-  padding-bottom: 1;
-  font-size: 0.8rem;
-  color: $link-color;
+h1 .pulse {
+  color: $body-bg;
+  -webkit-text-stroke: 1px $body-color;
 }

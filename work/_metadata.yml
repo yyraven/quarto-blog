@@ -24,13 +24,13 @@ comments:
 
 format:
   html:
-    include-before-body:
-      - text: |
-          <div class="mylikebutton">♥</div>
     include-after-body:
       - text: |
-          <div class="mylikebutton">Kudos ♥</div> <script src="../../scripts/mylikebutton.js"></script>
+          <script src="../../scripts/mylikebutton.js"></script>
 
 lightbox: true
+
+filters:
+  - wordcount-blog
 
 sidebar: work

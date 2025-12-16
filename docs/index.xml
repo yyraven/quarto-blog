@@ -22,10 +22,14 @@
   <title>InternetOD — Pixelated CSS Theme for Quarto</title>
   <link>https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/</link>
   <description><![CDATA[ 
-<div class="mylikebutton">♥</div>
 
 
 
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎68 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
 
 <p>This post introduces the ‘InternetOD’ theme used on this blog inspired by the video game ‘Needy Girl Overdose’.</p>
 <p>It is a customization based on the Bootstrap ‘Morph’ theme, providing a cute, pixelated, retro, and Jirai Kei-feeling interface.</p>
@@ -73,6 +77,9 @@ font-style: inherit;"> internetod.scss</span></span></code></pre></div>
 <p><img src="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/kangelprofile.jpeg" class="img-fluid"> <img src="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/yyan.gif" class="img-fluid"></p>
 
 
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
 
 <center>
 © 2024-2025 RavensNest.
@@ -91,10 +98,14 @@ font-style: inherit;"> internetod.scss</span></span></code></pre></div>
   <title>Nib — Elegant CSS Theme for Quarto</title>
   <link>https://yyraven.github.io/quarto-blog/work/251215_resources_theme_nib/</link>
   <description><![CDATA[ 
-<div class="mylikebutton">♥</div>
 
 
 
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎54 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
 
 <p>This post introduces the ‘Nib’ theme used on this blog.</p>
 <p>It is a customization based on the Bootstrap ‘Morph’ theme, aiming for a minimal, elegant, and book-like reading experience.</p>
@@ -141,6 +152,9 @@ background-color: null;
 font-style: inherit;"> nib.scss</span></span></code></pre></div>
 
 
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
 
 <center>
 © 2024-2025 RavensNest.
@@ -159,10 +173,14 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
   <title>置顶 | 工业风豆瓣</title>
   <link>https://yyraven.github.io/quarto-blog/personal/nd_personal_library/</link>
   <description><![CDATA[ 
-<div class="mylikebutton">♥</div>
 
 
 
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎464 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
 
 <center>
 <p>书影音记录，对抗短视频时代的绝望努力</p>
@@ -920,6 +938,10 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
 <hr>
 
 
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
+
 </section>
 </section>
 
@@ -939,10 +961,14 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
   <title>音乐电台｜2025 音乐与我的四季</title>
   <link>https://yyraven.github.io/quarto-blog/personal/251211_radio/</link>
   <description><![CDATA[ 
-<div class="mylikebutton">♥</div>
 
 
 
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎1027 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
 
 <p><em>我感觉有必要把这个四季音乐推荐系列提前一个月，六月份已经是夏天了，而三月份肯定是春天。</em></p>
 <hr>
@@ -1076,6 +1102,10 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
 <hr>
 
 
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
+
 </section>
 </section>
 </section>
@@ -1093,10 +1123,14 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
   <title>All About Birding</title>
   <link>https://yyraven.github.io/quarto-blog/personal/nd_birding/</link>
   <description><![CDATA[ 
-<div class="mylikebutton">♥</div>
 
 
 
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎1122 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -2211,8 +2245,8 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
 <p><em>Click on the map to see pictures of birds! Urban sites marked in pink while rural sites marked in green.</em></p>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-main">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-4c14aa3a3d118a01206d" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-4c14aa3a3d118a01206d">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[38.44166,39.32439,36.00323,47.66241,45.88458,30.09336,27.12898,35.01526,34.0333,40.45827,40.42716,40.02938,31.36978],[-76.11781999999999,-77.7255,-78.93374,-122.43432,-123.96861,-90.43263,100.24284,135.67181,-118.6742,-86.93805999999999,-86.93183999999999,116.38406,120.57274],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"green","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/bald_eagle_2504.JPG\" width=\"90\"> <img src=\"birdspics/wilson_s_snipe_2501.JPG\" width=\"90\"><\/br> <br>L: Bald Eagle; R: Wilson's Snipe<\/br>","<br><img src=\"birdspics/turkey_vulture_2403.JPG\" width=\"90\"> <img src=\"birdspics/great_blue_heron_2403.JPG\" width=\"90\"><\/br><br>L: Turkey Vulture; R: Great Blue Heron<\/br>","<br><img src=\"birdspics/northern_cardinal_2203.jpg\" width=\"90\"> <img src=\"birdspics/red_tailed_hawk_2201.jpg\" width=\"90\"><\/br> <br>L: Northern Cardinal; R: Red-tailed Hawk<\/br>","<br><img src=\"birdspics/caspian_tern_2407.JPG\" width=\"90\"> <img src=\"birdspics/glaucous_winged_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Caspian Tern; R: Glaucous-winged Gull<\/br>","<br><img src=\"birdspics/common_murre_2407.JPG\" width=\"90\"> <img src=\"birdspics/california_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Common Murre; R: California Gull<\/br>","<br><img src=\"birdspics/great_egret_2203.JPG\" width=\"90\"><\/br> <br>Great Egret<\/br>","<br><img src=\"birdspics/red_billed_blue_magpie_2303.JPG\" width=\"90\"> <img src=\"birdspics/white_wagtail_2303.JPG\" width=\"90\"><\/br> <br>L: Red-billed Blue-Magpie; R: White Wagtail<\/br>","<br><img src=\"birdspics/gray_heron_1907.jpg\" width=\"90\"> <img src=\"birdspics/great_cormorant_1907.jpg\" width=\"90\"><\/br> <br>L: Gray Heron; R: Great Cormorant<\/br>","<br><img src=\"birdspics/brown_pelican_2506.jpg\" width=\"90\"> <img src=\"birdspics/gadwall_2506.jpg\" width=\"90\"><\/br> <br>L: Brown Pelican; R: Gadwall<\/br>","<br><img src=\"birdspics/american_white_pelican_2504.JPeG\" width=\"90\"><img src=\"birdspics/greater_yellowlegs_2510.JPG\" width=\"90\"><\/br> <br>L: American White Pelican; R: Greater Yellowlegs<\/br>","<br><img src=\"birdspics/northern_flicker_2510.JPG\" width=\"90\"><img src=\"birdspics/chipping_sparrow_2510.JPG\" width=\"90\"><\/br> <br>L: Northern Flicker; R: Chipping Sparrow<\/br>","<br><img src=\"birdspics/oriental_reed_warbler_2507.JPG\" width=\"90\"><img src=\"birdspics/common_kingfisher_2507.JPG\" width=\"90\"><\/br> <br>L: Oriental Reed Warbler; R: Common Kingfisher<\/br>","<br><img src=\"birdspics/pheasant_tailed_jacana_2507.JPG\" width=\"90\"><img src=\"birdspics/eurasian_moorhen_2507.JPG\" width=\"90\"><\/br> <br>L: Pheasant-tailed Jacana; R: Eurasian Moorhen<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[39.27909,40.69019,29.66037,31.39642,31.30295,39.98998,30.74135,40.11208,39.95549,36.058381,37.52121,39.92546,35.04778,33.94711],[-76.59966,-74.04423,91.11783,120.90624,120.6159,116.26826,104.14193,113.1376,-75.18196,120.32057,121.45454,116.38925,118.37511,-83.37813],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"pink","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/ring_billed_gull_2503.JPG\" width=\"90\"> <img src=\"birdspics/double_crested_cormorant_2310.JPG\" width=\"90\"><\/br> <br>L: Ring-billed Gull; R: Double-crested Cormorant<\/br> ","<br><img src=\"birdspics/american_herring_gull_2401.JPG\" width=\"90\"> <img src=\"birdspics/brant_2401.JPG\" width=\"90\"><\/br> <br>L: American Herring Gull; R: Brant<\/br>","<br><img src=\"birdspics/ruddy_shelduck_1912.jpg\" width=\"90\"> <img src=\"birdspics/bar_headed_goose_1912.jpg\" width=\"90\"><\/br> <br>L: Ruddy Shelduck; R: Bar-headed Goose<\/br>","<br><img src=\"birdspics/long_tailed_shrike_2302.jpg\" width=\"90\"><\/br> <br>Long-tailed Shrike<\/br>","<br><img src=\"birdspics/spotted_dove_2011.jpeg\" width=\"90\"> <img src=\"birdspics/eurasian_tree_sparrow_1911.jpg\" width=\"90\"><\/br> <br>L: Spotted Dove; R: Eurasian Tree Sparrow<\/br>","<br><img src=\"birdspics/mandarin_duck_juv_2306.JPG\" width=\"90\"><\/br> <br>Mandarin Duck<\/br>","<br><img src=\"birdspics/white_browed_laughingthrush_2007.JPG\" width=\"90\"><\/br> <br>White-browed Laughingthrush<\/br>","<br><img src=\"birdspics/eurasian_crag_martin_2306.jpg\" width=\"90\"><\/br> <br>Eurasian Crag-Martin<\/br>","<br><img src=\"birdspics/gray_catbird_2406.JPG\" width=\"90\"> <img src=\"birdspics/red_winged_blackbird_2504.JPG\" width=\"90\"><\/br> <br>L: Gray Catbird; R: Red-winged Blackbird<\/br>","<br><img src=\"birdspics/black_tailed_gull_2507.JPG\" width=\"90\"><\/br> <br>Black Tailed Gull<\/br>","<br><img src=\"birdspics/grey_capped_greenfinch_2507.JPG\" width=\"90\"><img src=\"birdspics/light_vented_bulbul_2507.JPG\" width=\"90\"><\/br> <br>L: Grey-capped Greenfinch; R: Light-vented Bulbul<\/br>","<br><img src=\"birdspics/azure_winged_magpie_2507.JPG\" width=\"90\"><img src=\"birdspics/carrion_crow_2507.JPG\" width=\"90\"><\/br> <br>L: Azure-winged Magpie; R: Carrion Crow<\/br>","<br><img src=\"birdspics/whiskered_tern_2507.JPG\" width=\"90\"><img src=\"birdspics/black_crowned_night_heron_2507.JPG\" width=\"90\"><\/br> <br>L: Whiskered Tern; R: Black-crowned Night Heron<\/br>","<br><img src=\"birdspics/brown_thrasher_2505.JPeG\" width=\"90\"><\/br> <br> Brown Thrasher<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addControl","args":["<style>\n  .leaflet-popup-content-wrapper {\n    background: rgba(255, 255, 255, 0.5);\n    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);\n    border-radius: 10px;\n    text-align: center;\n    padding: 3px;\n  }\n  .leaflet-popup-tip {\n    background: rgba(255, 255, 255, 0.7);\n  }\n  .leaflet-popup-content {\n    font-family: 'Comic Sans MS', cursive, sans-serif;\n    line-height: 1.1;\n    white-space: pre-wrap;\n  }\n<\/style>","topleft",null,"info legend"]},{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[27.12898,47.66241],"lng":[-123.96861,135.67181]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-89be54a7b501e72c43ed" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-89be54a7b501e72c43ed">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[38.44166,39.32439,36.00323,47.66241,45.88458,30.09336,27.12898,35.01526,34.0333,40.45827,40.42716,40.02938,31.36978],[-76.11781999999999,-77.7255,-78.93374,-122.43432,-123.96861,-90.43263,100.24284,135.67181,-118.6742,-86.93805999999999,-86.93183999999999,116.38406,120.57274],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"green","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/bald_eagle_2504.JPG\" width=\"90\"> <img src=\"birdspics/wilson_s_snipe_2501.JPG\" width=\"90\"><\/br> <br>L: Bald Eagle; R: Wilson's Snipe<\/br>","<br><img src=\"birdspics/turkey_vulture_2403.JPG\" width=\"90\"> <img src=\"birdspics/great_blue_heron_2403.JPG\" width=\"90\"><\/br><br>L: Turkey Vulture; R: Great Blue Heron<\/br>","<br><img src=\"birdspics/northern_cardinal_2203.jpg\" width=\"90\"> <img src=\"birdspics/red_tailed_hawk_2201.jpg\" width=\"90\"><\/br> <br>L: Northern Cardinal; R: Red-tailed Hawk<\/br>","<br><img src=\"birdspics/caspian_tern_2407.JPG\" width=\"90\"> <img src=\"birdspics/glaucous_winged_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Caspian Tern; R: Glaucous-winged Gull<\/br>","<br><img src=\"birdspics/common_murre_2407.JPG\" width=\"90\"> <img src=\"birdspics/california_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Common Murre; R: California Gull<\/br>","<br><img src=\"birdspics/great_egret_2203.JPG\" width=\"90\"><\/br> <br>Great Egret<\/br>","<br><img src=\"birdspics/red_billed_blue_magpie_2303.JPG\" width=\"90\"> <img src=\"birdspics/white_wagtail_2303.JPG\" width=\"90\"><\/br> <br>L: Red-billed Blue-Magpie; R: White Wagtail<\/br>","<br><img src=\"birdspics/gray_heron_1907.jpg\" width=\"90\"> <img src=\"birdspics/great_cormorant_1907.jpg\" width=\"90\"><\/br> <br>L: Gray Heron; R: Great Cormorant<\/br>","<br><img src=\"birdspics/brown_pelican_2506.jpg\" width=\"90\"> <img src=\"birdspics/gadwall_2506.jpg\" width=\"90\"><\/br> <br>L: Brown Pelican; R: Gadwall<\/br>","<br><img src=\"birdspics/american_white_pelican_2504.JPeG\" width=\"90\"><img src=\"birdspics/greater_yellowlegs_2510.JPG\" width=\"90\"><\/br> <br>L: American White Pelican; R: Greater Yellowlegs<\/br>","<br><img src=\"birdspics/northern_flicker_2510.JPG\" width=\"90\"><img src=\"birdspics/chipping_sparrow_2510.JPG\" width=\"90\"><\/br> <br>L: Northern Flicker; R: Chipping Sparrow<\/br>","<br><img src=\"birdspics/oriental_reed_warbler_2507.JPG\" width=\"90\"><img src=\"birdspics/common_kingfisher_2507.JPG\" width=\"90\"><\/br> <br>L: Oriental Reed Warbler; R: Common Kingfisher<\/br>","<br><img src=\"birdspics/pheasant_tailed_jacana_2507.JPG\" width=\"90\"><img src=\"birdspics/eurasian_moorhen_2507.JPG\" width=\"90\"><\/br> <br>L: Pheasant-tailed Jacana; R: Eurasian Moorhen<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[39.27909,40.69019,29.66037,31.39642,31.30295,39.98998,30.74135,40.11208,39.95549,36.058381,37.52121,39.92546,35.04778,33.94711],[-76.59966,-74.04423,91.11783,120.90624,120.6159,116.26826,104.14193,113.1376,-75.18196,120.32057,121.45454,116.38925,118.37511,-83.37813],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"pink","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/ring_billed_gull_2503.JPG\" width=\"90\"> <img src=\"birdspics/double_crested_cormorant_2310.JPG\" width=\"90\"><\/br> <br>L: Ring-billed Gull; R: Double-crested Cormorant<\/br> ","<br><img src=\"birdspics/american_herring_gull_2401.JPG\" width=\"90\"> <img src=\"birdspics/brant_2401.JPG\" width=\"90\"><\/br> <br>L: American Herring Gull; R: Brant<\/br>","<br><img src=\"birdspics/ruddy_shelduck_1912.jpg\" width=\"90\"> <img src=\"birdspics/bar_headed_goose_1912.jpg\" width=\"90\"><\/br> <br>L: Ruddy Shelduck; R: Bar-headed Goose<\/br>","<br><img src=\"birdspics/long_tailed_shrike_2302.jpg\" width=\"90\"><\/br> <br>Long-tailed Shrike<\/br>","<br><img src=\"birdspics/spotted_dove_2011.jpeg\" width=\"90\"> <img src=\"birdspics/eurasian_tree_sparrow_1911.jpg\" width=\"90\"><\/br> <br>L: Spotted Dove; R: Eurasian Tree Sparrow<\/br>","<br><img src=\"birdspics/mandarin_duck_juv_2306.JPG\" width=\"90\"><\/br> <br>Mandarin Duck<\/br>","<br><img src=\"birdspics/white_browed_laughingthrush_2007.JPG\" width=\"90\"><\/br> <br>White-browed Laughingthrush<\/br>","<br><img src=\"birdspics/eurasian_crag_martin_2306.jpg\" width=\"90\"><\/br> <br>Eurasian Crag-Martin<\/br>","<br><img src=\"birdspics/gray_catbird_2406.JPG\" width=\"90\"> <img src=\"birdspics/red_winged_blackbird_2504.JPG\" width=\"90\"><\/br> <br>L: Gray Catbird; R: Red-winged Blackbird<\/br>","<br><img src=\"birdspics/black_tailed_gull_2507.JPG\" width=\"90\"><\/br> <br>Black Tailed Gull<\/br>","<br><img src=\"birdspics/grey_capped_greenfinch_2507.JPG\" width=\"90\"><img src=\"birdspics/light_vented_bulbul_2507.JPG\" width=\"90\"><\/br> <br>L: Grey-capped Greenfinch; R: Light-vented Bulbul<\/br>","<br><img src=\"birdspics/azure_winged_magpie_2507.JPG\" width=\"90\"><img src=\"birdspics/carrion_crow_2507.JPG\" width=\"90\"><\/br> <br>L: Azure-winged Magpie; R: Carrion Crow<\/br>","<br><img src=\"birdspics/whiskered_tern_2507.JPG\" width=\"90\"><img src=\"birdspics/black_crowned_night_heron_2507.JPG\" width=\"90\"><\/br> <br>L: Whiskered Tern; R: Black-crowned Night Heron<\/br>","<br><img src=\"birdspics/brown_thrasher_2505.JPeG\" width=\"90\"><\/br> <br> Brown Thrasher<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addControl","args":["<style>\n  .leaflet-popup-content-wrapper {\n    background: rgba(255, 255, 255, 0.5);\n    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);\n    border-radius: 10px;\n    text-align: center;\n    padding: 3px;\n  }\n  .leaflet-popup-tip {\n    background: rgba(255, 255, 255, 0.7);\n  }\n  .leaflet-popup-content {\n    font-family: 'Comic Sans MS', cursive, sans-serif;\n    line-height: 1.1;\n    white-space: pre-wrap;\n  }\n<\/style>","topleft",null,"info legend"]},{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[27.12898,47.66241],"lng":[-123.96861,135.67181]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <hr>
@@ -2572,6 +2606,10 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
 </div></div><p>Thanks my friend who introduced me to the world of birding. I will always remember watching night heron with you sitting next to Bixia Pond back in 2019 in the afternoon before taking a Biology exam.</p>
 
 
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
+
 </section>
 
 <center>
@@ -2587,10 +2625,14 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
   <title>Weather-Respiratory Disease Correlation Explorer</title>
   <link>https://yyraven.github.io/quarto-blog/work/241219_project_RESPweather_dashboard/</link>
   <description><![CDATA[ 
-<div class="mylikebutton">♥</div>
 
 
 
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎190 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
 
 <section id="project" class="level1">
 <h1>Project</h1>
@@ -2630,6 +2672,10 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
 <p><em>This is a class project of Johns Hopkins University <a href="https://www.stephaniehicks.com/jhustatprogramming2024/">Biostatistics 140.777 Statistical Programming Paradigms</a> course</em>.</p>
 
 
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
+
 </section>
 
 <center>
@@ -2649,10 +2695,14 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
   <title>音乐电台｜2024 音乐与我的四季</title>
   <link>https://yyraven.github.io/quarto-blog/personal/241214_radio/</link>
   <description><![CDATA[ 
-<div class="mylikebutton">♥</div>
 
 
 
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎1173 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
 
 <section id="夏日电台" class="level1 page-columns page-full">
 <h1>夏日电台</h1>
@@ -2746,6 +2796,10 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
 <hr>
 
 
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
+
 </section>
 </section>
 </section>
@@ -2763,10 +2817,14 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
   <title>Bookmarks for Biologists</title>
   <link>https://yyraven.github.io/quarto-blog/work/241109_resources_useful_bio_links/</link>
   <description><![CDATA[ 
-<div class="mylikebutton">♥</div>
 
 
 
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎133 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
 
 <section id="online-databasetools" class="level1">
 <h1>Online Database/Tools</h1>
@@ -2896,6 +2954,10 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
 </ul>
 
 
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
+
 </section>
 
 <center>
@@ -2912,10 +2974,14 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
   <title>Who Is The Saddest Shoegaze Band?</title>
   <link>https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/</link>
   <description><![CDATA[ 
-<div class="mylikebutton">♥</div>
 
 
 
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎2611 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
 
 <section id="introduction" class="level1 page-columns page-full">
 <h1>Introduction</h1>
@@ -5657,6 +5723,10 @@ font-style: inherit;">'Album'</span></span>
 <p><em>This is a class project of Johns Hopkins University <a href="https://www.stephaniehicks.com/jhustatprogramming2024/">Biostatistics 140.777 Statistical Programming Paradigms</a> course</em>.</p>
 
 
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
+
 
 </section>
 </section>
@@ -5688,10 +5758,14 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
   <title>滚妹人格 | 分割世界的桥</title>
   <link>https://yyraven.github.io/quarto-blog/personal/241029_review_oys/</link>
   <description><![CDATA[ 
-<div class="mylikebutton">♥</div>
 
 
 
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎503 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
 
 <p>千里奔袭去纽约看万青了。</p>
 <p>在已经完全沉迷于盯鞋的当下，听到4年前最初接触国摇时听的音乐，还是觉得非常触动。不能免俗地，我最喜欢的还是一专的《秦皇岛》。22年寒假前夕，和♫在宿舍里因为所有的一切——疫情、未来——而困惑不已时，我们就在听这首歌。她和我说，秦皇岛是北方人疗养的地方。《秦皇岛》的第一句歌词是“站在能分割世界的桥”。森林公园的桥在白森森的月光下闪耀，我们肩并肩走路，她说她会想起这首歌。我好想在布鲁克林大桥之类的地方唱它呀，可惜Terminal 5周围没有桥。</p>
@@ -5705,6 +5779,9 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 </blockquote>
 
 
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
 
 <center>
 © 2024-2025 RavensNest.
@@ -5719,10 +5796,14 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
   <title>First Blog Post! &amp; Blogging Resources</title>
   <link>https://yyraven.github.io/quarto-blog/work/240913_resources_first_post/</link>
   <description><![CDATA[ 
-<div class="mylikebutton">♥</div>
 
 
 
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎47 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
 
 <p><span class="emoji" data-emoji="tada">🎉</span> Hi, this is my first blog post!</p>
 <p>This blog was initially built as a project of the <a href="https://lcolladotor.github.io/jhustatcomputing/">statistical computing</a> class I’m taking.</p>
@@ -5744,6 +5825,10 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 </ul>
 
 
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
+
 </section>
 </section>
 
@@ -5761,10 +5846,14 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
   <title>音乐电台｜2024 上半年的一周一曲</title>
   <link>https://yyraven.github.io/quarto-blog/personal/240618_radio/</link>
   <description><![CDATA[ 
-<div class="mylikebutton">♥</div>
 
 
 
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎3824 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
 
 <p>Notion博客存档。当时比较有精力所以每周都在听新曲子…总之可以看出来一个很明显的坠入盯鞋/迷幻/梦泡大坑的过程，现在两年过去了还没爬出来 - 251213 YR</p>
 <hr>
@@ -6063,6 +6152,10 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 <hr>
 
 
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
+
 </section>
 </section>
 
@@ -6079,10 +6172,14 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
   <title>观后感 | 一切皆被慈爱的机器注视</title>
   <link>https://yyraven.github.io/quarto-blog/personal/240401_review_allwatched/</link>
   <description><![CDATA[ 
-<div class="mylikebutton">♥</div>
 
 
 
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎1872 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
 
 <p>最近因为Ride的新歌<a href="https://www.youtube.com/watch?v=YbpaV8e5EKQ">Essaouira</a>的歌词去看了纪录片All Watched Over by Machines of Loving Grace，大受震撼。感谢Mark一如既往的掉书袋习惯（和我一如既往的考据党习惯）。</p>
 <blockquote class="blockquote">
@@ -6144,6 +6241,10 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 <p><a href="https://en.wikipedia.org/wiki/All_Watched_Over_by_Machines_of_Loving_Grace_(TV_series)">All Watched Over by Machines of Loving Grace (TV series)</a></p>
 
 
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
+
 </section>
 
 <center>
@@ -6159,10 +6260,14 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
   <title>滚妹人格 | 属于我的蒙娜丽莎</title>
   <link>https://yyraven.github.io/quarto-blog/personal/240120_review_ride/</link>
   <description><![CDATA[ 
-<div class="mylikebutton">♥</div>
 
 
 
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎2431 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
 
 <p><span class="blur">再也吹不出那样的彩虹屁，看了也会红着脸躲避</span></p>
 <p>这是我在看完RIDE/The Charlatans的Between Nowhere Tour以后在狂热状态下写的日记。</p>
@@ -6198,6 +6303,9 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 <p>回到巴尔的摩后，真的感觉有变得更加热爱生活。我对♫说想把这一刻的幸福全部榨出来，风干储存，这样每次想回忆的时候就能掏出来看看，就又有力量可以继续生活了。我真的可以如此贪心吗？但至少到星期三的现在，坐在实验室的椅子上写这篇日记时，那种不可思议的快乐的心情依然存在。<q>Maybe it’s really, really, really can happen!</q></p>
 
 
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
 
 <center>
 © 2024-2025 RavensNest.

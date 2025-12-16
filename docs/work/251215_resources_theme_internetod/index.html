@@ -244,7 +244,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
-<div class="mylikebutton">♥</div>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -279,6 +278,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎68 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
+
 <p>This post introduces the ‘InternetOD’ theme used on this blog inspired by the video game ‘Needy Girl Overdose’.</p>
 <p>It is a customization based on the Bootstrap ‘Morph’ theme, providing a cute, pixelated, retro, and Jirai Kei-feeling interface.</p>
 <p><a href="internetod.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="internetod.jpg" class="img-fluid"></a></p>
@@ -292,6 +296,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><img src="kangelprofile.jpeg" class="img-fluid"> <img src="yyan.gif" class="img-fluid"></p>
 
 
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
 
 <center>
 © 2024-2025 RavensNest.
@@ -728,8 +735,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<div class="mylikebutton">Kudos ♥</div> <script src="../../scripts/mylikebutton.js"></script>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom"});
+<script src="../../scripts/mylikebutton.js"></script>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

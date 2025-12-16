@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const style = document.createElement('style');
     style.textContent = `
         .mylikebutton-container {
-            display: block;
+            display: inline-block;
             text-align: right;
             margin-bottom: 10px;
             cursor: pointer;
