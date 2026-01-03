@@ -67,9 +67,7 @@ website:
 format:
   html:
     grid:
-      sidebar-width: 150px
-      margin-width: 250px
-      body-width: 1000px
+      body-width: 800px
     theme:
         - morph
         - focused.scss

@@ -8,7 +8,7 @@ output:
     code_folding: hide
 ---
 
-![Shorebirds at Blackwater Natural Wildlife Reservoir, Cambridge MD, Mar '25](headline.jpg)
+![Flocks of Black-headed Gulls in Winter Coat, Suzhou Jiangsu, Dec '25](headline.jpg)
 
 # Introduction
 
@@ -33,18 +33,45 @@ library(tidyverse)
 library(knitr)
 library(DT)
 
+# list
 bird_list <- read.csv("bird_df.csv", fileEncoding = "UTF-8")
 
-kable(bird_list, col.names = gsub("[.]", " ", names(bird_list)))
+kable(
+  bird_list[, c(1,2,3,4,5,6)],
+  col.names = gsub("[.]", " ", names(bird_list)[c(1,2,3,4,5,6)])
+)
+```
+
+```{r results = FALSE, echo = FALSE, warning = FALSE}
+
+# summary location
+result <- as.data.frame(
+  table(unlist(strsplit(bird_list$location, ",\\s*")))
+)
+
+colnames(result) <- c("location", "count")
+result
+
+# summary charadriiformes
+charadriiformes_n <- nrow(
+  bird_list[bird_list$Family %in% 
+    c("Gulls, Terns, Skimmers", "Shorebirds"), ]
+)
+
+# summary corvidae
+corvidae_n <- nrow(
+  bird_list[bird_list$Family %in% 
+    c("Jays, Magpies, Crows, Ravens"), ]
+)
 ```
 
 ### Milestones
 
-Now I have spotted `r nrow(bird_list)` birds.
+Now I've observed <code>`r nrow(bird_list)`</code> bird species, in which <code>`r result$count[result$location == "US"]`</code> of them were found in the United States.
 
-**100 birds spotted**: June 2025
+- **100 birds spotted**: June 2025
 
-**125 birds spotted**: Oct 2025
+- **125 birds spotted**: Oct 2025
 
 ## Birding Around the World: Interactive Map {#map}
 
@@ -146,7 +173,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Last Visited**: Nov 2025
 -   **Birds**: Sandhill Crane, Red-bellied Woodpecker
 -   **Comments**: Dreamy and Beautiful at sunset.
--   **Link**: [IN.gov](https://www.in.gov/dnr/fish-and-wildlife/properties/jasper-pulaski-fwa/) \| [ebird](https://ebird.org/hotspot/L1004877)
+-   **Link**: [IN.gov DNR](https://www.in.gov/dnr/fish-and-wildlife/properties/jasper-pulaski-fwa/sandhill-cranes/) \| [ebird](https://ebird.org/hotspot/L1004877)
 
 ## East Coast, USA
 
@@ -298,6 +325,19 @@ fillOpacity = 1, radius = 5) %>%
 -   **Birds**: Black-crowned Night Heron, Little Grebe, Azure-winged Magpie, Light-vented Bulbul, Little Egret, Red-rumped Swallow, Pheasant-tailed Jacana, Red-billed Starling, Eurasian Moorhen, Chinese Blackbird, Oriental Magpie-Robin
 -   **Comments**: My hometown. Very beautiful place, regionally well-known birding hotspot and tourist attraction with reeds, waterlilies and lotus planted all over the ponds and wetlands.
 -   **Link**: [ebird](https://ebird.org/region/L17313628)
+
+### Suzhou, CN: Dushu Lake, East Shore 独墅湖东
+
+::: column-margin
+![View of Dushu Lake from Banyue Bay Lawn, Dec 2025](landspics/dushulake.JPG){group="landspics"}
+:::
+
+-   **Type**: Urban \| Freshwater; Lake, Lawn
+-   **First Visited**: Dec 2025
+-   **Last Visited**: Dec 2025
+-   **Birds**: Black-crowned Night Heron, Little Grebe, Great Crested Grebe, Light-vented Bulbul, Little Egret, White-cheeked Starling, Eurasian Hoopoe, Chinese Blackbird, Oriental Magpie-Robin, Vega Gull, White Wagtail, Olive-backed Pipit, Richard's Pipit, Eurasian Tree Sparrow, Crested Myna, Long-tailed Shrike
+-   **Comments**: Mostly hardened wetlands, migrating birds come to visit at winter. Pipits and wagtails walk happily on the lawn. Whole trail takes ~3.5 hours. 
+-   **Links**: [ebird-独墅湖公园](https://ebird.org/region/L33441763) \| [ebird-白鹭园](https://ebird.org/region/L26307800)
 
 ### Beijing, CN: Olympic Forest Park 奥林匹克森林公园
 

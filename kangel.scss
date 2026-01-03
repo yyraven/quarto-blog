@@ -1,12 +1,12 @@
 /*-- scss:defaults --*/
 /* Color Palette */
-$body-bg: #feecfa;
+$body-bg: rgb(246,235,251);
 $body-color: #000;
 $link-color: rgb(233,120,233);
-$link-hover-color: #00FFFF;
-$code-color: #0000FF;
-$code-bg: rgb(235,210,239);
-$code-block-bg: $code-bg;
+$link-hover-color: rgb(155,124,237);
+$code-color: #000;
+$code-bg: rgb(183,228,249);
+$code-block-bg: $body-bg;
 $h2-font-size: 1.6rem;
 $headings-font-weight: 700;
 
@@ -182,7 +182,7 @@ details p {
 
 /* Scrollbar */
 html {
-  scrollbar-color: $body-color $body-bg;
+  scrollbar-color: $code-color $body-bg;
   scrollbar-width: thin;
   border-radius: 0;
 }
@@ -237,6 +237,6 @@ html {
 }
 
 h1 .pulse {
-  color: $body-bg;
-  -webkit-text-stroke: 1px $body-color;
+  color: $link-color;
+  -webkit-text-stroke: 1px $code-color;
 }
