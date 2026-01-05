@@ -89,21 +89,50 @@ lib_mov_2025 <- lib_mov %>%
 
 gig_2025 <- gig %>%
   filter(year == "2025")
+
+# 2026
+lib_book_2026 <- lib_book %>%
+  filter(year == "2026")
+
+lib_mov_2026 <- lib_mov %>%
+  filter(year == "2026")
+
+gig_2026 <- gig %>%
+  filter(year == "2026")
 ```
 
 <center>
 
-书影音记录，对抗短视频时代的绝望努力
+书影音记录
 
-A record of all books/movie/anime/live music since Aug '23 + some statistics.
+A record of all (finished) books/movie/anime/live music since Aug '23 + some statistics.
 
-I'm fighting my instinct of doom-scrolling!
+I'm fighting my instinct of doom-scrolling & giving up half-way!
 
 </center>
 
 ------------------------------------------------------------------------
 
-# 年度总结
+## 年度总结
+
+<details open>
+
+<summary>2026</summary>
+
+2026年，我一共看了 <code>`r nrow(lib_book_2026)`</code> 本书，<code>`r nrow(lib_mov_2026)`</code> 部电影/动画，<code>`r nrow(gig_2026)`</code> 场演出。
+
+```{r 2026 summ, echo = FALSE, message = FALSE, warning = FALSE}
+#list
+kable(lib_book_2026[,c(1,3,4,5,6,7)])
+
+kable(lib_mov_2026[,c(1,3,4,5,6,7)])
+
+kable(gig_2026[,c(1,2,3,4,5,6,7)])
+```
+
+ongoing...
+
+</details>
 
 <details open>
 
@@ -163,11 +192,11 @@ kable(gig_2023[,c(1,2,3,4,5,6,7)])
 
 ------------------------------------------------------------------------
 
-# 数据分析
+## 数据分析
 
 **这**就是为什么这个博客要用Quarto的原因。
 
-## + 哪些天不是读书天
+### + 哪些天不是读书天
 
 **读书**指的是读**正经**书。也就是说所有的**文艺活动**都在不务正业、玩物丧志之列。看看啥时候我最不务正业吧。
 
@@ -195,7 +224,7 @@ base1 +
 
 很明显，冬天没法出门所以在装文艺逼。夏天全部用来现充了，是好事啊（是好事啊
 
-## + 比大时代晚了*千分之一*秒
+### + 比大时代晚了*千分之一*秒
 
 > “你和我出生在尘埃落定后的时代，晚了千分之一秒” ——乔伊斯（极乐迪斯科）
 
@@ -231,5 +260,26 @@ base2 +
 看书比较平均，60年代**较**多，这也确实是我想要的；电影看的都是最近上映的（本来就并非狂热电影迷）；音乐嘛，我是狂热的90年代爱好者，这确实也体现出来了…
 
 &居然最近三年完全没有看过19世纪及以前的书。震撼。
+
+### + 所以到底每年花了多少时间读书？
+
+丢人时间到（用总字数算的）：
+
+```{r totalhour, echo = FALSE, message = FALSE, warning = FALSE}
+# extract word count
+bookcount <- drop_na(lib_book[,c("year","count")])
+
+yearly_hours <- lib_book |>
+  select(year, count) |>
+  drop_na() |>
+  group_by(year) |>
+  summarise(
+    total_words = sum(count),
+    hours = round(total_words / 18000),
+    .groups = "drop"
+  )
+
+kable(yearly_hours)
+```
 
 ------------------------------------------------------------------------

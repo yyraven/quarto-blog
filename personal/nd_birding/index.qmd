@@ -10,7 +10,7 @@ output:
 
 ![Flocks of Black-headed Gulls in Winter Coat, Suzhou Jiangsu, Dec '25](headline.jpg)
 
-# Introduction
+## Introduction
 
 **I love birding!** Welcome to my personal birding records. I'm a casual birder who enjoys watching the most common birds in daily life (but also appreciate a trip to the wilds!).
 
@@ -24,9 +24,9 @@ The next bird I want to see is: ***Eastern Screech-Owl***, Ruby I heard that you
 
 ------------------------------------------------------------------------
 
-# Bird List
+## Bird List
 
-## My Bird List {#birdlist}
+### My Bird List {#birdlist}
 
 ```{r bird list, echo = FALSE, message = FALSE}
 library(tidyverse)
@@ -65,7 +65,7 @@ corvidae_n <- nrow(
 )
 ```
 
-### Milestones
+#### Milestones
 
 Now I've observed <code>`r nrow(bird_list)`</code> bird species, in which <code>`r result$count[result$location == "US"]`</code> of them were found in the United States.
 
@@ -73,7 +73,9 @@ Now I've observed <code>`r nrow(bird_list)`</code> bird species, in which <code>
 
 - **125 birds spotted**: Oct 2025
 
-## Birding Around the World: Interactive Map {#map}
+- **150 birds spotted**: Jan 2026
+
+### Birding Around the World: Interactive Map {#map}
 
 *Click on the map to see pictures of birds! Urban sites marked in pink while rural sites marked in green.*
 
@@ -130,13 +132,13 @@ fillOpacity = 1, radius = 5) %>%
 
 ------------------------------------------------------------------------
 
-# Places I Went For Birding {#places}
+## Places I Went For Birding {#places}
 
 *For 'Birds', I only record the bird species I've seen. For a full list of potential birds, please see ebird and other reference.*
 
-## Midwest, USA
+### Midwest, USA
 
-### West Lafayette, IN: Celery Bog
+#### West Lafayette, IN: Celery Bog
 
 ::: column-margin
 ![View of Celery Bog from Nature Area Trail, Sep 2025](landspics/celerybog.JPG){group="landspics"}
@@ -149,7 +151,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Beautiful and peaceful pond, regional migration trap. Cattail trail & the north pond is a great place.
 -   **Link**: [ebird](https://ebird.org/hotspot/L445373)
 
-### West Lafayette, IN: Horticulture Park
+#### West Lafayette, IN: Horticulture Park
 
 ::: column-margin
 ![Horticulture Park, Oct 2025](landspics/horticulture.JPG){group="landspics"}
@@ -162,7 +164,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Nice trail. A large flock of robins and starlings rest on the trees near the open grass edge, and you can find jays and woodpeckers in the trails through the woods.
 -   **Link**: [ebird](https://ebird.org/region/L457935)
 
-### Pulaski, IN: Jasper-Pulaski Fish & Wildlife Area
+#### Pulaski, IN: Jasper-Pulaski Fish & Wildlife Area
 
 ::: column-margin
 ![Jasper-Pulaski FWA, Nov 2025](landspics/jasperpulaski.JPG){group="landspics"}
@@ -175,9 +177,9 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Dreamy and Beautiful at sunset.
 -   **Link**: [IN.gov DNR](https://www.in.gov/dnr/fish-and-wildlife/properties/jasper-pulaski-fwa/sandhill-cranes/) \| [ebird](https://ebird.org/hotspot/L1004877)
 
-## East Coast, USA
+### East Coast, USA
 
-### Baltimore, MD: Inner Harbor
+#### Baltimore, MD: Inner Harbor
 
 ::: column-margin
 ![View of Inner Harbor from Federal Hill Park, Oct 2023](landspics/innerharbor.JPG){group="landspics"}
@@ -190,7 +192,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: From inner harbor to harbor east and locust point, the waterfront of downtown Baltimore is a great place to watch gulls & various kinds of waterfowls. A large flock of gulls rest in front of the harbors near Whole Foods from late fall to early spring in the evening. Check out the Harbor Connector water taxi - you can see gulls and cormorants flying across the harbor.
 -   **Link**: [Harbor Connector Water Taxi (free to ride!)](https://www.baltimorewatertaxi.com/lines) \| [ebird](https://ebird.org/region/L745089)
 
-### Baltimore, MD: Patterson Park
+#### Baltimore, MD: Patterson Park
 
 ::: column-margin
 ![Patterson Park, May 2025](landspics/pattersonpark.JPeG){group="landspics"}
@@ -203,7 +205,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: The historical park is a great place for birdwatching. If you visit the park at late spring, you can watch flocks of robins, sparrows and blackbirds singing, mallards hanging out, and Canada geese raising their goslings around the pond! They're not afraid of people and happy to interact with visitors.
 -   **Link**: [Friends of Patterson Park](https://pattersonpark.com/#visit-us) \| [ebird](https://ebird.org/hotspot/L449982)
 
-### Cambridge, MD: Blackwater National Wildlife Refuge
+#### Cambridge, MD: Blackwater National Wildlife Refuge
 
 ::: column-margin
 ![Blackwater National Wildlife Refuge, Jan 2025](landspics/blackwaterNWR.JPG){group="landspics"}
@@ -216,7 +218,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: A perfect place for birding at the east coast of Chesapeake Bay, the most iconic bird being bald eagle. With woods, trails, wetlands and ponds around the wildlife drive, you can see a variety of birds here. Also, the visitor center's pick of merchandises is superb.
 -   **Links**: [Friends of Blackwater](https://friendsofblackwater.org/) *check the webcams* \| [U.S. Fish & Wildlife Service: Blackwater National Wildlife Refuge](https://www.fws.gov/refuge/blackwater) \| [ebird](https://ebird.org/region/L598944)
 
-### Harpers Ferry, WV: Maryland Heights
+#### Harpers Ferry, WV: Maryland Heights
 
 ::: column-margin
 ![View of Harpers Ferry from Maryland Heights, Mar 2024](landspics/harpersferry.JPG){group="landspics"}
@@ -229,7 +231,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: The streams in the woods are a good place to catch up with our geese and heron friends.
 -   **Link**: [National Park Service: Harpers Ferry](https://www.nps.gov/hafe/index.htm) \| [ebird](https://ebird.org/region/L715042)
 
-### New York City, NY: Liberty Island
+#### New York City, NY: Liberty Island
 
 ::: column-margin
 ![Liberty Island, Jan 2024](landspics/libertyisland.JPG){group="landspics"}
@@ -242,9 +244,9 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: While New York City resides mainly fat pigeons, the liberty island is surprisingly a good place to watch waterfowls, and of course, gulls. Just mind your food, the gulls are really aggressive.
 -   **Link**: [ebird](https://ebird.org/region/L2686238)
 
-## The South, USA
+### The South, USA
 
-### Durham, NC: Duke University
+#### Durham, NC: Duke University
 
 ::: column-margin
 ![Duke University, May 2022](landspics/dukeuniversity.JPG){group="landspics"}
@@ -257,7 +259,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: With birdfeeders everywhere, the Sarah P. Duke Garden is a great place for backyard birds like northern cardinal and eastern bluebird. I saw a red-tailed hawk with its nest near the old chemistry building. There are also some exotic waterfowls in the ponds of Duke Garden, like mandarin ducks & ruddy shelducks, you can check the link below.
 -   **Links**: [Exotic Waterfowls in Duke Garden](https://www.dpughphoto.com/duke_gardens_exotic_ducks.htm) \| [Duke Gardens](https://gardens.duke.edu/) \| [ebird](https://ebird.org/region/L4754196)
 
-### New Orleans, LA: Maurepas Swamp
+#### New Orleans, LA: Maurepas Swamp
 
 ::: column-margin
 ![Maurepas Swamp - Where the Voodoo Swamp Witch Lies, Mar 2022](landspics/maurepasswamp.JPG){group="landspics"}
@@ -270,9 +272,9 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Went there as a part of swamp tour, feeding alligators and raccoons with marshmallows etc.
 -   **Link**: [Louisiana Dpt. of Wildlife & Fisheries: Maurepas Swamp](https://www.wlf.louisiana.gov/page/maurepas-swamp) \| [ebird](https://ebird.org/hotspot/L692377)
 
-## West Coast, USA
+### West Coast, USA
 
-### Los Angeles, CA: Malibu Lagoon
+#### Los Angeles, CA: Malibu Lagoon
 
 ::: column-margin
 ![Malibu Lagoon, June 2025](landspics/malibulagoon.JPG){group="landspics"}
@@ -285,7 +287,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Famous for surfing but the lagoon has striking biodiversity. Mixed groups of brown pelicans and double-crested cormorants fishing in the lagoon.
 -   **Link**: [California State Parks: Malibu Lagoon State Beach](https://www.parks.ca.gov/?page_id=835) \| [eBird](https://ebird.org/region/L597658)
 
-### Seattle, WA: Discovery Park
+#### Seattle, WA: Discovery Park
 
 ::: column-margin
 ![Discovery Park, July 2024](landspics/discoverypark.JPG){group="landspics"}
@@ -298,7 +300,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: With all its natural beauty, the discovery park is a great place to enjoy the views of volcano, forests and sea at once - and of course, gulls.
 -   **Link**: [Seattle.gov: Discovery Park](https://www.seattle.gov/parks/allparks/discovery-park) \| [ebird](https://ebird.org/region/L128530)
 
-### Cannon Beach, OR: Haystack Rock
+#### Cannon Beach, OR: Haystack Rock
 
 ::: column-margin
 ![Haystack Rock, July 2024](landspics/cannonbeach.JPG){group="landspics"}
@@ -311,9 +313,9 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: It's just heaven if you love seabirds and shorebirds - in summer, various birds are nesting on the cliff of haystack rock. Remember to bring your binoculars since there's a sign saying 'birds only beyond this point' - you would not be able to get too close to that rock. The volunteer is very friendly and helpful, and tide pools are also great fun to explore. Also, if you reside in Portland, be sure to check out Powell's books, it has a great collection of field guides as well as other gems.
 -   **Links**: [Friends of Haystack Rock](https://www.friendsofhaystackrock.org/) *check the webcams* \| [U.S. Fish & Wildlife Service: Oregon Islands National Wildlife Refuge](https://www.fws.gov/refuge/oregon-islands/) \| [ebird](https://ebird.org/region/L548476)
 
-## China
+### China
 
-### Suzhou, CN: Huqiu Wetland Park 虎丘湿地生态公园
+#### Suzhou, CN: Huqiu Wetland Park 虎丘湿地生态公园
 
 ::: column-margin
 ![Huqiu Wetland Park during the 'Plum Rain' Season, June 2025](landspics/huqiu.JPG){group="landspics"}
@@ -326,7 +328,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: My hometown. Very beautiful place, regionally well-known birding hotspot and tourist attraction with reeds, waterlilies and lotus planted all over the ponds and wetlands.
 -   **Link**: [ebird](https://ebird.org/region/L17313628)
 
-### Suzhou, CN: Dushu Lake, East Shore 独墅湖东
+#### Suzhou, CN: Dushu Lake, East Shore 独墅湖东
 
 ::: column-margin
 ![View of Dushu Lake from Banyue Bay Lawn, Dec 2025](landspics/dushulake.JPG){group="landspics"}
@@ -339,7 +341,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Mostly hardened wetlands, migrating birds come to visit at winter. Pipits and wagtails walk happily on the lawn. Whole trail takes ~3.5 hours. 
 -   **Links**: [ebird-独墅湖公园](https://ebird.org/region/L33441763) \| [ebird-白鹭园](https://ebird.org/region/L26307800)
 
-### Beijing, CN: Olympic Forest Park 奥林匹克森林公园
+#### Beijing, CN: Olympic Forest Park 奥林匹克森林公园
 
 ::: column-margin
 ![The 'Big Pit' of Olympic Forest Park, July 2025](landspics/olympicpark.JPG){group="landspics"}
@@ -352,7 +354,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Regional birding hotspot, the 'big pit' of the north park might be one of the most well-known birding hotspot in China with its lush reed marshes. The only problem is that you need to walk 1.5 hours to get to the pit, and there aren't any public transit inside the huge park. DON'T TRY IT IN BEIJING'S SUMMER.
 -   **Link**: [ebird](https://ebird.org/region/L13741681)
 
-### Linyi, CN: Yi River Water Park 沂河/水上公园
+#### Linyi, CN: Yi River Water Park 沂河/水上公园
 
 ::: column-margin
 ![Yi River Water Park, Live Streamers Gathering, July 2025](landspics/linyi.JPG){group="landspics"}
@@ -367,7 +369,7 @@ fillOpacity = 1, radius = 5) %>%
 
 ------------------------------------------------------------------------
 
-# Links & Resources {#links}
+## Links & Resources {#links}
 
 -   **General Recourses**
 
@@ -383,7 +385,7 @@ fillOpacity = 1, radius = 5) %>%
 
 ------------------------------------------------------------------------
 
-# End Notes
+## End Notes
 
 ::: column-margin
 ![](yelu.jpeg)
