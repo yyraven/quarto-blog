@@ -11,7 +11,7 @@ website:
   site-url: https://yyraven.github.io/quarto-blog/
   site-path: "/"
   body-footer: |
-    <center>© 2024-2025 RavensNest.</center>
+    <center>© 2024-2026 RavensNest.</center>
   page-navigation: true
   bread-crumbs: false
   search:

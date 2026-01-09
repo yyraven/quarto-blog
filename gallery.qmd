@@ -12,6 +12,9 @@ toc: false
 
 ::: photo-row
 ![Dec '25 First winter in midwest :-\>](figs/2512.jpg){.home}
+
+![Jan '26 cold rain](figs/2601.jpg){.home}
+
 :::
 
 ------------------------------------------------------------------------
