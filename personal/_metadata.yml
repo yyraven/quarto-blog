@@ -10,6 +10,8 @@ title-block-banner: false
 # Author name of all blog posts
 author: ""
 
+image: ../figs/preview.png
+
 # Table of content settings
 toc: true
 toc-depth: 3

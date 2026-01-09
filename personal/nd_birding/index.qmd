@@ -3,7 +3,7 @@ title: "All About Birding"
 date: "2025-01-08"
 categories: [birding, travel, EN]
 toc: true
-imgae: headline.jpg
+image: headline.jpg
 output:
   html_document:
     code_folding: hide

@@ -34,3 +34,5 @@ filters:
   - wordcount-blog
 
 sidebar: work
+
+image: ../figs/preview.png
