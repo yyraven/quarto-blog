@@ -77,10 +77,8 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Weather-Respiratory Disease Correlation Explorer – Raven’s Nest">
 <meta property="og:description" content="Raven’s Nest, a personal blog">
-<meta property="og:image" content="https://yyraven.github.io/quarto-blog/figs/preview.png">
+<meta property="og:image" content="https://yyraven.github.io/quarto-blog/work/241219_project_RESPweather_dashboard/photo/shiny1.PNG">
 <meta property="og:site_name" content="Raven's Nest">
-<meta property="og:image:height" content="731">
-<meta property="og:image:width" content="1280">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -261,15 +259,15 @@ ul.task-list li input[type="checkbox"] {
   <span class="mylikebutton"> ♥</span>
 </div>
 
-<section id="project" class="level1">
-<h1>Project</h1>
+<section id="project" class="level2">
+<h2 class="anchored" data-anchor-id="project">Project</h2>
 <p>This <a href="https://yunyiru.shinyapps.io/RESPweather_dashboard/"><strong>Weather-Respiratory Diseases Correlation Explorer</strong></a> R Shiny Dashboard aims to investigate the relationship between climate and weather-related conditions and outbreaks of two respiratory viruses, <strong>influenza</strong> and <strong>respiratory syncytial virus (RSV)</strong>.</p>
 <p><a href="photo/shiny1.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="photo/shiny1.PNG" class="img-fluid"></a></p>
 <p>Influenza is an RNA virus from the <em>Orthomyxoviridae</em> family that frequently mutates, causing seasonal epidemics, while RSV is an RNA virus from the <em>Paramyxoviridae</em> family that primarily affects young children and the elderly, often leading to severe lower respiratory infections. Both viruses pose significant public health challenges due to their widespread transmission and potential for severe disease.</p>
 <p>Climate and weather conditions can influence the activity and spread of both viruses. Studies have suggested that factors like <strong>cold temperatures</strong>, <strong>low indoor humidity</strong>, <strong>limited sunlight</strong>, and <strong>rapid weather changes</strong> may increase the risk of disease outbreaks.</p>
 </section>
-<section id="features" class="level1">
-<h1>Features</h1>
+<section id="features" class="level2">
+<h2 class="anchored" data-anchor-id="features">Features</h2>
 <ul>
 <li><strong>Weekly Rates</strong>: This dashboard uses <a href="https://data.cdc.gov/Public-Health-Surveillance/Rates-of-Laboratory-Confirmed-RSV-COVID-19-and-Flu/kvib-3txy/about_data">CDC RESP-NET data</a> to give an overview of influenza and rsv hospitalization rates of each state from 2018 to 2024. The user can select year, state, and pathogen of interest using the interactive filters.</li>
 </ul>
@@ -279,8 +277,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p><a href="photo/shiny3.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="photo/shiny3.PNG" class="img-fluid"></a></p>
 </section>
-<section id="data" class="level1">
-<h1>Data</h1>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
 <ul>
 <li><p><strong>Respiratory Virus Related Hospitalization Rate</strong>: Disease rate data were scrapped from <a href="https://data.cdc.gov/Public-Health-Surveillance/Rates-of-Laboratory-Confirmed-RSV-COVID-19-and-Flu/kvib-3txy/about_data">CDC RESP-NET</a>.</p></li>
 <li><p><strong>Environmental Parameters</strong>: Weather data were scrapped from <a href="https://open-meteo.com/">Openmeteo API</a>.</p></li>
@@ -744,7 +742,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </nav>
 </div> <!-- /content -->
 <script src="../../scripts/mylikebutton.js"></script>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

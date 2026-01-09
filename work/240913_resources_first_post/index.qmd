@@ -2,7 +2,6 @@
 title: "First Blog Post! & Blogging Resources"
 date: "2024-09-13"
 categories: [blogging, resources, EN]
-image: ../../figs/preview.png
 ---
 
 :tada: Hi, this is my first blog post!

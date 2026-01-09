@@ -5,14 +5,15 @@ categories: [data analysis, text analysis, sentiment analysis, music, R, EN]
 bibliography: 
  - my-refs.bib
  - my-refs2.bib
+image: photo/nowhere.jpg
 output:
   html_document:
     code_folding: hide
 ---
 
-# Introduction
+## Introduction
 
-## Why This Project
+### Why This Project
 
 I'm interested in the 'shoegaze' subgenre of indie rock. This less-known genre, also called 'the scene that celebrates itself', rose from the noise pop scene in the late 80s and early 90s, and has regained popularity recently. An article titled *'The Shoegaze Revival Hit Its Stride in 2023'* [@sherburne_shoegaze_2023] by pitchfork also captures the revival of shoegaze among GenZ populations.
 
@@ -24,22 +25,22 @@ Shoegaze is characterized by heavy use of overdriven guitar and various effect p
 
 The bands I want to study are the so-called classic 'big-three' of shoegaze: *my bloody valentine*, *Ride*, and *slowdive*. They were all on the independent record label *Creation* from London, UK, reached their peak in early 90s, disbanded in late 90s due to the fading of the subgenre, and reunited in the 21st century, which make them a perfect fit to study the changes in the lyrics over the years.
 
-## My Questions
+### My Questions
 
 1.  What words frequently appear in their lyrics?
 2.  Which bands have the longest and shortest lyrics?
 3.  Who is the saddest shoegaze band?
 4.  Are bands trending towards happiness or sadness over time?
 
-# Project
+## Project
 
-## Data Acquisition & Wrangling
+### Data Acquisition & Wrangling
 
 ::: column-margin
 ![](photo/loveless.png) ![](photo/nowhere.jpg) ![](photo/souvlaki.jpeg)
 :::
 
-### Data Acquisition
+#### Data Acquisition
 
 Lyrics from all studio albums of the 'big three' bands in the shoegaze genre - *my bloody valentine (mbv)*, *Ride*, and *slowdive* - are retrieved from [Genius.com](https://genius.com/) using a Python package named [lyricsgenius](https://www.johnwmillr.com/scraping-genius-lyrics/) [@miller_johnwmillrlyricsgenius_2024] based on Genius API. Please see the author's instructions for details.
 
@@ -62,7 +63,7 @@ lyrics <- read.csv("data/lyrics_data.csv")
 kable(head(lyrics, n = 1))
 ```
 
-### Data Dictionary
+#### Data Dictionary
 
 | Field Name     | Data Type | Description                               |
 |----------------|-----------|-------------------------------------------|
@@ -73,7 +74,7 @@ kable(head(lyrics, n = 1))
 | `Lyrics`       | String    | The lyrics of the song                    |
 | `Album.Name`   | String    | The name of the album the song belongs to |
 
-### Data Wrangling
+#### Data Wrangling
 
 The lyrics directly retrieved from Genius.com usually have some problems -
 
@@ -122,9 +123,9 @@ lyrics_clean <- lyrics_clean %>%
                                    "Just for a Day", "Souvlaki", "Pygmalion", "Slowdive", "​​​everything is alive")))
 ```
 
-## Data Analysis
+### Data Analysis
 
-### What words frequently appear in their lyrics?
+#### What words frequently appear in their lyrics?
 
 ```{r q1, warning = FALSE, message = FALSE}
 library('tidytext')
@@ -178,7 +179,7 @@ ggplot(token_count_head, aes(
 
 The result is kind of amusing. Ride and mbv rely their vocals heavily on **harmonies** and **hummings** - and it's reflected honestly here, while slowdive has the most **'meaningful'** lyrics among the three. 'Love' is the ultimate meaning of rock and roll, and it indeed appears in high frequency in all of their lyrics.
 
-### Which bands have the longest and shortest lyrics?
+#### Which bands have the longest and shortest lyrics?
 
 ```{r q2, warning = FALSE, message = FALSE}
 # plotting
@@ -196,7 +197,7 @@ ggplot(lyrics_clean, aes(x = Album, y = lyric.length, fill = Artist)) +
 
 Among the three bands, Mbv always has the shortest lyrics overall while Ride has the longest. An interesting trend is that while Ride and slowdive have similar lyric length back in the 90s, after reunion, Ride tends to have longer lyrics - and the length increases for each album.
 
-### Who is the saddest shoegaze band?
+#### Who is the saddest shoegaze band?
 
 I used `afinn` from package `tidytext` for sentiment analysis based on this paper[@koto_comparative_2015].
 
@@ -220,7 +221,7 @@ kable(afinn_score_by_artist)
 
 Among the three bands, mbv has the lowest sentiment score, which means it is the saddest shoegaze band (if we only look at the lyrics). All three bands got sentiment scores less than or equal to zero, with slowdive holding the highest score (0.00).
 
-#### What about their greatest hits?
+##### What about their greatest hits?
 
 Using data from [last.fm](last.fm), we find out that the greatest hits of the three bands are:
 
@@ -277,7 +278,7 @@ Song.Title)) +
 
 Mbv has the lowest overall sentiment score. All those songs have a slightly higher sentiment score than their artist's average scores. People seem to prefer happy songs!
 
-#### So what are their happiest/saddest songs?
+##### So what are their happiest/saddest songs?
 
 ```{r q3.3}
 extreme_song <- afinn_score_all %>%
@@ -295,7 +296,7 @@ kable(sorted_tibble)
 
 With the table above, we find that Ride's saddest songs are *'I Came to See the Wreck'* and *'Only Now'*, and happiest songs is *'The Dawn Patrol'*; Slowdive's saddest song is *'The Sadman'*, and happiest songs is *'Everyone Knows'*; mbv's saddest song is *'if i am'*, and happiest song is *'only shallow'*. **The Sadman is really sad**.
 
-### Are bands trending towards happiness or sadness over time?
+#### Are bands trending towards happiness or sadness over time?
 
 ```{r q4, warning = FALSE, message = FALSE}
 afinn_score <- token_afinn %>%
@@ -322,13 +323,13 @@ ggplot(afinn_score,
 
 When examining the trend over time, it is noteworthy that at the beginning of their careers, the bands all had very sad lyrics; in the middle of their careers, their lyrics became more positive. It is also interesting to observe that the latest albums of mbv, Ride, and Slowdive are all among the saddest of their entire careers.
 
-# Bonus: Here Comes the RIDE Fan!
+## Bonus: Here Comes the RIDE Fan!
 
 RIDE blew my mind when I attended their Nowhere concert with the Charlatans back in Jan 2024 in the amazing venue Union Transfer, Philadelphia. Since then I've become a huge fan... So I couldn't help but did more data analysis on them (!).
 
 **Disclaimer**: I'm by no means overlooking the members who do not write the lyrics. I love you Steve. It's just because I can only do text analysis at this time.
 
-## My Questions
+### My Questions
 
 1.  Who writes the lyrics in each album?
 
@@ -340,7 +341,7 @@ RIDE blew my mind when I attended their Nowhere concert with the Charlatans back
 
 5.  Are they trending towards happiness or sadness over time?
 
-## Data Wrangling
+### Data Wrangling
 
 Information about lyric writers were from interviews and record sleeves.
 
@@ -391,7 +392,7 @@ lyrics_ride <- lyrics_ride %>%
          is90 = Release.Year < 2000)
 ```
 
-## Data Analysis
+### Data Analysis
 
 ```{r ride tokenize, warning = FALSE, message = FALSE}
 # tokenize
@@ -412,7 +413,7 @@ ride_token_clean <- ride_token_unique %>%
   anti_join(stop_words, by = c("Word" = "word"))
 ```
 
-### Who writes the lyrics in each album?
+#### Who writes the lyrics in each album?
 
 ```{r ride who writes what, warning = FALSE, message = FALSE}
 # who writes what
@@ -430,7 +431,7 @@ theme(axis.text.x = element_text(angle = 45, hjust = 1))+
 
 Andy Bell did a lot, especially for Nowhere, Tarantula, and This is Not a Safe Place.
 
-### What's the most frequently used words for each lyricist before/after reunion?
+#### What's the most frequently used words for each lyricist before/after reunion?
 
 ```{r ride most frequent words, warning = FALSE, message = FALSE}
 # count - lyricist, is90
@@ -463,7 +464,7 @@ ggplot(ride_token_count_head_bylyricist, aes(x = Word_count, y = Word, fill = is
 
 It's surprising that 'time' was used a lot. I'm interested that whether all bands like this word or it's just RIDE. Maybe it would be my next project in the future.
 
-### Top 5 Words for Each Album
+#### Top 5 Words for Each Album
 
 ```{r ride the word for each album, warning = FALSE, message = FALSE}
 # The Word for each album?
@@ -494,7 +495,7 @@ ggplot(ride_token_count_album_head, aes(x = Album, y = Word, label = Word)) +
 
 Some themes are always there - time, day, life, feel...
 
-### Who is the Saddest Lyricist?
+#### Who is the Saddest Lyricist?
 
 ```{r ride who is more depressed, warning = FALSE, message = FALSE}
 # who is more depressed
@@ -531,7 +532,7 @@ ggplot(ride_afinn_score_by_lyricist, aes(x = lyricist, y = weighted_avg, fill = 
 
 Mark Gardener seems really sad.
 
-### Are they trending towards happiness or sadness over time?
+#### Are they trending towards happiness or sadness over time?
 
 ```{r ride who is getting more depressed, warning = FALSE, message = FALSE}
 # Is anyone getting more depressed over time?

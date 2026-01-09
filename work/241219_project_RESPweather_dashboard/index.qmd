@@ -2,9 +2,10 @@
 title: "Weather-Respiratory Disease Correlation Explorer"
 date: "2024-12-19"
 categories: [data analysis, respiratory virus, dashboard, R, R Shiny, biology, EN]
+image: photo/shiny1.PNG
 ---
 
-# Project
+## Project
 
 This [**Weather-Respiratory Diseases Correlation Explorer**](https://yunyiru.shinyapps.io/RESPweather_dashboard/) R Shiny Dashboard aims to investigate the relationship between climate and weather-related conditions and outbreaks of two respiratory viruses, **influenza** and **respiratory syncytial virus (RSV)**.
 
@@ -14,7 +15,7 @@ Influenza is an RNA virus from the *Orthomyxoviridae* family that frequently mut
 
 Climate and weather conditions can influence the activity and spread of both viruses. Studies have suggested that factors like **cold temperatures**, **low indoor humidity**, **limited sunlight**, and **rapid weather changes** may increase the risk of disease outbreaks.
 
-# Features
+## Features
 
 -   **Weekly Rates**: This dashboard uses [CDC RESP-NET data](https://data.cdc.gov/Public-Health-Surveillance/Rates-of-Laboratory-Confirmed-RSV-COVID-19-and-Flu/kvib-3txy/about_data) to give an overview of influenza and rsv hospitalization rates of each state from 2018 to 2024. The user can select year, state, and pathogen of interest using the interactive filters.
 
@@ -24,7 +25,7 @@ Climate and weather conditions can influence the activity and spread of both vir
 
 ![](photo/shiny3.PNG)
 
-# Data
+## Data
 
 -   **Respiratory Virus Related Hospitalization Rate**: Disease rate data were scrapped from [CDC RESP-NET](https://data.cdc.gov/Public-Health-Surveillance/Rates-of-Laboratory-Confirmed-RSV-COVID-19-and-Flu/kvib-3txy/about_data).
 
