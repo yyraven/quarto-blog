@@ -38,8 +38,10 @@ website:
       foreground: "#635d5d"
       collapse-level: -1
       contents:
-        - text: "All About Birding"
-          href: personal/nd_birding/index.qmd
+        - section: "Nature"
+          contents:
+            - personal/nd_birding/index.qmd
+            - auto: "personal/*travel*/*.qmd"
         - section: "Review"
           contents:
             - personal/nd_personal_library/index.qmd
