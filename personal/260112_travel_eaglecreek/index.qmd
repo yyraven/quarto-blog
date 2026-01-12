@@ -3,6 +3,7 @@ title: "Birding | A Visit to Eagle Creek Park"
 date: "2026-01-12"
 categories: [birding, travel, indiana, EN]
 toc: true
+image: figs/center4.jpeg
 output:
   html_document:
     code_folding: hide
