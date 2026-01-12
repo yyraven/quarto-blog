@@ -38,7 +38,7 @@ website:
       foreground: "#635d5d"
       collapse-level: -1
       contents:
-        - section: "Nature"
+        - section: "Travel"
           contents:
             - personal/nd_birding/index.qmd
             - auto: "personal/*travel*/*.qmd"
