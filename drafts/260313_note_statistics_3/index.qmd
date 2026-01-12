@@ -1,0 +1,7 @@
+---
+title: "Statistics Notes 3 - Estimation and Confidence"
+date: "2026-03-13"
+categories: [statistics, notes, estimation, confidence, draft, EN]
+---
+
+## Probability

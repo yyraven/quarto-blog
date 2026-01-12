@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-image','listing-title','listing-categories','listing-description','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-image','listing-title','listing-description','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -187,7 +187,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="EN">EN <span class="quarto-category-count">(6)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R Shiny">R Shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="biology">biology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="blogging">blogging <span class="quarto-category-count">(3)</span></div><div class="category" data-category="css">css <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dashboard">dashboard <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data analysis">data analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="music">music <span class="quarto-category-count">(1)</span></div><div class="category" data-category="resources">resources <span class="quarto-category-count">(4)</span></div><div class="category" data-category="respiratory virus">respiratory virus <span class="quarto-category-count">(1)</span></div><div class="category" data-category="scss">scss <span class="quarto-category-count">(2)</span></div><div class="category" data-category="sentiment analysis">sentiment analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="text analysis">text analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="web development">web development <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="EN">EN <span class="quarto-category-count">(7)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R Shiny">R Shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="biology">biology <span class="quarto-category-count">(3)</span></div><div class="category" data-category="blogging">blogging <span class="quarto-category-count">(3)</span></div><div class="category" data-category="css">css <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dashboard">dashboard <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data analysis">data analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="experimental design">experimental design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="music">music <span class="quarto-category-count">(1)</span></div><div class="category" data-category="notes">notes <span class="quarto-category-count">(1)</span></div><div class="category" data-category="resources">resources <span class="quarto-category-count">(4)</span></div><div class="category" data-category="respiratory virus">respiratory virus <span class="quarto-category-count">(1)</span></div><div class="category" data-category="scss">scss <span class="quarto-category-count">(2)</span></div><div class="category" data-category="sentiment analysis">sentiment analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="statistics">statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="text analysis">text analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="web development">web development <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -214,7 +214,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
@@ -237,19 +237,64 @@ window.Quarto = {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="web development,css,scss,blogging,resources,EN" data-listing-date-sort="1765774800000" data-listing-file-modified-sort="1765848296273" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
-<a href="./work/251215_resources_theme_internetod/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./work/251215_resources_theme_internetod/kangelprofile.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-InternetOD — Pixelated CSS Theme for Quarto
-</h5>
-<div class="listing-reading-time card-text text-muted">
-1 min
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="statistics,notes,biology,experimental design,EN" data-listing-date-sort="1768021200000" data-listing-file-modified-sort="1768257115379" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="946">
+<div class="thumbnail">
+<p><a href="./work/260110_note_statistics_0/index.html" class="no-external"></a></p><a href="./work/260110_note_statistics_0/index.html" class="no-external">
+<p><img loading="lazy" src="./figs/preview.png" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./work/260110_note_statistics_0/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./work/260110_note_statistics_0/index.html" class="no-external">Statistics Notes 0 — Experimental Design</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./work/260110_note_statistics_0/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('statistics'); return false;">
+statistics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('notes'); return false;">
+notes
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('biology'); return false;">
+biology
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('experimental design'); return false;">
+experimental design
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EN'); return false;">
+EN
+</div>
+</div>
+<div class="listing-description">
+<a href="./work/260110_note_statistics_0/index.html" class="no-external">This page explains the principles of a good experimental design.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./work/260110_note_statistics_0/index.html" class="no-external">
+<div class="listing-date">
+1/10/26
+</div>
+<div class="listing-reading-time">
+5 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="web development,css,scss,blogging,resources,EN" data-listing-date-sort="1765774800000" data-listing-file-modified-sort="1768256260445" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
+<div class="thumbnail">
+<p><a href="./work/251215_resources_theme_internetod/index.html" class="no-external"></a></p><a href="./work/251215_resources_theme_internetod/index.html" class="no-external">
+<p><img loading="lazy" src="./work/251215_resources_theme_internetod/kangelprofile.jpeg" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./work/251215_resources_theme_internetod/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./work/251215_resources_theme_internetod/index.html" class="no-external">InternetOD — Pixelated CSS Theme for Quarto</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./work/251215_resources_theme_internetod/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('web development'); return false;">
@@ -271,30 +316,33 @@ resources
 EN
 </div>
 </div>
-<div class="card-text listing-description">
-This post introduces the ‘InternetOD’ theme used…
+<div class="listing-description">
+<a href="./work/251215_resources_theme_internetod/index.html" class="no-external">This page introduces the ‘InternetOD’ theme used on this blog.</a>
 </div>
-<div class="card-attribution card-text-small end">
+</div>
+<div class="metadata">
+<a href="./work/251215_resources_theme_internetod/index.html" class="no-external">
 <div class="listing-date">
 12/15/25
 </div>
-</div>
-</div>
+<div class="listing-reading-time">
+1 min
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="web development,css,scss,blogging,resources,EN" data-listing-date-sort="1765774800000" data-listing-file-modified-sort="1765846615564" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
-<a href="./work/251215_resources_theme_nib/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./work/251215_resources_theme_nib/nib.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Nib — Elegant CSS Theme for Quarto
-</h5>
-<div class="listing-reading-time card-text text-muted">
-1 min
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="web development,css,scss,blogging,resources,EN" data-listing-date-sort="1765774800000" data-listing-file-modified-sort="1768256267860" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
+<div class="thumbnail">
+<p><a href="./work/251215_resources_theme_nib/index.html" class="no-external"></a></p><a href="./work/251215_resources_theme_nib/index.html" class="no-external">
+<p><img loading="lazy" src="./work/251215_resources_theme_nib/nib.jpg" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./work/251215_resources_theme_nib/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./work/251215_resources_theme_nib/index.html" class="no-external">Nib — Elegant CSS Theme for Quarto</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./work/251215_resources_theme_nib/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('web development'); return false;">
@@ -316,30 +364,33 @@ resources
 EN
 </div>
 </div>
-<div class="card-text listing-description">
-This post introduces the ‘Nib’ theme used on…
+<div class="listing-description">
+<a href="./work/251215_resources_theme_nib/index.html" class="no-external">This page introduces the ‘Nib’ theme used on this blog.</a>
 </div>
-<div class="card-attribution card-text-small end">
+</div>
+<div class="metadata">
+<a href="./work/251215_resources_theme_nib/index.html" class="no-external">
 <div class="listing-date">
 12/15/25
 </div>
-</div>
-</div>
+<div class="listing-reading-time">
+1 min
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="data analysis,respiratory virus,dashboard,R,R Shiny,biology,EN" data-listing-date-sort="1734584400000" data-listing-file-modified-sort="1767931074480" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
-<a href="./work/241219_project_RESPweather_dashboard/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./work/241219_project_RESPweather_dashboard/photo/shiny1.PNG" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Weather-Respiratory Disease Correlation Explorer
-</h5>
-<div class="listing-reading-time card-text text-muted">
-2 min
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="data analysis,respiratory virus,dashboard,R,R Shiny,biology,EN" data-listing-date-sort="1734584400000" data-listing-file-modified-sort="1768256444236" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
+<div class="thumbnail">
+<p><a href="./work/241219_project_RESPweather_dashboard/index.html" class="no-external"></a></p><a href="./work/241219_project_RESPweather_dashboard/index.html" class="no-external">
+<p><img loading="lazy" src="./work/241219_project_RESPweather_dashboard/photo/shiny1.PNG" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./work/241219_project_RESPweather_dashboard/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./work/241219_project_RESPweather_dashboard/index.html" class="no-external">Weather-Respiratory Disease Correlation Explorer</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./work/241219_project_RESPweather_dashboard/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('data analysis'); return false;">
@@ -364,30 +415,33 @@ biology
 EN
 </div>
 </div>
-<div class="card-text listing-description">
-This <strong>Weather-Respiratory Diseases Correlation…</strong><strong></strong><strong></strong>
+<div class="listing-description">
+<a href="./work/241219_project_RESPweather_dashboard/index.html" class="no-external">This page introduces the R shiny project ‘weather-respiratory disease correlation explorer’.</a>
 </div>
-<div class="card-attribution card-text-small end">
+</div>
+<div class="metadata">
+<a href="./work/241219_project_RESPweather_dashboard/index.html" class="no-external">
 <div class="listing-date">
 12/19/24
 </div>
-</div>
-</div>
+<div class="listing-reading-time">
+2 min
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="biology,resources,EN" data-listing-date-sort="1731128400000" data-listing-file-modified-sort="1765845253927" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="518">
-<a href="./work/241109_resources_useful_bio_links/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./figs/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Bookmarks for Biologists
-</h5>
-<div class="listing-reading-time card-text text-muted">
-3 min
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="biology,resources,EN" data-listing-date-sort="1731128400000" data-listing-file-modified-sort="1768256383513" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="518">
+<div class="thumbnail">
+<p><a href="./work/241109_resources_useful_bio_links/index.html" class="no-external"></a></p><a href="./work/241109_resources_useful_bio_links/index.html" class="no-external">
+<p><img loading="lazy" src="./figs/preview.png" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./work/241109_resources_useful_bio_links/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./work/241109_resources_useful_bio_links/index.html" class="no-external">Bookmarks for Biologists</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./work/241109_resources_useful_bio_links/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('biology'); return false;">
@@ -400,30 +454,33 @@ resources
 EN
 </div>
 </div>
-<div class="card-text listing-description">
-NCBI BLAST/Basic Local Alignment Search Tool…
+<div class="listing-description">
+<a href="./work/241109_resources_useful_bio_links/index.html" class="no-external">This page is a list of biology-related online databases/tools/tutorials.</a>
 </div>
-<div class="card-attribution card-text-small end">
+</div>
+<div class="metadata">
+<a href="./work/241109_resources_useful_bio_links/index.html" class="no-external">
 <div class="listing-date">
 11/9/24
 </div>
-</div>
-</div>
+<div class="listing-reading-time">
+3 min
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="data analysis,text analysis,sentiment analysis,music,R,EN" data-listing-date-sort="1731042000000" data-listing-file-modified-sort="1767930998347" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3500">
-<a href="./work/241108_project_lyric_analysis/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./work/241108_project_lyric_analysis/photo/nowhere.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Who Is The Saddest Shoegaze Band?
-</h5>
-<div class="listing-reading-time card-text text-muted">
-18 min
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="data analysis,text analysis,sentiment analysis,music,R,EN" data-listing-date-sort="1731042000000" data-listing-file-modified-sort="1768256436284" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3500">
+<div class="thumbnail">
+<p><a href="./work/241108_project_lyric_analysis/index.html" class="no-external"></a></p><a href="./work/241108_project_lyric_analysis/index.html" class="no-external">
+<p><img loading="lazy" src="./work/241108_project_lyric_analysis/photo/nowhere.jpg" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./work/241108_project_lyric_analysis/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./work/241108_project_lyric_analysis/index.html" class="no-external">Who Is The Saddest Shoegaze Band?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./work/241108_project_lyric_analysis/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('data analysis'); return false;">
@@ -445,30 +502,33 @@ R
 EN
 </div>
 </div>
-<div class="card-text listing-description">
-I’m interested in the ‘shoegaze’ subgenre of…<em></em><span class="citation" data-cites="sherburne_shoegaze_2023"></span>
+<div class="listing-description">
+<a href="./work/241108_project_lyric_analysis/index.html" class="no-external">This page introduces the text analysis project ‘Who Is The Saddest Shoegaze Band’.</a>
 </div>
-<div class="card-attribution card-text-small end">
+</div>
+<div class="metadata">
+<a href="./work/241108_project_lyric_analysis/index.html" class="no-external">
 <div class="listing-date">
 11/8/24
 </div>
-</div>
-</div>
+<div class="listing-reading-time">
+18 min
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="blogging,resources,EN" data-listing-date-sort="1726200000000" data-listing-file-modified-sort="1767931054744" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
-<a href="./work/240913_resources_first_post/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./figs/preview.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-First Blog Post! &amp; Blogging Resources
-</h5>
-<div class="listing-reading-time card-text text-muted">
-1 min
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="blogging,resources,EN" data-listing-date-sort="1726200000000" data-listing-file-modified-sort="1768256488806" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
+<div class="thumbnail">
+<p><a href="./work/240913_resources_first_post/index.html" class="no-external"></a></p><a href="./work/240913_resources_first_post/index.html" class="no-external">
+<p><img loading="lazy" src="./figs/preview.png" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./work/240913_resources_first_post/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./work/240913_resources_first_post/index.html" class="no-external">First Blog Post! &amp; Blogging Resources</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./work/240913_resources_first_post/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('blogging'); return false;">
@@ -481,17 +541,20 @@ resources
 EN
 </div>
 </div>
-<div class="card-text listing-description">
-<span class="emoji" data-emoji="tada">🎉</span> Hi, this is my first blog post!
+<div class="listing-description">
+<a href="./work/240913_resources_first_post/index.html" class="no-external">Hi, this is my first blog post!</a>
 </div>
-<div class="card-attribution card-text-small end">
+</div>
+<div class="metadata">
+<a href="./work/240913_resources_first_post/index.html" class="no-external">
 <div class="listing-date">
 9/13/24
 </div>
-</div>
-</div>
+<div class="listing-reading-time">
+1 min
 </div>
 </a>
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">

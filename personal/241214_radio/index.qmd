@@ -2,6 +2,7 @@
 title: "音乐电台｜2024 音乐与我的四季"
 date: "2024-12-14"
 categories: [radio, music, 中文]
+image: captures/sd_1.jpeg
 ---
 
 ## 夏日电台

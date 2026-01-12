@@ -65,6 +65,9 @@ website:
         - section: "Resources"
           contents:
             - auto: "work/*resources*/*.qmd"
+        - section: "Class Notes"
+          contents:
+            - auto: "work/*note*/*.qmd"
 
 format:
   html:

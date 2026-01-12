@@ -1,16 +1,23 @@
 [
   {
-    "listing": "/personal.html",
+    "listing": "/archive.html",
     "items": [
       "/personal/260112_travel_birding_eaglecreek/index.html",
+      "/work/260110_note_statistics_0/index.html",
       "/personal/260108_diary/index.html",
       "/personal/251231_radio/index.html",
+      "/work/251215_resources_theme_internetod/index.html",
+      "/work/251215_resources_theme_nib/index.html",
       "/personal/nd_personal_library/index.html",
       "/personal/250714_diary/index.html",
       "/personal/250320_diary/index.html",
       "/personal/nd_birding/index.html",
+      "/work/241219_project_RESPweather_dashboard/index.html",
       "/personal/241214_radio/index.html",
+      "/work/241109_resources_useful_bio_links/index.html",
+      "/work/241108_project_lyric_analysis/index.html",
       "/personal/241029_review_oys/index.html",
+      "/work/240913_resources_first_post/index.html",
       "/personal/240618_radio/index.html",
       "/personal/240401_review_allwatched/index.html",
       "/personal/240120_review_ride/index.html",
@@ -20,9 +27,22 @@
     ]
   },
   {
+    "listing": "/work.html",
+    "items": [
+      "/work/260110_note_statistics_0/index.html",
+      "/work/251215_resources_theme_internetod/index.html",
+      "/work/251215_resources_theme_nib/index.html",
+      "/work/241219_project_RESPweather_dashboard/index.html",
+      "/work/241109_resources_useful_bio_links/index.html",
+      "/work/241108_project_lyric_analysis/index.html",
+      "/work/240913_resources_first_post/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/personal/260112_travel_birding_eaglecreek/index.html",
+      "/work/260110_note_statistics_0/index.html",
       "/personal/260108_diary/index.html",
       "/personal/251231_radio/index.html",
       "/work/251215_resources_theme_internetod/index.html",
@@ -41,34 +61,17 @@
     ]
   },
   {
-    "listing": "/work.html",
-    "items": [
-      "/work/251215_resources_theme_internetod/index.html",
-      "/work/251215_resources_theme_nib/index.html",
-      "/work/241219_project_RESPweather_dashboard/index.html",
-      "/work/241109_resources_useful_bio_links/index.html",
-      "/work/241108_project_lyric_analysis/index.html",
-      "/work/240913_resources_first_post/index.html"
-    ]
-  },
-  {
-    "listing": "/archive.html",
+    "listing": "/personal.html",
     "items": [
       "/personal/260112_travel_birding_eaglecreek/index.html",
       "/personal/260108_diary/index.html",
       "/personal/251231_radio/index.html",
-      "/work/251215_resources_theme_internetod/index.html",
-      "/work/251215_resources_theme_nib/index.html",
       "/personal/nd_personal_library/index.html",
       "/personal/250714_diary/index.html",
       "/personal/250320_diary/index.html",
       "/personal/nd_birding/index.html",
-      "/work/241219_project_RESPweather_dashboard/index.html",
       "/personal/241214_radio/index.html",
-      "/work/241109_resources_useful_bio_links/index.html",
-      "/work/241108_project_lyric_analysis/index.html",
       "/personal/241029_review_oys/index.html",
-      "/work/240913_resources_first_post/index.html",
       "/personal/240618_radio/index.html",
       "/personal/240401_review_allwatched/index.html",
       "/personal/240120_review_ride/index.html",

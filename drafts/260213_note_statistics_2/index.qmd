@@ -1,0 +1,7 @@
+---
+title: "Statistics Notes 2 - Probability and Distribution"
+date: "2026-02-13"
+categories: [statistics, notes, probability, distribution, draft, EN]
+---
+
+## Probability

@@ -2,9 +2,8 @@
 title: "First Blog Post! & Blogging Resources"
 date: "2024-09-13"
 categories: [blogging, resources, EN]
+description: Hi, this is my first blog post!
 ---
-
-:tada: Hi, this is my first blog post!
 
 This blog was initially built as a project of the [statistical computing](https://lcolladotor.github.io/jhustatcomputing/) class I'm taking.
 

@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-image','listing-title','listing-description','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -128,7 +128,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="alternate" type="application/rss+xml" title="Raven's Nest" href="personal.xml" data-external="1"><meta property="og:title" content="Personal – Raven’s Nest">
+<meta property="og:title" content="Personal – Raven’s Nest">
 <meta property="og:image" content="https://yyraven.github.io/quarto-blog/figs/preview.png">
 <meta property="og:site_name" content="Raven's Nest">
 <meta property="og:image:height" content="731">
@@ -214,21 +214,21 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
      <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
          <option value="listing-date-sort" data-direction="asc">
           Date - Oldest
         </option>
          <option value="listing-date-sort" data-direction="desc">
           Date - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
         </option>
      </select>
   </div>
@@ -237,140 +237,587 @@ window.Quarto = {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="birding,travel,indiana,EN" data-listing-date-sort="1768194000000" data-listing-file-modified-sort="1768236793893" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="236" data-listing-title-sort="Birding | A Visit to Eagle Creek Park" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">1/12/26</span>
-</td>
-<td>
-<a href="./personal/260112_travel_birding_eaglecreek/index.html" class="title listing-title">Birding | A Visit to Eagle Creek Park</a>
-</td>
-</tr>
-<tr data-index="1" data-categories="year-end recap,中文" data-listing-date-sort="1767848400000" data-listing-file-modified-sort="1767969703969" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80" data-listing-title-sort="年终总结｜2025 身体拖着精神前进" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">1/8/26</span>
-</td>
-<td>
-<a href="./personal/260108_diary/index.html" class="title listing-title">年终总结｜2025 身体拖着精神前进</a>
-</td>
-</tr>
-<tr data-index="2" data-categories="radio,music,中文" data-listing-date-sort="1767157200000" data-listing-file-modified-sort="1767930164202" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="364" data-listing-title-sort="音乐电台｜2025 音乐与我的四季" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">12/31/25</span>
-</td>
-<td>
-<a href="./personal/251231_radio/index.html" class="title listing-title">音乐电台｜2025 音乐与我的四季</a>
-</td>
-</tr>
-<tr data-index="3" data-categories="book,movie,music,documentary,review,中文" data-listing-date-sort="1765515600000" data-listing-file-modified-sort="1767485739818" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="760" data-listing-title-sort="置顶 | 工业风豆瓣" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">12/12/25</span>
-</td>
-<td>
-<a href="./personal/nd_personal_library/index.html" class="title listing-title">置顶 | 工业风豆瓣</a>
-</td>
-</tr>
-<tr data-index="4" data-categories="diary,中文" data-listing-date-sort="1752465600000" data-listing-file-modified-sort="1765696473162" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="日记 | 我做小姨，真的假的" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">7/14/25</span>
-</td>
-<td>
-<a href="./personal/250714_diary/index.html" class="title listing-title">日记 | 我做小姨，真的假的</a>
-</td>
-</tr>
-<tr data-index="5" data-categories="diary,中文" data-listing-date-sort="1742443200000" data-listing-file-modified-sort="1765695621570" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="279" data-listing-title-sort="日记 | 黑狗" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">3/20/25</span>
-</td>
-<td>
-<a href="./personal/250320_diary/index.html" class="title listing-title">日记 | 黑狗</a>
-</td>
-</tr>
-<tr data-index="6" data-categories="birding,travel,EN" data-listing-date-sort="1736312400000" data-listing-file-modified-sort="1767930508697" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2484" data-listing-title-sort="All About Birding" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">1/8/25</span>
-</td>
-<td>
-<a href="./personal/nd_birding/index.html" class="title listing-title">All About Birding</a>
-</td>
-</tr>
-<tr data-index="7" data-categories="radio,music,中文" data-listing-date-sort="1734152400000" data-listing-file-modified-sort="1767930012813" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="226" data-listing-title-sort="音乐电台｜2024 音乐与我的四季" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">12/14/24</span>
-</td>
-<td>
-<a href="./personal/241214_radio/index.html" class="title listing-title">音乐电台｜2024 音乐与我的四季</a>
-</td>
-</tr>
-<tr data-index="8" data-categories="music,review,中文" data-listing-date-sort="1730174400000" data-listing-file-modified-sort="1765782392157" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29" data-listing-title-sort="滚妹人格 | 分割世界的桥" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">10/29/24</span>
-</td>
-<td>
-<a href="./personal/241029_review_oys/index.html" class="title listing-title">滚妹人格 | 分割世界的桥</a>
-</td>
-</tr>
-<tr data-index="9" data-categories="radio,music,中文" data-listing-date-sort="1718683200000" data-listing-file-modified-sort="1765678774134" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="990" data-listing-title-sort="音乐电台｜2024 上半年的一周一曲" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">6/18/24</span>
-</td>
-<td>
-<a href="./personal/240618_radio/index.html" class="title listing-title">音乐电台｜2024 上半年的一周一曲</a>
-</td>
-</tr>
-<tr data-index="10" data-categories="review,documentary,中文" data-listing-date-sort="1711944000000" data-listing-file-modified-sort="1767928076896" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112" data-listing-title-sort="观后感 | 一切皆被慈爱的机器注视" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">4/1/24</span>
-</td>
-<td>
-<a href="./personal/240401_review_allwatched/index.html" class="title listing-title">观后感 | 一切皆被慈爱的机器注视</a>
-</td>
-</tr>
-<tr data-index="11" data-categories="music,review,中文" data-listing-date-sort="1705726800000" data-listing-file-modified-sort="1765782381817" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="66" data-listing-title-sort="滚妹人格 | 属于我的蒙娜丽莎" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">1/20/24</span>
-</td>
-<td>
-<a href="./personal/240120_review_ride/index.html" class="title listing-title">滚妹人格 | 属于我的蒙娜丽莎</a>
-</td>
-</tr>
-<tr data-index="12" data-categories="diary,中文" data-listing-date-sort="1651636800000" data-listing-file-modified-sort="1765684905885" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2" data-listing-title-sort="日记 | 又是一年青年节" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">5/4/22</span>
-</td>
-<td>
-<a href="./personal/220504_diary/index.html" class="title listing-title">日记 | 又是一年青年节</a>
-</td>
-</tr>
-<tr data-index="13" data-categories="diary,中文" data-listing-date-sort="1629777600000" data-listing-file-modified-sort="1765690656368" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10" data-listing-title-sort="日记 | 荚蒾" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">8/24/21</span>
-</td>
-<td>
-<a href="./personal/210824_diary/index.html" class="title listing-title">日记 | 荚蒾</a>
-</td>
-</tr>
-<tr data-index="14" data-categories="diary,中文" data-listing-date-sort="1628049600000" data-listing-file-modified-sort="1765690807764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25" data-listing-title-sort="书信 | 妹亲启：高中生活完全不指南" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">8/4/21</span>
-</td>
-<td>
-<a href="./personal/210804_diary_to_sister/index.html" class="title listing-title">书信 | 妹亲启：高中生活完全不指南</a>
-</td>
-</tr>
-</tbody>
-</table>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="birding,travel,indiana,EN" data-listing-date-sort="1768194000000" data-listing-file-modified-sort="1768236793893" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
+<div class="thumbnail">
+<p><a href="./personal/260112_travel_birding_eaglecreek/index.html" class="no-external"></a></p><a href="./personal/260112_travel_birding_eaglecreek/index.html" class="no-external">
+<p><img loading="lazy" src="./personal/260112_travel_birding_eaglecreek/figs/center4.jpeg" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./personal/260112_travel_birding_eaglecreek/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./personal/260112_travel_birding_eaglecreek/index.html" class="no-external">Birding | A Visit to Eagle Creek Park</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./personal/260112_travel_birding_eaglecreek/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('birding'); return false;">
+birding
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('travel'); return false;">
+travel
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('indiana'); return false;">
+indiana
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EN'); return false;">
+EN
+</div>
+</div>
+<div class="listing-description">
+<a href="./personal/260112_travel_birding_eaglecreek/index.html" class="no-external">This weekend I visited <em>Eagle Creek Park</em> near Indianapolis with my friends. It’s freezing outside…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./personal/260112_travel_birding_eaglecreek/index.html" class="no-external">
+<div class="listing-date">
+1/12/26
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="year-end recap,中文" data-listing-date-sort="1767848400000" data-listing-file-modified-sort="1767969703969" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
+<div class="thumbnail">
+<p><a href="./personal/260108_diary/index.html" class="no-external"></a></p><a href="./personal/260108_diary/index.html" class="no-external">
+<p><img loading="lazy" src="./figs/preview.png" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./personal/260108_diary/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./personal/260108_diary/index.html" class="no-external">年终总结｜2025 身体拖着精神前进</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./personal/260108_diary/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('year-end recap'); return false;">
+year-end recap
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('中文'); return false;">
+中文
+</div>
+</div>
+<div class="listing-description">
+<a href="./personal/260108_diary/index.html" class="no-external">想了很久年终总结应该配什么音乐，要么就配The Cure的Just Like Heaven吧！前奏很像烟花哦。</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./personal/260108_diary/index.html" class="no-external">
+<div class="listing-date">
+1/8/26
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="radio,music,中文" data-listing-date-sort="1767157200000" data-listing-file-modified-sort="1767930164202" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="364">
+<div class="thumbnail">
+<p><a href="./personal/251231_radio/index.html" class="no-external"></a></p><a href="./personal/251231_radio/index.html" class="no-external">
+<p><img loading="lazy" src="./personal/251231_radio/covers/2025.jpeg" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./personal/251231_radio/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./personal/251231_radio/index.html" class="no-external">音乐电台｜2025 音乐与我的四季</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./personal/251231_radio/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('radio'); return false;">
+radio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('music'); return false;">
+music
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('中文'); return false;">
+中文
+</div>
+</div>
+<div class="listing-description">
+<a href="./personal/251231_radio/index.html" class="no-external"><em>我感觉有必要把这个四季音乐推荐系列提前一个月，六月份已经是夏天了，而三月份肯定是春天。</em></a>
+</div>
+</div>
+<div class="metadata">
+<a href="./personal/251231_radio/index.html" class="no-external">
+<div class="listing-date">
+12/31/25
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="book,movie,music,documentary,review,中文" data-listing-date-sort="1765515600000" data-listing-file-modified-sort="1767485739818" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="760">
+<div class="thumbnail">
+<p><a href="./personal/nd_personal_library/index.html" class="no-external"></a></p><a href="./personal/nd_personal_library/index.html" class="no-external">
+<p><img loading="lazy" src="./figs/preview.png" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./personal/nd_personal_library/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./personal/nd_personal_library/index.html" class="no-external">置顶 | 工业风豆瓣</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./personal/nd_personal_library/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('book'); return false;">
+book
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('movie'); return false;">
+movie
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('music'); return false;">
+music
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('documentary'); return false;">
+documentary
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('review'); return false;">
+review
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('中文'); return false;">
+中文
+</div>
+</div>
+<div class="listing-description">
+<a href="./personal/nd_personal_library/index.html" class="no-external">书影音记录</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./personal/nd_personal_library/index.html" class="no-external">
+<div class="listing-date">
+12/12/25
+</div>
+<div class="listing-reading-time">
+4 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="diary,中文" data-listing-date-sort="1752465600000" data-listing-file-modified-sort="1765696473162" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="./personal/250714_diary/index.html" class="no-external"></a></p><a href="./personal/250714_diary/index.html" class="no-external">
+<p><img loading="lazy" src="./figs/preview.png" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./personal/250714_diary/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./personal/250714_diary/index.html" class="no-external">日记 | 我做小姨，真的假的</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./personal/250714_diary/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('diary'); return false;">
+diary
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('中文'); return false;">
+中文
+</div>
+</div>
+<div class="listing-description">
+<a href="./personal/250714_diary/index.html" class="no-external">我有了一个快四岁的侄女。虽然三年前就<strong>有</strong>了，但两年前第一次见到她的时候，她还是一小坨不会说话也不会互动的小东西；现在她已经变成了会唱歌跳舞的、非常非常可爱的小姑娘，时光飞逝啊！看着她，我真心地希望她不…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./personal/250714_diary/index.html" class="no-external">
+<div class="listing-date">
+7/14/25
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="diary,中文" data-listing-date-sort="1742443200000" data-listing-file-modified-sort="1765695621570" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="279">
+<div class="thumbnail">
+<p><a href="./personal/250320_diary/index.html" class="no-external"></a></p><a href="./personal/250320_diary/index.html" class="no-external">
+<p><img loading="lazy" src="./figs/preview.png" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./personal/250320_diary/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./personal/250320_diary/index.html" class="no-external">日记 | 黑狗</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./personal/250320_diary/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('diary'); return false;">
+diary
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('中文'); return false;">
+中文
+</div>
+</div>
+<div class="listing-description">
+<a href="./personal/250320_diary/index.html" class="no-external">警告：抑郁/焦虑提及</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./personal/250320_diary/index.html" class="no-external">
+<div class="listing-date">
+3/20/25
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="birding,travel,EN" data-listing-date-sort="1736312400000" data-listing-file-modified-sort="1767930508697" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2484">
+<div class="thumbnail">
+<p><a href="./personal/nd_birding/index.html" class="no-external"></a></p><a href="./personal/nd_birding/index.html" class="no-external">
+<p><img loading="lazy" src="./personal/nd_birding/headline.jpg" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./personal/nd_birding/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./personal/nd_birding/index.html" class="no-external">All About Birding</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./personal/nd_birding/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('birding'); return false;">
+birding
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('travel'); return false;">
+travel
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EN'); return false;">
+EN
+</div>
+</div>
+<div class="listing-description">
+<a href="./personal/nd_birding/index.html" class="no-external"><strong>I love birding!</strong> Welcome to my personal birding records. I’m a casual birder who enjoys watching…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./personal/nd_birding/index.html" class="no-external">
+<div class="listing-date">
+1/8/25
+</div>
+<div class="listing-reading-time">
+13 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="radio,music,中文" data-listing-date-sort="1734152400000" data-listing-file-modified-sort="1768256918274" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="226">
+<div class="thumbnail">
+<p><a href="./personal/241214_radio/index.html" class="no-external"></a></p><a href="./personal/241214_radio/index.html" class="no-external">
+<p><img loading="lazy" src="./personal/241214_radio/captures/sd_1.jpeg" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./personal/241214_radio/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./personal/241214_radio/index.html" class="no-external">音乐电台｜2024 音乐与我的四季</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./personal/241214_radio/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('radio'); return false;">
+radio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('music'); return false;">
+music
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('中文'); return false;">
+中文
+</div>
+</div>
+<div class="listing-description">
+<a href="./personal/241214_radio/index.html" class="no-external">以此向2024年美丽的夏日致敬！选了三张今年夏天喜欢上的、并且循环了很多遍的专辑。</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./personal/241214_radio/index.html" class="no-external">
+<div class="listing-date">
+12/14/24
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="music,review,中文" data-listing-date-sort="1730174400000" data-listing-file-modified-sort="1765782392157" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
+<div class="thumbnail">
+<p><a href="./personal/241029_review_oys/index.html" class="no-external"></a></p><a href="./personal/241029_review_oys/index.html" class="no-external">
+<p><img loading="lazy" src="./figs/preview.png" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./personal/241029_review_oys/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./personal/241029_review_oys/index.html" class="no-external">滚妹人格 | 分割世界的桥</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./personal/241029_review_oys/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('music'); return false;">
+music
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('review'); return false;">
+review
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('中文'); return false;">
+中文
+</div>
+</div>
+<div class="listing-description">
+<a href="./personal/241029_review_oys/index.html" class="no-external">千里奔袭去纽约看万青了。</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./personal/241029_review_oys/index.html" class="no-external">
+<div class="listing-date">
+10/29/24
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="radio,music,中文" data-listing-date-sort="1718683200000" data-listing-file-modified-sort="1765678774134" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="990">
+<div class="thumbnail">
+<p><a href="./personal/240618_radio/index.html" class="no-external"></a></p><a href="./personal/240618_radio/index.html" class="no-external">
+<p><img loading="lazy" src="./figs/preview.png" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./personal/240618_radio/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./personal/240618_radio/index.html" class="no-external">音乐电台｜2024 上半年的一周一曲</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./personal/240618_radio/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('radio'); return false;">
+radio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('music'); return false;">
+music
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('中文'); return false;">
+中文
+</div>
+</div>
+<div class="listing-description">
+<a href="./personal/240618_radio/index.html" class="no-external">Notion博客存档。当时比较有精力所以每周都在听新曲子…总之可以看出来一个很明显的坠入盯鞋/迷幻/梦泡大坑的过程，现在两年过去了还没爬出来 - 251213 YR</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./personal/240618_radio/index.html" class="no-external">
+<div class="listing-date">
+6/18/24
+</div>
+<div class="listing-reading-time">
+5 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="review,documentary,中文" data-listing-date-sort="1711944000000" data-listing-file-modified-sort="1767928076896" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
+<div class="thumbnail">
+<p><a href="./personal/240401_review_allwatched/index.html" class="no-external"></a></p><a href="./personal/240401_review_allwatched/index.html" class="no-external">
+<p><img loading="lazy" src="./figs/preview.png" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./personal/240401_review_allwatched/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./personal/240401_review_allwatched/index.html" class="no-external">观后感 | 一切皆被慈爱的机器注视</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./personal/240401_review_allwatched/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('review'); return false;">
+review
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('documentary'); return false;">
+documentary
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('中文'); return false;">
+中文
+</div>
+</div>
+<div class="listing-description">
+<a href="./personal/240401_review_allwatched/index.html" class="no-external">最近因为Ride的新歌Essaouira的歌词去看了纪录片All Watched Over by Machines of Loving…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./personal/240401_review_allwatched/index.html" class="no-external">
+<div class="listing-date">
+4/1/24
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="music,review,中文" data-listing-date-sort="1705726800000" data-listing-file-modified-sort="1768257249943" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
+<div class="thumbnail">
+<p><a href="./personal/240120_review_ride/index.html" class="no-external"></a></p><a href="./personal/240120_review_ride/index.html" class="no-external">
+<p><img loading="lazy" src="./personal/240120_review_ride/figs/pic_2.jpg" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./personal/240120_review_ride/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./personal/240120_review_ride/index.html" class="no-external">滚妹人格 | 属于我的蒙娜丽莎</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./personal/240120_review_ride/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('music'); return false;">
+music
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('review'); return false;">
+review
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('中文'); return false;">
+中文
+</div>
+</div>
+<div class="listing-description">
+<a href="./personal/240120_review_ride/index.html" class="no-external">这是我在看完RIDE/The Charlatans的Between Nowhere Tour以后在狂热状态下写的日记。</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./personal/240120_review_ride/index.html" class="no-external">
+<div class="listing-date">
+1/20/24
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="diary,中文" data-listing-date-sort="1651636800000" data-listing-file-modified-sort="1765684905885" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="thumbnail">
+<p><a href="./personal/220504_diary/index.html" class="no-external"></a></p><a href="./personal/220504_diary/index.html" class="no-external">
+<p><img loading="lazy" src="./figs/preview.png" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./personal/220504_diary/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./personal/220504_diary/index.html" class="no-external">日记 | 又是一年青年节</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./personal/220504_diary/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('diary'); return false;">
+diary
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('中文'); return false;">
+中文
+</div>
+</div>
+<div class="listing-description">
+<a href="./personal/220504_diary/index.html" class="no-external">又是一年青年节。</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./personal/220504_diary/index.html" class="no-external">
+<div class="listing-date">
+5/4/22
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="diary,中文" data-listing-date-sort="1629777600000" data-listing-file-modified-sort="1765690656368" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
+<div class="thumbnail">
+<p><a href="./personal/210824_diary/index.html" class="no-external"></a></p><a href="./personal/210824_diary/index.html" class="no-external">
+<p><img loading="lazy" src="./figs/preview.png" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./personal/210824_diary/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./personal/210824_diary/index.html" class="no-external">日记 | 荚蒾</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./personal/210824_diary/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('diary'); return false;">
+diary
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('中文'); return false;">
+中文
+</div>
+</div>
+<div class="listing-description">
+<a href="./personal/210824_diary/index.html" class="no-external">这篇是直接从备忘录里搬过来的，一字未改。虽然很矫情，但是是我的社会化之始，很有纪念意义（？</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./personal/210824_diary/index.html" class="no-external">
+<div class="listing-date">
+8/24/21
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="diary,中文" data-listing-date-sort="1628049600000" data-listing-file-modified-sort="1765690807764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<div class="thumbnail">
+<p><a href="./personal/210804_diary_to_sister/index.html" class="no-external"></a></p><a href="./personal/210804_diary_to_sister/index.html" class="no-external">
+<p><img loading="lazy" src="./figs/preview.png" class="thumbnail-image" style="height: 150px;"></p>
+</a><p><a href="./personal/210804_diary_to_sister/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./personal/210804_diary_to_sister/index.html" class="no-external">书信 | 妹亲启：高中生活完全不指南</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./personal/210804_diary_to_sister/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('diary'); return false;">
+diary
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('中文'); return false;">
+中文
+</div>
+</div>
+<div class="listing-description">
+<a href="./personal/210804_diary_to_sister/index.html" class="no-external">21年给妹写的信，祝贺她考上高中。放在这里是因为忽然发现高中生活已经离我很远、很远了。</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./personal/210804_diary_to_sister/index.html" class="no-external">
+<div class="listing-date">
+8/4/21
+</div>
+<div class="listing-reading-time">
+1 min
+</div>
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>

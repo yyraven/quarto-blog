@@ -3,16 +3,16 @@ title: "Personal"
 listing:
   contents: personal/**/*.qmd
   sort: "date desc"
-  type: table
-  categories: true
+  type: default
+  image-height: 150px
+  max-description-length: 100
   date-format: short
+  categories: true
   sort-ui: true
   filter-ui: true
-  fields: [date, title]
-  feed: true
+  fields: [date, image, title, description, categories, reading-time]
   exclude:
     categories: "draft*"
 page-layout: full
 title-block-banner: false
-sidebar: false
 ---

@@ -110,6 +110,286 @@
   <media:content url="https://yyraven.github.io/quarto-blog/personal/260112_travel_birding_eaglecreek/figs/center4.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>Statistics Notes 0 — Experimental Design</title>
+  <link>https://yyraven.github.io/quarto-blog/work/260110_note_statistics_0/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎572 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Biologists design experiments everyday, but sometimes they don’t really <em>think</em> about experiment design.</p>
+<p>The basic principles of experiment design are listed below:</p>
+<ol type="1">
+<li>Questions/goal of the experiment</li>
+<li>Comparison/control</li>
+<li>Replication</li>
+<li>Randomization</li>
+<li>Stratification/blocking</li>
+<li>Factorial experiments</li>
+</ol>
+</section>
+<section id="experimental-design" class="level2">
+<h2 class="anchored" data-anchor-id="experimental-design">Experimental Design</h2>
+<p>Let’s imagine a simple scenario:</p>
+<blockquote class="blockquote">
+<p><strong>Question</strong>: Does salted drinking water affect blood pressure (BP) in mice?</p>
+<p><strong>Experiment</strong>:</p>
+<ol type="1">
+<li>Provide a mouse with water containing 1% NaCl.</li>
+<li>Wait 14 days.</li>
+<li>Measure BP.</li>
+</ol>
+</blockquote>
+<section id="comparisoncontrol" class="level3">
+<h3 class="anchored" data-anchor-id="comparisoncontrol">Comparison/Control</h3>
+<p>You need a <em>reference</em> group to see the <em>effect</em> of salted drinking water.</p>
+<p>Common control group designs could be:</p>
+<ul>
+<li>Compare BP in mice fed salt water to BP in mice fed plain water.</li>
+<li>Compare BP in strain A mice fed salt water to BP in strain B mice fed salt water.</li>
+</ul>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Ideally, the experimental group is compared to <em>concurrent</em> controls (rather than to historical controls).</p>
+</div>
+</div>
+</div>
+</section>
+<section id="replication" class="level3">
+<h3 class="anchored" data-anchor-id="replication">Replication</h3>
+<p><em>Replicates</em> are needed to 1) reduce the effect of uncontrolled variation (increase precision), and to 2) quantify uncertainty.</p>
+<p>In this scenario, 10 mouse per group would be a reasonable design.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>An estimate is of no value without some statement of the uncertainty in the estimate.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="randomization" class="level3">
+<h3 class="anchored" data-anchor-id="randomization">Randomization</h3>
+<p>Experimental subjects (‘units’) should be assigned to treatment groups <em>at random</em> to 1) avoid bias and 2) to control the role of chance.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><em>At random</em> does NOT mean haphazardly.</p>
+<p>It also allows the later use of probability theory, thus giving a solid foundation for statistical analysis.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="stratificationblocking" class="level3">
+<h3 class="anchored" data-anchor-id="stratificationblocking">Stratification/Blocking</h3>
+<p>Suppose that some BP measurements will be made in the morning, and some in the afternoon. If you anticipate a difference between morning and the afternoon - ensure that within each period, there are equal numbers of subjects in each treatment group (this is called <em>stratification</em>, or <em>blocking</em>); also, take account of the difference between periods in your analysis.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Let’s imagine we have 6 F mice, 6 M mice; half to be treated (T), half left untreated (C); we can only work with 6 mice per day. How to assign individuals to treatment groups, and to days?</p>
+<ul>
+<li><p>Bad Design:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>D1</th>
+<th></th>
+<th>D2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>F-T</td>
+<td>F-C</td>
+<td>M-T</td>
+<td>M-C</td>
+</tr>
+<tr class="even">
+<td>F-T</td>
+<td>F-C</td>
+<td>M-T</td>
+<td>M-C</td>
+</tr>
+<tr class="odd">
+<td>F-T</td>
+<td>F-C</td>
+<td>M-T</td>
+<td>M-C</td>
+</tr>
+</tbody>
+</table></li>
+<li><p>Randomized Design:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>D1</th>
+<th></th>
+<th>D2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>M-T</td>
+<td>F-C</td>
+<td>M-T</td>
+<td>F-C</td>
+</tr>
+<tr class="even">
+<td>F-T</td>
+<td>F-T</td>
+<td>M-C</td>
+<td>M-C</td>
+</tr>
+<tr class="odd">
+<td>F-T</td>
+<td>M-T</td>
+<td>F-C</td>
+<td>M-C</td>
+</tr>
+</tbody>
+</table></li>
+<li><p>Stratified Design:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>D1</th>
+<th></th>
+<th>D2</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>M-C</td>
+<td>M-C</td>
+<td>M-T</td>
+<td>F-C</td>
+</tr>
+<tr class="even">
+<td>M-T</td>
+<td>F-T</td>
+<td>F-C</td>
+<td>M-T</td>
+</tr>
+<tr class="odd">
+<td>F-C</td>
+<td>F-T</td>
+<td>M-C</td>
+<td>F-T</td>
+</tr>
+</tbody>
+</table></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Principles of Randomization and Stratification
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>If you can (and want to), <em>fix</em> a variable. (e.g., only use 8-week old M mice from a single strain.)</li>
+<li>If you don’t fix a variable, <em>stratify</em> it. (e.g., use 8 week and 12 week old M mice, and stratify them respect to age.)</li>
+<li>If you can neither fix nor stratify a variable, <em>randomize</em> it.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="factorial-experiments" class="level3">
+<h3 class="anchored" data-anchor-id="factorial-experiments">Factorial Experiments</h3>
+<p>Suppose we are interested in the effect of both salt water and a high-fat diet on blood pressure.</p>
+<p>Ideally, we will look at <em>all 4 treatments in 1 experiment</em>; thus, we can 1) learn more (=is there any <em>interactive outcome</em>?). 2) make it more efficient compared to doing all single-factor experiments.</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Plain water</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Normal diet</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Salt water</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">High-fat diet</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="other-points" class="level3">
+<h3 class="anchored" data-anchor-id="other-points">Other points</h3>
+<ul>
+<li><p><strong>Blinding</strong>: measurements made by people can be influenced by unconscious biases. Ideally, dissections and measurements should be made without knowledge of the treatment applied.</p></li>
+<li><p><strong>Internal controls</strong>: it can be useful to use the subjects themselves as their own controls (e.g., consider the response after vs.&nbsp;before treatment) to increase precision.</p></li>
+<li><p><strong>Representativeness</strong>: are the subjects/tissues you’re studying really representative of the population you want to study? Ideally, your study material is a stratified random sample from the population of interest.</p></li>
+<li><p><strong>Power</strong>: Experimental Design considerations (balanced designs) and sample size calculations are crucial, in particular w/ regards to your predictor of interest.</p></li>
+</ul>
+</section>
+</section>
+<section id="credit" class="level2">
+<h2 class="anchored" data-anchor-id="credit">Credit</h2>
+<ul>
+<li><p><strong>STAT 503</strong> Statistical Methods for Biology <em>by</em> Dr.&nbsp;Yan Xing</p></li>
+<li><p><strong>140.615/616</strong> Statistics for Lab Scientists I &amp; II <em>by</em> Dr.&nbsp;Ingo Ruczinski</p></li>
+<li><p><strong>STATS 101</strong> Introduction to Applied Statistics <em>by</em> Dr.&nbsp;Andrew MacDonald</p></li>
+</ul>
+<hr>
+<blockquote class="blockquote">
+<p>The saying goes, <em>‘学好数理化，走遍天下都不怕’（from Maths, Physics and Chemistry to anywhere in the world）</em> ;</p>
+<p>And the saying also goes <em>‘基础不牢，地动山摇’（your life would suck if your STEM foundation sucks）</em></p>
+</blockquote>
+<p>I decide to write them into easy-to-read articles and publish them, since I want to get an A in the stats class I’m taking this semester, practice typing <em>LaTex</em>, and have a quick reference whenever needed rather than search for ‘how to perform ANOVA in R’ by Google.</p>
+
+
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
+
+</section>
+
+<center>
+© 2024-2026 RavensNest.
+</center> ]]></description>
+  <category>statistics</category>
+  <category>notes</category>
+  <category>biology</category>
+  <category>experimental design</category>
+  <category>EN</category>
+  <guid>https://yyraven.github.io/quarto-blog/work/260110_note_statistics_0/</guid>
+  <pubDate>Sat, 10 Jan 2026 05:00:00 GMT</pubDate>
+  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
+</item>
+<item>
   <title>年终总结｜2025 身体拖着精神前进</title>
   <link>https://yyraven.github.io/quarto-blog/personal/260108_diary/</link>
   <description><![CDATA[ 
@@ -398,12 +678,11 @@
 
 
 <div class="post-meta-bar">
-  <span class="wordcount"> ✎68 </span>
+  <span class="wordcount"> ✎60 </span>
   <span class="mylikebutton"> ♥</span>
 </div>
 
-<p>This post introduces the ‘InternetOD’ theme used on this blog inspired by the video game ‘Needy Girl Overdose’.</p>
-<p>It is a customization based on the Bootstrap ‘Morph’ theme, providing a cute, pixelated, retro, and Jirai Kei-feeling interface.</p>
+<p>‘InternetOD’ is a customization based on the Bootstrap ‘Morph’ theme, providing a cute, pixelated, retro, and Jirai Kei-feeling interface. It is inspired by the video game ‘Needy Girl Overdose’.</p>
 <p><a href="internetod.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/internetod.jpg" class="img-fluid"></a></p>
 <p><a href="internetod.zip">InternetOD.zip</a></p>
 <p>To use this theme in Quarto, download and decompress the zip file above, put it in your blog folder, and add the following configuration to <code>_quarto.yml</code>:</p>
@@ -474,12 +753,11 @@ font-style: inherit;"> internetod.scss</span></span></code></pre></div>
 
 
 <div class="post-meta-bar">
-  <span class="wordcount"> ✎54 </span>
+  <span class="wordcount"> ✎44 </span>
   <span class="mylikebutton"> ♥</span>
 </div>
 
-<p>This post introduces the ‘Nib’ theme used on this blog.</p>
-<p>It is a customization based on the Bootstrap ‘Morph’ theme, aiming for a minimal, elegant, and book-like reading experience.</p>
+<p>‘Nib’ is a customization based on the Bootstrap ‘Morph’ theme, aiming for a minimal, elegant, and book-like reading experience.</p>
 <p><a href="nib.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_nib/nib.jpg" class="img-fluid"></a></p>
 <p><a href="nib.scss">SCSS file</a></p>
 <p>To use this theme in Quarto, download the file above and add the following configuration to <code>_quarto.yml</code>:</p>
@@ -3485,7 +3763,7 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/241214_radio/</guid>
   <pubDate>Sat, 14 Dec 2024 05:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
+  <media:content url="https://yyraven.github.io/quarto-blog/personal/241214_radio/captures/sd_1.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Bookmarks for Biologists</title>
@@ -6477,11 +6755,10 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 
 
 <div class="post-meta-bar">
-  <span class="wordcount"> ✎47 </span>
+  <span class="wordcount"> ✎40 </span>
   <span class="mylikebutton"> ♥</span>
 </div>
 
-<p><span class="emoji" data-emoji="tada">🎉</span> Hi, this is my first blog post!</p>
 <p>This blog was initially built as a project of the <a href="https://lcolladotor.github.io/jhustatcomputing/">statistical computing</a> class I’m taking.</p>
 <section id="resources" class="level2">
 <h2 class="anchored" data-anchor-id="resources">Resources</h2>
@@ -6947,7 +7224,6 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
   <span class="mylikebutton"> ♥</span>
 </div>
 
-<p><span class="blur">再也吹不出那样的彩虹屁，看了也会红着脸躲避</span></p>
 <p>这是我在看完RIDE/The Charlatans的Between Nowhere Tour以后在狂热状态下写的日记。</p>
 <p>现在回想起来，那种快乐到眩晕的状态可能一辈子都不会再体验到了。因为疫情原因，在这场演出以前，我只看过校园乐队的小演出和没什么感觉的大团的arena演出。这是我第一次在这么近、这么小的场馆里看到水平很棒的、我很喜欢的乐队演出，身边还有亲密的朋友；RIDE的四个人带着他们的爆裂音响就这样杵在我面前，简直是根本不够看。第一次看到吉他手离我这么近地表演solo，那冲击力真是不一般。喝酒也没有经验，狂灌了一整瓶。费城Union Transfer的音量是我去过的场馆里最响的，当时我又不知道要戴耳塞，最后耳鸣了一晚上，然后拖着这个破听力和朋友躺在床上不停地反刍。那天还在下雪，当时我还是那种刚搬到北方的南方人，看到雪地还会兴奋，还没有开始讨厌冬天。</p>
 <p>以后去看多著名的乐队或许都不会有这种感觉了，因为只属于我的蒙娜丽莎我早已遇见……</p>
@@ -6979,6 +7255,7 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 <p>接着魔法师停下了魔咒。Andy说，谢谢，希望我们能很快再见。 Loz给大家拍了照，我们在上面。</p>
 <p>再接着就是长长的、似乎永远都不会结束的后劲。乘着这份飘飘欲仙的心情，我花了35刀买了丑丑的巡演T恤，在Union Transfer “sold out”的告示牌前面拍了照，在回♫家的出租车上跟着广播哼starman，最后变成大合唱；第二天幸福而无所顾忌地倒在费城美术馆前洁白松软的积雪上。</p>
 <p>回到巴尔的摩后，真的感觉有变得更加热爱生活。我对♫说想把这一刻的幸福全部榨出来，风干储存，这样每次想回忆的时候就能掏出来看看，就又有力量可以继续生活了。我真的可以如此贪心吗？但至少到星期三的现在，坐在实验室的椅子上写这篇日记时，那种不可思议的快乐的心情依然存在。<q>Maybe it’s really, really, really can happen!</q></p>
+<p><span class="blur">再也吹不出那样的彩虹屁，看了也会红着脸躲避</span></p>
 
 
 <div class="post-like-footer" style="display:flex; justify-content:flex-end;">
@@ -6993,7 +7270,7 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/240120_review_ride/</guid>
   <pubDate>Sat, 20 Jan 2024 05:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
+  <media:content url="https://yyraven.github.io/quarto-blog/personal/240120_review_ride/figs/pic_2.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>日记 | 又是一年青年节</title>
@@ -7026,91 +7303,6 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/220504_diary/</guid>
   <pubDate>Wed, 04 May 2022 04:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
-</item>
-<item>
-  <title>日记 | 荚蒾</title>
-  <link>https://yyraven.github.io/quarto-blog/personal/210824_diary/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="post-meta-bar">
-  <span class="wordcount"> ✎2874 </span>
-  <span class="mylikebutton"> ♥</span>
-</div>
-
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>这篇是直接从备忘录里搬过来的，一字未改。虽然很矫情，但是是我的社会化之始，很有纪念意义（？</p>
-</div>
-</div>
-</div>
-<ul>
-<li><strong>荚蒾</strong></li>
-</ul>
-<p>就很怨恨也很怀念这件事。让我彻底想明白了感情存在的意义和表达的方法，虽然现在实践经验还不多，但总归在思想上打通了它发展的道路。最好笑的是这完全是自己在钻牛角尖把自己给整抑郁了，红莓花你知不知道这件事我都难讲。感情爆炸的结果就是你现在根本不敢讲当时多少东西是真的存在过，多少东西只是我的脑子在现实空间的投射。毕竟人的脑子有多不可靠大家都知道。</p>
-<p>查到俄语原文的红莓花儿是荚蒾。那也是白色的了，当时为什么会用红莓花儿来比喻你呢。</p>
-<blockquote class="blockquote">
-<p>“Милый мой, хороший, догадайся сам”</p>
-</blockquote>
-<p>殚精竭虑地找了个典雅的比喻用来告慰我的初恋，而你的名字就和夏天的风一样，在看到六月白白的栀子花的一瞬间就想到了。还真是好玩的隐喻啊……</p>
-<p>并且我真的是够贱，青春期读的所有悲情爱情小说，弗洛伦蒂诺和费尔明娜（你算什么弗洛伦蒂诺），赫里内勒多和阿玛兰妲（你算什么赫里内勒多），贾宝玉和林黛玉（你算什么贾宝玉，而我又算什么林黛玉）甚至EVA（你也算不上明日香），都用来代红莓花，你给我任何好处了吗？真的是。16岁的我，画一颗甜枣就争着想用你的手扇自己巴掌……无法享受当下相处的任何时光，每一分每一秒都是焦灼，不知道自己想要什么，只知道我对你有强烈的感情，而这种感情即将把我烧死了。唉。而栀子花，你给我的都是鼓励和善良，让我开始反思自己的乖戾和愤世嫉俗是不是理所应当的……你多好。只是站在那里就够了，就能把我从自毁里救出来。所以我一直觉得单恋比起献殷勤，更加是一个对自我的挖掘过程，将对方的优缺点投射在自己身上，在一遍一遍的比较中找出自己需要进步的地方和对方“也不是那么厉害嘛”的地方。所以我本质上不是认为两个人寂寞了就会互相吸引的</p>
-<p>但现在在解构了爱情以后发现实际上也就是两个寂寞的平凡人互相吸引互相告慰罢了。毕竟我也不是阿玛兰妲，也不是费尔明娜。甚至费尔明娜也柴米油盐过了大半辈子呢，最后与弗洛伦蒂诺的结合带来的也不过是垂垂暮年的又几日柴米油盐。但他们能从中感到幸福，或许吧。有的时候裸睡醒来觉得如果我能把整个上半身趴在别人身上就好了，这是一种动物本能的幸福感，猫猫被挠下巴的幸福感。</p>
-<p>人果然还是群居动物。发现那么多人和我一样困在Nihilism里感觉果然好多了（叹</p>
-<hr>
-<ul>
-<li><strong>发现有人居然不是每天都很忧郁这一点才是令人最惊讶的</strong></li>
-</ul>
-<p>或者说我的生命底调就是非常忧郁的。没有接受刺激的时候就很忧郁，也不知道为什么。</p>
-<p>说是敏感的人一般原生家庭不和睦（但实际上黏糊糊），小时候遭到不公平对待（小学时期的确，班里的氛围挺相互猜忌的，在家里也被爷爷骂，不过也不至于），父母离异（并没有），但在这一切的一切发生以前，我妈就说我小时候一被陌生人碰到就哭，宁愿自己呆着也没有和同学厮混翻一起……</p>
-<p>所以这是为什么呢。</p>
-<p>长大以后这种独自相处的时间就变成我逐渐构建起自己忧郁的世界观的时间</p>
-<p>“人生本来就是没有意义的”</p>
-<p>……</p>
-<p>这种忧郁感来自何方……</p>
-<p>其实我觉得百年孤独实在是对我影响非常大的一本书。15岁读的……从此构成了我对爱情、或者说感性世界一切认识的基础</p>
-<p>情欲、爱、孤独</p>
-<p>孤独……</p>
-<hr>
-<ul>
-<li><strong>为什么说离开荚蒾时的我处在人生中最抑郁的时间</strong></li>
-</ul>
-<p>一个是刚上高中，成绩落差很大自尊心破碎而产生的自卑心理（当时被爱情的热血掩盖了，没能及时觉察真正的本质原因），能从日记里一直过于神化你的成就看出来。</p>
-<p>一个是无意义感……因为开始思考人生的意义，下意识觉得追赶别人这一件事已经不能激起我的动力了吧（现在的确，单纯的比较再也支持不了我了，这是翻初中的日记翻到有那么多对竞争对手的痛骂时忽然发现的）。记得当时写，听了职业生涯规划大会，看到玥和她女朋友亲亲热热地一起去打球，感觉做什么都没有意思，做一桶泡面或者做浮萍就此在阳关下烂掉和做高中生的意义并无不同。但是<cite>“只要你冲我笑一下，也就有了做数学题的动力。或者只要风油精抹太阳穴就可以了。”</cite>当时一直觉得我活下去的原因一个是怕家人伤心，一个是怕痛。实在是不知道奋斗的快感和意义到底是什么、即使是某一个年级位比以及基于此的分解目标，也不明白到底是为了什么……可能就是最后一点自尊心在支着跑下去……所以最后真的在考场上整个人是抽离的</p>
-<p>现阶段坚信的人生意义说是在大学找到的也不为过。所以我是很相信学校提供的“非物质/实用/成绩价值”的……因为如果不彻底想通，人就不会有前进的动力。大学真的能塑造一个人。</p>
-<p>要说高中带给了我什么，主要是温柔和善良。谢谢五班，谢谢世界上最温柔的班主任，还有我的好朋友小王和佳，还有我的栀子花。另外就是加强了一点我本来就有的傲气和忧郁，这个得感谢杭老师，啊对，杭老师还叫我们不要不努力光做梦。</p>
-<p>红莓花，你到底为我的青春做了什么贡献，我也不明白。似乎全部都是负面影响：十六岁开始抑郁差不多一整年、一遇到男的就一惊一乍怕重蹈覆辙不说，现在爱情也变成我能彻底抽离解构的存在了（不过我这个见一个爱一个的性格怪不了你，我从小就这样）。对爱情去神圣化、开始逐渐接受异性的正常存在也是到了大学以后的事……谢谢小W……不过你到底带给了我什么呢。最好的说法是你是我的青春在马尔克斯世界里的投射。或者说你在马尔克斯世界里的投射是我的青春。想不明白。以后每次告诫自己都是“不要暗恋”、“不要stk”、“不要贬低自我价值”、“不要爱上滤镜里的那个人”、“不要被吊桥效应冲昏头脑”……似乎你是彻底的反面范本……现在想起来也没啥好心动的。日本文学男，无聊透了。倒也不是因为你所以不喜欢日本文学的……最早觉得你也不过如此就是因为你喜欢日本文学。</p>
-<p>总之现在我也不恨你了，也没什么好恨的，我不也狠狠在情绪上刺伤过你吗。你也有理由恨我呢。当时多傻，以为只要在对方心里尽可能留下深刻的痕迹就公平了。现在才知道原来对喜欢的人可以很温柔。</p>
-<hr>
-<ul>
-<li><strong>看了一会儿知乎的心理学矫情小论文</strong></li>
-</ul>
-<p>看起来我的确是曾经有过回避型依恋的显著特征，但也明显被治愈了很多，感谢妈咪，感谢朋友们。</p>
-<p>不过那上面也说回避型如果没有经受过重大打击是意识不到自己的思维方式有问题的。唉，红莓花，你可能是我的牺牲品吧，我的高考数学成绩也是我的牺牲品。不过人生有那么长，有那么多条路呢。这么想，用破碎的一年换以后的大半辈子精神世界不再（那么）痛苦，似乎也是一件好事。并且我也没太伤害到你……希望吧。</p>
-<p>也可以说EVA最后大家围成一圈拍手的场景狠狠地治愈了我。就，逃避又有什么错，接纳又有什么错。不开EVA妈妈也会爱你，开EVA不是因为爸爸的要求，而是因为“我想要”保护我爱的人。“我可以呆在这个世界！”</p>
-<p>真不知道自己的心理问题哪儿来的。和小W说我一旦上头就会忍不住把情绪内化为刀狠狠戳自己，搅得自己不得安宁，没法干任何事。小W说她才不会呢。我说可能是因为单恋吧。唉。小W真好。她和栀子花就是两个能指出我“不正常”之处，但在引导上又很细心，共情得也很温柔的人。真好。妈妈有的时候，或者说大多数时候也是很好的。我永远记得因为在初三不能有效安慰小PP而落泪时，妈妈说你其实已经做得很好了。小王自己是母单，没有太大说服力，不过她也能听我说话，不以为我是异类，并且最近明显心理也成长得越来越好了。真好。大家都在长大，长大也不只是坏事。其实SY和XF姐也很好。只是我初中的时候还是太傲……红莓花你真是有好大作用啊！</p>
-<p>不过开口还是很难为情。</p>
-<p>加持良治是所有自以为心理出了问题的矫情女孩的理想完美恋人吧……<cite>“人是无法完全理解别人的，甚至能否理解自己都值得怀疑，百分百互相理解是不可能的。不过呢，正因为如此，人们才会努力去了解自己和他人，所以人生才会有乐趣啊”</cite></p>
-<p>同样是无条件的爱，我还是喜欢加持多过渚薰，因为薰像一个天使，像一个神。和加持与美里一样在夏天的出租房里胡天胡地真是我对浪漫的终极想象。</p>
-
-
-<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
-  <div class="mylikebutton">Kudos ♥</div>
-</div>
-
-<center>
-© 2024-2026 RavensNest.
-</center> ]]></description>
-  <category>diary</category>
-  <category>中文</category>
-  <guid>https://yyraven.github.io/quarto-blog/personal/210824_diary/</guid>
-  <pubDate>Tue, 24 Aug 2021 04:00:00 GMT</pubDate>
   <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 </channel>

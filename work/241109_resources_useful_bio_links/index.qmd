@@ -3,6 +3,7 @@ title: "Bookmarks for Biologists"
 date: "2024-11-9"
 categories: [biology, resources, EN]
 image: ../../figs/preview.png
+description: This page is a list of biology-related online databases/tools/tutorials.
 ---
 
 # Online Database/Tools
