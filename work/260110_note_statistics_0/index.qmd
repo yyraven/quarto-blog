@@ -1,7 +1,7 @@
 ---
-title: "Statistics Notes 0 — Experimental Design"
+title: "Stat4Bio | 0. Experimental Design"
 date: "2026-01-10"
-categories: [statistics, notes, biology, experimental design, EN]
+categories: [stat4bio, statistics, notes, biology, experimental design, EN]
 description: This page explains the principles of a good experimental design.
 ---
 
@@ -115,7 +115,7 @@ Ideally, we will look at *all 4 treatments in 1 experiment*; thus, we can 1) lea
 |             |  x  |               |
 | Salt water  |     | High-fat diet |
 
-### Other points
+### Other Points to Consider
 
 - **Blinding**: measurements made by people can be influenced by unconscious biases. Ideally, dissections and measurements should be made without knowledge of the treatment applied.
 
@@ -127,16 +127,12 @@ Ideally, we will look at *all 4 treatments in 1 experiment*; thus, we can 1) lea
 
 ## Credit
 
--   **STAT 503** Statistical Methods for Biology *by* Dr. Yan Xing
-
 -   **140.615/616** Statistics for Lab Scientists I & II *by* Dr. Ingo Ruczinski
 
--   **STATS 101** Introduction to Applied Statistics *by* Dr. Andrew MacDonald
-
-
 ---
+
+I decide to write my stats notes taken from those classes into easy-to-read articles and publish them, since I want to get an A in the stats class I'm taking this semester, practice typing *LaTex*, and have a quick reference whenever needed rather than search for 'how to perform ANOVA in R' by Google.
+
 > The saying goes, *'学好数理化，走遍天下都不怕'（from Maths, Physics and Chemistry to anywhere in the world）* ;
 >
 > And the saying also goes *'基础不牢，地动山摇'（your life would suck if your STEM foundation sucks）*
-
-I decide to write them into easy-to-read articles and publish them, since I want to get an A in the stats class I'm taking this semester, practice typing *LaTex*, and have a quick reference whenever needed rather than search for 'how to perform ANOVA in R' by Google.

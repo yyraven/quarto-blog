@@ -3,12 +3,12 @@
 
 /*-- scss:defaults --*/
 /* Color Palette */
-$body-bg: #f1f3ee;
-$body-color: #2a2d2a;
-$link-color: #7a8476;
-$link-hover-color: #9fb6a1;
-$code-color: #2a2d2a;
-$code-bg: #e6e9e3;
+$body-bg: #d7d0d9;
+$body-color: #121112;
+$link-color: #9a81a1;
+$link-hover-color: #a55cb8;
+$code-color: #121112;
+$code-bg: #c2bbc4;
 $code-block-bg: $code-bg;
 
 /* Spacing and Borders */
@@ -60,6 +60,12 @@ code {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Special Elite', 'Noto Serif SC', cursive;
+  color: $link-color;
+  margin: $margin 0;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Noto Serif', 'Noto Serif SC', serif;
   color: $link-color;
   margin: $margin 0;
 }
@@ -122,7 +128,6 @@ hr {
   border-bottom: 2px solid;
   font-family: 'Special Elite', 'Noto Serif SC', cursive;
   text-transform: lowercase;
-  transition: all 0.3s ease;
   padding: 0.2rem 1rem;
 }
 
@@ -149,6 +154,10 @@ hr {
   .flex-grow-1 {
     pointer-events: none;
   }
+}
+
+#TOC a {
+  transition: all 0s ease;
 }
 
 /* Details */

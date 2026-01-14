@@ -1,14 +1,10 @@
 ---
-title: ""
+title: "Gallery"
 lightbox: true
-toc: false
+toc: true
 ---
 
-<center>
-
-# Gallery
-
-## Homepage Archive
+## + seasons +
 
 ::: photo-row
 ![Dec '25 First winter in midwest :-\>](figs/2512.jpg){.home}
@@ -17,10 +13,10 @@ toc: false
 
 :::
 
-------------------------------------------------------------------------
+## + postcards +
+
+coming soon...
+
+---
 
 Pete Townshend.![](figs/gifs_7.gif)
-
-------------------------------------------------------------------------
-
-</center>

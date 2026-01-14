@@ -13,7 +13,7 @@
 <url>https://yyraven.github.io/quarto-blog/figs/preview.png</url>
 <title>Raven&#39;s Nest</title>
 <link>https://yyraven.github.io/quarto-blog/archive.html</link>
-<height>82</height>
+<height>69</height>
 <width>144</width>
 </image>
 <generator>quarto-1.5.57</generator>
@@ -110,7 +110,7 @@
   <media:content url="https://yyraven.github.io/quarto-blog/personal/260112_travel_birding_eaglecreek/figs/center4.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Statistics Notes 0 — Experimental Design</title>
+  <title>Stat4Bio | 0. Experimental Design</title>
   <link>https://yyraven.github.io/quarto-blog/work/260110_note_statistics_0/</link>
   <description><![CDATA[ 
 
@@ -118,7 +118,7 @@
 
 
 <div class="post-meta-bar">
-  <span class="wordcount"> ✎572 </span>
+  <span class="wordcount"> ✎566 </span>
   <span class="mylikebutton"> ♥</span>
 </div>
 
@@ -346,8 +346,8 @@ Principles of Randomization and Stratification
 </tbody>
 </table>
 </section>
-<section id="other-points" class="level3">
-<h3 class="anchored" data-anchor-id="other-points">Other points</h3>
+<section id="other-points-to-consider" class="level3">
+<h3 class="anchored" data-anchor-id="other-points-to-consider">Other Points to Consider</h3>
 <ul>
 <li><p><strong>Blinding</strong>: measurements made by people can be influenced by unconscious biases. Ideally, dissections and measurements should be made without knowledge of the treatment applied.</p></li>
 <li><p><strong>Internal controls</strong>: it can be useful to use the subjects themselves as their own controls (e.g., consider the response after vs.&nbsp;before treatment) to increase precision.</p></li>
@@ -359,16 +359,14 @@ Principles of Randomization and Stratification
 <section id="credit" class="level2">
 <h2 class="anchored" data-anchor-id="credit">Credit</h2>
 <ul>
-<li><p><strong>STAT 503</strong> Statistical Methods for Biology <em>by</em> Dr.&nbsp;Yan Xing</p></li>
-<li><p><strong>140.615/616</strong> Statistics for Lab Scientists I &amp; II <em>by</em> Dr.&nbsp;Ingo Ruczinski</p></li>
-<li><p><strong>STATS 101</strong> Introduction to Applied Statistics <em>by</em> Dr.&nbsp;Andrew MacDonald</p></li>
+<li><strong>140.615/616</strong> Statistics for Lab Scientists I &amp; II <em>by</em> Dr.&nbsp;Ingo Ruczinski</li>
 </ul>
 <hr>
+<p>I decide to write my stats notes taken from those classes into easy-to-read articles and publish them, since I want to get an A in the stats class I’m taking this semester, practice typing <em>LaTex</em>, and have a quick reference whenever needed rather than search for ‘how to perform ANOVA in R’ by Google.</p>
 <blockquote class="blockquote">
 <p>The saying goes, <em>‘学好数理化，走遍天下都不怕’（from Maths, Physics and Chemistry to anywhere in the world）</em> ;</p>
 <p>And the saying also goes <em>‘基础不牢，地动山摇’（your life would suck if your STEM foundation sucks）</em></p>
 </blockquote>
-<p>I decide to write them into easy-to-read articles and publish them, since I want to get an A in the stats class I’m taking this semester, practice typing <em>LaTex</em>, and have a quick reference whenever needed rather than search for ‘how to perform ANOVA in R’ by Google.</p>
 
 
 <div class="post-like-footer" style="display:flex; justify-content:flex-end;">
@@ -380,6 +378,7 @@ Principles of Randomization and Stratification
 <center>
 © 2024-2026 RavensNest.
 </center> ]]></description>
+  <category>stat4bio</category>
   <category>statistics</category>
   <category>notes</category>
   <category>biology</category>
@@ -387,7 +386,7 @@ Principles of Randomization and Stratification
   <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/work/260110_note_statistics_0/</guid>
   <pubDate>Sat, 10 Jan 2026 05:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
+  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="69" width="144"/>
 </item>
 <item>
   <title>年终总结｜2025 身体拖着精神前进</title>
@@ -459,7 +458,7 @@ Principles of Randomization and Stratification
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/260108_diary/</guid>
   <pubDate>Thu, 08 Jan 2026 05:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
+  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="69" width="144"/>
 </item>
 <item>
   <title>音乐电台｜2025 音乐与我的四季</title>
@@ -1745,7 +1744,7 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/nd_personal_library/</guid>
   <pubDate>Fri, 12 Dec 2025 05:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
+  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="69" width="144"/>
 </item>
 <item>
   <title>日记 | 我做小姨，真的假的</title>
@@ -1776,7 +1775,7 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/250714_diary/</guid>
   <pubDate>Mon, 14 Jul 2025 04:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
+  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="69" width="144"/>
 </item>
 <item>
   <title>日记 | 黑狗</title>
@@ -1860,7 +1859,7 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/250320_diary/</guid>
   <pubDate>Thu, 20 Mar 2025 04:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
+  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="69" width="144"/>
 </item>
 <item>
   <title>All About Birding</title>
@@ -3920,7 +3919,7 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
   <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/work/241109_resources_useful_bio_links/</guid>
   <pubDate>Sat, 09 Nov 2024 05:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
+  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="69" width="144"/>
 </item>
 <item>
   <title>Who Is The Saddest Shoegaze Band?</title>
@@ -6744,7 +6743,7 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/241029_review_oys/</guid>
   <pubDate>Tue, 29 Oct 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
+  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="69" width="144"/>
 </item>
 <item>
   <title>First Blog Post! &amp; Blogging Resources</title>
@@ -6793,7 +6792,7 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
   <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/work/240913_resources_first_post/</guid>
   <pubDate>Fri, 13 Sep 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
+  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="69" width="144"/>
 </item>
 <item>
   <title>音乐电台｜2024 上半年的一周一曲</title>
@@ -7120,7 +7119,7 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/240618_radio/</guid>
   <pubDate>Tue, 18 Jun 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
+  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="69" width="144"/>
 </item>
 <item>
   <title>观后感 | 一切皆被慈爱的机器注视</title>
@@ -7209,7 +7208,7 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/240401_review_allwatched/</guid>
   <pubDate>Mon, 01 Apr 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
+  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="69" width="144"/>
 </item>
 <item>
   <title>滚妹人格 | 属于我的蒙娜丽莎</title>
@@ -7303,7 +7302,7 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
   <category>中文</category>
   <guid>https://yyraven.github.io/quarto-blog/personal/220504_diary/</guid>
   <pubDate>Wed, 04 May 2022 04:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="82" width="144"/>
+  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="69" width="144"/>
 </item>
 </channel>
 </rss>
