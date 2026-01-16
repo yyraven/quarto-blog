@@ -47,6 +47,10 @@ image: covers/ttplayer.jpeg
 
 ## 偶像剧音乐
 
+::: column-margin
+![](covers/dolphinbay.jpeg)
+:::
+
 ### KOKIA - 白い雪
 
 《海豚湾恋人》的插曲。

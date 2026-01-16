@@ -13,6 +13,8 @@
 <url>https://yyraven.github.io/quarto-blog/figs/preview.png</url>
 <title>Raven&#39;s Nest</title>
 <link>https://yyraven.github.io/quarto-blog/archive.html</link>
+<height>69</height>
+<width>144</width>
 </image>
 <generator>quarto-1.5.57</generator>
 <lastBuildDate>Wed, 14 Jan 2026 05:00:00 GMT</lastBuildDate>
@@ -77,9 +79,12 @@
 </ul>
 </section>
 </section>
-<section id="偶像剧音乐" class="level2">
+<section id="偶像剧音乐" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="偶像剧音乐">偶像剧音乐</h2>
-<section id="kokia---白い雪" class="level3">
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><a href="covers/dolphinbay.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://yyraven.github.io/quarto-blog/personal/260114_radio/covers/dolphinbay.jpeg" class="img-fluid"></a></p>
+</div></div><section id="kokia---白い雪" class="level3">
 <h3 class="anchored" data-anchor-id="kokia---白い雪">KOKIA - 白い雪</h3>
 <p>《海豚湾恋人》的插曲。</p>
 <ul>
@@ -960,33 +965,17 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
 <summary>
 2026
 </summary>
-<p>2026年，我一共看了 <code>0</code> 本书，<code>1</code> 部电影/动画，<code>0</code> 场演出。</p>
+<p>2026年，我一共看了 <code>0</code> 本书，<code>2</code> 部电影/动画，<code>0</code> 场演出。</p>
 <div class="cell">
-<div class="cell-output-display">
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th style="text-align: left;">date</th>
-<th style="text-align: left;">name</th>
-<th style="text-align: left;">author</th>
-<th style="text-align: right;">publish</th>
-<th style="text-align: right;">rating</th>
-<th style="text-align: left;">comment</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-</div>
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
-<col style="width: 10%">
 <col style="width: 8%">
-<col style="width: 13%">
 <col style="width: 7%">
+<col style="width: 11%">
 <col style="width: 6%">
-<col style="width: 51%">
+<col style="width: 5%">
+<col style="width: 61%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1007,30 +996,21 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
 <td style="text-align: right;">10</td>
 <td style="text-align: left;">犯罪/推理杰作，情节、节奏和画风都非常完美，看得爽死</td>
 </tr>
-</tbody>
-</table>
-</div>
-<div class="cell-output-display">
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th style="text-align: left;">date</th>
-<th style="text-align: left;">tour</th>
-<th style="text-align: left;">headliner</th>
-<th style="text-align: left;">opener</th>
-<th style="text-align: left;">location</th>
-<th style="text-align: left;">venue</th>
-<th style="text-align: right;">rating</th>
+<tr class="even">
+<td style="text-align: left;">2026-01-10</td>
+<td style="text-align: left;">绣春刀</td>
+<td style="text-align: left;">路阳</td>
+<td style="text-align: right;">2014</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">张震一如既往的帅，服化道还是那么棒，剧情和某几个人演技有点硬伤，不过瑕不掩瑜</td>
 </tr>
-</thead>
-<tbody>
 </tbody>
 </table>
 </div>
 </div>
 <p>ongoing…</p>
 </details>
-<details open="">
+<details>
 <summary>
 2025
 </summary>

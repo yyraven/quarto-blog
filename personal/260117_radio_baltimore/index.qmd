@@ -1,0 +1,106 @@
+---
+title: "音乐电台｜巴尔的摩之声"
+date: "2026-01-17"
+categories: [radio, music, travel, review, baltimore, draft, 中文]
+image: covers/jialing.jpg
+---
+
+## 写在前面
+
+## 本地音乐人
+
+### 摇滚/流行/另类
+
+- Frank Zappa
+
+- Beach House
+
+- Animal Collective
+
+- Snail Mail
+
+### 朋克
+
+- Turnstile
+
+- Angel Dust
+
+- All Time Low
+
+### 说唱/嘻哈
+
+- JPEGMafia
+
+### 舞曲
+
+NewJeans的[Ditto](https://www.youtube.com/watch?v=pSUydWEqKwE)让很多人熟悉了Baltimore club的欢快节奏。
+
+- [Unruly Records](https://music.apple.com/us/album/unruly-records-anthology-1991-1995-the-early-years/1689482759)
+
+- [JiaLing](https://music.apple.com/us/album/woe-single/1780268493)
+
+## 人在巴尔的摩，线下去哪玩
+
+### 唱片店
+
+::: column-margin
+**冷知识**：Record Store Day/唱片店日最初就是在巴尔的摩的Fell's Point发起的，后来逐渐变成了全球性的纪念日。
+
+![The Sound Garden, 2024/05](covers/tsg.jpeg)
+
+![内部](covers/tsginner.jpeg)
+
+![门外的标识](covers/rsd.jpeg)
+:::
+
+- [The Sound Garden - Baltimore](https://www.sgrecordshop.com/) 
+
+号称是全美第二的唱片店（第一是LA的Amoeba Music，我也逛过了，感觉不如此店），我最爱逛的唱片店，位于宁静美丽的Fell's Point。里面一手二手的黑胶CD一应俱全，可以在大甩卖里捡漏；永远放着很*酷*的音乐，偶尔会有DJ现场打碟；经常会举办新专辑的listening party；还可以买各种周边产品，包括娅娅蜡烛和魔力吸布贴啥的。总之，氛围一级棒。已经悄无声息地花了很多钱了。
+
+与此相关的奇遇是，24年10月在DC的The Anthem看JAMC的时候瞥见前面站着的一位女士的手机壳里塞了一张The Sound Garden的贴纸，遂迅速认亲（？）女士就顺势问我，你年纪这么小为什么来看我们80年代的乐队？我只能尴尬回答[我有恋老癖]{.blur}哈哈现在中国年轻人就好这一口盯鞋！
+
+### 现场演出
+
+- [Ottobar](https://theottobar.com/)
+
+位于Charles Village的Ottobar小小的，氛围非常亲切。我在这看了La Luz，基本上就是站在主唱的鞋尖前看的，体验太好了，音效也不炸。
+
+- [Baltimore Soundstage](https://www.baltimoresoundstage.com/)
+
+位于市中心、比Ottobar大一些的场馆，大概千人级别，很棒，无须多言。在这看了Alcest。
+
+- [CFG Bank Arena](https://cfgbankarena.com/)
+
+位于市中心的一般通过arena，the 1975/Charli XCX这种等级的明星在这里演过，但我还是比较偏爱小型场馆。需要注意的是这个场馆旁边就是Howard Street，晚上有很多毒贩，不要单独行动。
+
+- [The Lyric](https://www.lyricbaltimore.com/)
+
+位于Mount Vernon的剧院，魔力吸在这里演过。传说中是为了和JHU医学院在地理上平衡而建的（东巴尔的摩的医学院太重了，得在巴尔的摩西部建一个一样重的大东西才能让地面不翘起来——某位神秘人士曾如此告诉我）…
+
+---
+
+巴尔的摩另一个很好的第一个地方就是处于美东密集的铁路网之中，所以四舍五入北边的费城（火车1.5小时）和南边的DC（火车1小时）的场馆都算在可达范围内啦！
+
+::: column-margin
+**冷知识**：美国的第一条铁路就是位于巴尔的摩的B&O Railroad（巴尔的摩-俄亥俄铁路）。这条铁路还有一个[博物馆](https://www.borail.org/)，很有意思的，24年被我们部门租了开retreat。
+
+关于这条铁路的另一个冷知识是Johns Hopkins（对，就是JHU的创始人）当年也有投资B&O Railroad。
+:::
+
+- [Union Transfer - Philadelphia, PA]()
+
+- [9:30 Club - Washington D.C.]()
+
+- [The Anthem - Washington D.C.]()
+
+- [The Fillmore - Silver Spring, MD]()
+
+::: callout-tip
+1. Amtrak的火车票价格和机票一样会波动，一般提前一个月左右买最便宜。MARC Train（只能去DC）车票价格不会波动，但每天发车时间不一样，得参考[官网](https://www.mta.maryland.gov/schedule/marc-penn)。
+2. 需要注意的是Amtrak一般晚上十点后就都没有班次了，所以如果看晚上的演出需要在当地留宿。费城的Apple Hostel不错。[第二天早晨五六点会有红眼火车送你回家，努力一点甚至可以赶得上早八。不要问我怎么知道的。]{.blur}
+3. 如果实在想当天往返，还有两个选择：一个是乘Greyhound，DC的Greyhound站一直开到午夜后，但要注意打车去Union Station巨堵无比，车上条件比较艰苦，巴尔的摩的Greyhound站也不在JHU的校车范围内，总之不建议独自行动。另一个是自己租车，除了I-95道路上的大坑让开夜车略微危险以外，没啥问题。
+4. 演出票如果在线下买会比线上买便宜15%左右，因为可以规避Ticketmaster/AXS等购票平台收取的高额服务费。具体怎么买，场馆的官网上一般会写（搜box office就行）。
+5. Stubhub等二手网站购票有一定风险（reddit上都有讨论），个人觉得还是官方渠道买最放心，虽然实际上也买了不少二手票（。
+:::
+
+## 后记
