@@ -170,7 +170,7 @@ details p {
 
 /* Scrollbar */
 html {
-  scrollbar-color: $link-color $code-bg;
+  scrollbar-color: $link-color $body-bg;
   scrollbar-gutter: none!important;
   scrollbar-width: thin; // optional
   border-radius: 0;
@@ -195,8 +195,8 @@ html {
 }
 
 ::selection {
-    background-color: #9a81a1;
-    color: #fff;
+  background-color: $link-color;
+  color: $body-bg;
 }
 
 /*-- scss:actions --*/
