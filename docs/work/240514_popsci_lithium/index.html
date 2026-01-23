@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2024-05-14">
 <meta name="description" content="This post describes the discovery of lithium as a treatment for BD.">
 
-<title>Lithium: A Naturally Occurring Element as Efficient Treatment to Bipolar Disorder – Raven’s Nest</title>
+<title>Lithium: From Natural Element to Bipolar Disorder Treatment – Raven’s Nest</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -72,37 +92,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta property="og:title" content="Lithium: A Naturally Occurring Element as Efficient Treatment to Bipolar Disorder – Raven’s Nest">
+<meta property="og:title" content="Lithium: From Natural Element to Bipolar Disorder Treatment – Raven’s Nest">
 <meta property="og:description" content="This post describes the discovery of lithium as a treatment for BD.">
 <meta property="og:image" content="https://yyraven.github.io/quarto-blog/figs/preview.png">
 <meta property="og:site_name" content="Raven's Nest">
@@ -161,7 +152,7 @@ window.Quarto = {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">Lithium: A Naturally Occurring Element as Efficient Treatment to Bipolar Disorder</h1>
+          <h1 class="quarto-secondary-nav-title">Lithium: From Natural Element to Bipolar Disorder Treatment</h1>
         </a>     
     </div>
   </nav>
@@ -207,13 +198,13 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../work/231023_popsci_penicillin/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Antibiotics: The Revolutionary Tool to Fight Bacterial Infections</span></a>
+ <span class="menu-text">Penicillin: The ‘Lucky’ Discovery to Fight Bacterial Infections</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../work/240514_popsci_lithium/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Lithium: A Naturally Occurring Element as Efficient Treatment to Bipolar Disorder</span></a>
+ <span class="menu-text">Lithium: From Natural Element to Bipolar Disorder Treatment</span></a>
   </div>
 </li>
       </ul>
@@ -291,15 +282,13 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Lithium: A Naturally Occurring Element as Efficient Treatment to Bipolar Disorder</h1>
+<h1 class="title d-none d-lg-block">Lithium: From Natural Element to Bipolar Disorder Treatment</h1>
   <div class="quarto-categories">
     <div class="quarto-category">biology</div>
     <div class="quarto-category">popular science</div>
-    <div class="quarto-category">essay</div>
-    <div class="quarto-category">serendipity</div>
-    <div class="quarto-category">lithium</div>
-    <div class="quarto-category">bipolar disease (BD)</div>
-    <div class="quarto-category">public health</div>
+    <div class="quarto-category">epistemology</div>
+    <div class="quarto-category">drug discovery</div>
+    <div class="quarto-category">mental health</div>
     <div class="quarto-category">EN</div>
   </div>
   </div>
@@ -330,7 +319,7 @@ window.Quarto = {
 
 
 <div class="post-meta-bar">
-  <span class="wordcount"> ✎732 </span>
+  <span class="wordcount"> ✎714 </span>
   <span class="mylikebutton"> ♥</span>
 </div>
 
@@ -340,35 +329,52 @@ window.Quarto = {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>This essay was a project of one of the <a href="https://publichealth.jhu.edu/the-r3-center-for-innovation-in-science-education/programs/r3-courses-for-graduate-students-at-the-bloomberg-school-and-johns-hopkins-university"><span class="math inline">\(R^3\)</span></a> class series I took. Please <strong>don’t</strong> consider it as medical advice.</p>
+<p>This essay was a project of one of the <a href="https://publichealth.jhu.edu/the-r3-center-for-innovation-in-science-education/programs/r3-courses-for-graduate-students-at-the-bloomberg-school-and-johns-hopkins-university">R3</a> class series I took. Please <strong>do not</strong> consider it as medical advice.</p>
 </div>
 </div>
 </div>
-<p>The records of using lithium as a treatment for bipolar disorder (BD), once called ‘manic-depressive illness’ in a descriptive way, were rather short, even though the history of BD can be traced back to antiquity. BD patients suffer from non-stop cycles of emotional highs and lows, and if left untreated, the suicide rates of BD patients are 10-20 times higher than the general population (Draaisma, 2019). Since the discovery of its therapeutic usage in 1949 and its U.S. FDA approval for the treatment of mania in 1970 (Halford, 2013), oral tablets of lithium carbonate (a common lithium salt) remain the standard treatment method for mania today, despite many other drugs have been used in mental diseases treatment over the years (Wen et al., 2019).</p>
+<p>The records of using lithium as a treatment for bipolar disorder (BD), once called ‘manic-depressive illness’ in a descriptive way, were rather short, even though the history of BD can be traced back to antiquity. BD patients suffer from non-stop cycles of emotional highs and lows, and if left untreated, the suicide rates of BD patients are 10-20 times higher than the general population <span class="citation" data-cites="Draaisma2019LithiumHistory">(<a href="#ref-Draaisma2019LithiumHistory" role="doc-biblioref">Draaisma 2019</a>)</span>. Since the discovery of its therapeutic usage in 1949 and its U.S. FDA approval for the treatment of mania in 1970 <span class="citation" data-cites="Halford2013LithiumDrug">(<a href="#ref-Halford2013LithiumDrug" role="doc-biblioref">Halford 2013</a>)</span>, oral tablets of lithium carbonate (a common lithium salt) remain the standard treatment method for mania today, despite many other drugs have been used in mental diseases treatment over the years <span class="citation" data-cites="Wen2019LithiumReview">(<a href="#ref-Wen2019LithiumReview" role="doc-biblioref">Wen et al. 2019</a>)</span>.</p>
 <section id="a-history-of-lithium" class="level2">
 <h2 class="anchored" data-anchor-id="a-history-of-lithium">A History of Lithium</h2>
-<p>Of all the psychiatric drugs available today, a notable feature of lithium is that it is a naturally occurring element rather than synthesized chemicals (e.g., CPZ for schizophrenia treatment). Discovered by J. A. Arfvedson in 1817 as an alkali metal during mineral petalite analysis, lithium was first introduced to the medical field in 1859 as a treatment of gout (a disease in which patients accumulate urate crystals in their joints) by Alfred Barring Garrod due to its ability to dissolve urate stones (Ban, 2006). Early implementation of lithium in psychiatric diseases treatment was based on the popular assumption in 19thcentury, that ‘uric acid diatheses’ could lead to a series of symptoms ranging from gout to mental illness, but due to lack of technologies to monitor blood levels in patients, lithium treatment was abandoned due to its toxicity (Ban, 2006).</p>
+<p>Of all the psychiatric drugs available today, a notable feature of lithium is that it is a naturally occurring element rather than synthesized chemicals (e.g., CPZ for schizophrenia treatment). Discovered by J. A. Arfvedson in 1817 as an alkali metal during mineral petalite analysis, lithium was first introduced to the medical field in 1859 as a treatment of gout (a disease in which patients accumulate urate crystals in their joints) by Alfred Barring Garrod due to its ability to dissolve urate stones <span class="citation" data-cites="Ban2006Serendipity">(<a href="#ref-Ban2006Serendipity" role="doc-biblioref">Ban 2006</a>)</span>. Early implementation of lithium in psychiatric diseases treatment was based on the popular assumption in 19th century, that ‘uric acid diatheses’ could lead to a series of symptoms ranging from gout to mental illness, but due to lack of technologies to monitor blood levels in patients, lithium treatment was abandoned due to its toxicity <span class="citation" data-cites="Ban2006Serendipity">(<a href="#ref-Ban2006Serendipity" role="doc-biblioref">Ban 2006</a>)</span>.</p>
 </section>
 <section id="john-cade-the-untrained-psychiatrist-who-re-discovers-lithiums-treatment-effects" class="level2">
 <h2 class="anchored" data-anchor-id="john-cade-the-untrained-psychiatrist-who-re-discovers-lithiums-treatment-effects">John Cade, the Untrained Psychiatrist Who Re-discovers Lithium’s Treatment Effects</h2>
 <p>The re-discovery of lithium’s treatment effects in mania was not made possible until the 1940s. The Australian psychiatrist John Cade, retired from World War II, set up a largely amateur laboratory in the woodsheds of the hospital he worked in in rural Australia. Based on the assumption that ‘mania-depressive illness’ is analogous to thyrotoxicosis and myxedema – that one state of the illness can be attributed to the excess of one substance in the body and the other state can be attributed to the lack of the same substance, Cade wanted to find the excess substance in mania patients. The psychiatrist injected urine collected from mania patients and normal people into the abdominal compartments of guinea pigs and found the former was more toxic in killing animals. He therefore decided to test the uric acid’s toxicity in guinea pigs and happened to use lithium urate – the most soluble form of urate – in his experiments.</p>
-<p>To his astonishment, lithium urate protected the animals from dying compared to pure urea solution, and he subsequently found that injection of lithium carbonate aqueous solution can make guinea pigs lethargic and unresponsive to stimuli for a long period. Cade therefore tried to apply lithium as a treatment for manic, depressed, and schizophrenic patients and found its effects most evident in manic patients (Ban, 2006). Cade’s early conclusions were re-investigated and confirmed by Mogens Schou’s clinical investigations in the 1950s in Denmark, followed by the discovery of its prophylactic effects in BD and recurrent depression.</p>
-<p>Since the 1960s, when blood pressure level measurement was made possible by the employment of a flame spectrophotometer, lithium has been widely applied in BD treatment ever since (Ban, 2006). At the time of treating psychiatric diseases by electroconvulsive therapy (introducing seizures electrically) and lobotomy (severing the connections of patients’ prefrontal cortex), lithium was the first effective medication available to significantly alleviate the symptoms of a mental illness.</p>
+<p>To his astonishment, lithium urate protected the animals from dying compared to pure urea solution, and he subsequently found that injection of lithium carbonate aqueous solution can make guinea pigs lethargic and unresponsive to stimuli for a long period. Cade therefore tried to apply lithium as a treatment for manic, depressed, and schizophrenic patients and found its effects most evident in manic patients <span class="citation" data-cites="Ban2006Serendipity">(<a href="#ref-Ban2006Serendipity" role="doc-biblioref">Ban 2006</a>)</span>. Cade’s early conclusions were re-investigated and confirmed by Mogens Schou’s clinical investigations in the 1950s in Denmark, followed by the discovery of its prophylactic effects in BD and recurrent depression.</p>
+<p>Since the 1960s, when blood pressure level measurement was made possible by the employment of a flame spectrophotometer, lithium has been widely applied in BD treatment ever since <span class="citation" data-cites="Ban2006Serendipity">(<a href="#ref-Ban2006Serendipity" role="doc-biblioref">Ban 2006</a>)</span>. At the time of treating psychiatric diseases by electroconvulsive therapy (introducing seizures electrically) and lobotomy (severing the connections of patients’ prefrontal cortex), lithium was the first effective medication available to significantly alleviate the symptoms of a mental illness.</p>
 </section>
 <section id="a-story-of-serendipity-that-is-problematic-under-modern-research-standards" class="level2">
 <h2 class="anchored" data-anchor-id="a-story-of-serendipity-that-is-problematic-under-modern-research-standards">A Story of Serendipity that is Problematic under Modern Research Standards</h2>
-<p>The re-discovery of lithium’s treatment effects by John Cade was largely portrayed as a story of serendipity – a story where a false hypothesis or theory leads to an empirically correct conclusion (Ban, 2006). The U.S. psychiatrist Walter A. Brown believes that a systematic process might be at play behind the myth of ‘lucky discovery by an amateur scientist’. In his book Lithium: A Doctor, a Drug, and a Breakthrough (2019), Brown points out that the discovery of lithium’s drug effect is a paradox, where Cade’s experiments were problematic regarding hypothesis, sample storage, observed effects (the guinea pigs may be intoxicated to appear ‘sedated’), and research ethics – such research would not be approved by modern research institutions, but its discovery was indeed distinctive. It has reshaped people’s view of mental illnesses as treatable diseases and saved millions of lives ever since.</p>
+<p>The re-discovery of lithium’s treatment effects by John Cade was largely portrayed as a story of serendipity – a story where a false hypothesis or theory leads to an empirically correct conclusion <span class="citation" data-cites="Ban2006Serendipity">(<a href="#ref-Ban2006Serendipity" role="doc-biblioref">Ban 2006</a>)</span>. The U.S. psychiatrist Walter A. Brown believes that a systematic process might be at play behind the myth of ‘lucky discovery by an amateur scientist’. In his book Lithium: A Doctor, a Drug, and a Breakthrough <span class="citation" data-cites="Brown2019Lithium">(<a href="#ref-Brown2019Lithium" role="doc-biblioref">Brown 2019</a>)</span>, Brown points out that the discovery of lithium’s drug effect is a paradox, where Cade’s experiments were problematic regarding hypothesis, sample storage, observed effects (the guinea pigs may be intoxicated to appear ‘sedated’), and research ethics – such research would not be approved by modern research institutions, but its discovery was indeed distinctive. It has reshaped people’s view of mental illnesses as treatable diseases and saved millions of lives ever since.</p>
 
 
 <div class="post-like-footer" style="display:flex; justify-content:flex-end;">
   <div class="mylikebutton">Kudos ♥</div>
 </div>
 
+
 </section>
 
 <center>
 © 2024-2026 RavensNest.
-</center></main> <!-- /main -->
+</center><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Ban2006Serendipity" class="csl-entry" role="listitem">
+Ban, Thomas A. 2006. <span>“The Role of Serendipity in Drug Discovery.”</span> <em>Dialogues in Clinical Neuroscience</em> 8: 335–44.
+</div>
+<div id="ref-Brown2019Lithium" class="csl-entry" role="listitem">
+Brown, Walter A. 2019. <em>Lithium: A Doctor, a Drug, and a Breakthrough</em>. Liveright Publishing.
+</div>
+<div id="ref-Draaisma2019LithiumHistory" class="csl-entry" role="listitem">
+Draaisma, Douwe. 2019. <span>“Lithium: The Gripping History of a Psychiatric Success Story.”</span> <em>Nature</em> 572: 584–85.
+</div>
+<div id="ref-Halford2013LithiumDrug" class="csl-entry" role="listitem">
+Halford, Bethany. 2013. <span>“Discoveries: How Lithium Became a Drug.”</span> <em>Chemical &amp; Engineering News</em> 91: 12.
+</div>
+<div id="ref-Wen2019LithiumReview" class="csl-entry" role="listitem">
+Wen, J. et al. 2019. <span>“A Review for Lithium: Pharmacokinetics, Drug Design, and Toxicity.”</span> <em>CNS &amp; Neurological Disorders – Drug Targets</em> 18: 769–78.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -793,8 +799,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../work/231023_popsci_penicillin/index.html" class="pagination-link" aria-label="Antibiotics: The Revolutionary Tool to Fight Bacterial Infections">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Antibiotics: The Revolutionary Tool to Fight Bacterial Infections</span>
+      <a href="../../work/231023_popsci_penicillin/index.html" class="pagination-link" aria-label="Penicillin: The 'Lucky' Discovery to Fight Bacterial Infections">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Penicillin: The ‘Lucky’ Discovery to Fight Bacterial Infections</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

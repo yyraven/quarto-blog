@@ -1,7 +1,7 @@
 ---
 title: "Who Is The Saddest Shoegaze Band?"
 date: "2024-11-08"
-categories: [data analysis, text analysis, sentiment analysis, music, R, EN]
+categories: [data analysis, text analysis, music, R, EN]
 bibliography: 
  - my-refs.bib
  - my-refs2.bib

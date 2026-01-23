@@ -1,7 +1,7 @@
 ---
 title: "Nib — Elegant CSS Theme for Quarto"
 date: "2025-12-15"
-categories: [web development, css, scss, blogging, resources, EN]
+categories: [web development, css, blogging, resources, EN]
 image: nib.jpg
 description: This page introduces the 'Nib' theme used on this blog.
 ---

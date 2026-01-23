@@ -1,7 +1,7 @@
 ---
 title: "巴尔的摩｜与音乐"
 date: "2026-01-17"
-categories: [radio, music, travel, review, baltimore, essay, 中文]
+categories: [radio, music, travel, review, baltimore, 中文]
 image: covers/jialing.jpg
 ---
 

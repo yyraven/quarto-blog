@@ -1,7 +1,7 @@
 ---
 title: "Stat4Bio | 0. Experimental Design"
 date: "2026-01-10"
-categories: [stat4bio, statistics, notes, biology, experimental design, EN]
+categories: [stat4bio, statistics, notes, biology, EN]
 description: This page explains the principles of a good experimental design.
 ---
 
