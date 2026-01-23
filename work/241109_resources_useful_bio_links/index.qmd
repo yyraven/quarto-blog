@@ -1,174 +1,204 @@
 ---
 title: "Bookmarks for Biologists"
-date: "2024-11-9"
-categories: [biology, resources, EN]
+date: "2026-01-23"
+categories: [biology, bioinformatics, resources, EN]
 image: ../../figs/preview.png
-description: This page is a list of biology-related online databases/tools/tutorials.
+toc-depth: 5
+number-sections: true
+description: This page is a list of useful tools and databases for biologists. Major Updates 26/01/23.
 ---
 
-# Online Database/Tools
+:::{.callout-note}
+I mainly use R for all analysis.
+:::
 
--   [NCBI BLAST/Basic Local Alignment Search Tool](https://blast.ncbi.nlm.nih.gov/Blast.cgi): Just BLAST.
+## Wet Lab Tools/Databases
 
--   [Addgene](https://www.addgene.org/): A database for plasmids and vectors.
+### General
 
--   [CARD/The Comprehensive Antibiotic Resistance Database](https://card.mcmaster.ca/ontology/36319): A database for ARGs/ARBs.
+- [ATCC](https://www.atcc.org/): Product provider. 
 
--   [RCSB PDB/Protein Data Bank](https://www.rcsb.org/): A database for protein structures.
+### Biochemistry Assays
 
--   [The Jackson Laboratory](jax.org): A database for mouse models.
+- [Addgene](https://www.addgene.org/): A database for plasmids and vectors.
+- [NEB Restriction Endonucleases/Buffer Chart](https://www.neb.com/en-us/tools-and-resources/usage-guidelines/nebuffer-performance-chart-with-restriction-enzymes?srsltid=AfmBOooR-u8IhWamN5uAkwVE7JbKc5OB96js4kk2o8qA6oUJR1mx_Ed_): A reference table for NEB endonucleases. 
+- [TALEN Designer](https://tale-nt.cac.cornell.edu/): A TALEN vector designer.
+- [NCBI Primer Blast](https://www.ncbi.nlm.nih.gov/tools/primer-blast/): Primer designing tool.
+- [AAT Bioquest](https://www.aatbio.com/data-sets/restriction-enzymes-cut-sites-reference-table): Restriction Enzymes Cut Sizes Reference Table.
+- [Vitascientific.com](https://www.vitascientific.com/information/calculator): Melting Temperature (Tm) Calculation.
+- [SignalP](https://services.healthtech.dtu.dk/service.php?SignalP-4.1): Predicts the presence and location of signal peptide cleavage sites in amino acid sequences from different organisms.
+- [Genetic Pertubation Platform (GPP)/RNAi Platform](https://portals.broadinstitute.org/gpp/public/): A collection of webtools for RNAi - functional investigations of the mammalian genome that can reveal how genetic alterations lead to changes in phenotype, by Broad Institute. 
+- [CHOPCHOP](https://chopchop.cbu.uib.no/): A web tool for selecting target sites for CRISPR/Cas9 etc.-directed mutagenesis.
+- [OmniGuide RNA Design Tool](https://www.genscript.com/gRNA-design-tool.html): A web tool to design high-performance CRISPR guide RNAs by GenScript. 
 
--   [AlphaFold](https://alphafold.ebi.ac.uk/): A database/tool for protein structures predicted by AlphaFold.
+### Microscopy/Imaging
 
--   [TALEN Designer](https://tale-nt.cac.cornell.edu/): A TALEN vector designer.
+- [CellProfiler](https://cellprofiler.org/): Open-source image processing software. 
 
--   [UCSF Chimera](https://zhuanlan.zhihu.com/p/427354394): A tool for protein 3D structure analysis.
+### Cell Culture
 
--   [Benchling](https://www.benchling.com/): A cloud-based platform for biotech R&D. Similar to SnapGene.
+- [Useful Numbers for Cell Culture](https://www.thermofisher.com/us/en/home/references/gibco-cell-culture-basics/cell-culture-protocols/cell-culture-useful-numbers.html): The ThermoFisher cell culture guide.
 
--   [SignalP](https://services.healthtech.dtu.dk/service.php?SignalP-4.1): Predicts the presence and location of signal peptide cleavage sites in amino acid sequences from different organisms.
+### Model Organisms
 
--   [Bioconductor](https://www.bioconductor.org/about/release-announcements/#release-announcements): A powerful R package for bioinformatics analysis.
+- [The Jackson Laboratory](https://www.notion.so/jax.org): A database for mouse models.
+- [TAIR](https://www.arabidopsis.org/): An *Arabidopsis* information database.
 
--   [TimeTree: The Timescale of Life](http://www.timetree.org/): A tool for phylogenetic analysis (*for fun*).
+---
 
--   [Vitascientific.com: Melting Temperature (Tm) Calculation](https://www.vitascientific.com/information/calculator)
+## Bioinformatics Tools/Databases
 
--   [NCBI Primer Blast: Primer Designing Tool](https://www.ncbi.nlm.nih.gov/tools/primer-blast/)
+### General
 
--   [BioRender](https://app.biorender.com/gallery/illustrations): A tool to make scientific graphs.
+- [BioConductor](https://www.bioconductor.org/about/release-announcements/#release-announcements): A powerful R package for bioinformatics analysis.
 
--   [国家气象信息中心-中国气象数据网](http://data.cma.cn/)
+### Databases
 
--   [中国气象局国家气候中心](http://cmdp.ncc-cma.net/cn/index.htm)
+- [NIH National Center for Biotechnology Information (NCBI)](https://www.ncbi.nlm.nih.gov/): The ultimate biology database.
+    - [NCBI dbSNP](https://www.ncbi.nlm.nih.gov/snp/): A database of human single nucleotide variations, microsatellites, and small-scale indels. 
+- [EMBL's European Bioinformatics Instituten (EMBL-EBI)](https://www.ebi.ac.uk/): Unleashing the potential of big data in biology.
 
-# Blogs/Tips/Tutorials
+#### Human
 
-## Molecular Cloning
+- [GeneCards](https://www.genecards.org/): An integrative database on all annotated and predicted human genes by the Weizmann Institute of Science. 
+- [The Human Protein Atlas](https://www.proteinatlas.org/): An open access resource for human proteins. 
 
--   [YouTube Tutorial: Choose Expression Vectors](https://www.youtube.com/watch?v=wOvpkJiVGhc)
+##### Pharmacogenomics
 
--   [AAT Bioquest: Restriction Enzymes Cut Sizes Reference Table](https://www.aatbio.com/data-sets/restriction-enzymes-cut-sites-reference-table)
+- [PharmGKB/ClinPGx](https://www.pharmgkb.org/): A comprehensive clinical pharmacogenomics (PGx) resource database.
+- [Pharmacogene Variation Consortium (PharmVar)](https://www.pharmvar.org/genes): A database for drug-related genes.
+- [Clinical Pharmacogenetics Implementation Consortium (CPIC)](https://cpicpgx.org/): A database for drug-related genes.
 
--   [Blog (CN): 双酶切](https://m.antpedia.com/news/2440075.html)
+#### Microbiology
 
--   [Blog (CN): 蛋白标签_1](https://www.genewiz.com.cn/Public/Resources/zxzx/0027/)
+- [CARD/The Comprehensive Antibiotic Resistance Database](https://card.mcmaster.ca/ontology/36319): A database for ARGs/ARBs.
+- [ViralZone](https://viralzone.expasy.org/): A database for information on viruses (descriptions, images, and classifications) maintained by the Swiss-Prot group and SIB.
+- [The Global Initiative on Sharing All Influenza Data (GISAID)](https://gisaid.org/): A database for recent variants of hCoV-19, Dengue, Influenza, Mpox and RSV. 
 
--   [Blog (CN): 蛋白标签_2](http://www.360doc.com/content/16/0920/10/19913717_592204528.shtml)
+### Sequence Alignment/Search
 
--   [ResearchGate: 3xHA Linker](https://www.researchgate.net/post/What-is-the-best-linkers-for-3xHA-tag-Is-linkers-required-between-tags-and-or-between-tag-and-an-gene-of-interest)
+- [NCBI BLAST/Basic Local Alignment Search Tool](https://blast.ncbi.nlm.nih.gov/Blast.cgi): comparing primary biological information like nucleotide and amino acid sequences.
 
--   [Blog (CN): 密码子优化](https://www.sohu.com/a/517081954_121124565)
+### Protein Structural Biology
 
--   [Blog (CN): 保护碱基_1](https://www.docin.com/p-71172519.html)
+- [CSB PDB/Protein Data Bank](https://www.rcsb.org/): A database for protein structures.
+- [AlphaFold](https://alphafold.ebi.ac.uk/): A database/tool for protein structures predicted by AlphaFold.
+    - [AlphaFold Server](https://alphafoldserver.com/welcome): A web-service that generate biomolecular structure predictions. 
+- [UniProt](https://www.uniprot.org/): A database for protein sequence and functional information. 
+- [UCSF Chimera](https://zhuanlan.zhihu.com/p/427354394): A tool for protein 3D structure analysis.
+- [SWISS-MODEL](https://swissmodel.expasy.org/): A fully automated protein structure homology-modelling server. 
+- [FoldSeek](https://search.foldseek.com/): A web tool for fast and sensitive comparisons of large protein structure sets. 
 
--   [Blog (CN): 保护碱基_2](https://www.jingege.wang/2020/11/03/%E5%90%84%E7%A7%8D%E9%85%B6%E5%88%87%E4%BD%8D%E7%82%B9%E7%9A%84%E4%BF%9D%E6%8A%A4%E7%A2%B1%E5%9F%BA/)
+### Phylogenetics
 
--   [Addgene: Primer Design](https://www.addgene.org/protocols/primer-design/)
+- [phyloseq](https://joey711.github.io/phyloseq/): R package for microbiome analysis. 
+- [TimeTree: The Timescale of Life](http://www.timetree.org/): A tool for phylogenetic analysis (*for fun*).
 
--   [YouTube Tutorial: Primer Design using Benchling](https://www.youtube.com/watch?v=3vOSD7hA2nk)
+### Functional Analysis/Gene Annotation
 
--   [Blog (CN): 引物设计_知乎](https://zhuanlan.zhihu.com/p/22411347)
+- [Gene Ontology (GO)](https://geneontology.org/): A bioinformatics initiative to unify the representation of gene and gene product attributes across all species. Basically, a gene functional annotation database. 
+    - [GO terms/description full list (all organisms)](https://current.geneontology.org/ontology/go.obo)
+    - [AmiGO2](https://amigo.geneontology.org/amigo/landing): The official tool to search and browse the GO database. 
+    - [QuickGO](https://www.ebi.ac.uk/QuickGO/): The EMBL database for GO terms. 
+    - [ontologyIndex](https://cran.r-project.org/web/packages/ontologyIndex/ontologyIndex.pdf): An R package to navigate through `.obo` files. 
+- [eggNOG](http://eggnog5.embl.de/#/app/home): The EMBL database of orthology relationships, functional annotation, and gene evolutionary histories. 
+    - [eggNOG-mapper](http://eggnog-mapper.embl.de/): Using the eggNOG database to map gene functions. 
+- [PolyPhen-2](http://genetics.bwh.harvard.edu/pph2/): A tool for predicting possible impact of AAS on the structure and function of a human protein.
 
--   [ResearchGate: Universal Primers vs. Degenerate Primers](https://www.researchgate.net/post/Difference-between-Universal-Primers-and-Degenerate-Primers)
+### Next-Generation Sequencing (NGS) Analysis
 
--   [BL21-DE3 Competent Cell Transformation_NEB](https://international.neb.com/protocols/0001/01/01/transformation-protocol-for-bl21-de3-competent-cells-c2527)
+- [INSaFLU-TELEVIR](https://insaflu.insa.pt/): A web-based tool to deal with NGS data for metagenomics virus detection and routine genomic surveillance. 
+- [NextStrain](https://nextstrain.org/): An open-source project to harness the scientific and public health potential of pathogen genome data. 
+- [DADA2](https://benjjneb.github.io/dada2/): An analysis tool for Illumina Miseq data.
 
--   [Blog (CN): 质粒的转化](https://www.163.com/dy/article/FD2BK1N80517Q6RE.html)
+---
 
--   [Plasmid Miniprep](https://cbs.umn.edu/hackett-lab/protocols/mini-prep)
+## Misc.
 
--   [Alkaline Lysis](https://bitesizebio.com/180/the-basics-how-alkaline-lysis-works/)
+### Data Visualization
 
--   [Guide of Analyzing Gel Electrophoresis Results](https://geneticeducation.co.in/a-complete-guide-for-analysing-and-interpreting-gel-electrophoresis-results/)
+- [GraphPad Prism](https://www.graphpad.com/features): A graphing and statistics software for scientists.
+- [ggplot2](https://ggplot2.tidyverse.org/): *We have GraphPad Prism at home!*
+- [BioRender](https://app.biorender.com/gallery/illustrations): A tool to make scientific graphs.
+- [SwissBioPics](https://www.swissbiopics.org/): An interactive library of cell images for the visualization of subcellular location data. 
+- [RNArtist](https://github.com/fjossinet/RNArtist): A tool for RNA 2D structure visualization. 
+- [ViralVar](https://appset.shinyapps.io/viralvar2/): A platform for the visualization of viral lineages and mutations. 
 
--   [Causes of Faint Bands in Gel Electrophoresis](https://findanyanswer.com/what-causes-faint-bands-in-gel-electrophoresis)
+### Wet Lab Simulation
 
-## Protein Analysis
+- [SnapGene](https://www.snapgene.com/about): A desktop software to simulate DNA cloning and genetic engineering experiments. 
+- [Benchling](https://www.benchling.com/): A cloud-based platform similar to SnapGene.
 
--   [Addgene: Western Blot](https://www.addgene.org/protocols/western-blot/)
+### Forums
 
--   [Absorption Spectroscopy](https://www.dur.ac.uk/chemistry/outreach/spectroscopy_in_a_suitcase/absorption_spectroscopy/)
+- [Biostars Forum](https://www.biostars.org/): A bioinformatics forum.
+- [r/bioinformatics](https://www.reddit.com/r/bioinformatics/): The reddit bioinformatics forum.
+- [r/labrats](https://www.reddit.com/r/labrats/): The reddit wet lab forum. 
 
--   [Ninhydrin Reaction Mechanism](https://iubmb.onlinelibrary.wiley.com/doi/pdf/10.1016/0307-4412(78)90153-X)
+### Blogs/Tips/Tutorials
 
-## Sequencing
+#### Uncategorized
 
-### Sanger Sequencing
+- [Virology Blog](https://virology.ws/): A blog about viruses and viral diseases. 
 
--   [Sequencing Chromatograms Interpretation](https://brcf.medicine.umich.edu/cores/advanced-genomics/faqs/sanger-sequencing-faqs/interpretation-of-sequencing-chromatograms/)
+#### Bioinformatics
 
--   [DNA Barcoding: Promise and Pitfalls](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020354)
+- [UC Davis Bioinformatics Training Workshop](https://ucdavis-bioinformatics-training.github.io/2020-Epigenetics_Workshop/base/welcome)
+- [Harvard University STAT 115: Introduction to Bioinformatics and Computational Biology](https://liulab-dfci.github.io/bioinfo-combio/)
 
-### NGS/Next-Generation Sequencing
+##### Protein Structural Biology
 
--   [Genomic Data Science_Coursera](https://www.coursera.org/specializations/genomic-data-science)
+- [PyMOL Advanced Scripting Tutorial](https://pymol.org/tutorials/scripting/index.html)
 
--   [Spacer DNA](https://groups.molbiosci.northwestern.edu/holmgren/Glossary/Definitions/Def-S/spacer_DNA.html)
+#### Microscopy/Imaging
 
--   [DADA2 Tutorial](https://benjjneb.github.io/dada2/tutorial.html)
+- [A Beginner's Guide to Creating Fluorescence Bioimages for Scientific Publication](https://www.cancersystemsmicroscopylab.com/blog/2022/04/29/presenting-bioimages-for-scientific-publication)
 
--   [Blog (CN): DADA2 中文教程](https://blog.csdn.net/woodcorpse/article/details/86773312)
+#### Biochemistry Assays
 
--   [16s RefSeq Records Processing and Curation](https://www-ncbi-nlm-nih-gov.proxy.lib.duke.edu/refseq/targetedloci/16S_process/)
+- [YouTube Tutorial: Choose Expression Vectors](https://www.youtube.com/watch?v=wOvpkJiVGhc)
+- [Blog (CN): 双酶切](https://m.antpedia.com/news/2440075.html)
+- [Blog (CN): 蛋白标签_1](https://www.genewiz.com.cn/Public/Resources/zxzx/0027/)
+- [Blog (CN): 蛋白标签_2](http://www.360doc.com/content/16/0920/10/19913717_592204528.shtml)
+- [ResearchGate: 3xHA Linker](https://www.researchgate.net/post/What-is-the-best-linkers-for-3xHA-tag-Is-linkers-required-between-tags-and-or-between-tag-and-an-gene-of-interest)
+- [Blog (CN): 密码子优化](https://www.sohu.com/a/517081954_121124565)
+- [Blog (CN): 保护碱基_1](https://www.docin.com/p-71172519.html)
+- [Blog (CN): 保护碱基_2](https://www.jingege.wang/2020/11/03/%E5%90%84%E7%A7%8D%E9%85%B6%E5%88%87%E4%BD%8D%E7%82%B9%E7%9A%84%E4%BF%9D%E6%8A%A4%E7%A2%B1%E5%9F%BA/)
+- [Addgene: Primer Design](https://www.addgene.org/protocols/primer-design/)
+- [YouTube Tutorial: Primer Design using Benchling](https://www.youtube.com/watch?v=3vOSD7hA2nk)
+- [Blog (CN): 引物设计_知乎](https://zhuanlan.zhihu.com/p/22411347)
+- [ResearchGate: Universal Primers vs. Degenerate Primers](https://www.researchgate.net/post/Difference-between-Universal-Primers-and-Degenerate-Primers)
+- [BL21-DE3 Competent Cell Transformation_NEB](https://international.neb.com/protocols/0001/01/01/transformation-protocol-for-bl21-de3-competent-cells-c2527)
+- [Blog (CN): 质粒的转化](https://www.163.com/dy/article/FD2BK1N80517Q6RE.html)
+- [Plasmid Miniprep](https://cbs.umn.edu/hackett-lab/protocols/mini-prep)
+- [Alkaline Lysis](https://bitesizebio.com/180/the-basics-how-alkaline-lysis-works/)
+- [Guide of Analyzing Gel Electrophoresis Results](https://geneticeducation.co.in/a-complete-guide-for-analysing-and-interpreting-gel-electrophoresis-results/)
+- [Causes of Faint Bands in Gel Electrophoresis](https://findanyanswer.com/what-causes-faint-bands-in-gel-electrophoresis)
+- [Addgene: Western Blot](https://www.addgene.org/protocols/western-blot/)
+- [Absorption Spectroscopy](https://www.dur.ac.uk/chemistry/outreach/spectroscopy_in_a_suitcase/absorption_spectroscopy/)
+- [Ninhydrin Reaction Mechanism](https://iubmb.onlinelibrary.wiley.com/doi/pdf/10.1016/0307-4412(78)90153-X)
 
--   [Bioinformatics_Coursera](https://www.coursera.org/specializations/bioinformatics)
+##### qPCR
+- [Blog (CN): 提升扩增效率_1](https://www.genewiz.com.cn/zh-cn/public/resources/zxzx/0035)
+- [Blog (CN): 提升扩增效率_2](http://www.tkgeneclub.com/tkgeneclub/news_detail/newsId=71.html)
+- [CRAN: Analysis of qPCR Data, R package](https://cran.r-project.org/web/packages/pcr/vignettes/qpcr_analysis.html)
+- [Publish qPCR data with bar graph_ggplot2](https://www.researchgate.net/post/How-do-I-publish-qPCR-data-in-a-bar-graph)
 
--   [Bioinformatic Methods I_Coursera](https://www.coursera.org/learn/bioinformatics-methods-1)
+#### Sequencing
 
--   [Algorithms for DNA Sequencing_Coursera](https://www.coursera.org/learn/dna-sequencing)
+- [Sequencing Chromatograms Interpretation](https://brcf.medicine.umich.edu/cores/advanced-genomics/faqs/sanger-sequencing-faqs/interpretation-of-sequencing-chromatograms/)
+- [DNA Barcoding: Promise and Pitfalls](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020354)
+- [Genomic Data Science_Coursera](https://www.coursera.org/specializations/genomic-data-science)
+- [Spacer DNA](https://groups.molbiosci.northwestern.edu/holmgren/Glossary/Definitions/Def-S/spacer_DNA.html)
+- [16s RefSeq Records Processing and Curation](https://www-ncbi-nlm-nih-gov.proxy.lib.duke.edu/refseq/targetedloci/16S_process/)
 
--   [phyloseq: R package for learning microbiome](https://joey711.github.io/phyloseq/)
+#### CRISPR
 
-## Quantitative PCR
+- [Addgene CRISPR](https://www.addgene.org/guides/crispr/)
+- [Thermofisher CRISPR](https://www.thermofisher.com/cn/zh/home/lifescience/genome-editing/geneart-crispr.html)
 
--   [Blog (CN): 提升扩增效率_1](https://www.genewiz.com.cn/zh-cn/public/resources/zxzx/0035)
+### Misc. Databases & Tools
 
--   [Blog (CN): 提升扩增效率_2](http://www.tkgeneclub.com/tkgeneclub/news_detail/newsId=71.html)
-
--   [CRAN: Analysis of qPCR Data, R package](https://cran.r-project.org/web/packages/pcr/vignettes/qpcr_analysis.html)
-
--   [Publish qPCR data with bar graph_ggplot2](https://www.researchgate.net/post/How-do-I-publish-qPCR-data-in-a-bar-graph)
-
-## CRISPR
-
--   [GPP sgRNA Designer](https://portals.broadinstitute.org/gpp/public/analysistools/sgrna-design)
-
--   [GenScript gRNA Design Tool](https://www.genscript.com/gRNA-design-tool.html)
-
--   [Addgene CRISPR](https://www.addgene.org/guides/crispr/)
-
--   [Thermofisher CRISPR](https://www.thermofisher.com/cn/zh/home/lifescience/genome-editing/geneart-crispr.html)
-
--   [Synthego](https://www.synthego.com/)
-
-## Pharmacogenomics
-
--   [PolyPhen-2](http://genetics.bwh.harvard.edu/pph2/): A tool for prediction of functional effects of human nsSNPs.
-
--   [PROVEAN](http://provean.jcvi.org/index.php): A database for prediction of protein functional changes.
-
--   [NCBI-dbSNP](https://www.ncbi.nlm.nih.gov/snp/): A mutation database.
-
--   [PharmVar/Pharmacogene Variation Consortium](https://www.pharmvar.org/genes): A database for drug-related genes.
-
--   [CPIC/Clinical Pharmacogenetics Implementation Consortium](https://cpicpgx.org/): A database for drug-related genes.
-
--   [PharmGKB](https://www.pharmgkb.org/): A database for drug-related genes.
-
-## Drug Crystallization
-
--   [XRPD/X-Ray Powder Diffraction](http://www.xrpd.eu/)
-
--   [Blog (CN): XRPD:布拉格定律](https://highscope.ch.ntu.edu.tw/wordpress/?p=41141)
-
--   [DSC/Differential Scanning Calorimetry](https://en.wikipedia.org/wiki/Differential_scanning_calorimetry)
-
--   [Blog (CN): 热重分析](https://zh.wikipedia.org/wiki/%E7%86%B1%E9%87%8D%E5%88%86%E6%9E%90)
-
-# Others
-
--   [讯飞听见](https://www.iflyrec.com/): Transcribe audios into words.
-
--   [Reddit subreddit/labrats](https://www.reddit.com/r/labrats/): A forum for biology-related discussions.
-
+- [国家气象信息中心-中国气象数据网](http://data.cma.cn/)
+- [中国气象局国家气候中心](http://cmdp.ncc-cma.net/cn/index.htm)
+- [讯飞听见](https://www.iflyrec.com/): Transcribe audios into words.

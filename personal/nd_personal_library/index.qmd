@@ -3,6 +3,7 @@ title: "置顶 | 工业风豆瓣"
 date: "2025-12-12"
 categories: [book, movie, music, documentary, review, 中文]
 lightbox: false
+description: 书影音记录
 output:
   html_document:
     code_folding: hide
@@ -103,11 +104,9 @@ gig_2026 <- gig %>%
 
 <center>
 
-书影音记录
+自 2023 年 8 月以来所有（已完成的）书籍/电影/动漫/现场音乐记录 + 一些统计数据。
 
-A record of all (finished) books/movie/anime/live music since Aug '23 + some statistics.
-
-I'm fighting my instinct of doom-scrolling & giving up half-way!
+不准沉迷短视频！也不准半途而废了！
 
 </center>
 
