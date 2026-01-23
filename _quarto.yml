@@ -62,6 +62,9 @@ website:
         - section: "Projects"
           contents:
             - auto: "work/*project*/*.qmd"
+        - section: "Science Stories"
+          contents:
+            - auto: "work/*popsci*/*.qmd"
         - section: "Resources"
           contents:
             - auto: "work/*resources*/*.qmd"

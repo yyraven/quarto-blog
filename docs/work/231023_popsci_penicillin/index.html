@@ -7,9 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="">
-<meta name="dcterms.date" content="2025-12-31">
+<meta name="dcterms.date" content="2023-10-23">
+<meta name="description" content="This post describes the discovery of penicillin, the first antibiotics to be discovered.">
 
-<title>音乐电台｜2025 音乐与我的四季 – Raven’s Nest</title>
+<title>Antibiotics: The Revolutionary Tool to Fight Bacterial Infections – Raven’s Nest</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,8 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../personal/241214_radio/index.html" rel="next">
-<link href="../../personal/241029_review_oys/index.html" rel="prev">
+<link href="../../work/240514_popsci_lithium/index.html" rel="next">
+<link href="../../work/241219_project_RESPweather_dashboard/index.html" rel="prev">
 <link href="../../figs/crow_s.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -74,10 +75,39 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="音乐电台｜2025 音乐与我的四季 – Raven’s Nest">
-<meta property="og:description" content="Raven’s Nest, a personal blog">
-<meta property="og:image" content="https://yyraven.github.io/quarto-blog/personal/251231_radio/covers/2025.jpeg">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Antibiotics: The Revolutionary Tool to Fight Bacterial Infections – Raven’s Nest">
+<meta property="og:description" content="This post describes the discovery of penicillin, the first antibiotics to be discovered.">
+<meta property="og:image" content="https://yyraven.github.io/quarto-blog/work/231023_popsci_penicillin/figs/pc_1.jpeg">
 <meta property="og:site_name" content="Raven's Nest">
 </head>
 
@@ -132,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">音乐电台｜2025 音乐与我的四季</h1>
+          <h1 class="quarto-secondary-nav-title">Antibiotics: The Revolutionary Tool to Fight Bacterial Infections</h1>
         </a>     
     </div>
   </nav>
@@ -146,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
- <span class="menu-text">Travel</span></a>
+ <span class="menu-text">Projects</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -154,84 +184,72 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../personal/nd_birding/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">All About Birding</span></a>
+  <a href="../../work/241108_project_lyric_analysis/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Who Is The Saddest Shoegaze Band?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../personal/260117_travel_baltimore_music/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">巴尔的摩｜与音乐</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../personal/260112_travel_birding_eaglecreek/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Birding | A Visit to Eagle Creek Park</span></a>
+  <a href="../../work/241219_project_RESPweather_dashboard/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Weather-Respiratory Disease Correlation Explorer</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
- <span class="menu-text">Review</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Science Stories</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../personal/nd_personal_library/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">置顶 | 工业风豆瓣</span></a>
+  <a href="../../work/231023_popsci_penicillin/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Antibiotics: The Revolutionary Tool to Fight Bacterial Infections</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../personal/240401_review_allwatched/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">观后感 | 一切皆被慈爱的机器注视</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../personal/240120_review_ride/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">滚妹人格 | 属于我的蒙娜丽莎</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../personal/241029_review_oys/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">滚妹人格 | 分割世界的桥</span></a>
+  <a href="../../work/240514_popsci_lithium/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lithium: A Naturally Occurring Element as Efficient Treatment to Bipolar Disorder</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">Radio</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Resources</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../personal/251231_radio/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">音乐电台｜2025 音乐与我的四季</span></a>
+  <a href="../../work/241109_resources_useful_bio_links/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bookmarks for Biologists</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../personal/241214_radio/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">音乐电台｜2024 音乐与我的四季</span></a>
+  <a href="../../work/251215_resources_theme_nib/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nib — Elegant CSS Theme for Quarto</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../personal/240618_radio/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">音乐电台｜2024 上半年的一周一曲</span></a>
+  <a href="../../work/240913_resources_first_post/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">First Blog Post! &amp; Blogging Resources</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../work/251215_resources_theme_internetod/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">InternetOD — Pixelated CSS Theme for Quarto</span></a>
   </div>
 </li>
       </ul>
@@ -239,7 +257,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
- <span class="menu-text">Diary</span></a>
+ <span class="menu-text">Class Notes</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -247,38 +265,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../personal/250320_diary/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">日记 | 黑狗</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../personal/250714_diary/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">日记 | 我做小姨，真的假的</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../personal/260108_diary/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">年终总结｜2025 身体拖着精神前进</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../personal/210804_diary_to_sister/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">书信 | 妹亲启：高中生活完全不指南</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../personal/220504_diary/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">日记 | 又是一年青年节</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../personal/210824_diary/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">日记 | 荚蒾</span></a>
+  <a href="../../work/260110_note_statistics_0/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Stat4Bio | 0. Experimental Design</span></a>
   </div>
 </li>
       </ul>
@@ -293,26 +281,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#冬日电台" id="toc-冬日电台" class="nav-link active" data-scroll-target="#冬日电台">冬日电台</a>
-  <ul class="collapse">
-  <li><a href="#音乐与我的冬天" id="toc-音乐与我的冬天" class="nav-link" data-scroll-target="#音乐与我的冬天">音乐与我的冬天</a></li>
-  <li><a href="#我的冬日专辑" id="toc-我的冬日专辑" class="nav-link" data-scroll-target="#我的冬日专辑">我的冬日专辑</a></li>
-  </ul></li>
-  <li><a href="#春日电台" id="toc-春日电台" class="nav-link" data-scroll-target="#春日电台">春日电台</a>
-  <ul class="collapse">
-  <li><a href="#音乐与我的春天" id="toc-音乐与我的春天" class="nav-link" data-scroll-target="#音乐与我的春天">音乐与我的春天</a></li>
-  <li><a href="#我的春日专辑" id="toc-我的春日专辑" class="nav-link" data-scroll-target="#我的春日专辑">我的春日专辑</a></li>
-  </ul></li>
-  <li><a href="#夏日电台" id="toc-夏日电台" class="nav-link" data-scroll-target="#夏日电台">夏日电台</a>
-  <ul class="collapse">
-  <li><a href="#音乐与我的夏天" id="toc-音乐与我的夏天" class="nav-link" data-scroll-target="#音乐与我的夏天">音乐与我的夏天</a></li>
-  <li><a href="#我的夏日专辑" id="toc-我的夏日专辑" class="nav-link" data-scroll-target="#我的夏日专辑">我的夏日专辑</a></li>
-  </ul></li>
-  <li><a href="#秋日电台" id="toc-秋日电台" class="nav-link" data-scroll-target="#秋日电台">秋日电台</a>
-  <ul class="collapse">
-  <li><a href="#音乐与我的秋天" id="toc-音乐与我的秋天" class="nav-link" data-scroll-target="#音乐与我的秋天">音乐与我的秋天</a></li>
-  <li><a href="#我的秋日专辑" id="toc-我的秋日专辑" class="nav-link" data-scroll-target="#我的秋日专辑">我的秋日专辑</a></li>
-  </ul></li>
+  <li><a href="#the-discovery-of-penicillin" id="toc-the-discovery-of-penicillin" class="nav-link active" data-scroll-target="#the-discovery-of-penicillin">The Discovery of Penicillin</a></li>
+  <li><a href="#ethical-concerns" id="toc-ethical-concerns" class="nav-link" data-scroll-target="#ethical-concerns">Ethical Concerns</a></li>
+  <li><a href="#post-discovery-effects" id="toc-post-discovery-effects" class="nav-link" data-scroll-target="#post-discovery-effects">Post-Discovery Effects</a></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference">Reference</a></li>
   </ul>
 </nav>
     </div>
@@ -321,14 +293,23 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">音乐电台｜2025 音乐与我的四季</h1>
+<h1 class="title d-none d-lg-block">Antibiotics: The Revolutionary Tool to Fight Bacterial Infections</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">radio</div>
-    <div class="quarto-category">music</div>
-    <div class="quarto-category">中文</div>
+    <div class="quarto-category">biology</div>
+    <div class="quarto-category">popular science</div>
+    <div class="quarto-category">essay</div>
+    <div class="quarto-category">antibiotics</div>
+    <div class="quarto-category">serendipity</div>
+    <div class="quarto-category">public health</div>
+    <div class="quarto-category">EN</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    This post describes the discovery of penicillin, the first antibiotics to be discovered.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -337,7 +318,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 31, 2025</p>
+      <p class="date">October 23, 2023</p>
     </div>
   </div>
   
@@ -350,193 +331,92 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="post-meta-bar">
-  <span class="wordcount"> ✎1261 </span>
+  <span class="wordcount"> ✎1076 </span>
   <span class="mylikebutton"> ♥</span>
 </div>
 
-<p><em>我感觉有必要把这个四季音乐推荐系列提前一个月，六月份已经是夏天了，而三月份肯定是春天。</em></p>
-<hr>
-<section id="冬日电台" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="冬日电台">冬日电台</h2>
-<section id="音乐与我的冬天" class="level3">
-<h3 class="anchored" data-anchor-id="音乐与我的冬天">音乐与我的冬天</h3>
-<ul>
-<li><p>一月: Miserable. 什么都没做只是拼尽全力在和季节性抑郁情绪作斗争。</p></li>
-<li><p>二月: 去看了Alcest，真是太美了，阵容也很完美… 主唱Neige也很美哈哈哈哈。</p></li>
-<li><p>三月: 刚刚开始，但因为Andy Bell发了让人感觉到春天气息的新专（Pinball Wanderer）我觉得一切都会好起来的。</p></li>
-</ul>
-</section>
-<section id="我的冬日专辑" class="level3 page-columns page-full">
-<h3 class="anchored" data-anchor-id="我的冬日专辑">我的冬日专辑</h3>
-<section id="alcest---les-chants-de-laurore" class="level4 page-columns page-full">
-<h4 class="anchored" data-anchor-id="alcest---les-chants-de-laurore"><a href="https://open.spotify.com/intl-fr/album/24nGcIMJdnThRbgxpovlpy">Alcest - Les Chants de l’Aurore</a></h4>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="covers/alcest2024.jpg" class="lightbox" data-gallery="cover"><img src="covers/alcest2024.jpg" class="img-fluid"></a></p>
-</div></div><p><em>‘Ta main contre la mienne/Les mémoires incandescentes/De ton visage rieur/Et tout pour pouvoir les revivre’</em></p>
-<p>一个字也听不懂但就是很美，很喜欢，Flamme Jumelle让我想到了身边逝去的人，与我渐行渐远的人，还有再也无法触及的回忆…</p>
-<p><em><strong>推荐曲目：</strong>Flamme Jumelle/Amethyste</em></p>
-</section>
-<section id="lana-del-rey---ultraviolence" class="level4 page-columns page-full">
-<h4 class="anchored" data-anchor-id="lana-del-rey---ultraviolence"><a href="https://open.spotify.com/album/1ORxRsK3MrSLvh7VQTF01F">Lana Del Rey - Ultraviolence</a></h4>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="covers/ultraviolence.jpg" class="lightbox" data-gallery="cover"><img src="covers/ultraviolence.jpg" class="img-fluid"></a></p>
-</div></div><p><em>‘My boyfriend’s pretty cool/But he’s not as cool as me’</em></p>
-<p>因为春天来了，所以开始重温16岁的时候听的东西…感觉自己像个自我感觉良好的沉浸在自己脑内幻想中的bitch，这就是我想有的心态。</p>
-<p><em><strong>推荐曲目：</strong>Brooklyn Baby/Black Beauty</em></p>
-</section>
-<section id="mazzy-star---so-tonight-that-i-might-see" class="level4 page-columns page-full">
-<h4 class="anchored" data-anchor-id="mazzy-star---so-tonight-that-i-might-see"><a href="https://open.spotify.com/album/5K18gTgac0q6Jma5HkV1vA">Mazzy Star - So Tonight that I Might See</a></h4>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="covers/mazzystar3.jpg" class="lightbox" data-gallery="cover"><img src="covers/mazzystar3.jpg" class="img-fluid"></a></p>
-</div></div><p><em>‘There is a blue light in my best friend’s room/There is a blue light in his eye/There is a blue light, yeah/I want to see it shine’</em></p>
-<p>孤独安静又浪漫，听得我非常非常想去加州（以及学滑棒吉他）。</p>
-<p><em><strong>推荐曲目：</strong>Fade Into You/Five String Serenade/Blue Light</em></p>
-<hr>
-</section>
-</section>
-</section>
-<section id="春日电台" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="春日电台">春日电台</h2>
-<section id="音乐与我的春天" class="level3">
-<h3 class="anchored" data-anchor-id="音乐与我的春天">音乐与我的春天</h3>
-<ul>
-<li><p>三月: 非常抑郁的一个月，靠In the Modern World和Starburster活下去的，听着Grian的喘息我感觉自己也要惊恐发作了。</p></li>
-<li><p>四月: 和学妹去看了La Luz，乐队成员优雅又神秘，就像小精灵一样！在室友的带领下疯狂地探索嘻哈/说唱。</p></li>
-<li><p>五月: 和室友去费城看了Kendrick Lamar和SZA，观众好热情啊！并且舞台一直在喷火。和同事去华盛顿看了Fontaines D.C.，非常棒，Grian Chatten的台风就像一个真正的摇滚明星，歌词又那么有诗意。希望他们未来能越来越好。</p></li>
-</ul>
-</section>
-<section id="我的春日专辑" class="level3 page-columns page-full">
-<h3 class="anchored" data-anchor-id="我的春日专辑">我的春日专辑</h3>
-<section id="fontaines-d.c.---romance" class="level4 page-columns page-full">
-<h4 class="anchored" data-anchor-id="fontaines-d.c.---romance"><a href="https://open.spotify.com/album/287QQ922OsJYh8aFNGdJG5">Fontaines D.C. - Romance</a></h4>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="covers/romance.jpg" class="lightbox" data-gallery="cover"><img src="covers/romance.jpg" class="img-fluid"></a></p>
-</div></div><p><em>‘I feel alive/in the city/that you despise’</em></p>
-<p>今年三月最抑郁的时候每次走过巴尔的摩的街道都会想到in the modern world。22年的Skinty Fia也好听的。</p>
-<p><em><strong>推荐曲目：</strong>In the Modern World/Starburster/Bug/Death Kink</em></p>
-</section>
-<section id="kendrick-lamar---gnx" class="level4 page-columns page-full">
-<h4 class="anchored" data-anchor-id="kendrick-lamar---gnx"><a href="https://open.spotify.com/album/0hvT3yIEysuuvkK73vgdcW">Kendrick Lamar - GNX</a></h4>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="covers/gnx.jpg" class="lightbox" data-gallery="cover"><img src="covers/gnx.jpg" class="img-fluid"></a></p>
-</div></div><p><em>‘If it was up to me/I wouldn’t give these nobodies no sympathy’</em></p>
-<p>超级碗中场秀后整个美国的soundtrack，我也不能免俗——也是开始了解说唱的契机！和SZA合作的Luther实在太美，<a href="https://www.youtube.com/watch?v=sNY_2TEmzho">mv</a>也很优雅。</p>
-<p><em><strong>推荐曲目：</strong>Luther/Reincarnated/TV off</em></p>
-</section>
-<section id="yeule---glitch-princess" class="level4 page-columns page-full">
-<h4 class="anchored" data-anchor-id="yeule---glitch-princess"><a href="https://open.spotify.com/album/6jBRjtrgSlOvQvrSdtQa8Q">yeule - Glitch Princess</a></h4>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="covers/glitchprincess.jpg" class="lightbox" data-gallery="cover"><img src="covers/glitchprincess.jpg" class="img-fluid"></a></p>
-</div></div><p><em>‘I had to walk into the fire to know how to feel’</em></p>
-<p>非常美，非常酷，并且，太潮了。听着这个感觉自己是世界上最亚逼的亚逼。我做了一个playboi carti x yeule的歌单，有生之年能看到两位合作吗。</p>
-<p><em><strong>推荐曲目：</strong>Bites on My Neck/Don’t be Too Harsh on Your Own Beauty/I &lt;3 U</em></p>
-<hr>
-</section>
-</section>
-</section>
-<section id="夏日电台" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="夏日电台">夏日电台</h2>
-<section id="音乐与我的夏天" class="level3">
-<h3 class="anchored" data-anchor-id="音乐与我的夏天">音乐与我的夏天</h3>
-<ul>
-<li><p>六月：和室友去LA看了RINI，第一次看R&amp;B现场，感觉真不错！</p></li>
-<li><p>七月：和网友在老家看了Carsick Cars，张守望戴个墨镜蛮帅的。还去山东看了网友！</p></li>
-<li><p>八月：搬到了鸟不拉屎的地方所以什么事都没做TT 不过加入了学校的Vinyl Club！每周都可以和同学们分享自己喜欢的音乐。新室友也是一个很厉害的音乐爱好者！</p></li>
-</ul>
-</section>
-<section id="我的夏日专辑" class="level3 page-columns page-full">
-<h3 class="anchored" data-anchor-id="我的夏日专辑">我的夏日专辑</h3>
-<section id="the-weeknd---dawn-fm" class="level4 page-columns page-full">
-<h4 class="anchored" data-anchor-id="the-weeknd---dawn-fm"><a href="https://open.spotify.com/album/2nLOHgzXzwFEpl62zAgCEC">The Weeknd - Dawn FM</a></h4>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="covers/dawnfm.png" class="lightbox" data-gallery="cover"><img src="covers/dawnfm.png" class="img-fluid"></a></p>
-</div></div><p><em>‘Intense, graphic, sexy, euphoric/provocative, edgy, thought-provoking/technically and visually stunning’</em></p>
-<p>室友最喜欢的盆栽专辑，在接连不断地听了好几遍全专后此专已经把我浸出味了。</p>
-<p><em><strong>推荐曲目：</strong>Gasoline/Sacrifice/Out of Time</em></p>
-</section>
-<section id="american-football---american-football" class="level4 page-columns page-full">
-<h4 class="anchored" data-anchor-id="american-football---american-football"><a href="https://open.spotify.com/album/1oKympEq5JvFhS1asxnF8A">American Football - American Football</a></h4>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="covers/americanfootball.png" class="lightbox" data-gallery="cover"><img src="covers/americanfootball.png" class="img-fluid"></a></p>
-</div></div><p><em>‘How should I say goodbye/with a handshake/or an embrace/or a kiss on the cheek’</em></p>
-<p>一个人搬到中西部后不可避免地就是要听中西部情绪（诶。真的很好听，节奏变化非常灵动，并且也确实很符合中西部的氛围。American Football似乎是Urbana的乐队，离我们这里很近呢。</p>
-<p><em><strong>推荐曲目：</strong>The Summer Ends/But The Regrets Are Killing Me</em></p>
-</section>
-<section id="the-cranberries---everyone-else-is-doing-it-so-why-cant-we" class="level4 page-columns page-full">
-<h4 class="anchored" data-anchor-id="the-cranberries---everyone-else-is-doing-it-so-why-cant-we"><a href="https://open.spotify.com/album/0AP5O47kJWlaKVnnybKvQI">The Cranberries - Everyone Else is Doing it, so Why Can’t We?</a></h4>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="covers/cranberries1.jpg" class="lightbox" data-gallery="cover"><img src="covers/cranberries1.jpg" class="img-fluid"></a></p>
-</div></div><p><em>‘But I’m in so deep/you know I’m such a fool for you/you got me wrapped around your finger/do you have to, do you have to let it linger?’</em></p>
-<p>你爸妈喜欢王菲那你一定会喜欢小红莓吧！望着辽阔的淡蓝色夏日天空再次被这张专感动了。</p>
-<p><em><strong>推荐曲目：</strong>Dreams/Waltzing Back/Linger/Wanted/How</em></p>
-<hr>
-</section>
-</section>
-</section>
-<section id="秋日电台" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="秋日电台">秋日电台</h2>
-<section id="音乐与我的秋天" class="level3">
-<h3 class="anchored" data-anchor-id="音乐与我的秋天">音乐与我的秋天</h3>
-<ul>
-<li><p>九月：学校的音乐社还是很不错的，认识了RIDE同好。</p></li>
-<li><p>十月：又一次尝试组乐队，看看情况吧…。去看了隔壁校和我校的华人校园乐队演出，cover的草东好厉害。</p></li>
-<li><p>十一月：什么也没做！</p></li>
-<li><p>十二月：什么也没做！</p></li>
-</ul>
-</section>
-<section id="我的秋日专辑" class="level3 page-columns page-full">
-<h3 class="anchored" data-anchor-id="我的秋日专辑">我的秋日专辑</h3>
-<section id="shana-cleveland---night-of-the-worm-moon" class="level4 page-columns page-full">
-<h4 class="anchored" data-anchor-id="shana-cleveland---night-of-the-worm-moon"><a href="https://open.spotify.com/album/1196HqQw7IkC1iU6FfNRMA">Shana Cleveland - Night of the Worm Moon</a></h4>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="covers/wormmoon.jpg" class="lightbox" data-gallery="cover"><img src="covers/wormmoon.jpg" class="img-fluid"></a></p>
-</div></div><p><em>‘And when I come for you/I’ll freeze your blood/You can’t call, and/You can’t run’</em></p>
-<p>神秘的初秋夜晚，来自西海岸女巫的吟唱…</p>
-<p><em><strong>推荐曲目：</strong>Don’t Let Me Sleep/Face of the Sun/Night of the Worm Moon</em></p>
-</section>
-<section id="billie-eilish---hit-me-hard-and-soft" class="level4 page-columns page-full">
-<h4 class="anchored" data-anchor-id="billie-eilish---hit-me-hard-and-soft"><a href="https://open.spotify.com/album/7aJuG4TFXa2hmE4z1yxc3n">Billie Eilish - Hit Me Hard and Soft</a></h4>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="covers/hard&amp;soft.jpeg" class="lightbox" data-gallery="cover"><img src="covers/hard&amp;soft.jpeg" class="img-fluid"></a></p>
-</div></div><p><em>‘I love you, don’t be so surprised’</em></p>
-<p>神专，无须多言。鸟毛如心跳般的鼓点中石头都得初恋。</p>
-<p><em><strong>推荐曲目：</strong>Birds of a Feather/Lunch/Chihiro</em></p>
-</section>
-<section id="hikaru-utada---one-last-kiss" class="level4 page-columns page-full">
-<h4 class="anchored" data-anchor-id="hikaru-utada---one-last-kiss"><a href="https://open.spotify.com/album/3YXibprimHgDGwv8iPPT6S">Hikaru Utada - One Last Kiss</a></h4>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="covers/1lastkiss.jpeg" class="lightbox" data-gallery="cover"><img src="covers/1lastkiss.jpeg" class="img-fluid"></a></p>
-</div></div><p><em>‘初めてあなたを見た/あの日動き出した歯車/止められない喪失の予感’</em></p>
-<p>宇多田光真会写词，真会唱。因为Jane Doe再次和她相遇了。</p>
-<p><em><strong>推荐曲目：</strong>Beautiful World/One Last Kiss</em></p>
-<hr>
-<p>2026的音乐愿望是：去芝加哥的‘Slide Away’盯鞋音乐节，mbv宣布美巡，以及RIDE宣布复出和美巡…</p>
-<hr>
-<div class="photo-row">
-<p><a href="captures/fdc.jpeg" class="lightbox" data-gallery="captures"><img src="captures/fdc.jpeg" class="img-fluid"></a></p>
-<p><a href="captures/llz.jpeg" class="lightbox" data-gallery="captures"><img src="captures/llz.jpeg" class="img-fluid"></a></p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<hr>
+<div class="callout-body-container">
+<p>This essay was a project of one of the <a href="https://publichealth.jhu.edu/the-r3-center-for-innovation-in-science-education/programs/r3-courses-for-graduate-students-at-the-bloomberg-school-and-johns-hopkins-university"><span class="math inline">\(R^3\)</span></a> class series I took. Please <strong>don’t</strong> consider it as medical advice.</p>
+</div>
+</div>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figs/pc_1.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Penicillin mold under light microscope. "><img src="figs/pc_1.jpeg" class="img-fluid figure-img" alt="Penicillin mold under light microscope. "></a></p>
+<figcaption>Penicillin mold under light microscope.<br>
+</figcaption>
+</figure>
+</div>
+</div></div><p>Defined as naturally occurring or synthesized molecules that fight bacterial infections, <em>antibiotics</em> are one of the most important tools we owe to fight against bacterial infections. The discovery of the first antibiotic in the world - <em>penicillin</em> - by Sir Alexander Fleming in 1928 was a groundbreaking scientific discovery in the fields of medicine and microbiology, and it is also a well-renowned example of <em>serendipity</em> in scientific research – a ‘lucky discovery’.</p>
+<p>In the past, infectious diseases like smallpox, pneumonia, and tuberculosis were a severe health threat to people, and had accounted for high mortality and morbidity rates. Bloodletting was once the standard treatment for infectious disease, and during the American civil war, topical iodine and mercury-contained compounds were used to treat wounds. After the discovery of pathogens by Koch in the late 19th century, scientists came to know that microorganisms are the cause of infectious diseases. However, due to a lack of efficient treatments, infectious diseases remain accounting for high mortality worldwide. After the discovery of penicillin in 1928, penicillin was purified in 1942, and made widely available in the military in 1945. A golden era of antibiotic discovery followed from the 1950s to the 1970s. Since then, antibiotics have saved countless lives in clinics, and they also served as efficient treatment and prevention methods in agriculture and aquaculture. The discovery of antibiotics revolutionized the field of medical sciences. Even though antibiotic resistance has become a worldwide problem, antibiotics remain widely used in agriculture and clinics nowadays.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figs/pc_2.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Left: A Medieval illustration of blood-letting. Right: An illustration of a TB patient in the 1940s."><img src="figs/pc_2.jpeg" class="img-fluid figure-img" alt="Left: A Medieval illustration of blood-letting. Right: An illustration of a TB patient in the 1940s."></a></p>
+<figcaption>Left: A Medieval illustration of blood-letting. Right: An illustration of a TB patient in the 1940s.</figcaption>
+</figure>
+</div>
+<section id="the-discovery-of-penicillin" class="level2">
+<h2 class="anchored" data-anchor-id="the-discovery-of-penicillin">The Discovery of Penicillin</h2>
+<p>Before the discovery of penicillin, Fleming was interested in leukocytes’ ability to destroy bacteria. During 1914-1918, Fleming studied septic wounds and noticed that the chemical antiseptics used that time were more efficient when destroying leukocytes than bacteria, thus making them inefficient treatment to bacterial infections.</p>
+<p>In September 1928, Fleming was working on the variations of <em>staphylococcus</em> colonies at St.&nbsp;Mary’s Hospital Medical School, and he examined the culture plates with <em>staphylococci</em> with a dissecting microscope, which involved in a temporary removal of the cover, so that the colonies were exposed to the contaminants in the air. Fleming noticed that one unexpected mold colony has developed in one of the culture plates, and a substantial number of staphylococcal colonies around the mold colony underwent lysis – <em>‘what had originally been a well-grown staphylococcal colony was now a faint shadow of its former self’</em>.</p>
+<p>Fleming then transferred the mold to a culture tube to grow it and found the culture fluid still showed a remarkable antiseptic power. He grew the penicillin mold with a nutrient broth and found that <em>‘the culture fluid diluted some 500 to 800 times would completely inhibit the growth of staphylococci’</em>, which is 2 to 3 times more efficient as carbolic acid, the antibacterial chemical substance used at that time. He also developed a qualitative assay to test the difference in the antibacterial ability of penicillin on various kinds of bacteria, which enables him to find the bacteria species that are most susceptible to penicillin (e.g., <em>Staphylococcus</em>, <em>Streptococcus</em>, <em>Pneumococcus</em>, <em>Gonococcus</em>). Later, he pointed out that penicillin’s antibacterial effect is limited to gram-positive pathogens. Fleming’s research was reproduced at the Oxford University to isolate the antibiotics. Since the mold belongs to the genus <em>Penicillium</em>, Fleming named the unknown antiseptic substance ‘penicillin’.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figs/pc_4.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="A penicillin colony cultured by Sir Fleming."><img src="figs/pc_4.jpeg" class="img-fluid figure-img" alt="A penicillin colony cultured by Sir Fleming."></a></p>
+<figcaption>A penicillin colony cultured by Sir Fleming.</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>A noticeable ‘risk’ of Fleming’s work is that the introduction of mold is unintentional - it might be attributed to luckiness. However, Fleming admitted that his background in antiseptics and leukocytes was extremely helpful for him to notice the unexpected change in culture plates.</p>
+</div>
+</div>
+</div>
+<p>However, Fleming’s discovery hasn’t got much notice since he was not able to purity the substance or test its antiseptic strength against bacterial infections in humans or animals. Those important steps were made possible finally by the Oxford penicillin team led by Howard Florey, a pathology professor at the Sir William Dunn School at Oxford, and his fellows including Ernst Chain and Norman Heatley. From 1939 to 1941, the team successfully purified the substance, developed methods for large-scale isolation and production, and carried out the first mouse and human trails of penicillin treatment.</p>
+<p>In 1945, Fleming, Florey and Chain together won the 1945 Nobel Prize in Physiology/Medicine for the discovery and use of the antibiotic agent, which has saved millions of lives.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figs/pc_3.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Left: Sir Fleming in his lab. Right: The Oxford Penicillin Team."><img src="figs/pc_3.jpeg" class="img-fluid figure-img" alt="Left: Sir Fleming in his lab. Right: The Oxford Penicillin Team."></a></p>
+<figcaption>Left: Sir Fleming in his lab. Right: The Oxford Penicillin Team.</figcaption>
+</figure>
+</div>
+</section>
+<section id="ethical-concerns" class="level2">
+<h2 class="anchored" data-anchor-id="ethical-concerns">Ethical Concerns</h2>
+<p>Shortly after the discovery of penicillin, the discovery, isolation, and purification of the broad-spectrum antibiotic streptomycin was made possible by the Waksman lab at Rutgers University. Waksman was given the 1952 Nobel Prize in Medicine or Physiology. However, several female researchers who contributed greatly to the program were barely mentioned in this story, including E. S. Horning, who developed an efficient screening protocol to isolate soil microbes and E. J. Bugie, who collaborated in the streptomycin discovery paper but got her name removed for the patent. At that time, women in science were underrepresented - their contributions to the projects were intentionally ignored, not to mention that their role as strong supporters for their husbands are usually overlooked.</p>
+</section>
+<section id="post-discovery-effects" class="level2">
+<h2 class="anchored" data-anchor-id="post-discovery-effects">Post-Discovery Effects</h2>
+<p>The discovery of penicillin and many other antibiotics have saved countless lives on this planet. After the second world war, war-time innovations including antibiotics were used to fight against infectious disease globally. For example, people found that a combination of antibiotics can cure tuberculosis, which was not possible before world war II. Antibiotics were also used in food animal/plant production industry to promote growth, prevent infection, and treat diseases, which effectively boosted food production.</p>
+<p>Nevertheless, the intensive use of antibiotics over the years have resulted in the prevalence of antibiotic resistance, which has led to increasing concern about its influence on animal and human health. An example would be ‘superbugs’ in the clinics – they are multidrug resistant strains of bacteria, which cannot be simply eliminated by antibiotics.</p>
+<p>Antibiotics was one of the most important medical advances in the 20th century, however, due to excessive use, its resistance has become prevalent in nature. In the future, more caution should be given when using antibiotics, and antibiotic resistance surveillance should also receive enough attention from public health organizations.</p>
+</section>
+<section id="reference" class="level2">
+<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<p>Adedeji, A. The Treasure Called Antibiotics. Annals of Ibadan Postgraduate Medicine (2016).</p>
+<p>Columbus, C. In a world with no antibiotics, how did doctors treat&nbsp;infections? The Conversation (2016).</p>
+<p>Fleming, A. “The Discovery of Penicillin.”&nbsp;British medical bulletin&nbsp;2.1 (1944): 4–5.</p>
+<p>Gaynes, R. “The Discovery of Penicillin—New Insights After More Than 75 Years of Clinical Use.”&nbsp;Emerging Infectious Diseases&nbsp;23.5 (2017): 849–853.</p>
+<p>Isaacson RE, Torrence ME. The Role of Antibiotics in Agriculture: This report is based on a colloquium sponsored by the American Academy of Microbiology held November 2–4, 2001, in Santa Fe, New Mexico. Washington (DC): American Society for Microbiology; 2002.</p>
+<p>Woodruff, H Boyd. “Selman A. Waksman, Winner of the 1952 Nobel Prize for Physiology or Medicine.”&nbsp;Applied and Environmental Microbiology&nbsp;80.1 (2014): 2–8.</p>
+<p>Whitaker, Rachel J, and Hazel B Barton. “Women Microbiologists at Rutgers in the Early Golden Age of Antibiotics.”&nbsp;Women in Microbiology. United States: ASM Press, 2018. 317–329.</p>
 
 
 <div class="post-like-footer" style="display:flex; justify-content:flex-end;">
   <div class="mylikebutton">Kudos ♥</div>
 </div>
 
-</section>
-</section>
 </section>
 
 <center>
@@ -966,19 +846,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../personal/241029_review_oys/index.html" class="pagination-link" aria-label="滚妹人格 | 分割世界的桥">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">滚妹人格 | 分割世界的桥</span>
+      <a href="../../work/241219_project_RESPweather_dashboard/index.html" class="pagination-link" aria-label="Weather-Respiratory Disease Correlation Explorer">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Weather-Respiratory Disease Correlation Explorer</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../personal/241214_radio/index.html" class="pagination-link" aria-label="音乐电台｜2024 音乐与我的四季">
-        <span class="nav-page-text">音乐电台｜2024 音乐与我的四季</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../work/240514_popsci_lithium/index.html" class="pagination-link" aria-label="Lithium: A Naturally Occurring Element as Efficient Treatment to Bipolar Disorder">
+        <span class="nav-page-text">Lithium: A Naturally Occurring Element as Efficient Treatment to Bipolar Disorder</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
 <script src="../../scripts/mylikebutton.js"></script>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","loop":false,"descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
