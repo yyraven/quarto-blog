@@ -192,17 +192,27 @@ html {
   border: none !important;
 }
 
+#quarto-margin-sidebar {
+  overflow-y: auto;     /* or scroll */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+#quarto-margin-sidebar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
 .listing-actions-group,
 .input-group,
-.form-select, {
+.form-select,
+.quarto-listing-table {
   font-family: 'Noto Serif', 'Noto Serif SC', serif;
   background: none !important;
   font-size: 1rem;
 }
 
 ::selection {
-  background-color: $link-color;
-  color: $body-bg;
+  background-color: rgba($link-color, 0.3);
 }
 
 /*-- scss:actions --*/

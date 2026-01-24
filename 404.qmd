@@ -1,7 +1,0 @@
----
-title: "404 Page Not Found"
----
-
-Back to home > [home](index.qmd)
-
-*won't get fooled again* ... ![](figs/gifs_7.gif)
