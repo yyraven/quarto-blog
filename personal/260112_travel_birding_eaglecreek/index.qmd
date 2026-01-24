@@ -20,25 +20,25 @@ A very dedicated team curated everything. I pay due respect to all people workin
 ---
 
 ::: photo-row
-![Bald eagle *Carson*](figs/rescue1.jpeg){.row}
+![Bald eagle *Carson*](figs/rescue1.jpeg){group="row"}
 
-![*Carson*'s story](figs/rescue3.jpeg){.row}
+![*Carson*'s story](figs/rescue3.jpeg){group="row"}
 :::
 
 ::: photo-row
-![Museum](figs/center1.jpeg){.row}
+![Museum](figs/center1.jpeg){group="row"}
 
-![Books and other display](figs/center2.jpeg){.row}
+![Books and other display](figs/center2.jpeg){group="row"}
 :::
 
 ::: photo-row
-![Observation station](figs/center3.jpeg){.row}
+![Observation station](figs/center3.jpeg){group="row"}
 
-![Window painting](figs/center4.jpeg){.row}
+![Window painting](figs/center4.jpeg){group="row"}
 :::
 
 ::: photo-row
-![Cardinal and sparrow at the feeder](figs/feeder_1.jpeg){.row}
+![Cardinal and sparrow at the feeder](figs/feeder_1.jpeg){group="row"}
 
-![White breasted nuthatch](figs/feeder_2.jpeg){.row}
+![White breasted nuthatch](figs/feeder_2.jpeg){group="row"}
 :::

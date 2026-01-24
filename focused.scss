@@ -3,12 +3,12 @@
 
 /*-- scss:defaults --*/
 /* Color Palette */
-$body-bg: #f4f3f6;
-$body-color: #222222;
-$link-color: #5f5a6e;
-$link-hover-color: #7a5c99;
-$code-color: #222222;
-$code-bg: #e6e4ea;
+$body-bg: #e3efe8;          // moss paper / wet leaves
+$body-color: #0f2a1f;       // deep evergreen ink
+$link-color: #157a59;       // saturated fir green
+$link-hover-color: #0a4f3a; // dark moss shadow
+$code-color: #0f2a1f;
+$code-bg: rgba(#cfe3d8,0.5);          // lichen slab
 $code-block-bg: $code-bg;
 
 /* Spacing and Borders */
@@ -36,6 +36,12 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: $padding;
+  background-image:
+    radial-gradient(1200px 900px at 15% 15%, rgba(255,255,255,.65), transparent 60%),
+    radial-gradient(900px 700px at 85% 20%, rgba(255,255,255,.40), transparent 55%),
+    radial-gradient(900px 800px at 50% 110%, rgba(8,55,40,.12), transparent 65%),
+    linear-gradient(180deg, rgba(12,70,55,.08), transparent 45%, rgba(12,70,55,.06));
+  background-attachment: fixed;
 }
 
 /* Links */
