@@ -225,23 +225,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
- <span class="menu-text">Class Notes</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../work/260110_note_statistics_0/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Stat4Bio | 0. Experimental Design</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
@@ -252,9 +235,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project" id="toc-project" class="nav-link active" data-scroll-target="#project">Project</a></li>
-  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features">Features</a></li>
-  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#project" id="toc-project" class="nav-link active" data-scroll-target="#project"><span class="header-section-number">1</span> Project</a></li>
+  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features"><span class="header-section-number">2</span> Features</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data"><span class="header-section-number">3</span> Data</a></li>
   </ul>
 </nav>
     </div>
@@ -305,15 +288,15 @@ ul.task-list li input[type="checkbox"] {
   <span class="mylikebutton"> ♥</span>
 </div>
 
-<section id="project" class="level2">
-<h2 class="anchored" data-anchor-id="project">Project</h2>
+<section id="project" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="project"><span class="header-section-number">1</span> Project</h2>
 <p>This <a href="https://yunyiru.shinyapps.io/RESPweather_dashboard/"><strong>Weather-Respiratory Diseases Correlation Explorer</strong></a> R Shiny Dashboard aims to investigate the relationship between climate and weather-related conditions and outbreaks of two respiratory viruses, <strong>influenza</strong> and <strong>respiratory syncytial virus (RSV)</strong>.</p>
 <p><a href="photo/shiny1.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="photo/shiny1.PNG" class="img-fluid"></a></p>
 <p>Influenza is an RNA virus from the <em>Orthomyxoviridae</em> family that frequently mutates, causing seasonal epidemics, while RSV is an RNA virus from the <em>Paramyxoviridae</em> family that primarily affects young children and the elderly, often leading to severe lower respiratory infections. Both viruses pose significant public health challenges due to their widespread transmission and potential for severe disease.</p>
 <p>Climate and weather conditions can influence the activity and spread of both viruses. Studies have suggested that factors like <strong>cold temperatures</strong>, <strong>low indoor humidity</strong>, <strong>limited sunlight</strong>, and <strong>rapid weather changes</strong> may increase the risk of disease outbreaks.</p>
 </section>
-<section id="features" class="level2">
-<h2 class="anchored" data-anchor-id="features">Features</h2>
+<section id="features" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="features"><span class="header-section-number">2</span> Features</h2>
 <ul>
 <li><strong>Weekly Rates</strong>: This dashboard uses <a href="https://data.cdc.gov/Public-Health-Surveillance/Rates-of-Laboratory-Confirmed-RSV-COVID-19-and-Flu/kvib-3txy/about_data">CDC RESP-NET data</a> to give an overview of influenza and rsv hospitalization rates of each state from 2018 to 2024. The user can select year, state, and pathogen of interest using the interactive filters.</li>
 </ul>
@@ -323,8 +306,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p><a href="photo/shiny3.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="photo/shiny3.PNG" class="img-fluid"></a></p>
 </section>
-<section id="data" class="level2">
-<h2 class="anchored" data-anchor-id="data">Data</h2>
+<section id="data" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="data"><span class="header-section-number">3</span> Data</h2>
 <ul>
 <li><p><strong>Respiratory Virus Related Hospitalization Rate</strong>: Disease rate data were scrapped from <a href="https://data.cdc.gov/Public-Health-Surveillance/Rates-of-Laboratory-Confirmed-RSV-COVID-19-and-Flu/kvib-3txy/about_data">CDC RESP-NET</a>.</p></li>
 <li><p><strong>Environmental Parameters</strong>: Weather data were scrapped from <a href="https://open-meteo.com/">Openmeteo API</a>.</p></li>
@@ -788,7 +771,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </nav>
 </div> <!-- /content -->
 <script src="../../scripts/mylikebutton.js"></script>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

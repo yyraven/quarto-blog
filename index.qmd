@@ -73,8 +73,6 @@ listing:
 
 \+ Now you can play mouse chasing with the little black cat.
 
-⌖ *Not in My Neighborhood* by *Antero Pietila*
-
 ------------------------------------------------------------------------
 
 ```{=html}

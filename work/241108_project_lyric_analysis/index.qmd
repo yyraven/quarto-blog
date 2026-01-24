@@ -9,6 +9,7 @@ image: photo/nowhere.jpg
 output:
   html_document:
     code_folding: hide
+number-sections: true
 description: This page introduces the text analysis project 'Who Is The Saddest Shoegaze Band'.
 ---
 

@@ -15,8 +15,6 @@ I mainly use [RStudio](https://posit.co/products/open-source/rstudio/?sid=1) as 
 -   **251212** RSS feed
 -   **251214** Sidebar/Page navigation. See Quarto documentation [here](https://quarto.org/docs/websites/website-navigation.html#side-navigation)
 
-- **260114** 404 page
-
 I share the CSS themes I made  [here](work.qmd#category=css). Check them out :->
 
 ------------------------------------------------------------------------

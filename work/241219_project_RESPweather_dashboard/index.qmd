@@ -3,6 +3,7 @@ title: "Weather-Respiratory Disease Correlation Explorer"
 date: "2024-12-19"
 categories: [data analysis, infectious disease, public health, R, R Shiny, biology, EN]
 image: photo/shiny1.PNG
+number-sections: true
 description: This page introduces the R shiny project 'weather-respiratory disease correlation explorer'.
 ---
 

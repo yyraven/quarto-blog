@@ -655,284 +655,6 @@
   <media:content url="https://yyraven.github.io/quarto-blog/personal/260112_travel_birding_eaglecreek/figs/center4.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Stat4Bio | 0. Experimental Design</title>
-  <link>https://yyraven.github.io/quarto-blog/work/260110_note_statistics_0/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="post-meta-bar">
-  <span class="wordcount"> ✎566 </span>
-  <span class="mylikebutton"> ♥</span>
-</div>
-
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Biologists design experiments everyday, but sometimes they don’t really <em>think</em> about experiment design.</p>
-<p>The basic principles of experiment design are listed below:</p>
-<ol type="1">
-<li>Questions/goal of the experiment</li>
-<li>Comparison/control</li>
-<li>Replication</li>
-<li>Randomization</li>
-<li>Stratification/blocking</li>
-<li>Factorial experiments</li>
-</ol>
-</section>
-<section id="experimental-design" class="level2">
-<h2 class="anchored" data-anchor-id="experimental-design">Experimental Design</h2>
-<p>Let’s imagine a simple scenario:</p>
-<blockquote class="blockquote">
-<p><strong>Question</strong>: Does salted drinking water affect blood pressure (BP) in mice?</p>
-<p><strong>Experiment</strong>:</p>
-<ol type="1">
-<li>Provide a mouse with water containing 1% NaCl.</li>
-<li>Wait 14 days.</li>
-<li>Measure BP.</li>
-</ol>
-</blockquote>
-<section id="comparisoncontrol" class="level3">
-<h3 class="anchored" data-anchor-id="comparisoncontrol">Comparison/Control</h3>
-<p>You need a <em>reference</em> group to see the <em>effect</em> of salted drinking water.</p>
-<p>Common control group designs could be:</p>
-<ul>
-<li>Compare BP in mice fed salt water to BP in mice fed plain water.</li>
-<li>Compare BP in strain A mice fed salt water to BP in strain B mice fed salt water.</li>
-</ul>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Ideally, the experimental group is compared to <em>concurrent</em> controls (rather than to historical controls).</p>
-</div>
-</div>
-</div>
-</section>
-<section id="replication" class="level3">
-<h3 class="anchored" data-anchor-id="replication">Replication</h3>
-<p><em>Replicates</em> are needed to 1) reduce the effect of uncontrolled variation (increase precision), and to 2) quantify uncertainty.</p>
-<p>In this scenario, 10 mouse per group would be a reasonable design.</p>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>An estimate is of no value without some statement of the uncertainty in the estimate.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="randomization" class="level3">
-<h3 class="anchored" data-anchor-id="randomization">Randomization</h3>
-<p>Experimental subjects (‘units’) should be assigned to treatment groups <em>at random</em> to 1) avoid bias and 2) to control the role of chance.</p>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><em>At random</em> does NOT mean haphazardly.</p>
-<p>It also allows the later use of probability theory, thus giving a solid foundation for statistical analysis.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="stratificationblocking" class="level3">
-<h3 class="anchored" data-anchor-id="stratificationblocking">Stratification/Blocking</h3>
-<p>Suppose that some BP measurements will be made in the morning, and some in the afternoon. If you anticipate a difference between morning and the afternoon - ensure that within each period, there are equal numbers of subjects in each treatment group (this is called <em>stratification</em>, or <em>blocking</em>); also, take account of the difference between periods in your analysis.</p>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Let’s imagine we have 6 F mice, 6 M mice; half to be treated (T), half left untreated (C); we can only work with 6 mice per day. How to assign individuals to treatment groups, and to days?</p>
-<ul>
-<li><p>Bad Design:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>D1</th>
-<th></th>
-<th>D2</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>F-T</td>
-<td>F-C</td>
-<td>M-T</td>
-<td>M-C</td>
-</tr>
-<tr class="even">
-<td>F-T</td>
-<td>F-C</td>
-<td>M-T</td>
-<td>M-C</td>
-</tr>
-<tr class="odd">
-<td>F-T</td>
-<td>F-C</td>
-<td>M-T</td>
-<td>M-C</td>
-</tr>
-</tbody>
-</table></li>
-<li><p>Randomized Design:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>D1</th>
-<th></th>
-<th>D2</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>M-T</td>
-<td>F-C</td>
-<td>M-T</td>
-<td>F-C</td>
-</tr>
-<tr class="even">
-<td>F-T</td>
-<td>F-T</td>
-<td>M-C</td>
-<td>M-C</td>
-</tr>
-<tr class="odd">
-<td>F-T</td>
-<td>M-T</td>
-<td>F-C</td>
-<td>M-C</td>
-</tr>
-</tbody>
-</table></li>
-<li><p>Stratified Design:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>D1</th>
-<th></th>
-<th>D2</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>M-C</td>
-<td>M-C</td>
-<td>M-T</td>
-<td>F-C</td>
-</tr>
-<tr class="even">
-<td>M-T</td>
-<td>F-T</td>
-<td>F-C</td>
-<td>M-T</td>
-</tr>
-<tr class="odd">
-<td>F-C</td>
-<td>F-T</td>
-<td>M-C</td>
-<td>F-T</td>
-</tr>
-</tbody>
-</table></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Principles of Randomization and Stratification
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>If you can (and want to), <em>fix</em> a variable. (e.g., only use 8-week old M mice from a single strain.)</li>
-<li>If you don’t fix a variable, <em>stratify</em> it. (e.g., use 8 week and 12 week old M mice, and stratify them respect to age.)</li>
-<li>If you can neither fix nor stratify a variable, <em>randomize</em> it.</li>
-</ul>
-</div>
-</div>
-</section>
-<section id="factorial-experiments" class="level3">
-<h3 class="anchored" data-anchor-id="factorial-experiments">Factorial Experiments</h3>
-<p>Suppose we are interested in the effect of both salt water and a high-fat diet on blood pressure.</p>
-<p>Ideally, we will look at <em>all 4 treatments in 1 experiment</em>; thus, we can 1) learn more (=is there any <em>interactive outcome</em>?). 2) make it more efficient compared to doing all single-factor experiments.</p>
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">Plain water</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Normal diet</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"></td>
-<td style="text-align: center;">x</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Salt water</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">High-fat diet</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="other-points-to-consider" class="level3">
-<h3 class="anchored" data-anchor-id="other-points-to-consider">Other Points to Consider</h3>
-<ul>
-<li><p><strong>Blinding</strong>: measurements made by people can be influenced by unconscious biases. Ideally, dissections and measurements should be made without knowledge of the treatment applied.</p></li>
-<li><p><strong>Internal controls</strong>: it can be useful to use the subjects themselves as their own controls (e.g., consider the response after vs.&nbsp;before treatment) to increase precision.</p></li>
-<li><p><strong>Representativeness</strong>: are the subjects/tissues you’re studying really representative of the population you want to study? Ideally, your study material is a stratified random sample from the population of interest.</p></li>
-<li><p><strong>Power</strong>: Experimental Design considerations (balanced designs) and sample size calculations are crucial, in particular w/ regards to your predictor of interest.</p></li>
-</ul>
-</section>
-</section>
-<section id="credit" class="level2">
-<h2 class="anchored" data-anchor-id="credit">Credit</h2>
-<ul>
-<li><strong>140.615/616</strong> Statistics for Lab Scientists I &amp; II <em>by</em> Dr.&nbsp;Ingo Ruczinski</li>
-</ul>
-<hr>
-<p>I decide to write my stats notes taken from those classes into easy-to-read articles and publish them, since I want to get an A in the stats class I’m taking this semester, practice typing <em>LaTex</em>, and have a quick reference whenever needed rather than search for ‘how to perform ANOVA in R’ by Google.</p>
-<blockquote class="blockquote">
-<p>The saying goes, <em>‘学好数理化，走遍天下都不怕’（from Maths, Physics and Chemistry to anywhere in the world）</em> ;</p>
-<p>And the saying also goes <em>‘基础不牢，地动山摇’（your life would suck if your STEM foundation sucks）</em></p>
-</blockquote>
-
-
-<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
-  <div class="mylikebutton">Kudos ♥</div>
-</div>
-
-</section>
-
-<center>
-© 2024-2026 RavensNest.
-</center> ]]></description>
-  <category>stat4bio</category>
-  <category>statistics</category>
-  <category>notes</category>
-  <category>biology</category>
-  <category>EN</category>
-  <guid>https://yyraven.github.io/quarto-blog/work/260110_note_statistics_0/</guid>
-  <pubDate>Sat, 10 Jan 2026 05:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="69" width="144"/>
-</item>
-<item>
   <title>年终总结｜2025 身体拖着精神前进</title>
   <link>https://yyraven.github.io/quarto-blog/personal/260108_diary/</link>
   <description><![CDATA[ 
@@ -1277,7 +999,6 @@ font-style: inherit;"> internetod.scss</span></span></code></pre></div>
 <center>
 © 2024-2026 RavensNest.
 </center> ]]></description>
-  <category>web development</category>
   <category>css</category>
   <category>blogging</category>
   <category>resources</category>
@@ -1350,7 +1071,6 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
 <center>
 © 2024-2026 RavensNest.
 </center> ]]></description>
-  <category>web development</category>
   <category>css</category>
   <category>blogging</category>
   <category>resources</category>
@@ -3698,8 +3418,8 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
 <p><em>Click on the map to see pictures of birds! Urban sites marked in pink while rural sites marked in green.</em></p>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-main">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-b16553762277348ee39f" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-b16553762277348ee39f">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[38.44166,39.32439,36.00323,47.66241,45.88458,30.09336,27.12898,35.01526,34.0333,40.45827,40.42716,40.02938,31.36978],[-76.11781999999999,-77.7255,-78.93374,-122.43432,-123.96861,-90.43263,100.24284,135.67181,-118.6742,-86.93805999999999,-86.93183999999999,116.38406,120.57274],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"green","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/bald_eagle_2504.JPG\" width=\"90\"> <img src=\"birdspics/wilson_s_snipe_2501.JPG\" width=\"90\"><\/br> <br>L: Bald Eagle; R: Wilson's Snipe<\/br>","<br><img src=\"birdspics/turkey_vulture_2403.JPG\" width=\"90\"> <img src=\"birdspics/great_blue_heron_2403.JPG\" width=\"90\"><\/br><br>L: Turkey Vulture; R: Great Blue Heron<\/br>","<br><img src=\"birdspics/northern_cardinal_2203.jpg\" width=\"90\"> <img src=\"birdspics/red_tailed_hawk_2201.jpg\" width=\"90\"><\/br> <br>L: Northern Cardinal; R: Red-tailed Hawk<\/br>","<br><img src=\"birdspics/caspian_tern_2407.JPG\" width=\"90\"> <img src=\"birdspics/glaucous_winged_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Caspian Tern; R: Glaucous-winged Gull<\/br>","<br><img src=\"birdspics/common_murre_2407.JPG\" width=\"90\"> <img src=\"birdspics/california_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Common Murre; R: California Gull<\/br>","<br><img src=\"birdspics/great_egret_2203.JPG\" width=\"90\"><\/br> <br>Great Egret<\/br>","<br><img src=\"birdspics/red_billed_blue_magpie_2303.JPG\" width=\"90\"> <img src=\"birdspics/white_wagtail_2303.JPG\" width=\"90\"><\/br> <br>L: Red-billed Blue-Magpie; R: White Wagtail<\/br>","<br><img src=\"birdspics/gray_heron_1907.jpg\" width=\"90\"> <img src=\"birdspics/great_cormorant_1907.jpg\" width=\"90\"><\/br> <br>L: Gray Heron; R: Great Cormorant<\/br>","<br><img src=\"birdspics/brown_pelican_2506.jpg\" width=\"90\"> <img src=\"birdspics/gadwall_2506.jpg\" width=\"90\"><\/br> <br>L: Brown Pelican; R: Gadwall<\/br>","<br><img src=\"birdspics/american_white_pelican_2504.JPeG\" width=\"90\"><img src=\"birdspics/greater_yellowlegs_2510.JPG\" width=\"90\"><\/br> <br>L: American White Pelican; R: Greater Yellowlegs<\/br>","<br><img src=\"birdspics/northern_flicker_2510.JPG\" width=\"90\"><img src=\"birdspics/chipping_sparrow_2510.JPG\" width=\"90\"><\/br> <br>L: Northern Flicker; R: Chipping Sparrow<\/br>","<br><img src=\"birdspics/oriental_reed_warbler_2507.JPG\" width=\"90\"><img src=\"birdspics/common_kingfisher_2507.JPG\" width=\"90\"><\/br> <br>L: Oriental Reed Warbler; R: Common Kingfisher<\/br>","<br><img src=\"birdspics/pheasant_tailed_jacana_2507.JPG\" width=\"90\"><img src=\"birdspics/eurasian_moorhen_2507.JPG\" width=\"90\"><\/br> <br>L: Pheasant-tailed Jacana; R: Eurasian Moorhen<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[39.27909,40.69019,29.66037,31.39642,31.30295,39.98998,30.74135,40.11208,39.95549,36.058381,37.52121,39.92546,35.04778,33.94711],[-76.59966,-74.04423,91.11783,120.90624,120.6159,116.26826,104.14193,113.1376,-75.18196,120.32057,121.45454,116.38925,118.37511,-83.37813],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"pink","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/ring_billed_gull_2503.JPG\" width=\"90\"> <img src=\"birdspics/double_crested_cormorant_2310.JPG\" width=\"90\"><\/br> <br>L: Ring-billed Gull; R: Double-crested Cormorant<\/br> ","<br><img src=\"birdspics/american_herring_gull_2401.JPG\" width=\"90\"> <img src=\"birdspics/brant_2401.JPG\" width=\"90\"><\/br> <br>L: American Herring Gull; R: Brant<\/br>","<br><img src=\"birdspics/ruddy_shelduck_1912.jpg\" width=\"90\"> <img src=\"birdspics/bar_headed_goose_1912.jpg\" width=\"90\"><\/br> <br>L: Ruddy Shelduck; R: Bar-headed Goose<\/br>","<br><img src=\"birdspics/long_tailed_shrike_2302.jpg\" width=\"90\"><\/br> <br>Long-tailed Shrike<\/br>","<br><img src=\"birdspics/spotted_dove_2011.jpeg\" width=\"90\"> <img src=\"birdspics/eurasian_tree_sparrow_1911.jpg\" width=\"90\"><\/br> <br>L: Spotted Dove; R: Eurasian Tree Sparrow<\/br>","<br><img src=\"birdspics/mandarin_duck_juv_2306.JPG\" width=\"90\"><\/br> <br>Mandarin Duck<\/br>","<br><img src=\"birdspics/white_browed_laughingthrush_2007.JPG\" width=\"90\"><\/br> <br>White-browed Laughingthrush<\/br>","<br><img src=\"birdspics/eurasian_crag_martin_2306.jpg\" width=\"90\"><\/br> <br>Eurasian Crag-Martin<\/br>","<br><img src=\"birdspics/gray_catbird_2406.JPG\" width=\"90\"> <img src=\"birdspics/red_winged_blackbird_2504.JPG\" width=\"90\"><\/br> <br>L: Gray Catbird; R: Red-winged Blackbird<\/br>","<br><img src=\"birdspics/black_tailed_gull_2507.JPG\" width=\"90\"><\/br> <br>Black Tailed Gull<\/br>","<br><img src=\"birdspics/grey_capped_greenfinch_2507.JPG\" width=\"90\"><img src=\"birdspics/light_vented_bulbul_2507.JPG\" width=\"90\"><\/br> <br>L: Grey-capped Greenfinch; R: Light-vented Bulbul<\/br>","<br><img src=\"birdspics/azure_winged_magpie_2507.JPG\" width=\"90\"><img src=\"birdspics/carrion_crow_2507.JPG\" width=\"90\"><\/br> <br>L: Azure-winged Magpie; R: Carrion Crow<\/br>","<br><img src=\"birdspics/whiskered_tern_2507.JPG\" width=\"90\"><img src=\"birdspics/black_crowned_night_heron_2507.JPG\" width=\"90\"><\/br> <br>L: Whiskered Tern; R: Black-crowned Night Heron<\/br>","<br><img src=\"birdspics/brown_thrasher_2505.JPeG\" width=\"90\"><\/br> <br> Brown Thrasher<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addControl","args":["<style>\n  .leaflet-popup-content-wrapper {\n    background: rgba(255, 255, 255, 0.5);\n    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);\n    border-radius: 10px;\n    text-align: center;\n    padding: 3px;\n  }\n  .leaflet-popup-tip {\n    background: rgba(255, 255, 255, 0.7);\n  }\n  .leaflet-popup-content {\n    font-family: 'Comic Sans MS', cursive, sans-serif;\n    line-height: 1.1;\n    white-space: pre-wrap;\n  }\n<\/style>","topleft",null,"info legend"]},{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[27.12898,47.66241],"lng":[-123.96861,135.67181]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-65fbd5dd0556ba93ccb4" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-65fbd5dd0556ba93ccb4">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[38.44166,39.32439,36.00323,47.66241,45.88458,30.09336,27.12898,35.01526,34.0333,40.45827,40.42716,40.02938,31.36978],[-76.11781999999999,-77.7255,-78.93374,-122.43432,-123.96861,-90.43263,100.24284,135.67181,-118.6742,-86.93805999999999,-86.93183999999999,116.38406,120.57274],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"green","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/bald_eagle_2504.JPG\" width=\"90\"> <img src=\"birdspics/wilson_s_snipe_2501.JPG\" width=\"90\"><\/br> <br>L: Bald Eagle; R: Wilson's Snipe<\/br>","<br><img src=\"birdspics/turkey_vulture_2403.JPG\" width=\"90\"> <img src=\"birdspics/great_blue_heron_2403.JPG\" width=\"90\"><\/br><br>L: Turkey Vulture; R: Great Blue Heron<\/br>","<br><img src=\"birdspics/northern_cardinal_2203.jpg\" width=\"90\"> <img src=\"birdspics/red_tailed_hawk_2201.jpg\" width=\"90\"><\/br> <br>L: Northern Cardinal; R: Red-tailed Hawk<\/br>","<br><img src=\"birdspics/caspian_tern_2407.JPG\" width=\"90\"> <img src=\"birdspics/glaucous_winged_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Caspian Tern; R: Glaucous-winged Gull<\/br>","<br><img src=\"birdspics/common_murre_2407.JPG\" width=\"90\"> <img src=\"birdspics/california_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Common Murre; R: California Gull<\/br>","<br><img src=\"birdspics/great_egret_2203.JPG\" width=\"90\"><\/br> <br>Great Egret<\/br>","<br><img src=\"birdspics/red_billed_blue_magpie_2303.JPG\" width=\"90\"> <img src=\"birdspics/white_wagtail_2303.JPG\" width=\"90\"><\/br> <br>L: Red-billed Blue-Magpie; R: White Wagtail<\/br>","<br><img src=\"birdspics/gray_heron_1907.jpg\" width=\"90\"> <img src=\"birdspics/great_cormorant_1907.jpg\" width=\"90\"><\/br> <br>L: Gray Heron; R: Great Cormorant<\/br>","<br><img src=\"birdspics/brown_pelican_2506.jpg\" width=\"90\"> <img src=\"birdspics/gadwall_2506.jpg\" width=\"90\"><\/br> <br>L: Brown Pelican; R: Gadwall<\/br>","<br><img src=\"birdspics/american_white_pelican_2504.JPeG\" width=\"90\"><img src=\"birdspics/greater_yellowlegs_2510.JPG\" width=\"90\"><\/br> <br>L: American White Pelican; R: Greater Yellowlegs<\/br>","<br><img src=\"birdspics/northern_flicker_2510.JPG\" width=\"90\"><img src=\"birdspics/chipping_sparrow_2510.JPG\" width=\"90\"><\/br> <br>L: Northern Flicker; R: Chipping Sparrow<\/br>","<br><img src=\"birdspics/oriental_reed_warbler_2507.JPG\" width=\"90\"><img src=\"birdspics/common_kingfisher_2507.JPG\" width=\"90\"><\/br> <br>L: Oriental Reed Warbler; R: Common Kingfisher<\/br>","<br><img src=\"birdspics/pheasant_tailed_jacana_2507.JPG\" width=\"90\"><img src=\"birdspics/eurasian_moorhen_2507.JPG\" width=\"90\"><\/br> <br>L: Pheasant-tailed Jacana; R: Eurasian Moorhen<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[39.27909,40.69019,29.66037,31.39642,31.30295,39.98998,30.74135,40.11208,39.95549,36.058381,37.52121,39.92546,35.04778,33.94711],[-76.59966,-74.04423,91.11783,120.90624,120.6159,116.26826,104.14193,113.1376,-75.18196,120.32057,121.45454,116.38925,118.37511,-83.37813],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"pink","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/ring_billed_gull_2503.JPG\" width=\"90\"> <img src=\"birdspics/double_crested_cormorant_2310.JPG\" width=\"90\"><\/br> <br>L: Ring-billed Gull; R: Double-crested Cormorant<\/br> ","<br><img src=\"birdspics/american_herring_gull_2401.JPG\" width=\"90\"> <img src=\"birdspics/brant_2401.JPG\" width=\"90\"><\/br> <br>L: American Herring Gull; R: Brant<\/br>","<br><img src=\"birdspics/ruddy_shelduck_1912.jpg\" width=\"90\"> <img src=\"birdspics/bar_headed_goose_1912.jpg\" width=\"90\"><\/br> <br>L: Ruddy Shelduck; R: Bar-headed Goose<\/br>","<br><img src=\"birdspics/long_tailed_shrike_2302.jpg\" width=\"90\"><\/br> <br>Long-tailed Shrike<\/br>","<br><img src=\"birdspics/spotted_dove_2011.jpeg\" width=\"90\"> <img src=\"birdspics/eurasian_tree_sparrow_1911.jpg\" width=\"90\"><\/br> <br>L: Spotted Dove; R: Eurasian Tree Sparrow<\/br>","<br><img src=\"birdspics/mandarin_duck_juv_2306.JPG\" width=\"90\"><\/br> <br>Mandarin Duck<\/br>","<br><img src=\"birdspics/white_browed_laughingthrush_2007.JPG\" width=\"90\"><\/br> <br>White-browed Laughingthrush<\/br>","<br><img src=\"birdspics/eurasian_crag_martin_2306.jpg\" width=\"90\"><\/br> <br>Eurasian Crag-Martin<\/br>","<br><img src=\"birdspics/gray_catbird_2406.JPG\" width=\"90\"> <img src=\"birdspics/red_winged_blackbird_2504.JPG\" width=\"90\"><\/br> <br>L: Gray Catbird; R: Red-winged Blackbird<\/br>","<br><img src=\"birdspics/black_tailed_gull_2507.JPG\" width=\"90\"><\/br> <br>Black Tailed Gull<\/br>","<br><img src=\"birdspics/grey_capped_greenfinch_2507.JPG\" width=\"90\"><img src=\"birdspics/light_vented_bulbul_2507.JPG\" width=\"90\"><\/br> <br>L: Grey-capped Greenfinch; R: Light-vented Bulbul<\/br>","<br><img src=\"birdspics/azure_winged_magpie_2507.JPG\" width=\"90\"><img src=\"birdspics/carrion_crow_2507.JPG\" width=\"90\"><\/br> <br>L: Azure-winged Magpie; R: Carrion Crow<\/br>","<br><img src=\"birdspics/whiskered_tern_2507.JPG\" width=\"90\"><img src=\"birdspics/black_crowned_night_heron_2507.JPG\" width=\"90\"><\/br> <br>L: Whiskered Tern; R: Black-crowned Night Heron<\/br>","<br><img src=\"birdspics/brown_thrasher_2505.JPeG\" width=\"90\"><\/br> <br> Brown Thrasher<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addControl","args":["<style>\n  .leaflet-popup-content-wrapper {\n    background: rgba(255, 255, 255, 0.5);\n    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);\n    border-radius: 10px;\n    text-align: center;\n    padding: 3px;\n  }\n  .leaflet-popup-tip {\n    background: rgba(255, 255, 255, 0.7);\n  }\n  .leaflet-popup-content {\n    font-family: 'Comic Sans MS', cursive, sans-serif;\n    line-height: 1.1;\n    white-space: pre-wrap;\n  }\n<\/style>","topleft",null,"info legend"]},{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[27.12898,47.66241],"lng":[-123.96861,135.67181]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <hr>
@@ -4053,7 +3773,7 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
 <ul>
 <li><strong>General Recourses</strong></li>
 </ul>
-<p><a href="https://ebird.org/home">eBird</a> | <a href="https://merlin.allaboutbirds.org/">Cornell Lab of Ornithology/Merlin Bird ID</a> | <a href="https://birdweb.org/birdweb/">BirdWeb</a> | <a href="https://www.audubon.org/">Audubon Society</a> | <a href="http://www.sibagu.com/index.html">Sibagu The Ornithological Linguist</a> | <a href="https://www.savingcranes.org/">International Crane Foundation</a></p>
+<p><a href="https://ebird.org/home">eBird</a> | <a href="https://merlin.allaboutbirds.org/">Cornell Lab of Ornithology/Merlin Bird ID</a> | <a href="https://birdweb.org/birdweb/">BirdWeb</a> | <a href="https://www.audubon.org/">Audubon Society</a> | <a href="http://www.sibagu.com/index.html">Sibagu The Ornithological Linguist</a> | <a href="https://www.savingcranes.org/">International Crane Foundation</a> | <a href="https://www.falseknees.com/">False Knees - the Bird webcomic by Joshua Barkman</a></p>
 <ul>
 <li><strong>Local</strong>: Greater Lafayette Area/Indiana</li>
 </ul>
@@ -4107,15 +3827,15 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
   <span class="mylikebutton"> ♥</span>
 </div>
 
-<section id="project" class="level2">
-<h2 class="anchored" data-anchor-id="project">Project</h2>
+<section id="project" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="project"><span class="header-section-number">1</span> Project</h2>
 <p>This <a href="https://yunyiru.shinyapps.io/RESPweather_dashboard/"><strong>Weather-Respiratory Diseases Correlation Explorer</strong></a> R Shiny Dashboard aims to investigate the relationship between climate and weather-related conditions and outbreaks of two respiratory viruses, <strong>influenza</strong> and <strong>respiratory syncytial virus (RSV)</strong>.</p>
 <p><a href="photo/shiny1.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://yyraven.github.io/quarto-blog/work/241219_project_RESPweather_dashboard/photo/shiny1.PNG" class="img-fluid"></a></p>
 <p>Influenza is an RNA virus from the <em>Orthomyxoviridae</em> family that frequently mutates, causing seasonal epidemics, while RSV is an RNA virus from the <em>Paramyxoviridae</em> family that primarily affects young children and the elderly, often leading to severe lower respiratory infections. Both viruses pose significant public health challenges due to their widespread transmission and potential for severe disease.</p>
 <p>Climate and weather conditions can influence the activity and spread of both viruses. Studies have suggested that factors like <strong>cold temperatures</strong>, <strong>low indoor humidity</strong>, <strong>limited sunlight</strong>, and <strong>rapid weather changes</strong> may increase the risk of disease outbreaks.</p>
 </section>
-<section id="features" class="level2">
-<h2 class="anchored" data-anchor-id="features">Features</h2>
+<section id="features" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="features"><span class="header-section-number">2</span> Features</h2>
 <ul>
 <li><strong>Weekly Rates</strong>: This dashboard uses <a href="https://data.cdc.gov/Public-Health-Surveillance/Rates-of-Laboratory-Confirmed-RSV-COVID-19-and-Flu/kvib-3txy/about_data">CDC RESP-NET data</a> to give an overview of influenza and rsv hospitalization rates of each state from 2018 to 2024. The user can select year, state, and pathogen of interest using the interactive filters.</li>
 </ul>
@@ -4125,8 +3845,8 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
 </ul>
 <p><a href="photo/shiny3.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://yyraven.github.io/quarto-blog/work/241219_project_RESPweather_dashboard/photo/shiny3.PNG" class="img-fluid"></a></p>
 </section>
-<section id="data" class="level2">
-<h2 class="anchored" data-anchor-id="data">Data</h2>
+<section id="data" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="data"><span class="header-section-number">3</span> Data</h2>
 <ul>
 <li><p><strong>Respiratory Virus Related Hospitalization Rate</strong>: Disease rate data were scrapped from <a href="https://data.cdc.gov/Public-Health-Surveillance/Rates-of-Laboratory-Confirmed-RSV-COVID-19-and-Flu/kvib-3txy/about_data">CDC RESP-NET</a>.</p></li>
 <li><p><strong>Environmental Parameters</strong>: Weather data were scrapped from <a href="https://open-meteo.com/">Openmeteo API</a>.</p></li>
@@ -4301,10 +4021,10 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
   <span class="mylikebutton"> ♥</span>
 </div>
 
-<section id="introduction" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<section id="why-this-project" class="level3 page-columns page-full">
-<h3 class="anchored" data-anchor-id="why-this-project">Why This Project</h3>
+<section id="introduction" class="level2 page-columns page-full" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<section id="why-this-project" class="level3 page-columns page-full" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="why-this-project"><span class="header-section-number">1.1</span> Why This Project</h3>
 <p>I’m interested in the ‘shoegaze’ subgenre of indie rock. This less-known genre, also called ‘the scene that celebrates itself’, rose from the noise pop scene in the late 80s and early 90s, and has regained popularity recently. An article titled <em>‘The Shoegaze Revival Hit Its Stride in 2023’</em> <span class="citation" data-cites="sherburne_shoegaze_2023">(Sherburne 2023)</span> by pitchfork also captures the revival of shoegaze among GenZ populations.</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
@@ -4317,8 +4037,8 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
 </div></div><p>Shoegaze is characterized by heavy use of overdriven guitar and various effect pedals with the combination of the ethereal vocals; the lyrics are often regarded as blank, poetic, and sometimes difficult to distinguish from the instruments. So here comes this project for the indieheads - I want to analyze those usually overlooked lyrics, especially from the perspective of sentiment.</p>
 <p>The bands I want to study are the so-called classic ‘big-three’ of shoegaze: <em>my bloody valentine</em>, <em>Ride</em>, and <em>slowdive</em>. They were all on the independent record label <em>Creation</em> from London, UK, reached their peak in early 90s, disbanded in late 90s due to the fading of the subgenre, and reunited in the 21st century, which make them a perfect fit to study the changes in the lyrics over the years.</p>
 </section>
-<section id="my-questions" class="level3">
-<h3 class="anchored" data-anchor-id="my-questions">My Questions</h3>
+<section id="my-questions" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="my-questions"><span class="header-section-number">1.2</span> My Questions</h3>
 <ol type="1">
 <li>What words frequently appear in their lyrics?</li>
 <li>Which bands have the longest and shortest lyrics?</li>
@@ -4327,15 +4047,15 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
 </ol>
 </section>
 </section>
-<section id="project" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="project">Project</h2>
-<section id="data-acquisition-wrangling" class="level3 page-columns page-full">
-<h3 class="anchored" data-anchor-id="data-acquisition-wrangling">Data Acquisition &amp; Wrangling</h3>
+<section id="project" class="level2 page-columns page-full" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="project"><span class="header-section-number">2</span> Project</h2>
+<section id="data-acquisition-wrangling" class="level3 page-columns page-full" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="data-acquisition-wrangling"><span class="header-section-number">2.1</span> Data Acquisition &amp; Wrangling</h3>
 
 <div class="no-row-height column-margin column-container"><div class="">
 <p><img src="https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/photo/loveless.png" class="img-fluid"> <img src="https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/photo/nowhere.jpg" class="img-fluid"> <img src="https://yyraven.github.io/quarto-blog/work/241108_project_lyric_analysis/photo/souvlaki.jpeg" class="img-fluid"></p>
-</div></div><section id="data-acquisition" class="level4">
-<h4 class="anchored" data-anchor-id="data-acquisition">Data Acquisition</h4>
+</div></div><section id="data-acquisition" class="level4" data-number="2.1.1">
+<h4 data-number="2.1.1" class="anchored" data-anchor-id="data-acquisition"><span class="header-section-number">2.1.1</span> Data Acquisition</h4>
 <p>Lyrics from all studio albums of the ‘big three’ bands in the shoegaze genre - <em>my bloody valentine (mbv)</em>, <em>Ride</em>, and <em>slowdive</em> - are retrieved from <a href="https://genius.com/">Genius.com</a> using a Python package named <a href="https://www.johnwmillr.com/scraping-genius-lyrics/">lyricsgenius</a> <span class="citation" data-cites="miller_johnwmillrlyricsgenius_2024">(Miller 2024)</span> based on Genius API. Please see the author’s instructions for details.</p>
 <div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
@@ -4440,8 +4160,8 @@ font-style: inherit;">1</span>))</span></code></pre></div>
 </div>
 </div>
 </section>
-<section id="data-dictionary" class="level4">
-<h4 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h4>
+<section id="data-dictionary" class="level4" data-number="2.1.2">
+<h4 data-number="2.1.2" class="anchored" data-anchor-id="data-dictionary"><span class="header-section-number">2.1.2</span> Data Dictionary</h4>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 22%">
@@ -4489,8 +4209,8 @@ font-style: inherit;">1</span>))</span></code></pre></div>
 </tbody>
 </table>
 </section>
-<section id="data-wrangling" class="level4">
-<h4 class="anchored" data-anchor-id="data-wrangling">Data Wrangling</h4>
+<section id="data-wrangling" class="level4" data-number="2.1.3">
+<h4 data-number="2.1.3" class="anchored" data-anchor-id="data-wrangling"><span class="header-section-number">2.1.3</span> Data Wrangling</h4>
 <p>The lyrics directly retrieved from Genius.com usually have some problems -</p>
 <div class="callout callout-style-simple callout-warning">
 <div class="callout-body d-flex">
@@ -4745,10 +4465,10 @@ font-style: inherit;">"​​​everything is alive"</span>)))</span></code></pr
 </div>
 </section>
 </section>
-<section id="data-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="data-analysis">Data Analysis</h3>
-<section id="what-words-frequently-appear-in-their-lyrics" class="level4">
-<h4 class="anchored" data-anchor-id="what-words-frequently-appear-in-their-lyrics">What words frequently appear in their lyrics?</h4>
+<section id="data-analysis" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="data-analysis"><span class="header-section-number">2.2</span> Data Analysis</h3>
+<section id="what-words-frequently-appear-in-their-lyrics" class="level4" data-number="2.2.1">
+<h4 data-number="2.2.1" class="anchored" data-anchor-id="what-words-frequently-appear-in-their-lyrics"><span class="header-section-number">2.2.1</span> What words frequently appear in their lyrics?</h4>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="fu" style="color: #4758AB;
 background-color: null;
@@ -4989,8 +4709,8 @@ font-style: inherit;">'Word size based on frequency. Only the top 30 results are
 </div>
 <p>The result is kind of amusing. Ride and mbv rely their vocals heavily on <strong>harmonies</strong> and <strong>hummings</strong> - and it’s reflected honestly here, while slowdive has the most <strong>‘meaningful’</strong> lyrics among the three. ‘Love’ is the ultimate meaning of rock and roll, and it indeed appears in high frequency in all of their lyrics.</p>
 </section>
-<section id="which-bands-have-the-longest-and-shortest-lyrics" class="level4">
-<h4 class="anchored" data-anchor-id="which-bands-have-the-longest-and-shortest-lyrics">Which bands have the longest and shortest lyrics?</h4>
+<section id="which-bands-have-the-longest-and-shortest-lyrics" class="level4" data-number="2.2.2">
+<h4 data-number="2.2.2" class="anchored" data-anchor-id="which-bands-have-the-longest-and-shortest-lyrics"><span class="header-section-number">2.2.2</span> Which bands have the longest and shortest lyrics?</h4>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -5075,8 +4795,8 @@ font-style: inherit;">1</span>))</span></code></pre></div>
 </div>
 <p>Among the three bands, Mbv always has the shortest lyrics overall while Ride has the longest. An interesting trend is that while Ride and slowdive have similar lyric length back in the 90s, after reunion, Ride tends to have longer lyrics - and the length increases for each album.</p>
 </section>
-<section id="who-is-the-saddest-shoegaze-band" class="level4">
-<h4 class="anchored" data-anchor-id="who-is-the-saddest-shoegaze-band">Who is the saddest shoegaze band?</h4>
+<section id="who-is-the-saddest-shoegaze-band" class="level4" data-number="2.2.3">
+<h4 data-number="2.2.3" class="anchored" data-anchor-id="who-is-the-saddest-shoegaze-band"><span class="header-section-number">2.2.3</span> Who is the saddest shoegaze band?</h4>
 <p>I used <code>afinn</code> from package <code>tidytext</code> for sentiment analysis based on this paper<span class="citation" data-cites="koto_comparative_2015">(Koto and Adriani 2015)</span>.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><span class="co" style="color: #5E5E5E;
@@ -5188,8 +4908,8 @@ font-style: inherit;">kable</span>(afinn_score_by_artist)</span></code></pre></d
 </div>
 </div>
 <p>Among the three bands, mbv has the lowest sentiment score, which means it is the saddest shoegaze band (if we only look at the lyrics). All three bands got sentiment scores less than or equal to zero, with slowdive holding the highest score (0.00).</p>
-<section id="what-about-their-greatest-hits" class="level5">
-<h5 class="anchored" data-anchor-id="what-about-their-greatest-hits">What about their greatest hits?</h5>
+<section id="what-about-their-greatest-hits" class="level5" data-number="2.2.3.1">
+<h5 data-number="2.2.3.1" class="anchored" data-anchor-id="what-about-their-greatest-hits"><span class="header-section-number">2.2.3.1</span> What about their greatest hits?</h5>
 <p>Using data from <a href="last.fm">last.fm</a>, we find out that the greatest hits of the three bands are:</p>
 <ul>
 <li><em>when you sleep</em> - my bloody valentine (32171 weekly listeners),</li>
@@ -5476,8 +5196,8 @@ font-style: inherit;">greatest hits'</span></span>
 </div>
 <p>Mbv has the lowest overall sentiment score. All those songs have a slightly higher sentiment score than their artist’s average scores. People seem to prefer happy songs!</p>
 </section>
-<section id="so-what-are-their-happiestsaddest-songs" class="level5">
-<h5 class="anchored" data-anchor-id="so-what-are-their-happiestsaddest-songs">So what are their happiest/saddest songs?</h5>
+<section id="so-what-are-their-happiestsaddest-songs" class="level5" data-number="2.2.3.2">
+<h5 data-number="2.2.3.2" class="anchored" data-anchor-id="so-what-are-their-happiestsaddest-songs"><span class="header-section-number">2.2.3.2</span> So what are their happiest/saddest songs?</h5>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1">extreme_song <span class="ot" style="color: #003B4F;
 background-color: null;
@@ -5582,8 +5302,8 @@ font-style: inherit;">kable</span>(sorted_tibble)</span></code></pre></div>
 <p>With the table above, we find that Ride’s saddest songs are <em>‘I Came to See the Wreck’</em> and <em>‘Only Now’</em>, and happiest songs is <em>‘The Dawn Patrol’</em>; Slowdive’s saddest song is <em>‘The Sadman’</em>, and happiest songs is <em>‘Everyone Knows’</em>; mbv’s saddest song is <em>‘if i am’</em>, and happiest song is <em>‘only shallow’</em>. <strong>The Sadman is really sad</strong>.</p>
 </section>
 </section>
-<section id="are-bands-trending-towards-happiness-or-sadness-over-time" class="level4">
-<h4 class="anchored" data-anchor-id="are-bands-trending-towards-happiness-or-sadness-over-time">Are bands trending towards happiness or sadness over time?</h4>
+<section id="are-bands-trending-towards-happiness-or-sadness-over-time" class="level4" data-number="2.2.4">
+<h4 data-number="2.2.4" class="anchored" data-anchor-id="are-bands-trending-towards-happiness-or-sadness-over-time"><span class="header-section-number">2.2.4</span> Are bands trending towards happiness or sadness over time?</h4>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1">afinn_score <span class="ot" style="color: #003B4F;
 background-color: null;
@@ -5725,12 +5445,12 @@ font-style: inherit;">'Time'</span></span>
 </section>
 </section>
 </section>
-<section id="bonus-here-comes-the-ride-fan" class="level2">
-<h2 class="anchored" data-anchor-id="bonus-here-comes-the-ride-fan">Bonus: Here Comes the RIDE Fan!</h2>
+<section id="bonus-here-comes-the-ride-fan" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="bonus-here-comes-the-ride-fan"><span class="header-section-number">3</span> Bonus: Here Comes the RIDE Fan!</h2>
 <p>RIDE blew my mind when I attended their Nowhere concert with the Charlatans back in Jan 2024 in the amazing venue Union Transfer, Philadelphia. Since then I’ve become a huge fan… So I couldn’t help but did more data analysis on them (!).</p>
 <p><strong>Disclaimer</strong>: I’m by no means overlooking the members who do not write the lyrics. I love you Steve. It’s just because I can only do text analysis at this time.</p>
-<section id="my-questions-1" class="level3">
-<h3 class="anchored" data-anchor-id="my-questions-1">My Questions</h3>
+<section id="my-questions-1" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="my-questions-1"><span class="header-section-number">3.1</span> My Questions</h3>
 <ol type="1">
 <li><p>Who writes the lyrics in each album?</p></li>
 <li><p>What’s the most frequently used words for each lyricist before/after reunion?</p></li>
@@ -5739,8 +5459,8 @@ font-style: inherit;">'Time'</span></span>
 <li><p>Are they trending towards happiness or sadness over time?</p></li>
 </ol>
 </section>
-<section id="data-wrangling-1" class="level3">
-<h3 class="anchored" data-anchor-id="data-wrangling-1">Data Wrangling</h3>
+<section id="data-wrangling-1" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="data-wrangling-1"><span class="header-section-number">3.2</span> Data Wrangling</h3>
 <p>Information about lyric writers were from interviews and record sleeves.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><span class="co" style="color: #5E5E5E;
@@ -6037,8 +5757,8 @@ background-color: null;
 font-style: inherit;">2000</span>)</span></code></pre></div>
 </div>
 </section>
-<section id="data-analysis-1" class="level3">
-<h3 class="anchored" data-anchor-id="data-analysis-1">Data Analysis</h3>
+<section id="data-analysis-1" class="level3" data-number="3.3">
+<h3 data-number="3.3" class="anchored" data-anchor-id="data-analysis-1"><span class="header-section-number">3.3</span> Data Analysis</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -6113,8 +5833,8 @@ font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"word"</span>))</span></code></pre></div>
 </div>
-<section id="who-writes-the-lyrics-in-each-album" class="level4">
-<h4 class="anchored" data-anchor-id="who-writes-the-lyrics-in-each-album">Who writes the lyrics in each album?</h4>
+<section id="who-writes-the-lyrics-in-each-album" class="level4" data-number="3.3.1">
+<h4 data-number="3.3.1" class="anchored" data-anchor-id="who-writes-the-lyrics-in-each-album"><span class="header-section-number">3.3.1</span> Who writes the lyrics in each album?</h4>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -6213,8 +5933,8 @@ font-style: inherit;">'Album'</span></span>
 </div>
 <p>Andy Bell did a lot, especially for Nowhere, Tarantula, and This is Not a Safe Place.</p>
 </section>
-<section id="whats-the-most-frequently-used-words-for-each-lyricist-beforeafter-reunion" class="level4">
-<h4 class="anchored" data-anchor-id="whats-the-most-frequently-used-words-for-each-lyricist-beforeafter-reunion">What’s the most frequently used words for each lyricist before/after reunion?</h4>
+<section id="whats-the-most-frequently-used-words-for-each-lyricist-beforeafter-reunion" class="level4" data-number="3.3.2">
+<h4 data-number="3.3.2" class="anchored" data-anchor-id="whats-the-most-frequently-used-words-for-each-lyricist-beforeafter-reunion"><span class="header-section-number">3.3.2</span> What’s the most frequently used words for each lyricist before/after reunion?</h4>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -6420,8 +6140,8 @@ font-style: inherit;">'Count'</span></span>
 </div>
 <p>It’s surprising that ‘time’ was used a lot. I’m interested that whether all bands like this word or it’s just RIDE. Maybe it would be my next project in the future.</p>
 </section>
-<section id="top-5-words-for-each-album" class="level4">
-<h4 class="anchored" data-anchor-id="top-5-words-for-each-album">Top 5 Words for Each Album</h4>
+<section id="top-5-words-for-each-album" class="level4" data-number="3.3.3">
+<h4 data-number="3.3.3" class="anchored" data-anchor-id="top-5-words-for-each-album"><span class="header-section-number">3.3.3</span> Top 5 Words for Each Album</h4>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -6601,8 +6321,8 @@ font-style: inherit;">'Album'</span></span>
 </div>
 <p>Some themes are always there - time, day, life, feel…</p>
 </section>
-<section id="who-is-the-saddest-lyricist" class="level4">
-<h4 class="anchored" data-anchor-id="who-is-the-saddest-lyricist">Who is the Saddest Lyricist?</h4>
+<section id="who-is-the-saddest-lyricist" class="level4" data-number="3.3.4">
+<h4 data-number="3.3.4" class="anchored" data-anchor-id="who-is-the-saddest-lyricist"><span class="header-section-number">3.3.4</span> Who is the Saddest Lyricist?</h4>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -6838,8 +6558,8 @@ font-style: inherit;">'Lyricist'</span></span>
 </div>
 <p>Mark Gardener seems really sad.</p>
 </section>
-<section id="are-they-trending-towards-happiness-or-sadness-over-time" class="level4">
-<h4 class="anchored" data-anchor-id="are-they-trending-towards-happiness-or-sadness-over-time">Are they trending towards happiness or sadness over time?</h4>
+<section id="are-they-trending-towards-happiness-or-sadness-over-time" class="level4" data-number="3.3.5">
+<h4 data-number="3.3.5" class="anchored" data-anchor-id="are-they-trending-towards-happiness-or-sadness-over-time"><span class="header-section-number">3.3.5</span> Are they trending towards happiness or sadness over time?</h4>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -7169,219 +6889,289 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 
 
 <div class="post-meta-bar">
-  <span class="wordcount"> ✎3824 </span>
+  <span class="wordcount"> ✎3785 </span>
   <span class="mylikebutton"> ♥</span>
 </div>
 
-<p>Notion博客存档。当时比较有精力所以每周都在听新曲子…总之可以看出来一个很明显的坠入盯鞋/迷幻/梦泡大坑的过程，现在两年过去了还没爬出来 - 251213 YR</p>
-<hr>
-<section id="section" class="level1">
-<h1>240111</h1>
-<p><strong><em>Going Blank Again - Ride</em></strong></p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Notion存档。当时比较有精力所以每周都在听新曲子…总之可以看出来一个很明显的坠入盯鞋/迷幻/梦泡大坑的过程，现在两年过去了还没爬出来。</p>
+</div>
+</div>
+</div>
+<section id="going-blank-again---ride" class="level2">
+<h2 class="anchored" data-anchor-id="going-blank-again---ride">240111 <em>Going Blank Again</em> - Ride</h2>
+<section id="简评" class="level4">
+<h4 class="anchored" data-anchor-id="简评">简评</h4>
+<p>来自英国牛津的90年代盯鞋乐团ride的二专。与一专nowhere相比，going blank again更加流行、成熟，但保持了ride一贯的清新风格。像一场永不停止的公路旅行，车里的空调调得很舒适，让人轻飘飘的，副驾驶位置上是一只小狗，后座坐着你的童年好友，窗外是飞速掠过的城市灯光和五颜六色的夏花。</p>
+</section>
+<section id="推荐曲目" class="level4">
+<h4 class="anchored" data-anchor-id="推荐曲目">推荐曲目</h4>
 <ul>
-<li><strong>简评</strong>: 来自英国牛津的90年代盯鞋乐团ride的二专。与一专nowhere相比，going blank again更加流行、成熟，但保持了ride一贯的清新风格。像一场永不停止的公路旅行，车里的空调调得很舒适，让人轻飘飘的，副驾驶位置上是一只小狗，后座坐着你的童年好友，窗外是飞速掠过的城市灯光和五颜六色的夏花。</li>
+<li><strong>Twisterella</strong>
+<ul>
+<li><em>‘If I don’t need it anymore, why’s this bus taking me back again?’</em></li>
+<li>一场90年代的伦敦夜游。迷幻剂和轻飘飘的光与影。歌词和《不能承受的生命之轻》有关，因为主唱Mark Gardener当时在读这本书。</li>
+</ul></li>
+<li><strong>Mouse Trap</strong>
+<ul>
+<li><em>‘Tricky scenes, tricky little dreams. The Earth spins and my head spins me back ‘round to you’</em></li>
+<li>前奏是非常清新帅气的扫弦。听了就开心。</li>
+</ul></li>
+<li><strong>Leave Them All Behind</strong>
+<ul>
+<li><em>‘Colors shining clear, fading into night. Our grasp is broken, there’s nothing we can do…’</em></li>
+<li>经典曲目，悬浮于宇宙中一般的体验。现场版非常精彩。</li>
+</ul></li>
+<li><strong>OX4</strong>
+<ul>
+<li><em>‘Never been so far away, I don’t think I want to stay in this room anymore’</em></li>
+<li>想家了。</li>
+</ul></li>
 </ul>
-<section id="推荐曲目" class="level3">
-<h3 class="anchored" data-anchor-id="推荐曲目">推荐曲目</h3>
-<p><strong>Twisterella</strong></p>
-<p><em>‘If I don’t need it anymore, why’s this bus taking me back again?’</em></p>
-<p>一场90年代的伦敦夜游。迷幻剂和轻飘飘的光与影。歌词和《不能承受的生命之轻》有关，因为主唱Mark Gardener当时在读这本书。</p>
-<p><strong>Mouse Trap</strong></p>
-<p><em>‘Tricky scenes, tricky little dreams. The Earth spins and my head spins me back ‘round to you’</em></p>
-<p>前奏是非常清新帅气的扫弦。听了就开心。</p>
-<p><strong>Leave Them All Behind</strong></p>
-<p><em>‘Colors shining clear, fading into night. Our grasp is broken, there’s nothing we can do…’</em></p>
-<p>经典曲目，悬浮于宇宙中一般的体验。现场版非常精彩。</p>
-<p><strong>OX4</strong></p>
-<p><em>‘Never been so far away, I don’t think I want to stay in this room anymore’</em></p>
-<p>想家了。</p>
 <hr>
 </section>
 </section>
-<section id="section-1" class="level1">
-<h1>240117</h1>
-<p><strong><em>The Stone Roses</em></strong></p>
-<ul>
-<li><strong>简评</strong>: 来自英国曼彻斯特的摇滚乐队石玫瑰，网友们最爱的夏日乐队。主唱Ian的声音像是浮在现实之外，介于呓语和梦话之间。旋转漂浮的riff营造出轻松迷幻的氛围，像嗑了某种让人欣快的药物一样，感觉骨头里的重量被空气一点点吸走，大脑沉浸在一种糖果色的半透明气泡里。</li>
-</ul>
-<section id="推荐曲目-1" class="level3">
-<h3 class="anchored" data-anchor-id="推荐曲目-1">推荐曲目</h3>
-<p><strong>Sally Cinnamon</strong></p>
-<p><em>‘Sent to me from heaven, Sally Cinnamon, you’re my world.’</em></p>
-<p>美好轻盈得不似真实。女孩给女孩写的情书。我为了这个去买了一支肉桂色的口红。</p>
-<p><strong>Fool’s Gold</strong></p>
-<p><em>‘I’m no clown, I won’t back down, I don’t need to let you tell me what’s going down’</em></p>
-<p>四块二的哇音效果器征服所有人。真是骚爆了，所有的配器都是。站在排练室里会有多爽我都不敢想！</p>
-</section>
-<section id="四块二的吉他" class="level3">
-<h3 class="anchored" data-anchor-id="四块二的吉他">四块二的吉他</h3>
+<section id="the-stone-roses" class="level2">
+<h2 class="anchored" data-anchor-id="the-stone-roses">240117 The Stone Roses</h2>
+<section id="简评-1" class="level4">
+<h4 class="anchored" data-anchor-id="简评-1">简评</h4>
+<p>来自英国曼彻斯特的摇滚乐队石玫瑰，网友们最爱的夏日乐队。主唱Ian的声音像是浮在现实之外，介于呓语和梦话之间。旋转漂浮的riff营造出轻松迷幻的氛围，像嗑了某种让人欣快的药物一样，感觉骨头里的重量被空气一点点吸走，大脑沉浸在一种糖果色的半透明气泡里。</p>
 <p>萨莉肉桂真好听，虽然也不知道这个神秘的魅力到底在哪里。简简单单的但就是没道理地好听。四块二也没有炫技，但简单的节奏/弹法上的变化就让整首歌变得很精巧很可爱。几条riff的制音/不制音的变化非常灵动，特别喜欢。我觉得这首歌有些音的粘滞感其实不是加了delay而是手留在弦上的时间特别长，他真的很会弹。</p>
 <p>感觉石玫瑰的歌的技巧不在酷炫的长段推揉弦solo上，而是那种变化多端的感觉…比如fool’s gold里面鼓贝斯和吉他都非常，轻松？轻盈？现实逐渐远去，而我升入浅紫色的蒸汽中。并且我觉得四块二的riff有一种特殊的气质，就挺艺术的。某种特别的调式或者不太常见的音程吗？最后制作出来的歌又非常悦耳。是个很懂得怎么运用自己擅长的技巧的乐队（与完全以<em>野性</em>为基础的那些相对）。</p>
+</section>
+<section id="推荐曲目-1" class="level4">
+<h4 class="anchored" data-anchor-id="推荐曲目-1">推荐曲目</h4>
+<ul>
+<li><strong>Sally Cinnamon</strong>
+<ul>
+<li><em>‘Sent to me from heaven, Sally Cinnamon, you’re my world.’</em></li>
+<li>美好轻盈得不似真实。女孩给女孩写的情书。我为了这个去买了一支肉桂色的口红。</li>
+</ul></li>
+<li><strong>Fool’s Gold</strong>
+<ul>
+<li><em>‘I’m no clown, I won’t back down, I don’t need to let you tell me what’s going down’</em></li>
+<li>四块二的哇音效果器征服所有人。真是骚爆了，所有的配器都是。站在排练室里会有多爽我都不敢想！</li>
+</ul></li>
+</ul>
 <hr>
 </section>
 </section>
-<section id="section-2" class="level1">
-<h1>240124</h1>
-<p><strong><em>Carnival of Light - Ride</em></strong></p>
-<section id="推荐曲目-2" class="level3">
-<h3 class="anchored" data-anchor-id="推荐曲目-2">推荐曲目</h3>
-<p><strong>Birdman</strong></p>
-<p><em>‘Blackbird flying in the sky / Please don’t look me in the eye / You are very very lucky / It’s never easy to find me’</em></p>
-<p>忧郁的曲子。怀揣着命运悲剧的必然，对爱人小心翼翼的无望告白。典型的Andy式纯情歌词。</p>
-<p><strong>1000 Miles</strong></p>
-<p><em>‘For always and ever it’s getting better / I feel your steps with mine / I’m moving on like it said in the letter / Another place, another time’</em></p>
-<p>吉他很美很温柔。<a href="https://www.youtube.com/watch?v=QsA7feYFbws">Mark说</a>这是一首关于’being far away from sth you don’t want to be far away from’的歌。</p>
-</section>
-<section id="简评延伸阅读" class="level3">
-<h3 class="anchored" data-anchor-id="简评延伸阅读">简评+延伸阅读</h3>
+<section id="carnival-of-light---ride" class="level2">
+<h2 class="anchored" data-anchor-id="carnival-of-light---ride">240124 <em>Carnival of Light</em> - Ride</h2>
+<section id="简评延伸阅读" class="level4">
+<h4 class="anchored" data-anchor-id="简评延伸阅读">简评+延伸阅读</h4>
 <p>这周继续推荐我们的老朋友Ride。这次是收录在三专Carnival of Light里的曲子birdman和1000 miles。请允许博主沉浸在ride-mania里直接给上满分吧（是不是取消评分环节比较好？每次我想推荐曲子的时候，我都想给满分）。</p>
 <ul>
 <li><p><a href="https://www.musicradar.com/news/guitars/rides-andy-bell-my-top-5-tips-for-guitarists-629305"><strong>Andy Bell给吉他手的五个小建议 Ride’s Andy Bell: my top 5 tips for guitarists</strong></a> 提到了birdman是特殊调弦，高音E→D。希望有一天我的技术能达到开始应用这些小技巧的程度。</p></li>
 <li><p><a href="https://www.youtube.com/watch?v=vwobEIHCy0k"><strong>Ride的94年Glastonbury现场</strong></a> 开场曲是birdman，第三曲是1000 miles，最后一曲是mouse trap。现在都是很喜欢的曲子，但第一次看这个视频的时候眼睛里只有这个金毛粉墨镜的骚包造型…哥你当时到底在想什么…</p></li>
 <li><p><a href="https://www.youtube.com/watch?v=RsEXtyxDl3w"><strong>Birdman的TOTP</strong></a> 这个粉墨镜是94年的必备造型吗哈哈。</p></li>
 </ul>
+</section>
+<section id="推荐曲目-2" class="level4">
+<h4 class="anchored" data-anchor-id="推荐曲目-2">推荐曲目</h4>
+<ul>
+<li><strong>Birdman</strong>
+<ul>
+<li><em>‘Blackbird flying in the sky / Please don’t look me in the eye / You are very very lucky / It’s never easy to find me’</em></li>
+<li>忧郁的曲子。怀揣着命运悲剧的必然，对爱人小心翼翼的无望告白。典型的Andy式纯情歌词。</li>
+</ul></li>
+<li><strong>1000 Miles</strong>
+<ul>
+<li><em>‘For always and ever it’s getting better / I feel your steps with mine / I’m moving on like it said in the letter / Another place, another time’</em></li>
+<li>吉他很美很温柔。<a href="https://www.youtube.com/watch?v=QsA7feYFbws">Mark说</a>这是一首关于’being far away from sth you don’t want to be far away from’的歌。</li>
+</ul></li>
+</ul>
 <hr>
 </section>
 </section>
-<section id="section-3" class="level1">
-<h1>240131</h1>
-<p><strong><em>The Smiths</em></strong></p>
+<section id="the-smiths" class="level2">
+<h2 class="anchored" data-anchor-id="the-smiths">240131 The Smiths</h2>
+<section id="简评-2" class="level4">
+<h4 class="anchored" data-anchor-id="简评-2">简评</h4>
+<p>充满罪恶感的一期。这次推荐的是活跃于80年代的曼彻斯特乐队The Smiths。开始听的原因是Ride的吉他手Andy Bell早年的吉他英雄是The Smiths的吉他手Johnny Marr。结果发现是个顾影自怜的社恐（文艺青年，loser，随便怎么说吧）——也就是<strong><em>我</em></strong>——会相当喜欢的乐队……你在生活中发的每一个牢骚都能找到一首对应的歌。 主唱Steven Morrissey很会写歌词，如诗一般，坦白而优美。虽然通过咀嚼自己的忧郁来获得快乐是一种罪恶，但今天就放纵一下吧。</p>
+</section>
+<section id="推荐曲目-3" class="level4">
+<h4 class="anchored" data-anchor-id="推荐曲目-3">推荐曲目</h4>
 <ul>
-<li><strong>简评</strong>:充满罪恶感的一期。这次推荐的是活跃于80年代的曼彻斯特乐队The Smiths。开始听的原因是Ride的吉他手Andy Bell早年的吉他英雄是The Smiths的吉他手Johnny Marr。结果发现是个顾影自怜的社恐（文艺青年，loser，随便怎么说吧）——也就是<strong><em>我</em></strong>——会相当喜欢的乐队……你在生活中发的每一个牢骚都能找到一首对应的歌。 主唱Steven Morrissey很会写歌词，如诗一般，坦白而优美。虽然通过咀嚼自己的忧郁来获得快乐是一种罪恶，但今天就放纵一下吧。</li>
+<li><strong>There is a Light that Never Goes Out - The Queen Is Dead (1986)</strong>
+<ul>
+<li><em>‘And if a double-decker bus crashes into us / to die by your side is such a heavenly way to die / If a ten-tonne truck kills the both of us / to die by your side, well, the pleasure, the privilege is mine’</em></li>
+<li>和人乘车兜风的时候有没有想过“就是死在这一刻我也愿意”？请听这首。目前是我最喜欢的一首。</li>
+</ul></li>
+<li><strong>How Soon Is Now? - Hatful of Hollow (1984)</strong>
+<ul>
+<li><em>‘You shut your mouth, how can you say / I go about things the wrong way? / I am human and I need to be loved / Just like everybody else does’</em></li>
+<li>感觉自己被全世界伤害抛弃了？请听这首（会让你陷入更深的抑郁和相伴相随的顾影自怜中）。乐器非常美。</li>
+</ul></li>
+<li><strong>Still Ill - The Smiths (1984)</strong>
+<ul>
+<li><em>‘I decree today that life is simply taking and not giving / England is mine / it owes me a living / but ask me why I’ll spit in your eye’</em></li>
+<li>感觉被整个时代辜负了？请听这首。</li>
+</ul></li>
+<li><strong>I Know It’s Over - The Queen Is Dead (1986)</strong>
+<ul>
+<li>‘<em>If you’re so funny, then why are you on your own tonight / And if you’re so slever, then why are you own tonight / If you’re so very entertaining, then why are you on your own tonight / if you’re so very good-looking, then why are you on your own tonight</em>’</li>
+<li>被甩了，想被再骂几句？请听这首。</li>
+</ul></li>
+<li><strong>Heaven Knows I’m Miserable Now - Hatful of Hollow (1984)</strong>
+<ul>
+<li>’<em>I was looking for a job and then I found a job / And heaven knows I’m miserable now / In my life, why do I give valuable time / To people who don’t care if I live or die?</em>’</li>
+<li>明明只是在过日常的生活，甚至过得也挺开心的，但你敏感的内心就是填满了忧郁？请听这首。</li>
+</ul></li>
+<li><strong>Panic - The World Won’t Listen (1987)</strong>
+<ul>
+<li><em>‘Burn down the disco / Hang the blessed DJ / Because the music that they constantly play / It says nothing to me about my life’</em></li>
+<li>被酒吧的狗屎音乐毁了你一天的心情（心情居然可以变得比白天<strong><em>更</em></strong>糟糕吗）？请听这首。</li>
+</ul></li>
+<li><strong>This Charming Man - The Smiths (1984)</strong>
+<ul>
+<li>‘<em>I would go out tonight but I haven’t got a stitch to wear / This man said, It’s gruesome that someone so handsome should care</em>’</li>
+<li>如同言情小说一般的homoerotic情节。这首歌让我明白Johnny Marr为什么是Andy的吉他英雄了，相当美丽的吉他（同时也是相当美丽的吉他手）。</li>
+</ul></li>
 </ul>
-<section id="推荐曲目-3" class="level3">
-<h3 class="anchored" data-anchor-id="推荐曲目-3">推荐曲目</h3>
-<p><strong>There is a Light that Never Goes Out - The Queen Is Dead (1986)</strong></p>
-<p><em>‘And if a double-decker bus crashes into us / to die by your side is such a heavenly way to die / If a ten-tonne truck kills the both of us / to die by your side, well, the pleasure, the privilege is mine’</em></p>
-<p>和人乘车兜风的时候有没有想过“就是死在这一刻我也愿意”？请听这首。目前是我最喜欢的一首。</p>
-<p><strong>How Soon Is Now? - Hatful of Hollow (1984)</strong></p>
-<p><em>‘You shut your mouth, how can you say / I go about things the wrong way? / I am human and I need to be loved / Just like everybody else does’</em></p>
-<p>感觉自己被全世界伤害抛弃了？请听这首（会让你陷入更深的抑郁和相伴相随的顾影自怜中）。乐器非常美。</p>
-<p><strong>Still Ill - The Smiths (1984)</strong></p>
-<p><em>‘I decree today that life is simply taking and not giving / England is mine / it owes me a living / but ask me why I’ll spit in your eye’</em></p>
-<p>感觉被整个时代辜负了？请听这首。</p>
-<p><strong>I Know It’s Over - The Queen Is Dead (1986)</strong></p>
-<p>‘<em>If you’re so funny, then why are you on your own tonight / And if you’re so slever, then why are you own tonight / If you’re so very entertaining, then why are you on your own tonight / if you’re so very good-looking, then why are you on your own tonight</em>’</p>
-<p>被甩了，想被再骂几句？请听这首。</p>
-<p><strong>Heaven Knows I’m Miserable Now - Hatful of Hollow (1984)</strong></p>
-<p>’<em>I was looking for a job and then I found a job / And heaven knows I’m miserable now / In my life, why do I give valuable time / To people who don’t care if I live or die?</em>’</p>
-<p>明明只是在过日常的生活，甚至过得也挺开心的，但你敏感的内心就是填满了忧郁？请听这首。</p>
-<p><strong>Panic - The World Won’t Listen (1987)</strong></p>
-<p><em>‘Burn down the disco / Hang the blessed DJ / Because the music that they constantly play / It says nothing to me about my life’</em></p>
-<p>被酒吧的狗屎音乐毁了你一天的心情（心情居然可以变得比白天<strong><em>更</em></strong>糟糕吗）？请听这首。</p>
-<p><strong>This Charming Man - The Smiths (1984)</strong></p>
-<p>‘<em>I would go out tonight but I haven’t got a stitch to wear / This man said, It’s gruesome that someone so handsome should care</em>’</p>
-<p>如同言情小说一般的homoerotic情节。这首歌让我明白Johnny Marr为什么是Andy的吉他英雄了，相当美丽的吉他（同时也是相当美丽的吉他手）。</p>
 <hr>
 </section>
 </section>
-<section id="section-4" class="level1">
-<h1>240211</h1>
-<p><strong><em>The White Album/Revolver - The Beatles</em></strong></p>
+<section id="the-white-albumrevolver---the-beatles" class="level2">
+<h2 class="anchored" data-anchor-id="the-white-albumrevolver---the-beatles">240211 <em>The White Album/Revolver</em> - The Beatles</h2>
+<section id="简评-3" class="level4">
+<h4 class="anchored" data-anchor-id="简评-3">简评</h4>
+<p>这周其实同时在沉迷白专和revolver。因为某些原因听披头士都是因为“别人的推荐”呢…白专的每首歌都会让我想起同一个人。Revolver是因为seagull的贝斯和taxman很像所以去听的。 今天有点词穷，就不写长长的推荐语了。</p>
+</section>
+<section id="推荐曲目-4" class="level4">
+<h4 class="anchored" data-anchor-id="推荐曲目-4">推荐曲目</h4>
 <ul>
-<li><strong>简评</strong>: 这周其实同时在沉迷白专和revolver。因为某些原因听披头士都是因为“别人的推荐”呢…白专的每首歌都会让我想起同一个人。Revolver是因为seagull的贝斯和taxman很像所以去听的。 今天有点词穷，就不写长长的推荐语了。</li>
+<li><strong>Happiness is a Warm Gun - The White Album</strong>
+<ul>
+<li><em>‘When I hold you in my arms / and I feel my finger on your trigger / I know nobody can do me no harm / because happiness is a warm gun, mama’</em></li>
+<li>对“死亡的欲望”最好的诠释。列侬作为vocalist的表现力体现得淋漓尽致。</li>
+</ul></li>
+<li><strong>Blackbird - The White Album</strong>
+<ul>
+<li><em>‘Blackbird singing in the dead of night / take these broken wings and learn to fly’</em></li>
+<li>很美丽的一首歌，小鸟歌唱。</li>
+</ul></li>
+<li><strong>Julia - The White Album</strong>
+<ul>
+<li><em>‘Half of what I say is meaningless / But I say it just to reach you, Julia’</em></li>
+<li>很安静的一首歌。</li>
+</ul></li>
+<li><strong>While My Guitar Gently Weeps - The White Album</strong>
+<ul>
+<li><em>‘I look at the world and I notice it’s turning / while my guitar gently weeps’</em></li>
+<li>轻轻哭泣的吉他。</li>
+</ul></li>
+<li><strong>Here, There and Everywhere - Revolver</strong>
+<ul>
+<li><em>‘Here, making each day of the year / changing my life with a wave of her hand / nobody can deny that there’s something there’</em></li>
+<li>非常美丽的一首情歌。</li>
+</ul></li>
+<li><strong>Taxman - Revolver</strong>
+<ul>
+<li>非常酷的贝斯线。</li>
+</ul></li>
+<li><strong>Tomorrow Never Knows - Revolver</strong>
+<ul>
+<li>非常前卫且酷炫的编曲和配器和一切。</li>
+</ul></li>
 </ul>
-<section id="推荐曲目-4" class="level3">
-<h3 class="anchored" data-anchor-id="推荐曲目-4">推荐曲目</h3>
-<p><strong>Happiness is a Warm Gun - The White Album</strong></p>
-<p><em>‘When I hold you in my arms / and I feel my finger on your trigger / I know nobody can do me no harm / because happiness is a warm gun, mama’</em></p>
-<p>对“死亡的欲望”最好的诠释。列侬作为vocalist的表现力体现得淋漓尽致。</p>
-<p><strong>Blackbird - The White Album</strong></p>
-<p><em>‘Blackbird singing in the dead of night / take these broken wings and learn to fly’</em></p>
-<p>很美丽的一首歌，小鸟歌唱。</p>
-<p><strong>Julia - The White Album</strong></p>
-<p><em>‘Half of what I say is meaningless / But I say it just to reach you, Julia’</em></p>
-<p>很安静的一首歌。</p>
-<p><strong>While My Guitar Gently Weeps - The White Album</strong></p>
-<p><em>‘I look at the world and I notice it’s turning / while my guitar gently weeps’</em></p>
-<p>轻轻哭泣的吉他。</p>
-<p><strong>Here, There and Everywhere - Revolver</strong></p>
-<p><em>‘Here, making each day of the year / changing my life with a wave of her hand / nobody can deny that there’s something there’</em></p>
-<p>非常美丽的一首情歌。</p>
-<p><strong>Taxman - Revolver</strong></p>
-<p>非常酷的贝斯线。</p>
-<p><strong>Tomorrow Never Knows - Revolver</strong></p>
-<p>非常前卫且酷炫的编曲和配器和一切。</p>
 <hr>
 </section>
 </section>
-<section id="section-5" class="level1">
-<h1>240219</h1>
-<p><strong><em>The Velvet Underground &amp; Nico</em></strong></p>
+<section id="the-velvet-underground-nico" class="level2">
+<h2 class="anchored" data-anchor-id="the-velvet-underground-nico">240219 The Velvet Underground &amp; Nico</h2>
+<section id="简评-4" class="level4">
+<h4 class="anchored" data-anchor-id="简评-4">简评</h4>
+<p>又是听经典专辑的一周。直到今天才终于get到了所有摇滚爱好者都爱不释手的大香蕉…因为是一边做实验一边摸鱼写的，就不啰里八嗦地吹彩虹屁了。又有抒情的美丽小曲又有很<em>实验</em>的曲子的一张超棒的专辑。总之请听！每一首曲子都很值得认真听。</p>
+</section>
+<section id="推荐曲目-5" class="level4">
+<h4 class="anchored" data-anchor-id="推荐曲目-5">推荐曲目</h4>
 <ul>
-<li><strong>简评</strong>:又是听经典专辑的一周。直到今天才终于get到了所有摇滚爱好者都爱不释手的大香蕉…因为是一边做实验一边摸鱼写的，就不啰里八嗦地吹彩虹屁了。又有抒情的美丽小曲又有很<em>实验</em>的曲子的一张超棒的专辑。总之请听！每一首曲子都很值得认真听。</li>
+<li><strong>Sunday Morning</strong>
+<ul>
+<li><em>‘Watch out / The world’s behind you’</em></li>
+<li>前奏由梦幻的玩具钢琴弹奏。</li>
+</ul></li>
+<li><strong>Venus in Furs</strong>
+<ul>
+<li><em>‘Kiss the boot of shiny, shiny leather / Shiny leather in the dark’</em></li>
+<li>很有意思的乐器弹奏方式。</li>
+</ul></li>
+<li><strong>I’ll Be Your Mirror</strong>
+<ul>
+<li><em>‘I’ll be the wind, the rain and sunset / the light on your door to show that you’re home’</em></li>
+<li>儿歌般的风格。纯美小歌一首。</li>
+</ul></li>
+<li><strong>Heroin</strong>
+<ul>
+<li><em>‘And I guess that I just don’t know’</em></li>
+<li>模拟吸毒？让温暖欣快的旋律和鼓点把你带入这种特殊的氛围中吧。</li>
+</ul></li>
 </ul>
-<section id="推荐曲目-5" class="level3">
-<h3 class="anchored" data-anchor-id="推荐曲目-5">推荐曲目</h3>
-<p><strong>Sunday Morning</strong></p>
-<p><em>‘Watch out / The world’s behind you’</em></p>
-<p>前奏由梦幻的玩具钢琴弹奏。</p>
-<p><strong>Venus in Furs</strong></p>
-<p><em>‘Kiss the boot of shiny, shiny leather / Shiny leather in the dark’</em></p>
-<p>很有意思的乐器弹奏方式。</p>
-<p><strong>I’ll Be Your Mirror</strong></p>
-<p><em>‘I’ll be the wind, the rain and sunset / the light on your door to show that you’re home’</em></p>
-<p>儿歌般的风格。纯美小歌一首。</p>
-<p><strong>Heroin</strong></p>
-<p><em>‘And I guess that I just don’t know’</em></p>
-<p>模拟吸毒？让温暖欣快的旋律和鼓点把你带入这种特殊的氛围中吧。</p>
 <hr>
 </section>
 </section>
-<section id="section-6" class="level1">
-<h1>240227</h1>
-<p><strong><em>Loveless - my bloody valentine</em></strong></p>
-<ul>
-<li><strong>简评</strong>: 忙得脚不着地的一周，推荐语就摸鱼了。经典盯鞋专辑，mbv的巅峰之作。让人联想到温暖的原始海洋、菌毯和虫群、最本能的冲动、与爱无关的繁殖欲望。</li>
-</ul>
-<section id="推荐曲目-6" class="level3">
-<h3 class="anchored" data-anchor-id="推荐曲目-6">推荐曲目</h3>
+<section id="loveless---my-bloody-valentine" class="level2">
+<h2 class="anchored" data-anchor-id="loveless---my-bloody-valentine">240227 <em>Loveless</em> - my bloody valentine</h2>
+<section id="简评-5" class="level4">
+<h4 class="anchored" data-anchor-id="简评-5">简评</h4>
+<p>忙得脚不着地的一周，推荐语就摸鱼了。经典盯鞋专辑，mbv的巅峰之作。让人联想到温暖的原始海洋、菌毯和虫群、最本能的冲动、与爱无关的繁殖欲望。</p>
+</section>
+<section id="推荐曲目-6" class="level4">
+<h4 class="anchored" data-anchor-id="推荐曲目-6">推荐曲目</h4>
 <p>从头听到尾。</p>
 <hr>
 </section>
 </section>
-<section id="section-7" class="level1">
-<h1>240310</h1>
-<p><strong><em>Vanishing Point - Primal Scream</em></strong></p>
-<ul>
-<li><strong>简评</strong>: 忙得脚不着地的一周，推荐语就摸鱼了——我应该会继续用这个简评直到下周春假开始前。很有意思的专辑，风格很多样。最近在看ride成员的新访谈，总是在说“比起老音乐我们要听更多新音乐”。但对我来说这些90-00S音乐也是新音乐啦。话说这张专辑其实是我在discogs的一家indie/rock唱片店里乱逛的时候撞见的。爱我就帮我买smile EP（玩笑</li>
-</ul>
-<section id="推荐曲目-7" class="level3">
-<h3 class="anchored" data-anchor-id="推荐曲目-7">推荐曲目</h3>
-<p>暂无。</p>
+<section id="vanishing-point---primal-scream" class="level2">
+<h2 class="anchored" data-anchor-id="vanishing-point---primal-scream">240310 <em>Vanishing Point</em> - Primal Scream</h2>
+<section id="简评-6" class="level4">
+<h4 class="anchored" data-anchor-id="简评-6">简评</h4>
+<p>忙得脚不着地的一周，推荐语就摸鱼了——我应该会继续用这个简评直到下周春假开始前。很有意思的专辑，风格很多样。最近在看ride成员的新访谈，总是在说“比起老音乐我们要听更多新音乐”。但对我来说这些90-00S音乐也是新音乐啦。话说这张专辑其实是我在discogs的一家indie/rock唱片店里乱逛的时候撞见的。爱我就帮我买smile EP（玩笑</p>
+</section>
+<section id="推荐曲目-7" class="level4">
+<h4 class="anchored" data-anchor-id="推荐曲目-7">推荐曲目</h4>
 <p>Trainspotting电影的同名主题曲也收录在这里哦。</p>
 <hr>
 </section>
 </section>
-<section id="section-8" class="level1">
-<h1>240314</h1>
-<p><strong><em>Tepid Peppermint Wonderland - the Brian Jonestown Massacre</em></strong></p>
+<section id="tepid-peppermint-wonderland---the-brian-jonestown-massacre" class="level2">
+<h2 class="anchored" data-anchor-id="tepid-peppermint-wonderland---the-brian-jonestown-massacre">240314 <em>Tepid Peppermint Wonderland</em> - the Brian Jonestown Massacre</h2>
 <p>如果有人还在关注这个专栏的话，请都去看<strong><em>DIG!</em></strong>好么。算我求你。</p>
 <p>BV号附：BV1m64y1s7Pi</p>
+<section id="简评-7" class="level4">
+<h4 class="anchored" data-anchor-id="简评-7">简评</h4>
+<p>大名鼎鼎（或许并不）的90S美国西海岸neo-psychedelia乐队，布莱恩琼斯镇大屠杀。专制、高产、才华横溢到恐怖的主唱Anton Newcombe。总之用这些关键字去微博和豆瓣上搜的话都能搜到BJM粉丝们分享的趣闻…… 八卦放在一边。Tepid Peppermint Wonderland应该是收录得相当完全的一张精选辑了。越听越爱。</p>
+</section>
+<section id="推荐曲目-8" class="level4">
+<h4 class="anchored" data-anchor-id="推荐曲目-8">推荐曲目</h4>
 <ul>
-<li><strong>简评</strong>: 大名鼎鼎（或许并不）的90S美国西海岸neo-psychedelia乐队，布莱恩琼斯镇大屠杀。专制、高产、才华横溢到恐怖的主唱Anton Newcombe。总之用这些关键字去微博和豆瓣上搜的话都能搜到BJM粉丝们分享的趣闻…… 八卦放在一边。Tepid Peppermint Wonderland应该是收录得相当完全的一张精选辑了。越听越爱。</li>
+<li><strong>Swallowtail (live)</strong>
+<ul>
+<li>好美的一首盯，吉他从清音切到失真solo的那一段我真的是爱死了。</li>
+</ul></li>
 </ul>
-<section id="推荐曲目-8" class="level3">
-<h3 class="anchored" data-anchor-id="推荐曲目-8">推荐曲目</h3>
-<p><strong>Swallowtail (live)</strong></p>
-<p>好美的一首盯，吉他从清音切到失真solo的那一段我真的是爱死了。</p>
 <hr>
 </section>
 </section>
-<section id="section-9" class="level1">
-<h1>240324</h1>
-<p><strong><em>you made me realise - my bloody valentine</em></strong></p>
-<ul>
-<li><strong>简评</strong>: 这周还是继续盯。大名鼎鼎的mbv噪音大屠杀，you made me realise！对不起我简介又偷懒了。</li>
-</ul>
-<section id="推荐曲目-9" class="level3">
-<h3 class="anchored" data-anchor-id="推荐曲目-9">推荐曲目</h3>
-<p>除了you made me realise以外剩下的几首也都很有意思！我其实一直get不到isn’t anything里Kevin的vocal，在这张里终于get到了。</p>
-<p>you made me realise 13年的一个现场：</p>
-<p>https://www.youtube.com/watch?v=WXlrMQO3AFA</p>
+<section id="you-made-me-realise---my-bloody-valentine" class="level2">
+<h2 class="anchored" data-anchor-id="you-made-me-realise---my-bloody-valentine">240324 <em>you made me realise</em> - my bloody valentine</h2>
+<section id="简评-8" class="level4">
+<h4 class="anchored" data-anchor-id="简评-8">简评</h4>
+<p>这周还是继续盯。大名鼎鼎的mbv噪音大屠杀，you made me realise！对不起我简介又偷懒了。</p>
 </section>
-<section id="题外话" class="level3">
-<h3 class="anchored" data-anchor-id="题外话">题外话</h3>
+<section id="推荐曲目-9" class="level4">
+<h4 class="anchored" data-anchor-id="推荐曲目-9">推荐曲目</h4>
+<p>除了you made me realise以外剩下的几首也都很有意思！我其实一直get不到isn’t anything里Kevin的vocal，在这张里终于get到了。</p>
+<p><a href="https://www.youtube.com/watch?v=WXlrMQO3AFA">you made me realise 13年的一个现场</a></p>
+</section>
+<section id="题外话" class="level4">
+<h4 class="anchored" data-anchor-id="题外话">题外话</h4>
 <p>最近看了不少挺有意思的mbv采访，顺便贴在下面吧。</p>
 <p>尤其推荐第一篇，我觉得Kevin Shields是个相当有意思的吉他手（除开他那令人无法忍受的拖延症不谈）。这一篇相当地有启发性，谈到了音乐（或者说声音）的一些本质特征是为何会让人觉得有新鲜感/有安全感。</p>
 <p>最后两篇访谈分别来自Bilinda和Debbie。</p>
@@ -7394,79 +7184,103 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 <hr>
 </section>
 </section>
-<section id="section-10" class="level1">
-<h1>240401</h1>
-<p><strong><em>EVOL - Sonic Youth</em></strong></p>
+<section id="evol---sonic-youth" class="level2">
+<h2 class="anchored" data-anchor-id="evol---sonic-youth">240401 <em>EVOL</em> - Sonic Youth</h2>
+<section id="简评-9" class="level4">
+<h4 class="anchored" data-anchor-id="简评-9">简评</h4>
+<p>在罪恶地沉迷老男人新发的专辑aka Interplay一个周末后决定去听听我的噪音初恋洗洗耳朵…… 个人感觉EVOL是SY早期三部曲（EVOL, sister, daydream nation）里最好的一张。整张专辑的气质像青铜塑成的野兽之眼，粗糙、锋利、危险的同时又很美。颤抖的不和谐音镶嵌在清冽干燥的大调五声音阶中，Lee和Thurston的吉他相互挑逗，请听吧会爱上的。</p>
+</section>
+<section id="推荐曲目-10" class="level4">
+<h4 class="anchored" data-anchor-id="推荐曲目-10">推荐曲目</h4>
 <ul>
-<li><strong>简评</strong>: 在罪恶地沉迷老男人新发的专辑aka Interplay一个周末后决定去听听我的噪音初恋洗洗耳朵…… 个人感觉EVOL是SY早期三部曲（EVOL, sister, daydream nation）里最好的一张。整张专辑的气质像青铜塑成的野兽之眼，粗糙、锋利、危险的同时又很美。颤抖的不和谐音镶嵌在清冽干燥的大调五声音阶中，Lee和Thurston的吉他相互挑逗，请听吧会爱上的。</li>
+<li><strong>Shadow of a Doubt</strong>
+<ul>
+<li>Kim颤抖的倾诉。从精致的分解和弦过渡到震颤的音墙，最后堙灭在又一段分解和弦里，非常轻盈、非常牡丹亭。</li>
+</ul></li>
+<li><strong>Madonna, Sean, and Me (Expressway to Yr Skull)</strong>
+<ul>
+<li>不和谐音+大调音阶的完美例子，Thurston的vocal在这首歌里好美。</li>
+</ul></li>
+<li><strong>Tom Violence</strong>
+<ul>
+<li>青涩的暴力冲动。</li>
+</ul></li>
+<li><strong>In the Kingdom #19</strong>
+<ul>
+<li>Patti Smith式的念白配上赛车一般的吉他嘶鸣声。</li>
+</ul></li>
+<li><strong>Starpower</strong>
+<ul>
+<li>典型的让人头晕目眩的Kim式性感。</li>
+</ul></li>
 </ul>
-<section id="推荐曲目-10" class="level3">
-<h3 class="anchored" data-anchor-id="推荐曲目-10">推荐曲目</h3>
-<p><strong>Shadow of a Doubt</strong></p>
-<p>Kim颤抖的倾诉。从精致的分解和弦过渡到震颤的音墙，最后堙灭在又一段分解和弦里，非常轻盈、非常牡丹亭。</p>
-<p><strong>Madonna, Sean, and Me (Expressway to Yr Skull)</strong></p>
-<p>不和谐音+大调音阶的完美例子，Thurston的vocal在这首歌里好美。</p>
-<p><strong>Tom Violence</strong></p>
-<p>青涩的暴力冲动。</p>
-<p><strong>In the Kingdom #19</strong></p>
-<p>Patti Smith式的念白配上赛车一般的吉他嘶鸣声。</p>
-<p><strong>Starpower</strong></p>
-<p>典型的让人头晕目眩的Kim式性感。</p>
 <hr>
 </section>
 </section>
-<section id="section-11" class="level1">
-<h1>240417</h1>
-<p><strong><em>Turns Into Stone - The Stone Roses</em></strong></p>
+<section id="turns-into-stone---the-stone-roses" class="level2">
+<h2 class="anchored" data-anchor-id="turns-into-stone---the-stone-roses">240417 <em>Turns Into Stone</em> - The Stone Roses</h2>
+<section id="简评-10" class="level4">
+<h4 class="anchored" data-anchor-id="简评-10">简评</h4>
+<p>我又回来了！这周推荐石玫瑰的B面曲集合：Turns Into Stone。不想打推荐语了，这么热的天，不听石玫瑰听什么呢？并且终于又到了一个我愿意把歌词quote上的乐队…其他乐队的作词水平只能说是聊胜于无。</p>
+</section>
+<section id="推荐曲目-11" class="level4">
+<h4 class="anchored" data-anchor-id="推荐曲目-11">推荐曲目</h4>
 <ul>
-<li><strong>简评</strong>: 我又回来了！这周推荐石玫瑰的B面曲集合：Turns Into Stone。不想打推荐语了，这么热的天，不听石玫瑰听什么呢？并且终于又到了一个我愿意把歌词quote上的乐队…其他乐队的作词水平只能说是聊胜于无。</li>
+<li><strong>Mersey Paradise</strong>
+<ul>
+<li><em>‘You see it in the sea / River cool’s where I belong / In my Mersey paradise’</em></li>
+</ul></li>
+<li><strong>Going Down</strong>
+<ul>
+<li><em>‘To look down from the clouds you don’t need to fly / I’ve never flown in a plane / I’ll live until I die’</em></li>
+</ul></li>
 </ul>
-<section id="推荐曲目-11" class="level3">
-<h3 class="anchored" data-anchor-id="推荐曲目-11">推荐曲目</h3>
-<p><strong>Mersey Paradise</strong></p>
-<p><em>‘You see it in the sea / River cool’s where I belong / In my Mersey paradise’</em></p>
-<p><strong>Going Down</strong></p>
-<p><em>‘To look down from the clouds you don’t need to fly / I’ve never flown in a plane / I’ll live until I die’</em></p>
 <hr>
 </section>
 </section>
-<section id="section-12" class="level1">
-<h1>240422</h1>
-<p><strong><em>Oshin - DIIV</em></strong></p>
-<ul>
-<li><strong>简评</strong>: DIIV的新专要上了。上周把他们之前的所有专都听了一遍，感想是听到就是赚到。</li>
-</ul>
-<section id="推荐曲目-12" class="level3">
-<h3 class="anchored" data-anchor-id="推荐曲目-12">推荐曲目</h3>
+<section id="oshin---diiv" class="level2">
+<h2 class="anchored" data-anchor-id="oshin---diiv">240422 <em>Oshin</em> - DIIV</h2>
+<section id="简评-11" class="level4">
+<h4 class="anchored" data-anchor-id="简评-11">简评</h4>
+<p>DIIV的新专要上了。上周把他们之前的所有专都听了一遍，感想是听到就是赚到。</p>
+</section>
+<section id="推荐曲目-12" class="level4">
+<h4 class="anchored" data-anchor-id="推荐曲目-12">推荐曲目</h4>
 <p>今天忙得要死不想写了，但整张都是完美的，印象很深刻的有Human和Air Conditioning。</p>
 <hr>
 </section>
 </section>
-<section id="section-13" class="level1">
-<h1>240526</h1>
-<p><strong><em>Mrs.&nbsp;Dolphin - Pale Saints</em></strong></p>
+<section id="mrs.-dolphin---pale-saints" class="level2">
+<h2 class="anchored" data-anchor-id="mrs.-dolphin---pale-saints">240526 <em>Mrs.&nbsp;Dolphin</em> - Pale Saints</h2>
+<section id="简评-12" class="level4">
+<h4 class="anchored" data-anchor-id="简评-12">简评</h4>
+<p>隔了这么久才写下一篇，结果DIIV的新专真的上了哈哈哈。七月份去看现场！其实比起Oshin我更喜欢is the is are。</p>
+<p>其实好几周前就在听pale saints了，喜欢得不得了。比起著名的The Comforts of the Madness，我更喜欢这张EP合集。简单纯粹又带着些微的黑暗和阴郁，世界上最美丽的独立音乐…用最单纯的旋律唱着“I wish him dead”这样的歌词…</p>
+<p>题外话这张专的CD好稀有噢，好想要但是二手碟都卖好贵。4AD快点给我再版看看实力。</p>
+</section>
+<section id="推荐曲目-13" class="level4">
+<h4 class="anchored" data-anchor-id="推荐曲目-13">推荐曲目</h4>
 <ul>
-<li><strong>简评</strong>: 隔了这么久才写下一篇，结果DIIV的新专真的上了哈哈哈。七月份去看现场！其实比起Oshin我更喜欢is the is are。 其实好几周前就在听pale saints了，喜欢得不得了。比起著名的The Comforts of the Madness，我更喜欢这张EP合集。简单纯粹又带着些微的黑暗和阴郁，世界上最美丽的独立音乐…用最单纯的旋律唱着“I wish him dead”这样的歌词… 题外话这张专的CD好稀有噢，好想要但是二手碟都卖好贵。4AD快点给我再版看看实力。</li>
+<li><p><strong>Sight of You</strong></p></li>
+<li><p><strong>Colours and Shapes</strong></p></li>
+<li><p><strong>Half Life, Remembered</strong></p></li>
 </ul>
-<section id="推荐曲目-13" class="level3">
-<h3 class="anchored" data-anchor-id="推荐曲目-13">推荐曲目</h3>
-<p>Sight of You</p>
-<p>Colours and Shapes</p>
-<p>Half Life, Remembered</p>
 <hr>
 </section>
 </section>
-<section id="section-14" class="level1">
-<h1>240618</h1>
-<p><strong><em>Penthouse - Luna</em></strong></p>
+<section id="penthouse---luna" class="level2">
+<h2 class="anchored" data-anchor-id="penthouse---luna">240618 <em>Penthouse</em> - Luna</h2>
+<section id="简评-13" class="level4">
+<h4 class="anchored" data-anchor-id="简评-13">简评</h4>
+<p>“不能再沉迷英国乐队了！”抱着这样的心情在discogs上赛博逛街的时候翻到的，Galaxie 500的主脑Dean Wareham在前者解散后新组的乐队。Penthouse是一张让人想起纽约的专辑。很浪漫，像带了点爵士和梦幻风格的velvet underground。整张都很好听。Galaxie 500的歌我也去听了——On Fire很美丽（有翻唱New Order的Ceremony）。</p>
+</section>
+<section id="推荐曲目-14" class="level4">
+<h4 class="anchored" data-anchor-id="推荐曲目-14">推荐曲目</h4>
 <ul>
-<li><strong>简评</strong>: “不能再沉迷英国乐队了！”抱着这样的心情在discogs上赛博逛街的时候翻到的，Galaxie 500的主脑Dean Wareham在前者解散后新组的乐队。Penthouse是一张让人想起纽约的专辑。很浪漫，像带了点爵士和梦幻风格的velvet underground。整张都很好听。Galaxie 500的歌我也去听了——On Fire很美丽（有翻唱New Order的Ceremony）。</li>
+<li><p><strong>23 Minutes in Brussels</strong></p></li>
+<li><p><strong>Chinatown</strong></p></li>
+<li><p><strong>Lost in Space</strong></p></li>
 </ul>
-<section id="推荐曲目-14" class="level3">
-<h3 class="anchored" data-anchor-id="推荐曲目-14">推荐曲目</h3>
-<p>23 Minutes in Brussels</p>
-<p>Chinatown</p>
-<p>Lost in Space</p>
 <hr>
 
 
@@ -7650,6 +7464,67 @@ Wen, J. et al. 2019. <span>“A Review for Lithium: Pharmacokinetics, Drug Desig
   <guid>https://yyraven.github.io/quarto-blog/personal/240401_review_allwatched/</guid>
   <pubDate>Mon, 01 Apr 2024 04:00:00 GMT</pubDate>
   <media:content url="https://yyraven.github.io/quarto-blog/figs/preview.png" medium="image" type="image/png" height="69" width="144"/>
+</item>
+<item>
+  <title>滚妹人格 | 属于我的蒙娜丽莎</title>
+  <link>https://yyraven.github.io/quarto-blog/personal/240120_review_ride/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎2431 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
+
+<p>这是我在看完RIDE/The Charlatans的Between Nowhere Tour以后在狂热状态下写的日记。</p>
+<p>现在回想起来，那种快乐到眩晕的状态可能一辈子都不会再体验到了。因为疫情原因，在这场演出以前，我只看过校园乐队的小演出和没什么感觉的大团的arena演出。这是我第一次在这么近、这么小的场馆里看到水平很棒的、我很喜欢的乐队演出，身边还有亲密的朋友；RIDE的四个人带着他们的爆裂音响就这样杵在我面前，简直是根本不够看。第一次看到吉他手离我这么近地表演solo，那冲击力真是不一般。喝酒也没有经验，狂灌了一整瓶。费城Union Transfer的音量是我去过的场馆里最响的，当时我又不知道要戴耳塞，最后耳鸣了一晚上，然后拖着这个破听力和朋友躺在床上不停地反刍。那天还在下雪，当时我还是那种刚搬到北方的南方人，看到雪地还会兴奋，还没有开始讨厌冬天。</p>
+<p>以后去看多著名的乐队或许都不会有这种感觉了，因为只属于我的蒙娜丽莎我早已遇见……</p>
+<hr>
+<p>回巴尔的摩的火车真是太晃了。</p>
+<p>度过了一个非常不错的周末！周五中午开完组会后和Ⰶ去学校里玩雪，玩了一个小时，然后乘Amtrak去了费城，在♫家和𓃝以及♫的室友一起吃了晚饭，她们做了腊肠饭，牛仔骨和虾饺，每个都好吃得离谱，非常满足。</p>
+<p>18:45我们打车去了Union Transfer。整个下午我一直非常担心演出被取消，因为美国东北部在下暴风雪，我们大学的官方活动都被取消了。到达目的地以后，等的人已经在门口排成了一条长队，我就安心太多了，并且也很开心这么多人愿意提早一个小时过来。我们过了安检，买了酒，然后就跑到前排去等着了，心情简直就是飘飘欲仙的激动。</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figs/pic_2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Union Transfer平面图"><img src="https://yyraven.github.io/quarto-blog/personal/240120_review_ride/figs/pic_2.jpg" class="img-fluid figure-img" alt="Union Transfer平面图"></a></p>
+<figcaption>Union Transfer平面图</figcaption>
+</figure>
+</div>
+</div></div><p>The Charlatans的部分我迅速带过。他们的主唱Tim Burgess巨会营业：当你还在为“我不是单纯来朝圣的，有5%的我是想在演出结束后发Instagram”而感到愧疚时，Tim已经在演出中间掏出手机号召大家挥手蹦迪，然后把手机倒过来拍自己了，网感未免有点太好。</p>
+<p>中场休息时酒瓶已空。舞台的灯光是绿色的，我们站在第三排左侧的位置等着巡演工作人员把设备调好。我和朋友开玩笑说，待会儿可能就没有这么多营业了，因为Mark和Andy都有吉他在手上，腾不出手来指挥蹦迪。最先搬上来的是写着RIDE的底鼓，然后是三个效果器板，Steve的在左边，中间是Mark的，右边是Andy的。虽然完全不懂单块，一种强烈的瘙痒的冲动还是让我踮着脚努力去看板上到底有什么。伟大的建筑一般的电路系统啊。Mark有一个红色的块，上面的两行光点不停的来回闪动。吉他也搬出来了，两把Rickenbacker，一把樱桃红的，一把红色的；两把Gretsch，一把红的<span class="blur">(其实是Trini Lopez)</span>，一把原木色的。这时，音响里切到了Blur的The Narcissist。我忽然感觉这是我在The Ballad of Darren发行半年后第一次真正与这首歌共情。与朋友们微醺地站在台下等着喜爱的乐队上台的感觉如此之好，人生能有几次这样的经历呀？之前一直吐槽这首歌是Damon Albarn年近60终于把抑郁症治好了，现在只觉得幸福。可能是疫情的原因吧，身边的联系都显得愈发珍贵起来。</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figs/pic_1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="对耳膜宝具！"><img src="https://yyraven.github.io/quarto-blog/personal/240120_review_ride/figs/pic_1.jpg" class="img-fluid figure-img" alt="对耳膜宝具！"></a></p>
+<figcaption>对耳膜宝具！</figcaption>
+</figure>
+</div>
+</div></div><p>接着，灯光渐暗，音乐变成低沉而逐渐加快的鼓点。后台的灯光亮了起来，观众席里的嘈杂声落了下来，最后变成一阵阵的欢呼和尖叫。乐队成员上台了，我一边狂跳一边举着一个Love from China的牌牌，Mark问：大家好吗？准备好了吗？那就开始吧。</p>
+<p>Seagull，狂风暴雨一般的嘶鸣声；Kaleidoscope，脑浆跟着吉他一起旋转；In a different place, 灯光似乎和音乐一起升腾；Polar bear, “如果云会唱歌，那就这就是它的声音”……</p>
+<p>Dreams burn down开始之前，Mark逗观众一定要报出歌名才演，还一再嫌大家喊得不够响，一直努力保持矜持的我便再也无法忍受，发出了尖锐的爆鸣声。Loz的鼓太帅了。每一首歌都很完美。做实验的时候听的音乐，冬季闲逛看海时听的音乐，现在就在离我如此之近的舞台上，以这样暴力、直白、美丽的方式爆炸，震碎我的鼓膜直达灵魂。Vapour trail的前奏响起的时候我没有录像，而是百分百地投入合唱。音量如此之响，我基本聋了，听到Andy的声音是完全变形了的，但还是很开心。清新的旋律和单纯美丽的歌词，就像第一次点开Nowhere的那一刻一般，就像初恋一般。Tim给Here and Now合了口琴，我从未意识到口琴可以拥有这样近乎暴力的美感。然后是Nowhere, Lannoy Point, Monaco和新歌Peace Sign。前排的姐姐们应该是铁粉，在Peace Sign的副歌特别给面子地举起双手，比出“耶”的手势应援。收尾曲是Leave Them All Behind。前奏那段采样出来的时候我真的要哭了。Mark喝了一口他那蜂蜜威士忌，Andy看着笑一笑，Steve铺垫着前奏，然后两把Gretsch一起加进来。天呐，我离得那么近，近得可以看到每一个和弦变换和每一个推弦；所有的声音以一种迷幻又充满力量的方式在我脑后一块酸涩的区域混合起来。<q>I don’t care about the colors, I don’t care about the light, I don’t care about the truth…</q> 然后是吉他独奏——主旋律的变奏加上哇音踏板，音符跟着鼓点迸发出来，如此明亮，仿佛鸟儿沐浴着晨光从混沌的黑暗中挣扎而出。最后的outro是一浪高过一浪的音墙，就像刹车失效的公路旅行和不会有终点的逃亡……</p>
+<p>接着魔法师停下了魔咒。Andy说，谢谢，希望我们能很快再见。 Loz给大家拍了照，我们在上面。</p>
+<p>再接着就是长长的、似乎永远都不会结束的后劲。乘着这份飘飘欲仙的心情，我花了35刀买了丑丑的巡演T恤，在Union Transfer “sold out”的告示牌前面拍了照，在回♫家的出租车上跟着广播哼starman，最后变成大合唱；第二天幸福而无所顾忌地倒在费城美术馆前洁白松软的积雪上。</p>
+<p>回到巴尔的摩后，真的感觉有变得更加热爱生活。我对♫说想把这一刻的幸福全部榨出来，风干储存，这样每次想回忆的时候就能掏出来看看，就又有力量可以继续生活了。我真的可以如此贪心吗？但至少到星期三的现在，坐在实验室的椅子上写这篇日记时，那种不可思议的快乐的心情依然存在。<q>Maybe it’s really, really, really can happen!</q></p>
+<p><span class="blur">再也吹不出那样的彩虹屁，看了也会红着脸躲避</span></p>
+
+
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
+
+<center>
+© 2024-2026 RavensNest.
+</center> ]]></description>
+  <category>music</category>
+  <category>review</category>
+  <category>中文</category>
+  <guid>https://yyraven.github.io/quarto-blog/personal/240120_review_ride/</guid>
+  <pubDate>Sat, 20 Jan 2024 05:00:00 GMT</pubDate>
+  <media:content url="https://yyraven.github.io/quarto-blog/personal/240120_review_ride/figs/pic_2.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

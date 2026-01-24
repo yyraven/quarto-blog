@@ -374,7 +374,7 @@ fillOpacity = 1, radius = 5) %>%
 
 -   **General Recourses**
 
-[eBird](https://ebird.org/home) |  [Cornell Lab of Ornithology/Merlin Bird ID](https://merlin.allaboutbirds.org/) |  [BirdWeb](https://birdweb.org/birdweb/) |  [Audubon Society](https://www.audubon.org/) |  [Sibagu The Ornithological Linguist](http://www.sibagu.com/index.html) |  [International Crane Foundation](https://www.savingcranes.org/) 
+[eBird](https://ebird.org/home) |  [Cornell Lab of Ornithology/Merlin Bird ID](https://merlin.allaboutbirds.org/) |  [BirdWeb](https://birdweb.org/birdweb/) |  [Audubon Society](https://www.audubon.org/) |  [Sibagu The Ornithological Linguist](http://www.sibagu.com/index.html) |  [International Crane Foundation](https://www.savingcranes.org/) | [False Knees - the Bird webcomic by Joshua Barkman](https://www.falseknees.com/)
 
 -   **Local**: Greater Lafayette Area/Indiana
 
