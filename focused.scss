@@ -237,6 +237,13 @@ html {
   padding: 0.5rem 0;
 }
 
+.photo-row img {
+  max-height: min(60vh, 28vw);
+  width: auto;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
 /* blur */
 .blur {
   filter: blur(3px);

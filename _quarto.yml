@@ -16,6 +16,7 @@ website:
   bread-crumbs: false
   search:
     location: navbar
+    keyboard-shortcut: ["?", "H"]
   navbar:
     left:
     - text: Work
@@ -40,8 +41,10 @@ website:
       contents:
         - section: "Travel"
           contents:
-            - personal/nd_birding/index.qmd
             - auto: "personal/*travel*/*.qmd"
+        - section: "Birding"
+          contents:
+            - auto: "personal/*birding*/*.qmd"
         - section: "Review"
           contents:
             - personal/nd_personal_library/index.qmd
