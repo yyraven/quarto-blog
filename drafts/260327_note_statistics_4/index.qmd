@@ -1,7 +1,0 @@
----
-title: "Statistics Notes 4 - Hypothesis Testing"
-date: "2026-03-27"
-categories: [statistics, notes, hypothesis testing, draft, EN]
----
-
-## Probability

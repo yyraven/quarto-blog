@@ -1,8 +1,0 @@
----
-title: "Statistics Notes 1 - Introduction, Describing Data"
-date: "2026-01-12"
-categories: [statistics, notes, draft, EN]
----
-## Introduction to Statistics
-
-## Organizing and Describing Data

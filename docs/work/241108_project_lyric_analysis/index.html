@@ -355,7 +355,7 @@ div.csl-indent {
 <h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
 <section id="why-this-project" class="level3 page-columns page-full" data-number="1.1">
 <h3 data-number="1.1" class="anchored" data-anchor-id="why-this-project"><span class="header-section-number">1.1</span> Why This Project</h3>
-<p>I’m interested in the ‘shoegaze’ subgenre of indie rock. This less-known genre, also called ‘the scene that celebrates itself’, rose from the noise pop scene in the late 80s and early 90s, and has regained popularity recently. An article titled <em>‘The Shoegaze Revival Hit Its Stride in 2023’</em> <span class="citation" data-cites="sherburne_shoegaze_2023">(<a href="#ref-sherburne_shoegaze_2023" role="doc-biblioref">Sherburne 2023</a>)</span> by pitchfork also captures the revival of shoegaze among GenZ populations.</p>
+<p>I’m interested in the ‘shoegaze’ subgenre of indie rock. This less-known genre, also called ‘the scene that celebrates itself’, rose from the noise pop scene in the late 80s and early 90s, and has regained popularity recently. An article titled <em>‘The Shoegaze Revival Hit Its Stride in 2023’</em><span class="citation" data-cites="sherburne_shoegaze_2023"><sup><a href="#ref-sherburne_shoegaze_2023" role="doc-biblioref">1</a></sup></span> by pitchfork also captures the revival of shoegaze among GenZ populations.</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="quarto-figure quarto-figure-center">
@@ -386,7 +386,7 @@ div.csl-indent {
 <p><img src="photo/loveless.png" class="img-fluid"> <img src="photo/nowhere.jpg" class="img-fluid"> <img src="photo/souvlaki.jpeg" class="img-fluid"></p>
 </div></div><section id="data-acquisition" class="level4" data-number="2.1.1">
 <h4 data-number="2.1.1" class="anchored" data-anchor-id="data-acquisition"><span class="header-section-number">2.1.1</span> Data Acquisition</h4>
-<p>Lyrics from all studio albums of the ‘big three’ bands in the shoegaze genre - <em>my bloody valentine (mbv)</em>, <em>Ride</em>, and <em>slowdive</em> - are retrieved from <a href="https://genius.com/">Genius.com</a> using a Python package named <a href="https://www.johnwmillr.com/scraping-genius-lyrics/">lyricsgenius</a> <span class="citation" data-cites="miller_johnwmillrlyricsgenius_2024">(<a href="#ref-miller_johnwmillrlyricsgenius_2024" role="doc-biblioref">Miller 2024</a>)</span> based on Genius API. Please see the author’s instructions for details.</p>
+<p>Lyrics from all studio albums of the ‘big three’ bands in the shoegaze genre - <em>my bloody valentine (mbv)</em>, <em>Ride</em>, and <em>slowdive</em> - are retrieved from <a href="https://genius.com/">Genius.com</a> using a Python package named <a href="https://www.johnwmillr.com/scraping-genius-lyrics/">lyricsgenius</a><span class="citation" data-cites="miller_johnwmillrlyricsgenius_2024"><sup><a href="#ref-miller_johnwmillrlyricsgenius_2024" role="doc-biblioref">2</a></sup></span> based on Genius API. Please see the author’s instructions for details.</p>
 <div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -639,7 +639,7 @@ div.csl-indent {
 </section>
 <section id="who-is-the-saddest-shoegaze-band" class="level4" data-number="2.2.3">
 <h4 data-number="2.2.3" class="anchored" data-anchor-id="who-is-the-saddest-shoegaze-band"><span class="header-section-number">2.2.3</span> Who is the saddest shoegaze band?</h4>
-<p>I used <code>afinn</code> from package <code>tidytext</code> for sentiment analysis based on this paper<span class="citation" data-cites="koto_comparative_2015">(<a href="#ref-koto_comparative_2015" role="doc-biblioref">Koto and Adriani 2015</a>)</span>.</p>
+<p>I used <code>afinn</code> from package <code>tidytext</code> for sentiment analysis based on this paper<span class="citation" data-cites="koto_comparative_2015"><sup><a href="#ref-koto_comparative_2015" role="doc-biblioref">3</a></sup></span>.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># data processing: sentiment 'afinn'</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>token_count <span class="ot">&lt;-</span> token_clean <span class="sc">%&gt;%</span></span>
@@ -1106,15 +1106,15 @@ div.csl-indent {
 
 <center>
 © 2024-2026 RavensNest.
-</center><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-koto_comparative_2015" class="csl-entry" role="listitem">
-Koto, Fajri, and Mirna Adriani. 2015. <span>“A <span>Comparative</span> <span>Study</span> on <span>Twitter</span> <span>Sentiment</span> <span>Analysis</span>: <span>Which</span> <span>Features</span> Are <span>Good</span>?”</span> In <em>Natural <span>Language</span> <span>Processing</span> and <span>Information</span> <span>Systems</span></em>, edited by Chris Biemann, Siegfried Handschuh, André Freitas, Farid Meziane, and Elisabeth Métais, 453–57. Cham: Springer International Publishing. <a href="https://doi.org/10.1007/978-3-319-19581-0_46">https://doi.org/10.1007/978-3-319-19581-0_46</a>.
+</center><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-sherburne_shoegaze_2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Sherburne, P. <a href="https://pitchfork.com/features/article/the-shoegaze-revival-hit-its-stride-in-2023/">The <span>Shoegaze</span> <span>Revival</span> <span>Hit</span> <span>Its</span> <span>Stride</span> in 2023</a>. <em>Pitchfork</em> (2023).</div>
 </div>
 <div id="ref-miller_johnwmillrlyricsgenius_2024" class="csl-entry" role="listitem">
-Miller, John W. 2024. <span>“Johnwmillr/<span>LyricsGenius</span>.”</span> <a href="https://github.com/johnwmillr/LyricsGenius">https://github.com/johnwmillr/LyricsGenius</a>.
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Miller, J. W. <a href="https://github.com/johnwmillr/LyricsGenius">Johnwmillr/<span>LyricsGenius</span></a>. (2024).</div>
 </div>
-<div id="ref-sherburne_shoegaze_2023" class="csl-entry" role="listitem">
-Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span> <span>Hit</span> <span>Its</span> <span>Stride</span> in 2023.”</span> <em>Pitchfork</em>. <a href="https://pitchfork.com/features/article/the-shoegaze-revival-hit-its-stride-in-2023/">https://pitchfork.com/features/article/the-shoegaze-revival-hit-its-stride-in-2023/</a>.
+<div id="ref-koto_comparative_2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Koto, F. &amp; Adriani, M. A <span>Comparative</span> <span>Study</span> on <span>Twitter</span> <span>Sentiment</span> <span>Analysis</span>: <span>Which</span> <span>Features</span> are <span>Good</span>? in <em>Natural <span>Language</span> <span>Processing</span> and <span>Information</span> <span>Systems</span></em> (eds. Biemann, C., Handschuh, S., Freitas, A., Meziane, F. &amp; Métais, E.) 453–457 (Springer International Publishing, Cham, 2015). doi:<a href="https://doi.org/10.1007/978-3-319-19581-0_46">10.1007/978-3-319-19581-0_46</a>.</div>
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1550,7 +1550,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </nav>
 </div> <!-- /content -->
 <script src="../../scripts/mylikebutton.js"></script>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"openEffect":"zoom","selector":".lightbox","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","selector":".lightbox","loop":false,"closeEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

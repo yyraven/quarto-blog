@@ -82,3 +82,5 @@ format:
 
 
 callout-appearance: simple
+
+csl: figs/nature.csl
