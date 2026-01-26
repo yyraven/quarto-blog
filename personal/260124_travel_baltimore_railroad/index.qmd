@@ -1,7 +1,7 @@
 ---
 title: "巴尔的摩｜与铁路"
 date: "2026-01-24"
-categories: [railroad, travel, baltimore, 中文]
+categories: [railroad, travel, baltimore, draft, 中文]
 image: figs/map.jpeg
 bibliography: my-ref.bib
 nocite: |
@@ -83,16 +83,10 @@ nocite: |
 B&O旗下的第一条铁路在1830年通车，连接了巴尔的摩与西侧的小镇埃利科特城；1836年，铁轨铺到了马里兰、弗吉尼亚与西弗吉尼亚州交界处的哈帕斯渡口，B&O在这里修建了横跨波多马克河的铁路大桥；1852年，铁路修到了西弗吉尼亚的芒兹维尔，到达了原定的目的地——俄亥俄河；一年后，轨道修到了西弗吉尼亚的惠灵，这是南北战争前B&O铁轨所延伸到的最西端。1881年，B&O公司在中大西洋地区的铁轨基本铺设完毕，中西部产的粮食得以源源不断地运到巴尔的摩港。
 
 ::: column-margin
-![连接马里兰和弗吉尼亚的哈珀斯渡口，现在是颇受欢迎的远足目的地。](../nd_birding/landspics/harpersferry.jpg){group="lb"}
+![连接马里兰和弗吉尼亚的哈珀斯渡口，现在是颇受欢迎的远足目的地。](figs/harpersferry.jpg){group="lb"}
 :::
 
-从19世纪中叶到20世纪初，B&O和PRR一直在中大西洋地区的交通要道上较劲。早在B&O进军宾州西部的匹兹堡时，PRR就曾向宾州政府施压，试图靠阻挠B&O的西进获得在宾州铁路运输上的垄断地位。在1881年，两家公司也曾抢着要收购连接巴尔的摩和费城的PW&B铁路[@maryl_maryland_nodate]。巴尔的摩作为东部重镇和B&O的老家也留存了不少两家公司掰手腕的痕迹。从宾州站往西走两个街区，就能看到B&O当年的主火车站：建于1896年的Mount Royal站，它是一座优雅的新文艺复兴建筑，屋顶覆盖着典雅的红陶瓦，并建有一座46米高的钟楼。19世纪末，为了和PRR的华盛顿-纽约客运线（也就是现在的美铁东北走廊）对抗，B&O推出了Royal Blue客运火车，这种火车漆成华丽的深蓝色，以豪华周到的服务著称，一定程度上弥补了它不能直接进入曼哈顿岛的遗憾——PRR在1910年修建了横穿哈得逊河的北河隧道，而B&O的乘客只能先在泽西城下车，再换乘轮渡入岛。这段线路也包含了世界上第一条投入干线运营的电气化铁路，铺设在巴尔的摩市区Howard Street下方的电气轨道“Baltimore Belt”使Royal Blue得以在城内快速穿梭，连接了B&O在城南城北的铁轨，使从华盛顿到纽约的漫长旅程变得一气呵成。Mount Royal站便设在这条地下轨道的北端，Royal Blue的乘客们就是在这里候车的。1958年，B&O放弃了巴尔的摩以北包括Royal Blue在内的所有客运服务，曾经的客运铁路成了货运线，这座火车站也随之废弃；至此，从巴尔的摩北上的客运任务便全部落在了属于PRR的宾州站肩上，直到PRR最终在1976年因破产被美铁和联合铁路公司重组。Mount Royal站后来成为了MICA的财产，现在是艺术生们上课和展示作品的地方。这里离马里兰大学巴尔的摩校区、巴尔的摩大学和剧场The Lyric都很近，秋天树叶会变红，春天会开满樱花，很多人会来这里散步、遛狗。
-
-::: column-margin
-![1922年的内港周边铁路图，橙色：PRR；蓝色：B&O。[@disney_railroad_1922]](figs/map.jpeg){group="lb"}
-
-当年在巴尔的摩“混战”的铁路公司不止B&O和PRR两家。霍普金斯北校区Wyman Park边建于1918年的混凝土高架桥就是马里兰-宾夕法尼亚（M&P）铁路公司的财产，直到50年代，M&P的火车都从桥洞下穿行而过。
-:::
+从19世纪中叶到20世纪初，B&O和PRR一直在中大西洋地区的交通要道上较劲。早在B&O进军宾州西部的匹兹堡时，PRR就曾向宾州政府施压，试图靠阻挠B&O的西进获得在宾州铁路运输上的垄断地位。在1881年，两家公司也曾抢着要收购连接巴尔的摩和费城的PW&B铁路[@maryl_maryland_nodate]。巴尔的摩作为东部重镇和B&O的老家留存了不少两家公司掰手腕的痕迹。从宾州站往西走两个街区，就能看到B&O当年的主火车站：建于1896年的Mount Royal站，它是一座优雅的新文艺复兴建筑，屋顶覆盖着典雅的红陶瓦，并建有一座46米高的钟楼。19世纪末，为了和PRR的华盛顿-纽约客运线（也就是现在的美铁东北走廊）对抗，B&O推出了Royal Blue客运火车，这种火车漆成华丽的宝蓝色，以豪华周到的服务著称，一定程度上弥补了它不能直接进入曼哈顿岛的遗憾——PRR在1910年修建了横穿哈得逊河的北河隧道，而B&O的乘客只能先在泽西城下车，再换乘轮渡入岛。这段线路也包含了世界上第一条投入干线运营的电气化铁路：铺设在巴尔的摩市区Howard Street下方的电气轨道“Baltimore Belt”使Royal Blue得以在城内快速穿梭，连接了B&O在城南城北的铁轨，使从华盛顿到纽约的漫长旅程变得一气呵成。Mount Royal站便设在这条电气轨道的北端。
 
 ::: photo-row
 ![Mount Royal站遗址，现属于MICA](figs/b&omtroyal.JPG){group="lb"}
@@ -100,7 +94,17 @@ B&O旗下的第一条铁路在1830年通车，连接了巴尔的摩与西侧的�
 ![三月的钟楼](figs/b&o.jpeg){group="lb"}
 :::
 
-漫步在巴尔的摩市区，我们可以看到很多蒸汽时代给这座城市留下的痕迹。在成为现在的旅游区之前，巴尔的摩的内港和Fell's Point曾密布着码头与仓库。内港北边的东西向大道Pratt Street十分宽敞，19世纪中期这条路上曾经铺满B&O的货运铁轨，负责把货物一批批运向码头；这种在城市主干道上强行铺设货运铁轨的做法也曾引发大量争议，因为蒸汽火车的隆隆声打乱了行人和马车的日常步调[@schley_steam_2020;@themetropoleblog_bo_2022]。Fell's Point的Thames Street上也能看到PRR铺设的铁轨，它们并没有被拆除，而是作为历史遗迹的一部分被保存了下来。1904年巴尔的摩市区发生大火，B&O的总部大楼和PRR的巴尔的摩分公司大楼都被烧毁，两个公司都指派了本地的建筑事务所Parker & Thomas设计新的办公大楼。座落在查尔斯街南端的B&O总部大楼落成于1906年。和前面提及的很多车站一样，它也是一座美术学院派建筑，门口的大理石拱廊上装饰着交通之神墨丘利与一尊代表“工业进步”的人像，13层高的壮观大楼尽情地展示着B&O作为本地龙头企业的骄傲。PRR的楼座落在两个街区以外，是一座较为朴素的红砖建筑。当下，两座建筑都已移作他用：B&O总部大楼成了金普顿旗下的摩纳哥酒店，PRR的办公楼现在开着一家纹身店。
+1958年，B&O放弃了巴尔的摩以北包括Royal Blue在内的所有客运服务，曾经的客运铁路成了货运线，这座火车站也随之废弃；至此，从巴尔的摩北上的客运任务便全部落在了属于PRR的宾州站肩上，直到PRR最终因破产被美铁和联合铁路公司重组。Mount Royal站后来成为了MICA的财产，现在是艺术生们上课和展示作品的地方。这里离马里兰大学、巴尔的摩大学和剧场The Lyric都很近，秋天树叶会变红，春天会开满樱花，很多人会来这里散步、遛狗。
+
+::: column-margin
+![1922年的内港周边铁路图，橙色：PRR；蓝色：B&O。[@disney_railroad_1922]](figs/map.jpeg){group="lb"}
+
+当年在巴尔的摩“混战”的铁路公司不止B&O和PRR两家。霍普金斯北校区Wyman Park边建于1918年的混凝土高架桥就是马里兰-宾夕法尼亚（M&P）铁路公司的财产，直到50年代，M&P的火车都从桥洞下穿行而过。
+:::
+
+漫步在巴尔的摩市区，我们可以看到很多蒸汽时代给这座城市留下的痕迹。在成为现在的旅游区之前，巴尔的摩的内港和Fell's Point曾密布着码头与仓库。内港北边的东西向大道Pratt Street十分宽敞，19世纪中期这条路上曾经铺满B&O的货运铁轨，负责把货物一批批运向码头；这种在城市主干道上强行铺设货运铁轨的做法也曾引发大量争议，因为蒸汽火车的隆隆声打乱了行人和马车的日常步调，市民曾对此十分不满[@schley_steam_2020; @themetropoleblog_bo_2022]。Fell's Point的Thames Street上也能看到PRR铺设的铁轨；不同的是，它们并没有被拆除，而是作为历史遗迹的一部分被保存了下来。
+
+1904年，巴尔的摩市区发生大火，B&O的总部大楼和PRR的巴尔的摩分公司大楼都被烧毁；巧合的是，两个公司都指派了同一所建筑事务所Parker & Thomas设计新的办公大楼。座落在查尔斯街南端的B&O新总部大楼和前面提及的很多车站一样，也是一座美术学院派建筑，门口的大理石拱廊上装饰着交通之神墨丘利与一尊代表“工业进步”的人像，13层高的壮观大楼尽情地展示着B&O作为本地龙头企业的骄傲。PRR的楼座落在两个街区以外，是一座较为朴素的红砖建筑。当下，两座建筑都已移作他用：B&O总部大楼成了金普顿旗下的摩纳哥酒店，PRR的办公楼开着一家纹身店。
 
 ::: photo-row
 ![Pratt Street宽敞的道路曾经铺满铁轨](figs/b&ocity1.jpeg){group="lb"}
@@ -134,34 +138,14 @@ B&O旗下的第一条铁路在1830年通车，连接了巴尔的摩与西侧的�
 
 ## 延伸阅读
 
-### 美国铁路宅博客/论坛
+- **美国铁路宅博客/论坛**
 
--   [The Trackside Photographer](https://thetracksidephotographer.com/)
+[The Trackside Photographer](https://thetracksidephotographer.com/) | [The Pennsylvania Roilroad Technical & Historical Society](http://www.prrths.com/) | [American Rails](https://www.american-rails.com/) | [Rails Acorss the Appalchians](https://appalachian-railroads.org/) | [Trainorders.com](https://www.trainorders.com/) | [O Gauge Railraoding Online Forum](https://www.ogrforum.com/forum-directory)
 
--   [The Pennsylvania Roilroad Technical & Historical Society](http://www.prrths.com/)
+- **巴尔的摩历史**
 
--   [American Rails](https://www.american-rails.com/)
+[Baltimore Heritage](https://explore.baltimoreheritage.org/) | [The Baltimore & Ohio Railroad Historical Society](https://www.borhs.org/) | [An Engineer's Guide to Baltimore](https://www.ce.jhu.edu/baltimorestructures/Home.php) | [Maryland Department of Planning - Maryland Historical Trust](https://mht.maryland.gov/Pages/default.aspx) | [Baltimore Magazine - How Baltimore invented the modern world: from the B&O railroad to Frank Zappa, we chronicle all the ways baltimore changed America forever.](https://www.baltimoremagazine.com/section/businessdevelopment/how-baltimore-invented-the-modern-world/)
 
-- [Rails Acorss the Appalchians](https://appalachian-railroads.org/)
+- **地图**
 
-- [Trainorders.com](https://www.trainorders.com/)
-
-- [O Gauge Railraoding Online Forum](https://www.ogrforum.com/forum-directory)
-
-### 巴尔的摩历史
-
--   [Baltimore Heritage](https://explore.baltimoreheritage.org/)
-
-- [The Baltimore & Ohio Railroad Historical Society](https://www.borhs.org/)
-
--   [An Engineer's Guide to Baltimore](https://www.ce.jhu.edu/baltimorestructures/Home.php)
-
--   [Maryland Department of Planning - Maryland Historical Trust](https://mht.maryland.gov/Pages/default.aspx)
-
-- [Baltimore Magazine - How Baltimore invented the modern world: from the B&O railroad to Frank Zappa, we chronicle all the ways baltimore changed America forever.](https://www.baltimoremagazine.com/section/businessdevelopment/how-baltimore-invented-the-modern-world/)
-
-### 地图
-
-- [B&O Railroad Maps, 1924](https://appalachian-railroads.org/homepage/railroads-across-the-appalachians/baltimore-ohio-railroad-bo/maps-of-the-baltimore-ohio-railroad-bo/)
-
-- [Railroad Map of Baltimore, 1922](https://jscholarship.library.jhu.edu/items/8bf2d6d5-94b6-4dad-a651-660a263fcdbd)
+[B&O Railroad Maps, 1924](https://appalachian-railroads.org/homepage/railroads-across-the-appalachians/baltimore-ohio-railroad-bo/maps-of-the-baltimore-ohio-railroad-bo/) | [Railroad Map of Baltimore, 1922](https://jscholarship.library.jhu.edu/items/8bf2d6d5-94b6-4dad-a651-660a263fcdbd)
