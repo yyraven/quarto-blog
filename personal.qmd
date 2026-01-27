@@ -10,7 +10,7 @@ listing:
   categories: true
   sort-ui: true
   filter-ui: true
-  fields: [date, image, title, description, categories, reading-time]
+  fields: [date, image, title, description, categories]
   exclude:
     categories: "draft*"
 page-layout: full

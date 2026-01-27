@@ -29,18 +29,21 @@ $divider-color: $link-color;
 /*-- scss:rules --*/
 /* Base Styles */
 body {
-  background-color: $body-bg;
   color: $body-color;
   font-family: 'Noto Serif', 'Noto Serif SC', serif;
   font-size: 0.9rem;
   line-height: 1.5;
   margin: 0;
   padding: $padding;
-  background-image:
-    radial-gradient(1200px 900px at 15% 15%, rgba(255,255,255,.65), transparent 60%),
-    radial-gradient(900px 700px at 85% 20%, rgba(255,255,255,.40), transparent 55%),
-    radial-gradient(900px 800px at 50% 110%, rgba(8,55,40,.12), transparent 65%),
-    linear-gradient(180deg, rgba(12,70,55,.08), transparent 45%, rgba(12,70,55,.06));
+  background:
+    linear-gradient(
+      rgba($body-bg, 0.38),
+      rgba($body-bg, 0.58)
+    ),
+    url("figs/ye.jpg");
+
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 
@@ -211,10 +214,6 @@ html {
   font-size: 1rem;
 }
 
-::selection {
-  background-color: rgba($link-color, 0.3);
-}
-
 #quarto-appendix,
 #quarto-appendix *,
 .quarto-appendix,
@@ -222,6 +221,10 @@ html {
   background-color: transparent !important;
   background-image: none !important;
   box-shadow: none !important;
+}
+
+::selection {
+  background-color: rgba($link-color, 0.3);
 }
 
 /*-- scss:actions --*/
