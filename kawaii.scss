@@ -3,48 +3,82 @@
 
 /*-- scss:defaults --*/
 /* Color Palette */
-$body-bg: #e3efe8;
-$body-color: #0f2a1f;
-$link-color: #157a59;
-$link-hover-color: #0a4f3a;
-$code-color: #0f2a1f;
+$body-bg: #8fcfba;
+$muted-body: #cfe3d8;
+$body-color: #363231;
+$link-color: #5c4f4c;
+$link-hover-color: #3fb050;
+$code-color: #363231;
 $code-bg: rgba(#cfe3d8,0.5);
 $code-block-bg: $code-bg;
 
 /* Spacing and Borders */
 $padding: 1.2rem;
 $margin: 1rem;
-$border-radius: 0;
+$border-radius: 16px;
 $divider-color: $link-color;
 * {
   box-shadow: none !important;
   text-shadow: none !important;
 }
 
+.column-body,
+main.content {
+  padding-top: 3.2rem;   /* 你现在想要的那口“空气” */
+}
+
 /* Imported Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=VT323&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*-- scss:rules --*/
 /* Base Styles */
+/* 你的背景 */
 body {
+  background-color: $body-bg;
   color: $body-color;
-  font-family: 'Noto Serif', 'Noto Serif SC', serif;
+  font-family: 'Noto sans', 'Noto sans SC', sans;
   font-size: 0.9rem;
   line-height: 1.5;
   margin: 0;
-  padding: $padding;
-  background:
-    linear-gradient(
-      rgba($body-bg, 0.38),
-      rgba($body-bg, 0.58)
-    ),
-    url("figs/ye.jpg");
+  padding: 2.6rem 1.8rem 1.8rem 1.8rem;
+  margin-top: 1.5rem;
 
-  background-size: cover;
-  background-position: center;
+  background-image:
+    radial-gradient(
+      circle at 0 0,
+      rgba(0, 0, 0, 0.08) 1.2px,
+      transparent 1.4px
+    ),
+    radial-gradient(
+      circle at 6px 6px,
+      rgba(0, 0, 0, 0.06) 0.9px,
+      transparent 1.1px
+    ),
+    /* 小点（再错位） */
+    radial-gradient(
+      circle at 3px 9px,
+      rgba(0, 0, 0, 0.04) 0.6px,
+      transparent 0.8px
+    );
+  background-size:
+    12px 12px,
+    12px 12px,
+    12px 12px;
   background-attachment: fixed;
+}
+
+:where(.column-body, main.content) {
+  box-sizing: border-box;
+  width: auto;
+  margin-inline: auto;
+  padding: clamp(1rem, 2.2vw, 1.8rem);
+
+  border: 2px solid $link-color;
+  border-radius: $border-radius;
+  background-color: rgba(#fff, 0.8);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
 }
 
 /* Links */
@@ -64,17 +98,18 @@ code {
   background-color: $code-bg;
   color: $code-color;
   font-family: 'Noto Sans Mono', monospace;
+  border-radius: 10 px;
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Special Elite', 'Noto Serif SC', cursive;
+h1 {
+  font-family: 'Special Elite', 'Noto sans SC', cursive;
   color: $link-color;
   margin: $margin 0;
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: 'Noto Serif', 'Noto Serif SC', serif;
+  font-family: 'Noto sans', 'Noto sans SC', sans;
   color: $link-color;
   margin: $margin 0;
 }
@@ -85,14 +120,14 @@ h2, h3, h4, h5, h6 {
   color: $body-bg;
   border: 1px solid $link-color;
   padding: 0.1rem 0.1rem;
-  font-family: 'Special Elite', 'Noto Serif SC', cursive;
+  font-family: 'Special Elite', 'Noto sans SC', cursive;
   font-size: 1rem;
   cursor: pointer;
   letter-spacing: 1px;
   background-image: none;
 
   &:hover {
-    color: $body-bg;
+    color: $muted-body;
     background-color: $link-hover-color;
     border-color: $link-hover-color;
   }
@@ -125,7 +160,7 @@ hr {
 
   &::before {
     content: "⇢⇢+~+~+⇠⇠";
-    font-family: 'Special Elite', 'Noto Serif SC', cursive;
+    font-family: 'Special Elite', 'Noto sans SC', cursive;
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
   }
@@ -133,9 +168,9 @@ hr {
 
 /* Navbar */
 .navbar {
-  background: linear-gradient(90deg, $body-bg, rgba(255,255,255,0.1));
+  background: rgba(#fff, 0.2);
   border-bottom: 2px solid;
-  font-family: 'Special Elite', 'Noto Serif SC', cursive;
+  font-family: 'Special Elite', 'Noto sans SC', cursive;
   text-transform: lowercase;
   padding: 0.2rem 1rem;
 }
@@ -195,21 +230,25 @@ html {
   border: none !important;
 }
 
+.callout {
+  background-color: $code-bg;
+}
+
 #quarto-margin-sidebar {
-  overflow-y: auto;     /* or scroll */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE 10+ */
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 #quarto-margin-sidebar::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Edge */
+  display: none;
 }
 
 .listing-actions-group,
 .input-group,
 .form-select,
 .quarto-listing-table {
-  font-family: 'Noto Serif', 'Noto Serif SC', serif;
+  font-family: 'Noto sans', 'Noto sans SC', sans;
   background: none !important;
   font-size: 1rem;
 }

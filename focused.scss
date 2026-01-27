@@ -103,6 +103,12 @@ blockquote {
   font-style: italic;
 }
 
+.callout {
+  background-color: $code-block-bg;
+  color: $link-color;
+  padding: 0rem;
+}
+
 /* Lists */
 ul {
   list-style-type: square;

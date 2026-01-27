@@ -13,10 +13,6 @@ toc: true
 
 :::
 
-## + postcards +
-
-coming soon...
-
 ---
 
 Pete Townshend.![](figs/gifs_7.gif)
