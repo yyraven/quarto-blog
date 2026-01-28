@@ -63,8 +63,12 @@ code {
   font-family: 'Noto Sans Mono', monospace;
 }
 
+pre code {
+  color: $body-color;
+}
+
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-family: 'Special Elite', 'Noto Serif SC', cursive;
   color: $link-color;
   margin: $margin 0;
