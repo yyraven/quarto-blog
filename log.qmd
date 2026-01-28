@@ -14,6 +14,7 @@ I mainly use [RStudio](https://posit.co/products/open-source/rstudio/?sid=1) as 
 -   **251211** The little black cat cartoon on the landing page is powered by [Neko](https://webneko.net/?white)
 -   **251212** RSS feed
 -   **251214** Sidebar/Page navigation. See Quarto documentation [here](https://quarto.org/docs/websites/website-navigation.html#side-navigation)
+- **260127** Dark theme inspired by northern lights
 
 I share the CSS themes I made  [here](work.qmd#category=css). Check them out :->
 

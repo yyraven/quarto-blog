@@ -109,7 +109,6 @@ document.addEventListener('DOMContentLoaded', function () {
             vertical-align: middle;
             margin-left: 2px;
             font-size: 0.8em;
-            color: #000;
         }
         .mylikebutton-popup {
             display: none;

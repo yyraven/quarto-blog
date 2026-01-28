@@ -3,12 +3,12 @@
 
 /*-- scss:defaults --*/
 /* Color Palette */
-$body-bg: #e3efe8;
-$body-color: #0f2a1f;
+$body-bg: #000;
+$body-color: #a4b3ab;
 $link-color: #157a59;
 $link-hover-color: #0a4f3a;
-$code-color: #0f2a1f;
-$code-bg: rgba(#cfe3d8,0.5);
+$code-color: #a4b3ab;
+$code-bg: rgba(#157a59,0.15);
 $code-block-bg: $code-bg;
 
 /* Spacing and Borders */
@@ -37,11 +37,45 @@ body {
   margin: 0;
   padding: $padding;
   background-image:
-    radial-gradient(1200px 900px at 15% 15%, rgba(255,255,255,.65), transparent 60%),
-    radial-gradient(900px 700px at 85% 20%, rgba(255,255,255,.40), transparent 55%),
-    radial-gradient(900px 800px at 50% 110%, rgba(8,55,40,.12), transparent 65%),
-    linear-gradient(180deg, rgba(12,70,55,.08), transparent 45%, rgba(12,70,55,.06));
-  background-attachment: fixed;
+    /* ===== stars (unchanged) ===== */
+    radial-gradient(1px 1px at 12% 18%, rgba(255,255,255,.85) 99%, transparent 100%),
+    radial-gradient(1px 1px at 78% 36%, rgba(255,255,255,.65) 99%, transparent 100%),
+    radial-gradient(1px 1px at 55% 82%, rgba(255,255,255,.55) 99%, transparent 100%),
+
+    radial-gradient(1px 1px at 22% 64%, rgba(255,255,255,.75) 99%, transparent 100%),
+    radial-gradient(1px 1px at 90% 70%, rgba(255,255,255,.55) 99%, transparent 100%),
+    radial-gradient(1px 1px at 40% 30%, rgba(255,255,255,.45) 99%, transparent 100%),
+
+    radial-gradient(2px 2px at 15% 75%, rgba(255,255,255,.25) 60%, transparent 62%),
+    radial-gradient(2px 2px at 72% 12%, rgba(255,255,255,.22) 60%, transparent 62%),
+    radial-gradient(2px 2px at 88% 48%, rgba(255,255,255,.18) 60%, transparent 62%),
+
+    /* faint horizon glow */
+    radial-gradient(1000px 700px at 50% 120%, rgba(255,255,255,.06), transparent 60%),
+
+    /* ===== aurora (new, ultra subtle) ===== */
+    radial-gradient(1200px 600px at 20% 80%, rgba(#00ff44, 0.06), transparent 75%),
+    radial-gradient(1000px 500px at 70% 85%, rgba(#03fcba, 0.05), transparent 65%);
+
+  background-repeat: repeat;
+  background-size:
+    /* stars */
+    600px 420px,
+    700px 520px,
+    900px 680px,
+    650px 500px,
+    820px 640px,
+    980px 760px,
+    1200px 900px,
+    1400px 1100px,
+    1600px 1200px,
+
+    /* glow + aurora */
+    100% 100%,
+    100% 100%,
+    100% 100%;
+
+  background-position: 0 0;
 }
 
 /* Links */
@@ -61,6 +95,10 @@ code {
   background-color: $code-bg;
   color: $code-color;
   font-family: 'Noto Sans Mono', monospace;
+}
+
+pre code {
+  color: $body-color;
 }
 
 /* Headings */
@@ -136,7 +174,7 @@ hr {
 
 /* Navbar */
 .navbar {
-  background: linear-gradient(90deg, $body-bg, rgba(255,255,255,0.1));
+  background: linear-gradient(90deg, $body-bg, rgba(0,0,0,0.1));
   border-bottom: 2px solid;
   font-family: 'Special Elite', 'Noto Serif SC', cursive;
   text-transform: lowercase;
@@ -157,6 +195,17 @@ hr {
 .quarto-secondary-nav * {
   color: $link-color;
   border-bottom: none !important;
+}
+
+/* makes it light on dark */
+.navbar-toggler-icon {
+  filter: invert(0.9) !important;
+  opacity: 0.95;
+}
+
+body.quarto-dark .quarto-color-scheme-toggle {
+  filter: invert(0.9);
+  opacity: 0.95;
 }
 
 /* Sidebar */
@@ -234,7 +283,7 @@ html {
 }
 
 ::selection {
-  background-color: rgba($link-color, 0.3);
+  background-color: rgba($link-color, 0.5);
 }
 
 #quarto-appendix,

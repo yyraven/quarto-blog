@@ -77,8 +77,12 @@ format:
     grid:
       body-width: 800px
     theme:
+      light:
         - morph
         - focused.scss
+      dark:
+        - morph
+        - dedicated.scss
 
 
 callout-appearance: simple
