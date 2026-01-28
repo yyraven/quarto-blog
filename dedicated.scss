@@ -24,7 +24,7 @@ $divider-color: $link-color;
 /* Imported Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=VT323&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*-- scss:rules --*/
 /* Base Styles */
@@ -94,7 +94,7 @@ a {
 code {
   background-color: $code-bg;
   color: $code-color;
-  font-family: 'Noto Sans Mono', monospace;
+  font-family: 'Fira Code', monospace;
 }
 
 pre code {

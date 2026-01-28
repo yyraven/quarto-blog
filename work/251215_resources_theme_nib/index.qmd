@@ -1,23 +1,64 @@
 ---
-title: "Nib — Elegant CSS Theme for Quarto"
+title: "Nib/Ink — Elegant CSS Themes for Quarto"
 date: "2025-12-15"
 categories: [css, blogging, resources, EN]
-image: nib.jpg
-description: This page introduces the 'Nib' theme used on this blog.
+image: preview.jpeg
+lightbox: false
+description: This page introduces the original Quarto themes 'Nib/Ink'.
 ---
 
-'Nib' is a customization based on the Bootstrap 'Morph' theme, aiming for a minimal, elegant, and book-like reading experience.
+'Nib/Ink' are customizations based on the Bootstrap 'Morph' theme, aiming for a minimal, elegant, and book-like reading experience.
 
-![](nib.jpg)
+## Features
 
-[SCSS file](nib.scss)
+- **Book-like reading experience** - used Google Fonts Noto Serif/Noto Serif SC (body) and Fira Code (code).
+    
+    - Can be used for both English and Simplified Chinese blogs.
+    
+- **Minimal distraction** - all unnecessary decorative elements are hidden.
 
-To use this theme in Quarto, download the file above and add the following configuration to `_quarto.yml`:
+- **Easy further customization** - change color scheme by simply editing the `/* Color Palette */` section.
+
+- Supports dark themes and mobile browsers.
+
+![Preview](preview.jpeg)
+
+## Download/Tutorial
+
+::: {.callout-warning}
+Feel free to use and modify my themes as long as you give me credit. Redistribution is forbidden. 
+:::
+
+[nib.scss](nib.scss)
+
+[ink.scss](ink.scss)
+
+To use this theme in Quarto, download the files above and add the following configuration to `_quarto.yml`:
 
 ```yaml
 format:
   html:
     theme:
+      light: 
         - morph
         - nib.scss
+      dark: 
+        - morph
+        - ink.scss
 ```
+
+To customize color schemes, paste 6-digit HEX codes in corresponding places:
+
+```css
+/* Color Palette */
+$body-bg: #f4f4f4;
+$body-color: #222222;
+$link-color: #635d5d;
+$link-hover-color: #9f3838;
+$code-color: #222222;
+$code-bg: #e7e7e7;
+$code-block-bg: $code-bg;
+```
+
+## Updates
+**Jan 28th, 2026** - Added dark theme 'Ink'. Fixed a few bugs.

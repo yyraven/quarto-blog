@@ -1,14 +1,15 @@
 /* This scss file is based on the bootstrap theme 'morph' */
 /* author: yyraven https://github.com/yyraven */
+/* distribution: https://yyraven.github.io/quarto-blog/work/251215_resources_theme_nib/ */
 
 /*-- scss:defaults --*/
 /* Color Palette */
-$body-bg: #e3efe8;
-$body-color: #0f2a1f;
-$link-color: #157a59;
-$link-hover-color: #0a4f3a;
-$code-color: #0f2a1f;
-$code-bg: rgba(#cfe3d8,0.5);
+$body-bg: #0f0f0f;
+$body-color: #9ba0b3;
+$link-color: #4b6094;
+$link-hover-color: #4162b5;
+$code-color: #adb4cc;
+$code-bg: #141526;
 $code-block-bg: $code-bg;
 
 /* Spacing and Borders */
@@ -22,8 +23,6 @@ $divider-color: $link-color;
 }
 
 /* Imported Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=VT323&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*-- scss:rules --*/
@@ -36,12 +35,6 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: $padding;
-  background-image:
-    radial-gradient(1200px 900px at 15% 15%, rgba(255,255,255,.65), transparent 60%),
-    radial-gradient(900px 700px at 85% 20%, rgba(255,255,255,.40), transparent 55%),
-    radial-gradient(900px 800px at 50% 110%, rgba(8,55,40,.12), transparent 65%),
-    linear-gradient(180deg, rgba(12,70,55,.08), transparent 45%, rgba(12,70,55,.06));
-  background-attachment: fixed;
 }
 
 /* Links */
@@ -69,7 +62,7 @@ pre code {
 
 /* Headings */
 h1 {
-  font-family: 'Special Elite', 'Noto Serif SC', cursive;
+  font-family: 'Noto Serif SC', serif;
   color: $link-color;
   margin: $margin 0;
 }
@@ -84,10 +77,8 @@ h2, h3, h4, h5, h6 {
 .button {
   background-color: $link-color;
   color: $body-bg;
-  border: 1px solid $link-color;
-  padding: 0.1rem 0.1rem;
-  font-family: 'Special Elite', 'Noto Serif SC', cursive;
-  font-size: 1rem;
+  font-family: 'Noto Serif SC', serif;
+  font-size: 0.8rem;
   cursor: pointer;
   letter-spacing: 1px;
   background-image: none;
@@ -131,8 +122,8 @@ hr {
   opacity: 1;
 
   &::before {
-    content: "⇢⇢+~+~+⇠⇠";
-    font-family: 'Special Elite', 'Noto Serif SC', cursive;
+    content: "......";
+    font-family: 'Noto Serif SC', serif;
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
   }
@@ -140,11 +131,10 @@ hr {
 
 /* Navbar */
 .navbar {
-  background: linear-gradient(90deg, $body-bg, rgba(255,255,255,0.1));
-  border-bottom: 2px solid;
-  font-family: 'Special Elite', 'Noto Serif SC', cursive;
-  text-transform: lowercase;
-  padding: 0.2rem 1rem;
+  background: $body-bg;
+  border-bottom: 1px solid;
+  font-family: 'Noto Serif SC', serif;
+  text-transform: uppercase;
 }
 
 .navbar,
@@ -161,6 +151,17 @@ hr {
 .quarto-secondary-nav * {
   color: $link-color;
   border-bottom: none !important;
+}
+
+/* makes it light on dark */
+.navbar-toggler-icon {
+  filter: invert(0.9) !important;
+  opacity: 0.95;
+}
+
+body.quarto-dark .quarto-color-scheme-toggle {
+  filter: invert(0.9);
+  opacity: 0.95;
 }
 
 /* Sidebar */
@@ -202,7 +203,7 @@ details p {
 
 /* Scrollbar */
 html {
-  scrollbar-color: rgba($link-color, 0.5) rgba(0,0,0,0);
+  scrollbar-color: $link-color rgba(0,0,0,0);
   scrollbar-gutter: none!important;
   scrollbar-width: thin;
   border-radius: 0;
@@ -219,13 +220,13 @@ html {
 }
 
 #quarto-margin-sidebar {
-  overflow-y: auto;     /* or scroll */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE 10+ */
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 #quarto-margin-sidebar::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Edge */
+  display: none;
 }
 
 .listing-actions-group,
@@ -238,7 +239,7 @@ html {
 }
 
 ::selection {
-  background-color: rgba($link-color, 0.3);
+  background-color: rgba($link-color, 0.5);
 }
 
 #quarto-appendix,
@@ -248,50 +249,4 @@ html {
   background-color: transparent !important;
   background-image: none !important;
   box-shadow: none !important;
-}
-
-/*-- scss:actions --*/
-/* bird swap */
-.bird-swap {
-  content: url("figs/crow_s.png");
-  transition: 0.3s ease;
-}
-
-.bird-swap:hover {
-  content: url("figs/crow_s_flip.png");
-}
-
-/* photo row */
-.photo-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  gap: 1rem;
-  overflow-x: auto;
-  padding: 0.5rem 0;
-}
-
-.photo-row img {
-  max-height: min(60vh, 28vw);
-  width: auto;
-  flex-shrink: 0;
-  object-fit: contain;
-}
-
-/* blur */
-.blur {
-  filter: blur(3px);
-  transition: filter 0.3s ease;
-}
-
-.blur:hover {
-  filter: blur(0);
-}
-
-.wordcount {
-  padding-top: 0;
-  padding-bottom: 1;
-  font-size: 0.8rem;
-  color: $link-color;
 }

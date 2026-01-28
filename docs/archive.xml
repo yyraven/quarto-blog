@@ -1288,7 +1288,7 @@ font-style: inherit;"> internetod.scss</span></span></code></pre></div>
   <media:content url="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/kangelprofile.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Nib — Elegant CSS Theme for Quarto</title>
+  <title>Nib/Ink — Elegant CSS Themes for Quarto</title>
   <link>https://yyraven.github.io/quarto-blog/work/251215_resources_theme_nib/</link>
   <description><![CDATA[ 
 
@@ -1296,14 +1296,44 @@ font-style: inherit;"> internetod.scss</span></span></code></pre></div>
 
 
 <div class="post-meta-bar">
-  <span class="wordcount"> ✎44 </span>
+  <span class="wordcount"> ✎149 </span>
   <span class="mylikebutton"> ♥</span>
 </div>
 
-<p>‘Nib’ is a customization based on the Bootstrap ‘Morph’ theme, aiming for a minimal, elegant, and book-like reading experience.</p>
-<p><a href="nib.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_nib/nib.jpg" class="img-fluid"></a></p>
-<p><a href="nib.scss">SCSS file</a></p>
-<p>To use this theme in Quarto, download the file above and add the following configuration to <code>_quarto.yml</code>:</p>
+<p>‘Nib/Ink’ are customizations based on the Bootstrap ‘Morph’ theme, aiming for a minimal, elegant, and book-like reading experience.</p>
+<section id="features" class="level2">
+<h2 class="anchored" data-anchor-id="features">Features</h2>
+<ul>
+<li><p><strong>Book-like reading experience</strong> - used Google Fonts Noto Serif/Noto Serif SC (body) and Fira Code (code).</p>
+<ul>
+<li>Can be used for both English and Simplified Chinese blogs.</li>
+</ul></li>
+<li><p><strong>Minimal distraction</strong> - all unnecessary decorative elements are hidden.</p></li>
+<li><p><strong>Easy further customization</strong> - change color scheme by simply editing the <code>/* Color Palette */</code> section.</p></li>
+<li><p>Supports dark themes and mobile browsers.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_nib/preview.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Preview</figcaption>
+</figure>
+</div>
+</section>
+<section id="downloadtutorial" class="level2">
+<h2 class="anchored" data-anchor-id="downloadtutorial">Download/Tutorial</h2>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Feel free to use and modify my themes as long as you give me credit. Redistribution is forbidden.</p>
+</div>
+</div>
+</div>
+<p><a href="nib.scss">nib.scss</a></p>
+<p><a href="ink.scss">ink.scss</a></p>
+<p>To use this theme in Quarto, download the files above and add the following configuration to <code>_quarto.yml</code>:</p>
 <div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">format</span><span class="kw" style="color: #003B4F;
@@ -1328,12 +1358,14 @@ font-weight: bold;
 font-style: inherit;">:</span></span>
 <span id="cb1-4"><span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">        </span><span class="kw" style="color: #003B4F;
+font-style: inherit;">      </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">light</span><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
-font-style: inherit;">-</span><span class="at" style="color: #657422;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;"> morph</span></span>
+font-style: inherit;"> </span></span>
 <span id="cb1-5"><span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">        </span><span class="kw" style="color: #003B4F;
@@ -1341,12 +1373,89 @@ background-color: null;
 font-weight: bold;
 font-style: inherit;">-</span><span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;"> nib.scss</span></span></code></pre></div>
+font-style: inherit;"> morph</span></span>
+<span id="cb1-6"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> nib.scss</span></span>
+<span id="cb1-7"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">dark</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span></span>
+<span id="cb1-8"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> morph</span></span>
+<span id="cb1-9"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> ink.scss</span></span></code></pre></div>
+<p>To customize color schemes, paste 6-digit HEX codes in corresponding places:</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode css code-with-copy"><code class="sourceCode css"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/* Color Palette */</span></span>
+<span id="cb2-2">$body-bg<span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">#f4f4f4</span>;</span>
+<span id="cb2-3">$body-color<span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">#222222</span>;</span>
+<span id="cb2-4">$link-color<span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">#635d5d</span>;</span>
+<span id="cb2-5">$link-hover-color<span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">#9f3838</span>;</span>
+<span id="cb2-6">$code-color<span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">#222222</span>;</span>
+<span id="cb2-7">$code-bg<span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">#e7e7e7</span>;</span>
+<span id="cb2-8">$code-block-bg<span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> $code-bg;</span></code></pre></div>
+</section>
+<section id="updates" class="level2">
+<h2 class="anchored" data-anchor-id="updates">Updates</h2>
+<p><strong>Jan 28th, 2026</strong> - Added dark theme ‘Ink’. Fixed a few bugs.</p>
 
 
 <div class="post-like-footer" style="display:flex; justify-content:flex-end;">
   <div class="mylikebutton">Kudos ♥</div>
 </div>
+
+</section>
 
 <center>
 © 2024-2026 RavensNest.
@@ -1357,7 +1466,7 @@ font-style: inherit;"> nib.scss</span></span></code></pre></div>
   <category>EN</category>
   <guid>https://yyraven.github.io/quarto-blog/work/251215_resources_theme_nib/</guid>
   <pubDate>Mon, 15 Dec 2025 05:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_nib/nib.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_nib/preview.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>置顶 | 工业风豆瓣</title>

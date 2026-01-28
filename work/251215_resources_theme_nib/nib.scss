@@ -1,5 +1,6 @@
 /* This scss file is based on the bootstrap theme 'morph' */
 /* author: yyraven https://github.com/yyraven */
+/* distribution: https://yyraven.github.io/quarto-blog/work/251215_resources_theme_nib/ */
 
 /*-- scss:defaults --*/
 /* Color Palette */
@@ -22,9 +23,7 @@ $divider-color: $link-color;
 }
 
 /* Imported Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=VT323&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*-- scss:rules --*/
 /* Base Styles */
@@ -54,12 +53,22 @@ a {
 code {
   background-color: $code-bg;
   color: $code-color;
-  font-family: 'Noto Sans Mono', monospace;
+  font-family: 'Fira Code', monospace;
+}
+
+pre code {
+  color: $body-color;
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Special Elite', 'Noto Serif SC', cursive;
+h1 {
+  font-family: 'Noto Serif SC', serif;
+  color: $link-color;
+  margin: $margin 0;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Noto Serif', 'Noto Serif SC', serif;
   color: $link-color;
   margin: $margin 0;
 }
@@ -68,10 +77,8 @@ h1, h2, h3, h4, h5, h6 {
 .button {
   background-color: $link-color;
   color: $body-bg;
-  border: 1px solid $link-color;
-  padding: 0.1rem 0.1rem;
-  font-family: 'Special Elite', 'Noto Serif SC', cursive;
-  font-size: 1rem;
+  font-family: 'Noto Serif SC', serif;
+  font-size: 0.8rem;
   cursor: pointer;
   letter-spacing: 1px;
   background-image: none;
@@ -89,6 +96,12 @@ blockquote {
   border-left: 4px solid $link-color;
   padding: 1rem;
   font-style: italic;
+}
+
+.callout {
+  background-color: $code-block-bg;
+  color: $link-color;
+  padding: 0rem;
 }
 
 /* Lists */
@@ -109,8 +122,8 @@ hr {
   opacity: 1;
 
   &::before {
-    content: "⇢⇢+~+~+⇠⇠";
-    font-family: 'Special Elite', 'Noto Serif SC', cursive;
+    content: "......";
+    font-family: 'Noto Serif SC', serif;
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
   }
@@ -118,12 +131,26 @@ hr {
 
 /* Navbar */
 .navbar {
-  background: linear-gradient(90deg, $body-bg, rgba(255,255,255,0.1));
-  border-bottom: 2px solid;
-  font-family: 'Special Elite', 'Noto Serif SC', cursive;
-  text-transform: lowercase;
-  transition: all 0.3s ease;
-  padding: 0.2rem 1rem;
+  background: $body-bg;
+  border-bottom: 1px solid;
+  font-family: 'Noto Serif SC', serif;
+  text-transform: uppercase;
+}
+
+.navbar,
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .navbar-text,
+.navbar .navbar-toggler,
+.navbar * {
+  color: $link-hover-color !important;
+  border-color: $link-hover-color !important;
+}
+
+.quarto-secondary-nav,
+.quarto-secondary-nav * {
+  color: $link-color;
+  border-bottom: none !important;
 }
 
 /* Sidebar */
@@ -151,6 +178,10 @@ hr {
   }
 }
 
+#TOC a {
+  transition: all 0s ease;
+}
+
 /* Details */
 details p {
   margin-top: 0.3em;
@@ -161,9 +192,9 @@ details p {
 
 /* Scrollbar */
 html {
-  scrollbar-color: $link-color $code-bg;
+  scrollbar-color: $link-color rgba(0,0,0,0);
   scrollbar-gutter: none!important;
-  scrollbar-width: thin; // optional
+  scrollbar-width: thin;
   border-radius: 0;
 }
 
@@ -177,10 +208,34 @@ html {
   border: none !important;
 }
 
+#quarto-margin-sidebar {
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+#quarto-margin-sidebar::-webkit-scrollbar {
+  display: none;
+}
+
 .listing-actions-group,
 .input-group,
-.form-select, {
+.form-select,
+.quarto-listing-table {
   font-family: 'Noto Serif', 'Noto Serif SC', serif;
   background: none !important;
   font-size: 1rem;
+}
+
+::selection {
+  background-color: rgba($link-color, 0.3);
+}
+
+#quarto-appendix,
+#quarto-appendix *,
+.quarto-appendix,
+.quarto-appendix * {
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
 }
