@@ -118,7 +118,7 @@ h2, h3, h4, h5, h6 {
 .button {
   background-color: $link-color;
   color: $body-bg;
-  border: 1px solid $link-color;
+  border: 0.5px solid $link-color;
   padding: 0.1rem 0.1rem;
   font-family: 'Special Elite', 'Noto Serif SC', cursive;
   font-size: 1rem;
@@ -175,7 +175,7 @@ hr {
 /* Navbar */
 .navbar {
   background: linear-gradient(90deg, $body-bg, rgba(0,0,0,0.1));
-  border-bottom: 2px solid;
+  border-bottom: 1px solid;
   font-family: 'Special Elite', 'Noto Serif SC', cursive;
   text-transform: lowercase;
   padding: 0.2rem 1rem;
@@ -187,8 +187,8 @@ hr {
 .navbar .navbar-text,
 .navbar .navbar-toggler,
 .navbar * {
-  color: $link-hover-color !important;
-  border-color: $link-hover-color !important;
+  color: $link-color !important;
+  border-color: $link-color !important;
 }
 
 .quarto-secondary-nav,

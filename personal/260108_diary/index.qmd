@@ -7,7 +7,8 @@ categories: [year-end recap, 中文]
 ::: {.column-margin}
 想了很久年终总结应该配什么音乐，要么就配The Cure的Just Like Heaven吧！前奏很像烟花哦。
 
-<iframe src="https://www.youtube.com/embed/n3nPiBai66M?si=XS2nMalkY6dR8vYl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{< video https://www.youtube.com/embed/n3nPiBai66M?si=XS2nMalkY6dR8vYl 
+    aspect-ratio="4x3">}}
 :::
 
 拖到2026年的第八天才开始写这个。

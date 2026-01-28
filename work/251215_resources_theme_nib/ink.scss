@@ -5,11 +5,11 @@
 /*-- scss:defaults --*/
 /* Color Palette */
 $body-bg: #0f0f0f;
-$body-color: #9ba0b3;
-$link-color: #4b6094;
+$body-color: #aaaaaa;
+$link-color: #949cb0;
 $link-hover-color: #4162b5;
-$code-color: #adb4cc;
-$code-bg: #141526;
+$code-color: #aaaaaa;
+$code-bg: #2b2b2b;
 $code-block-bg: $code-bg;
 
 /* Spacing and Borders */
@@ -137,6 +137,9 @@ hr {
   text-transform: uppercase;
 }
 
+.navbar a:hover{
+
+}
 .navbar,
 .navbar .navbar-brand,
 .navbar .nav-link,

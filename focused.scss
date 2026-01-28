@@ -141,7 +141,7 @@ hr {
 /* Navbar */
 .navbar {
   background: linear-gradient(90deg, $body-bg, rgba(255,255,255,0.1));
-  border-bottom: 2px solid;
+  border-bottom: 1px solid;
   font-family: 'Special Elite', 'Noto Serif SC', cursive;
   text-transform: lowercase;
   padding: 0.2rem 1rem;
@@ -153,8 +153,8 @@ hr {
 .navbar .navbar-text,
 .navbar .navbar-toggler,
 .navbar * {
-  color: $link-hover-color !important;
-  border-color: $link-hover-color !important;
+  color: $link-color !important;
+  border-color: $link-color !important;
 }
 
 .quarto-secondary-nav,

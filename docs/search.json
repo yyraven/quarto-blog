@@ -991,7 +991,7 @@
     "href": "work/251215_resources_theme_nib/index.html",
     "title": "Nib/Ink — Elegant CSS Themes for Quarto",
     "section": "",
-    "text": "✎149 \n   ♥\n‘Nib/Ink’ are customizations based on the Bootstrap ‘Morph’ theme, aiming for a minimal, elegant, and book-like reading experience.",
+    "text": "✎152 \n   ♥\n‘Nib/Ink’ are customizations based on the Bootstrap ‘Morph’ theme, aiming for a minimal, elegant, and book-like reading experience.",
     "crumbs": [
       "Work",
       "Resources",
@@ -1015,7 +1015,7 @@
     "href": "work/251215_resources_theme_nib/index.html#downloadtutorial",
     "title": "Nib/Ink — Elegant CSS Themes for Quarto",
     "section": "Download/Tutorial",
-    "text": "Download/Tutorial\n\n\n\n\n\n\nFeel free to use and modify my themes as long as you give me credit. Redistribution is forbidden.\n\n\n\nnib.scss\nink.scss\nTo use this theme in Quarto, download the files above and add the following configuration to _quarto.yml:\nformat:\n  html:\n    theme:\n      light: \n        - morph\n        - nib.scss\n      dark: \n        - morph\n        - ink.scss\nTo customize color schemes, paste 6-digit HEX codes in corresponding places:\n/* Color Palette */\n$body-bg: #f4f4f4;\n$body-color: #222222;\n$link-color: #635d5d;\n$link-hover-color: #9f3838;\n$code-color: #222222;\n$code-bg: #e7e7e7;\n$code-block-bg: $code-bg;",
+    "text": "Download/Tutorial\n\n\n\n\n\n\nFeel free to use and modify my codes as long as proper credit is given. Please don’t redistribute them without permission.\n\n\n\nnib.scss\nink.scss\nTo use this theme in Quarto, download the files above and add the following configuration to _quarto.yml:\nformat:\n  html:\n    theme:\n      light: \n        - morph\n        - nib.scss\n      dark: \n        - morph\n        - ink.scss\nTo customize color schemes, paste 6-digit HEX codes in corresponding places:\n/* Color Palette */\n$body-bg: #f4f4f4;\n$body-color: #222222;\n$link-color: #635d5d;\n$link-hover-color: #9f3838;\n$code-color: #222222;\n$code-bg: #e7e7e7;\n$code-block-bg: $code-bg;",
     "crumbs": [
       "Work",
       "Resources",

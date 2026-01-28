@@ -25,8 +25,8 @@ description: This page introduces the original Quarto themes 'Nib/Ink'.
 
 ## Download/Tutorial
 
-::: {.callout-warning}
-Feel free to use and modify my themes as long as you give me credit. Redistribution is forbidden. 
+::: {.callout-note}
+Feel free to use and modify my codes as long as proper credit is given. Please don't redistribute them without permission.
 :::
 
 [nib.scss](nib.scss)
