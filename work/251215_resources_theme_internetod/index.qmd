@@ -4,6 +4,7 @@ date: "2025-12-15"
 categories: [css, blogging, resources, EN]
 image: kangelprofile.jpeg
 description: This page introduces the 'InternetOD' theme used on this blog.
+draft: true
 ---
 
 'InternetOD' is a customization based on the Bootstrap 'Morph' theme, providing a cute, pixelated, retro, and Jirai Kei-feeling interface. It is inspired by the video game 'Needy Girl Overdose'.

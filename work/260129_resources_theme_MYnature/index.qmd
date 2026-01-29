@@ -1,0 +1,41 @@
+---
+title: "MYnature — Journal-like CSS Theme for Quarto"
+date: "2026-01-29"
+categories: [css, blogging, resources, EN]
+image: preview.jpeg
+lightbox: false
+description: This page introduces the Quarto theme 'MYnature'.
+---
+
+'MYnature' is a customization based on the Bootstrap 'Morph' theme. It's just a parody for the classic **nature** journal website. Please, accept my paper!
+
+## Features
+
+- **Make your posts look like they're from a top journal.** - used Google Fonts Spectral (title), Libertinus Sans (body), Roboto (caption, navbar, sidebar etc.), and Fira Code (code).
+    
+    - Can be used for both English and Simplified Chinese blogs (Noto Serif SC for all serif content, and Noto Sans SC for all sans).
+    - Nature actually uses **Harding**, their customized font. 
+
+- Supports mobile browsers.
+
+- No dark mode, since nature does not have a dark mode. 
+
+![Preview](preview.jpeg)
+
+## Download/Tutorial
+
+::: {.callout-note}
+Feel free to use and modify my codes as long as proper credit is given. Please don't redistribute them without permission.
+:::
+
+[MYnature.scss](MYnature.scss)
+
+To use this theme in Quarto, download the files above and add the following configuration to `_quarto.yml`:
+
+```yaml
+format:
+  html:
+    theme:
+      - morph
+      - MYnature.scss
+```

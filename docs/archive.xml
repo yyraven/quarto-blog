@@ -17,7 +17,110 @@
 <width>144</width>
 </image>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Mon, 26 Jan 2026 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 29 Jan 2026 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>MYnature — Journal-like CSS Theme for Quarto</title>
+  <link>https://yyraven.github.io/quarto-blog/work/260129_resources_theme_MYnature/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="post-meta-bar">
+  <span class="wordcount"> ✎130 </span>
+  <span class="mylikebutton"> ♥</span>
+</div>
+
+<p>‘MYnature’ is a customization based on the Bootstrap ‘Morph’ theme. It’s just a parody for the classic <strong>nature</strong> journal website. Please, accept my paper!</p>
+<section id="features" class="level2">
+<h2 class="anchored" data-anchor-id="features">Features</h2>
+<ul>
+<li><p><strong>Make your posts look like they’re from a top journal.</strong> - used Google Fonts Spectral (title), Libertinus Sans (body), Roboto (caption, navbar, sidebar etc.), and Fira Code (code).</p>
+<ul>
+<li>Can be used for both English and Simplified Chinese blogs (Noto Serif SC for all serif content, and Noto Sans SC for all sans).</li>
+<li>Nature actually uses <strong>Harding</strong>, their customized font.</li>
+</ul></li>
+<li><p>Supports mobile browsers.</p></li>
+<li><p>No dark mode, since nature does not have a dark mode.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://yyraven.github.io/quarto-blog/work/260129_resources_theme_MYnature/preview.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Preview</figcaption>
+</figure>
+</div>
+</section>
+<section id="downloadtutorial" class="level2">
+<h2 class="anchored" data-anchor-id="downloadtutorial">Download/Tutorial</h2>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Feel free to use and modify my codes as long as proper credit is given. Please don’t redistribute them without permission.</p>
+</div>
+</div>
+</div>
+<p><a href="MYnature.scss">MYnature.scss</a></p>
+<p>To use this theme in Quarto, download the files above and add the following configuration to <code>_quarto.yml</code>:</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">format</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb1-2"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">html</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb1-3"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb1-4"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> morph</span></span>
+<span id="cb1-5"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> MYnature.scss</span></span></code></pre></div>
+
+
+<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
+  <div class="mylikebutton">Kudos ♥</div>
+</div>
+
+</section>
+
+<center>
+© 2024-2026 RavensNest.
+</center> ]]></description>
+  <category>css</category>
+  <category>blogging</category>
+  <category>resources</category>
+  <category>EN</category>
+  <guid>https://yyraven.github.io/quarto-blog/work/260129_resources_theme_MYnature/</guid>
+  <pubDate>Thu, 29 Jan 2026 05:00:00 GMT</pubDate>
+  <media:content url="https://yyraven.github.io/quarto-blog/work/260129_resources_theme_MYnature/preview.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>巴尔的摩｜与铁路</title>
   <link>https://yyraven.github.io/quarto-blog/personal/260124_travel_baltimore_railroad/</link>
@@ -1212,79 +1315,6 @@
   <guid>https://yyraven.github.io/quarto-blog/personal/251231_radio/</guid>
   <pubDate>Wed, 31 Dec 2025 05:00:00 GMT</pubDate>
   <media:content url="https://yyraven.github.io/quarto-blog/personal/251231_radio/covers/2025.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>InternetOD — Pixelated CSS Theme for Quarto</title>
-  <link>https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="post-meta-bar">
-  <span class="wordcount"> ✎60 </span>
-  <span class="mylikebutton"> ♥</span>
-</div>
-
-<p>‘InternetOD’ is a customization based on the Bootstrap ‘Morph’ theme, providing a cute, pixelated, retro, and Jirai Kei-feeling interface. It is inspired by the video game ‘Needy Girl Overdose’.</p>
-<p><a href="internetod.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/internetod.jpg" class="img-fluid"></a></p>
-<p><a href="internetod.zip">InternetOD.zip</a></p>
-<p>To use this theme in Quarto, download and decompress the zip file above, put it in your blog folder, and add the following configuration to <code>_quarto.yml</code>:</p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">format</span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">:</span></span>
-<span id="cb1-2"><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">html</span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">:</span></span>
-<span id="cb1-3"><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">theme</span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">:</span></span>
-<span id="cb1-4"><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">        </span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">-</span><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;"> morph</span></span>
-<span id="cb1-5"><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">        </span><span class="kw" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">-</span><span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;"> internetod.scss</span></span></code></pre></div>
-<p><img src="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/kangelprofile.jpeg" class="img-fluid"> <img src="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/yyan.gif" class="img-fluid"></p>
-
-
-<div class="post-like-footer" style="display:flex; justify-content:flex-end;">
-  <div class="mylikebutton">Kudos ♥</div>
-</div>
-
-<center>
-© 2024-2026 RavensNest.
-</center> ]]></description>
-  <category>css</category>
-  <category>blogging</category>
-  <category>resources</category>
-  <category>EN</category>
-  <guid>https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/</guid>
-  <pubDate>Mon, 15 Dec 2025 05:00:00 GMT</pubDate>
-  <media:content url="https://yyraven.github.io/quarto-blog/work/251215_resources_theme_internetod/kangelprofile.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Nib/Ink — Elegant CSS Themes for Quarto</title>

@@ -1,0 +1,333 @@
+/* This scss file is based on the bootstrap theme 'morph' */
+/* author: yyraven https://github.com/yyraven */
+/* distribution: https://github.com/yyraven/work/260129_resources_theme_MYnature/ */
+
+/*-- scss:defaults --*/
+/* Color Palette */
+$body-bg: #fff;
+$body-color: #000;
+$link-color: rgb(43,101,148);
+$link-hover-color: rgb(43,101,148);
+$code-color: #000;
+$code-bg: rgb(235,235,235);
+$code-block-bg: $code-bg;
+
+/* Spacing and Borders */
+$padding: 1.2rem;
+$margin: 1rem;
+$border-radius: 0;
+$divider-color: $link-color;
+* {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600&display=swap");
+
+/*-- scss:rules --*/
+/* Base Styles */
+body {
+  background-color: $body-bg;
+  color: $body-color;
+  font-family: 'Libertinus Sans', 'Noto Serif SC', serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: $padding;
+}
+
+/* Links */
+a {
+  color: $link-color;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration-style: underline;
+    text-decoration-thickness: 3.5px;
+  }
+}
+
+/* Code */
+code {
+  background-color: $code-bg;
+  color: $code-color;
+  font-family: 'Fira Code', monospace;
+}
+
+pre code {
+  color: $body-color;
+}
+
+/* Headings */
+h1 {
+  font-family: 'Spectral', 'Noto Serif SC', serif;
+  font-weight: 800;
+  font-size: 2.9rem;
+  color: $body-color;
+  margin: $margin 0;
+}
+
+h2 {
+  font-family: 'Spectral', 'Noto Serif SC', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: $body-color;
+  margin: $margin 0;
+}
+
+h3, h4, h5, h6,
+.description {
+  font-family: 'Spectral', 'Noto Serif SC', serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: $body-color;
+  margin: $margin 0;
+}
+
+.quarto-figure figcaption,
+.figure figcaption,
+.column-margin {
+  font-family: 'Roboto', 'Noto Sans SC', sans-serif;
+  font-size: 0.8rem;
+  color: rgba($body-color, 0.8);
+}
+
+/* Buttons */
+.button {
+  color: $link-color;
+  border: none!important;
+  padding: 0.1rem 0.1rem;
+  font-family: 'Roboto', 'Noto Sans SC', sans;
+  font-size: 1rem;
+  text-decoration-style: underline;
+  text-decoration-thickness: 1px;
+
+  &:hover {
+    color: $link-color;
+    text-decoration-style: underline;
+    text-decoration-thickness: 3.5px;
+  }
+}
+
+/* Blockquotes */
+blockquote {
+  background-color: $code-block-bg;
+  border-left: 1px solid $code-block-bg;
+  padding: 1rem;
+  font-style: italic;
+}
+
+.callout {
+  background-color: $code-block-bg;
+  color: $body-color;
+  padding: 0rem;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  padding-left: 2rem;
+
+  li {
+    margin-bottom: 0rem;
+  }
+}
+
+/* Divider */
+hr {
+  all: unset;
+  display: block;
+  height: 0;
+  margin: 1rem 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+/* Navbar */
+.navbar {
+  background: $body-bg;
+  border-bottom: 3px solid;
+  font-family: 'Roboto', 'Noto Sans SC', sans;
+  font-size: 1rem;
+  text-transform: lowercase;
+  padding: 0rem 0rem;
+}
+
+.navbar-brand {
+  font-family: 'Spectral', 'Noto Serif SC', serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.navbar a:not(.navbar-brand):hover {
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-style: solid;
+  text-decoration-color: $body-color;
+  text-underline-offset: 3px;
+}
+
+.navbar,
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .navbar-text,
+.navbar .navbar-toggler,
+.navbar * {
+  color: $body-color !important;
+  border-color: $body-color !important;
+}
+
+.quarto-secondary-nav,
+.quarto-secondary-nav * {
+  color: $body-color;
+  border-bottom: none!important;
+}
+
+/* Sidebar */
+.sidebar {
+  color: $body-color;
+  font-family: "Roboto", "Noto Sans SC", sans;
+}
+
+
+.sidebar a:hover {
+  color: $body-color;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-style: solid;
+  text-decoration-color: $body-color;
+  text-underline-offset: 3px;
+}
+
+.sidebar a.active {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.sidebar ul ul {
+  padding-left: 0.6rem;
+  opacity: 0.85;
+}
+
+/* disable responsive sidebar on mobile */
+@media (max-width: 992px) {
+  .quarto-btn-toggle {
+    display: none;
+  }
+  .flex-grow-1 {
+    pointer-events: none;
+  }
+}
+
+#TOC a {
+  color: $body-color;
+  font-family: "Roboto", "Noto Sans SC", sans;
+  transition: none!important;
+}
+
+/* Details */
+details p {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  color: $body-color;
+  font-size: 0.8rem;
+}
+
+/* Scrollbar */
+html {
+  scrollbar-color: rgba($body-color, 0.5) rgba(0,0,0,0);
+  scrollbar-gutter: none!important;
+  scrollbar-width: thin;
+  border-radius: 0;
+}
+
+/* Drop borders */
+.callout,
+.quarto-listing-table,
+.quarto-post,
+.quarto-header,
+.zindex-over-content,
+.quarto-appendix, {
+  border: none !important;
+}
+
+#quarto-margin-sidebar {
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+#quarto-margin-sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.listing-actions-group,
+.input-group,
+.form-select,
+.quarto-listing-table {
+  font-family: 'Noto Serif', 'Noto Serif SC', serif;
+  background: none !important;
+  font-size: 1rem;
+}
+
+#quarto-appendix,
+#quarto-appendix *,
+.quarto-appendix,
+.quarto-appendix * {
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/*-- scss:actions --*/
+/* bird swap */
+.bird-swap {
+  content: url("figs/crow_s.png");
+  transition: 0.3s ease;
+}
+
+.bird-swap:hover {
+  content: url("figs/crow_s_flip.png");
+}
+
+/* photo row */
+.photo-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 0.5rem 0;
+}
+
+.photo-row img {
+  max-height: min(60vh, 28vw);
+  width: auto;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+/* blur */
+.blur {
+  filter: blur(3px);
+  transition: filter 0.3s ease;
+}
+
+.blur:hover {
+  filter: blur(0);
+}
+
+.wordcount {
+  padding-top: 0;
+  padding-bottom: 1;
+  font-size: 0.8rem;
+  color: $body-color;
+}
