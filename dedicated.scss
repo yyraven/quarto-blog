@@ -118,7 +118,7 @@ h2, h3, h4, h5, h6 {
 .button {
   background-color: $link-color;
   color: $body-bg;
-  border: 0.5px solid $link-color;
+  border: 1px solid $link-color;
   padding: 0.1rem 0.1rem;
   font-family: 'Special Elite', 'Noto Serif SC', cursive;
   font-size: 1rem;
@@ -174,7 +174,7 @@ hr {
 
 /* Navbar */
 .navbar {
-  background: linear-gradient(90deg, $body-bg, rgba(0,0,0,0.1));
+  background: linear-gradient(90deg, $body-bg, rgba(255,255,255,0.1));
   border-bottom: 1px solid;
   font-family: 'Special Elite', 'Noto Serif SC', cursive;
   text-transform: lowercase;
@@ -197,20 +197,10 @@ hr {
   border-bottom: none !important;
 }
 
-/* makes it light on dark */
-.navbar-toggler-icon {
-  filter: invert(0.9) !important;
-  opacity: 0.95;
-}
-
-body.quarto-dark .quarto-color-scheme-toggle {
-  filter: invert(0.9);
-  opacity: 0.95;
-}
-
 /* Sidebar */
-.sidebar a:hover {
-  transform: translateX(2px);
+.sidebar {
+  color: $body-color;
+  font-family: "Noto Sans", "Noto Sans SC", sans;
 }
 
 .sidebar a.active {
@@ -221,6 +211,10 @@ body.quarto-dark .quarto-color-scheme-toggle {
 .sidebar ul ul {
   padding-left: 0.6rem;
   opacity: 0.85;
+}
+
+.sidebar a:hover {
+  transform: translateX(2px);
 }
 
 /* disable responsive sidebar on mobile */
@@ -234,6 +228,8 @@ body.quarto-dark .quarto-color-scheme-toggle {
 }
 
 #TOC a {
+  color: $body-color;
+  font-family: "Noto Sans", "Noto Sans SC", sans;
   transition: all 0s ease;
 }
 
@@ -283,7 +279,7 @@ html {
 }
 
 ::selection {
-  background-color: rgba($link-color, 0.5);
+  background-color: rgba($link-color, 0.3);
 }
 
 #quarto-appendix,
@@ -293,6 +289,14 @@ html {
   background-color: transparent !important;
   background-image: none !important;
   box-shadow: none !important;
+}
+
+.quarto-figure figcaption,
+.figure figcaption,
+.column-margin {
+  font-family: 'Noto Sans', 'Noto Sans SC', sans-serif;
+  font-size: 0.8rem;
+  color: rgba($body-color, 0.8);
 }
 
 /*-- scss:actions --*/

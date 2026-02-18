@@ -24,7 +24,7 @@ $divider-color: $link-color;
 /* Imported Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=VT323&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap&family=Noto+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*-- scss:rules --*/
 /* Base Styles */
@@ -164,8 +164,9 @@ hr {
 }
 
 /* Sidebar */
-.sidebar a:hover {
-  transform: translateX(2px);
+.sidebar {
+  color: $body-color;
+  font-family: "Noto Sans", "Noto Sans SC", sans;
 }
 
 .sidebar a.active {
@@ -176,6 +177,10 @@ hr {
 .sidebar ul ul {
   padding-left: 0.6rem;
   opacity: 0.85;
+}
+
+.sidebar a:hover {
+  transform: translateX(2px);
 }
 
 /* disable responsive sidebar on mobile */
@@ -189,6 +194,8 @@ hr {
 }
 
 #TOC a {
+  color: $body-color;
+  font-family: "Noto Sans", "Noto Sans SC", sans;
   transition: all 0s ease;
 }
 
@@ -248,6 +255,14 @@ html {
   background-color: transparent !important;
   background-image: none !important;
   box-shadow: none !important;
+}
+
+.quarto-figure figcaption,
+.figure figcaption,
+.column-margin {
+  font-family: 'Noto Sans', 'Noto Sans SC', sans-serif;
+  font-size: 0.8rem;
+  color: rgba($body-color, 0.8);
 }
 
 /*-- scss:actions --*/
