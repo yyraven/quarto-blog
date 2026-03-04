@@ -13,6 +13,10 @@ toc: true
 
 :::
 
+:::{.photo-row}
+![Feb '26 spring for us: invasive flowers and invasive human beings](figs/2602.jpg){group="home"}
+:::
+
 ---
 
 Pete Townshend.![](figs/gifs_7.gif)
