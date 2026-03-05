@@ -3,12 +3,12 @@
 
 /*-- scss:defaults --*/
 /* Color Palette */
-$body-bg: #e3efe8;
-$body-color: #0f2a1f;
-$link-color: #157a59;
-$link-hover-color: #0a4f3a;
-$code-color: #0f2a1f;
-$code-bg: rgba(#cfe3d8,0.5);
+$body-bg: #e0dcde;
+$body-color: #180f2a;
+$link-color: #945d68;
+$link-hover-color: #4d2937;
+$code-color: #180f2a;
+$code-bg: rgba(#945d68,0.5);
 $code-block-bg: $code-bg;
 
 /* Spacing and Borders */
@@ -39,8 +39,8 @@ body {
   background-image:
     radial-gradient(1200px 900px at 15% 15%, rgba(255,255,255,.65), transparent 60%),
     radial-gradient(900px 700px at 85% 20%, rgba(255,255,255,.40), transparent 55%),
-    radial-gradient(900px 800px at 50% 110%, rgba(8,55,40,.12), transparent 65%),
-    linear-gradient(180deg, rgba(12,70,55,.08), transparent 45%, rgba(12,70,55,.06));
+    radial-gradient(900px 800px at 50% 110%, rgba(#704951,.12), transparent 65%),
+    linear-gradient(180deg, rgba(#4d2937,.08), transparent 45%, rgba(#180f2a,.06));
   background-attachment: fixed;
 }
 
