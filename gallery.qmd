@@ -6,16 +6,11 @@ toc: true
 
 ## + seasons +
 
-::: photo-row
-![Dec '25 First winter in midwest :-\>](figs/2512.jpg){group="home"}
+![Feb '26 spring for us: invasive flowers and invasive human beings](figs/2602.jpg){group="home"}
 
 ![Jan '26 cold rain](figs/2601.jpg){group="home"}
 
-:::
-
-:::{.photo-row}
-![Feb '26 spring for us: invasive flowers and invasive human beings](figs/2602.jpg){group="home"}
-:::
+![Dec '25 First winter in midwest :-\>](figs/2512.jpg){group="home"}
 
 ---
 
