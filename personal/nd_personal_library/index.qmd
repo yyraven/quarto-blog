@@ -112,7 +112,9 @@ gig_2026 <- gig %>%
 
 ------------------------------------------------------------------------
 
-## 年度总结
+## 书影音
+
+### 年度总结
 
 <details open>
 
@@ -187,13 +189,11 @@ kable(gig_2023[,c(1,2,3,4,5,6,7)])
 
 </details>
 
-------------------------------------------------------------------------
-
-## 数据分析
+### 数据分析
 
 **这**就是为什么这个博客要用Quarto的原因。
 
-### + 哪些天不是读书天
+#### + 哪些天不是读书天
 
 **读书**指的是读**正经**书。也就是说所有的**文艺活动**都在不务正业、玩物丧志之列。看看啥时候我最不务正业吧。
 
@@ -203,8 +203,9 @@ kable(gig_2023[,c(1,2,3,4,5,6,7)])
 
 ```{r happy times, echo = FALSE, message = FALSE, warning = FALSE}
 base1 <- ggplot(data = lib, aes(x = month)) + 
-  geom_bar(aes(fill = year), 
-           position = position_stack())
+  geom_bar(aes(fill = type), 
+           position = position_stack()) + 
+  facet_wrap(~year)
 
 base1 +
   scale_x_discrete(name = "月份",
@@ -221,7 +222,7 @@ base1 +
 
 很明显，冬天没法出门所以在装文艺逼。夏天全部用来现充了，是好事啊（是好事啊
 
-### + 比大时代晚了*千分之一*秒
+#### + 比大时代晚了*千分之一*秒
 
 > “你和我出生在尘埃落定后的时代，晚了千分之一秒” ——乔伊斯（极乐迪斯科）
 
@@ -246,8 +247,8 @@ base2 +
                    expand = c(0,0)) +
   scale_y_continuous(name = "数量",
                      expand = c(0,0)) +
-  scale_color_brewer(palette = "YlGnBu") +
-  scale_fill_brewer(palette = "YlGnBu") +
+  scale_color_brewer(palette = "PuBuGn") +
+  scale_fill_brewer(palette = "PuBuGn") +
   labs(title = "",
        color = '种类',
        fill = '种类') +
@@ -258,7 +259,7 @@ base2 +
 
 &居然最近三年完全没有看过19世纪及以前的书。震撼。
 
-### + 所以到底每年花了多少时间读书？
+#### + 所以到底每年花了多少时间读书？
 
 丢人时间到（用总字数算的）：
 
@@ -266,10 +267,10 @@ base2 +
 # extract word count
 bookcount <- drop_na(lib_book[,c("year","count")])
 
-yearly_hours <- lib_book |>
-  select(year, count) |>
-  drop_na() |>
-  group_by(year) |>
+yearly_hours <- lib_book %>%
+  select(year, count) %>%
+  drop_na() %>%
+  group_by(year) %>%
   summarise(
     total_words = sum(count),
     hours = round(total_words / 18000),
@@ -279,4 +280,6 @@ yearly_hours <- lib_book |>
 kable(yearly_hours)
 ```
 
-------------------------------------------------------------------------
+## 音乐电台
+
+季度音乐推荐，详见tag[“音乐电台”](../../archive.qmd#category=radio)。
