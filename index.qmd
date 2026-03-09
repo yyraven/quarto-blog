@@ -12,11 +12,11 @@ listing:
     - personal/**/*.qmd
     - work/**/*.qmd
   sort: "date desc"
-  max-items: 4
+  max-items: 9
   type: table
   sort-ui: false
   filter-ui: false
-  max-description-length: 75
+  max-description-length: 50
   date-format: short
   fields: [date, title, description]
   feed: true
@@ -26,22 +26,24 @@ listing:
     - "diary*"
 ---
 
-<center>
+# RAVEN'S NEST
 
-# [RAVENSNEST]{.pulse}
+\+ 渡鸦巢 welcome, my friend +
 
-![](figs/crow_s.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/> ![](figs/crow_s_flip.png)![](figs/crow_s.png) ![](figs/crow_s.png) ![](figs/crow_s_flip.png)![](figs/crow_s.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/><img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/>![](figs/crow_s_flip.png) ![](figs/crow_s_flip.png)![](figs/crow_s_flip.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/> ![](figs/crow_s_flip.png)![](figs/crow_s.png) ![](figs/crow_s_flip.png)![](figs/crow_s.png)
+![](figs/crow_s.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/> ![](figs/crow_s_flip.png)![](figs/crow_s.png) ![](figs/crow_s.png) ![](figs/crow_s_flip.png)![](figs/crow_s.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/>![](figs/crow_s_flip.png) ![](figs/crow_s_flip.png)![](figs/crow_s_flip.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/> ![](figs/crow_s_flip.png)![](figs/crow_s.png) ![](figs/crow_s_flip.png)![](figs/crow_s.png)
 
-###### + 渡鸦巢 welcome, my friend +
 
-</center>
 
-#### + latest +
+#### + latest | [all](archive.qmd) +
 
 ::: {#latest}
 :::
 
 ::: column-margin
+
+#### + status +
+
+I've been constantly updating my birding blog... [**Check it out!**](personal/nd_birding/index.qmd)
 
 #### + links +
 
@@ -59,21 +61,17 @@ listing:
 
 [Email](mailto:cosmicraven0530@gmail.com) \| [RSS](index.xml)
 
----
+<br><br>
+
 <center>
+
+![](figs/crow_s_flip.png)![](figs/crow_s.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/>![](figs/crow_s_flip.png)![](figs/crow_s.png)
 
 ![](figs/2602.jpg) spring for us: invasive flowers and invasive human beings
 
 </center>
+
 :::
-
-#### + status +
-
-\+ I've been constantly updating my birding blog... [**Check it out!**](personal/nd_birding/index.qmd)
-
-\+ “我有好多奢望。我想爱，想吃，还想在一瞬间变成天上半明半暗的云。”
-
-------------------------------------------------------------------------
 
 ```{=html}
 <script>NekoType="black"</script>

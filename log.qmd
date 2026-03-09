@@ -17,5 +17,3 @@ I mainly use [RStudio](https://posit.co/products/open-source/rstudio/?sid=1) as 
 - **260127** Dark theme inspired by northern lights
 
 I share the CSS themes I made  [here](work.qmd#category=css). Check them out :->
-
-------------------------------------------------------------------------

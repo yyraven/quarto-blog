@@ -3,12 +3,12 @@
 
 /*-- scss:defaults --*/
 /* Color Palette */
-$body-bg: #000;
-$body-color: #e0dcde;
-$link-color: #945d68;
-$link-hover-color: #4d2937;
-$code-color: #e0dcde;
-$code-bg: rgba(#945d68,0.2);
+$body-bg: #0a0a0a;
+$body-color: #babfbd;
+$link-color: #6d8f79;
+$link-hover-color: #a5d1ad;
+$code-color: #babfbd;
+$code-bg: rgba(#6d8f79,0.1);
 $code-block-bg: $code-bg;
 
 /* Spacing and Borders */
@@ -32,12 +32,11 @@ body {
   background-color: $body-bg;
   color: $body-color;
   font-family: 'Noto Serif', 'Noto Serif SC', serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.5;
   margin: 0;
   padding: $padding;
   background-image:
-    /* ===== stars ===== */
     radial-gradient(1px 1px at 12% 18%, rgba(255,255,255,.85) 99%, transparent 100%),
     radial-gradient(1px 1px at 78% 36%, rgba(255,255,255,.65) 99%, transparent 100%),
     radial-gradient(1px 1px at 55% 82%, rgba(255,255,255,.55) 99%, transparent 100%),
@@ -48,14 +47,7 @@ body {
 
     radial-gradient(2px 2px at 15% 75%, rgba(255,255,255,.25) 60%, transparent 62%),
     radial-gradient(2px 2px at 72% 12%, rgba(255,255,255,.22) 60%, transparent 62%),
-    radial-gradient(2px 2px at 88% 48%, rgba(255,255,255,.18) 60%, transparent 62%),
-
-    /* faint horizon glow */
-    radial-gradient(1000px 700px at 50% 120%, rgba(255,255,255,.06), transparent 60%),
-
-    /* ===== aurora ===== */
-    radial-gradient(1200px 600px at 20% 80%, rgba(#ff0044, 0.06), transparent 75%),
-    radial-gradient(1000px 500px at 70% 85%, rgba(#f700ff, 0.05), transparent 65%);
+    radial-gradient(2px 2px at 88% 48%, rgba(255,255,255,.18) 60%, transparent 62%);
 
   background-repeat: repeat;
   background-size:
@@ -68,12 +60,7 @@ body {
     980px 760px,
     1200px 900px,
     1400px 1100px,
-    1600px 1200px,
-
-    /* glow + aurora */
-    100% 100%,
-    100% 100%,
-    100% 100%;
+    1600px 1200px;
 
   background-position: 0 0;
 }
@@ -110,6 +97,7 @@ h1 {
 
 h2, h3, h4, h5, h6 {
   font-family: 'Noto Serif', 'Noto Serif SC', serif;
+  border-bottom: none!important;
   color: $link-color;
   margin: $margin 0;
 }
@@ -136,20 +124,21 @@ h2, h3, h4, h5, h6 {
 /* Blockquotes */
 blockquote {
   background-color: $code-block-bg;
-  border-left: 4px solid $link-color;
+  color: $code-color !important;
+  border-left: 3px solid $link-color;
   padding: 1rem;
   font-style: italic;
 }
 
 .callout {
   background-color: $code-block-bg;
-  color: $link-color;
+  color: $code-color;
   padding: 0rem;
 }
 
 /* Lists */
 ul {
-  list-style-type: square;
+  list-style-type: disc;
   padding-left: 2rem;
 
   li {
@@ -174,7 +163,7 @@ hr {
 
 /* Navbar */
 .navbar {
-  background: linear-gradient(90deg, $body-bg, rgba(255,255,255,0.1));
+  background: linear-gradient(90deg, $body-bg, rgba($link-color,0.1));
   border-bottom: 1px solid;
   font-family: 'Special Elite', 'Noto Serif SC', cursive;
   text-transform: lowercase;
@@ -198,23 +187,30 @@ hr {
 }
 
 /* Sidebar */
-.sidebar {
-  color: $body-color;
-  font-family: "Noto Sans", "Noto Sans SC", sans;
-}
+.sidebar, .sidebar-navigation {
+  font-family: "Noto serif", "Noto serif SC", serif;
 
-.sidebar a.active {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
+  .sidebar-item {
+    a.sidebar-link {
+      color: $body-color !important;
+      &:hover {
+        color: $link-color !important;
+        transform: translateY(1px);
+        opacity: 1;
+      }
+      &.active {
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        font-weight: 600;
+        color: $link-color !important;
+      }
+    }
+  }
 
-.sidebar ul ul {
-  padding-left: 0.6rem;
-  opacity: 0.85;
-}
-
-.sidebar a:hover {
-  transform: translateX(2px);
+  ul ul {
+    padding-left: 0.6rem;
+    opacity: 0.85;
+  }
 }
 
 /* disable responsive sidebar on mobile */
@@ -227,10 +223,28 @@ hr {
   }
 }
 
-#TOC a {
-  color: $body-color;
-  font-family: "Noto Sans", "Noto Sans SC", sans;
-  transition: all 0s ease;
+/* Table of Contents */
+#TOC {
+  font-family: "Noto serif", "Noto serif SC", serif;
+
+  a {
+    color: $body-color !important;
+    text-decoration: none;
+    display: inline-block;
+
+    &:hover {
+      color: $link-color !important;
+      transform: translateY(1px);
+      transition: all 0s ease;
+    }
+
+    &.active {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      font-weight: 600;
+      color: $link-color !important;
+    }
+  }
 }
 
 /* Details */
@@ -257,6 +271,12 @@ html {
 .zindex-over-content,
 .quarto-appendix, {
   border: none !important;
+}
+
+table {
+  thead {
+    border-bottom: 0.8px solid $body-color !important;
+  }
 }
 
 #quarto-margin-sidebar {
@@ -294,9 +314,15 @@ html {
 .quarto-figure figcaption,
 .figure figcaption,
 .column-margin {
-  font-family: 'Noto Sans', 'Noto Sans SC', sans-serif;
+  font-family: 'Noto serif', 'Noto serif SC', serif;
   font-size: 0.8rem;
   color: rgba($body-color, 0.8);
+}
+
+.quarto-listing-category {
+  color: rgba($body-color, 0.8);
+  font-size: 0.9rem !important;
+  font-family: Noto Serif SC, Noto Serif, serif;
 }
 
 /*-- scss:actions --*/
