@@ -102,13 +102,10 @@ gig_2026 <- gig %>%
   filter(year == "2026")
 ```
 
-<center>
 
 自 2023 年 8 月以来所有（已完成的）书籍/电影/动漫/现场音乐记录 + 一些统计数据。
 
 不准沉迷短视频！也不准半途而废了！
-
-</center>
 
 ------------------------------------------------------------------------
 
@@ -191,18 +188,18 @@ kable(gig_2023[,c(1,2,3,4,5,6,7)])
 
 ### 数据分析
 
-**这**就是为什么这个博客要用Quarto的原因。
-
 #### + 哪些天不是读书天
 
-**读书**指的是读**正经**书。也就是说所有的**文艺活动**都在不务正业、玩物丧志之列。看看啥时候我最不务正业吧。
+看看啥时候我最不务正业吧。
 
-::: blur
-现场音乐不在统计之列，因为这主要看乐队什么时候巡演，不是我能决定的……
-:::
 
 ```{r happy times, echo = FALSE, message = FALSE, warning = FALSE}
-base1 <- ggplot(data = lib, aes(x = month)) + 
+months <- rbind(gig[,c("month","year","type")], lib[,c("month","year","type")])
+
+months <- months %>%
+  drop_na()
+
+base1 <- ggplot(months, aes(x = month)) + 
   geom_bar(aes(fill = type), 
            position = position_stack()) + 
   facet_wrap(~year)
@@ -216,17 +213,17 @@ base1 +
   scale_color_brewer(palette = "PuBuGn") +
   scale_fill_brewer(palette = "PuBuGn") +
   labs(title = "",
-       color = '年份',
-       fill = '年份')
+       color = '种类',
+       fill = '种类')
 ```
 
-很明显，冬天没法出门所以在装文艺逼。夏天全部用来现充了，是好事啊（是好事啊
+很明显，冬天没法出门所以在装文艺。
 
 #### + 比大时代晚了*千分之一*秒
 
 > “你和我出生在尘埃落定后的时代，晚了千分之一秒” ——乔伊斯（极乐迪斯科）
 
-看看我到底是时代的弄潮儿还是活在20世纪的老古董…？
+看看我到底是时代的弄潮儿还是活在20世纪的老古董？
 
 ```{r retro, echo = FALSE, message = FALSE, warning = FALSE}
 # extract 
@@ -243,7 +240,7 @@ base2 <- ggplot(years, aes(x = decade, color = type, fill = type)) +
   facet_wrap(~type)
 
 base2 +
-  scale_x_discrete(name = "",
+  scale_x_discrete(name = "年代",
                    expand = c(0,0)) +
   scale_y_continuous(name = "数量",
                      expand = c(0,0)) +
@@ -258,6 +255,35 @@ base2 +
 看书比较平均，60年代**较**多，这也确实是我想要的；电影看的都是最近上映的（本来就并非狂热电影迷）；音乐嘛，我是狂热的90年代爱好者，这确实也体现出来了…
 
 &居然最近三年完全没有看过19世纪及以前的书。震撼。
+
+#### + 我是一个慷慨的打分者吗？
+
+我打分一般遵循这个原则：“有无法忽视的问题” - 6分及以下，“还不错” - 7分，“蛮喜欢” - 8分，“超喜欢” - 9分，“我愿意对出门后遇到的每一个人卖安利” - 10分。
+
+根据统计知识可知，只要我看得够多，最后分数会呈现出一个平均数为7的正态分布。但，果真如此吗？
+
+```{r rating, echo = FALSE, message = FALSE, warning = FALSE}
+ratings <- rbind(gig[,c("rating","type")], lib[,c("rating","type")])
+
+ratings <- ratings %>%
+  drop_na()
+
+base3 <- ggplot(ratings, aes(x = factor(rating), color = type, fill = type)) + 
+  geom_bar()
+
+base3 +
+  scale_x_discrete(name = "评分",
+                   expand = c(0,0)) +
+  scale_y_continuous(name = "数量",
+                     expand = c(0,0)) +
+  scale_color_brewer(palette = "PuBuGn") +
+  scale_fill_brewer(palette = "PuBuGn") +
+  labs(title = "",
+       color = '种类',
+       fill = '种类') +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+非也。是因为一般只有好看才会看完吧。对于书尤其如此，看不下去的我就不会看完（这是一个坏习惯），所以也不会记到这里。
 
 #### + 所以到底每年花了多少时间读书？
 
