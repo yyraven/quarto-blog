@@ -12,7 +12,7 @@ listing:
     - personal/**/*.qmd
     - work/**/*.qmd
   sort: "date desc"
-  max-items: 9
+  max-items: 5
   type: table
   sort-ui: false
   filter-ui: false
@@ -33,35 +33,20 @@ listing:
 ![](figs/crow_s.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/> ![](figs/crow_s_flip.png)![](figs/crow_s.png) ![](figs/crow_s.png) ![](figs/crow_s_flip.png)![](figs/crow_s.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/>![](figs/crow_s_flip.png) ![](figs/crow_s_flip.png)![](figs/crow_s_flip.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/> ![](figs/crow_s_flip.png)![](figs/crow_s.png) ![](figs/crow_s_flip.png)![](figs/crow_s.png)
 
 
-
 #### + latest | [all](archive.qmd) +
 
 ::: {#latest}
 :::
 
-::: column-margin
+#### + explore +
 
-#### + status +
+\+ I've been constantly updating my birding blog... [**Check it out!**](personal/nd_birding/index.qmd)
 
-I've been constantly updating my birding blog... [**Check it out!**](personal/nd_birding/index.qmd)
+[Work](work.qmd){.button}|[Personal](personal.qmd){.button}|[Archive](archive.qmd){.button}
 
-#### + links +
+[Log\|Credit](log.qmd){.button}|[About](about.qmd){.button}|[Gallery](gallery.qmd){.button}
 
-[Work](work.qmd){.button}
-
-[Personal](personal.qmd){.button}
-
-[Log\|Credit](log.qmd){.button}
-
-[About](about.qmd){.button}
-
-[Gallery](gallery.qmd){.button}
-
-[Archive](archive.qmd){.button}
-
-[Email](mailto:cosmicraven0530@gmail.com) \| [RSS](index.xml)
-
-<br><br>
+[Email](mailto:cosmicraven0530@gmail.com){.button}|[RSS](index.xml){.button}
 
 <center>
 
@@ -70,8 +55,6 @@ I've been constantly updating my birding blog... [**Check it out!**](personal/nd
 ![](figs/2602.jpg) spring for us: invasive flowers and invasive human beings
 
 </center>
-
-:::
 
 ```{=html}
 <script>NekoType="black"</script>
