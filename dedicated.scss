@@ -3,12 +3,12 @@
 
 /*-- scss:defaults --*/
 /* Color Palette */
-$body-bg: #0a0a0a;
-$body-color: #babfbd;
-$link-color: #6d8f79;
-$link-hover-color: #a5d1ad;
-$code-color: #babfbd;
-$code-bg: rgba(#6d8f79,0.1);
+$body-bg: #070707;
+$body-color: #c1d6cb;
+$link-color: #4a8c6b;
+$link-hover-color: #20a862;
+$code-color: #c1d6cb;
+$code-bg: rgba(#4a8c6b,0.1);
 $code-block-bg: $code-bg;
 
 /* Spacing and Borders */
@@ -32,7 +32,7 @@ body {
   background-color: $body-bg;
   color: $body-color;
   font-family: 'Noto Serif', 'Noto Serif SC', serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.5;
   margin: 0;
   padding: $padding;
@@ -295,7 +295,7 @@ table {
 .quarto-listing-table {
   font-family: 'Noto Serif', 'Noto Serif SC', serif;
   background: none !important;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 ::selection {
