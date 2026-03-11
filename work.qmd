@@ -6,7 +6,7 @@ listing:
   type: default
   image-height: 150px
   date-format: short
-  categories: true
+  categories: cloud
   sort-ui: true
   filter-ui: true
   fields: [date, image, title, description, categories]

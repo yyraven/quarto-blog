@@ -24,14 +24,14 @@ $divider-color: $link-color;
 /* Imported Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=VT323&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Noto+sans+SC:wght@200..900&family=Noto+sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*-- scss:rules --*/
 /* Base Styles */
 body {
   background-color: $body-bg;
   color: $body-color;
-  font-family: 'Noto Serif', 'Noto Serif SC', serif;
+  font-family: 'Noto sans', 'Noto sans SC', sans-serif;
   font-size: 0.9rem;
   line-height: 1.5;
   margin: 0;
@@ -90,13 +90,17 @@ pre code {
 
 /* Headings */
 h1 {
-  font-family: 'Special Elite', 'Noto Serif SC', cursive;
+  font-family: 'Special Elite', 'Noto sans SC', cursive;
   color: $link-color;
   margin: $margin 0;
+
+    &:hover {
+    color: $link-hover-color;
+  }
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: 'Noto Serif', 'Noto Serif SC', serif;
+  font-family: 'Noto sans', 'Noto sans SC', sans-serif;
   border-bottom: none!important;
   color: $link-color;
   margin: $margin 0;
@@ -108,7 +112,7 @@ h2, h3, h4, h5, h6 {
   color: $body-bg;
   border: 1px solid $link-color;
   padding: 0.1rem 0.1rem;
-  font-family: 'Special Elite', 'Noto Serif SC', cursive;
+  font-family: 'Special Elite', 'Noto sans SC', cursive;
   font-size: 1rem;
   cursor: pointer;
   letter-spacing: 1px;
@@ -155,7 +159,7 @@ hr {
 
   &::before {
     content: "⇢⇢+~+~+⇠⇠";
-    font-family: 'Special Elite', 'Noto Serif SC', cursive;
+    font-family: 'Special Elite', 'Noto sans SC', cursive;
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
   }
@@ -165,7 +169,7 @@ hr {
 .navbar {
   background: linear-gradient(90deg, $body-bg, rgba($link-color,0.1));
   border-bottom: 1px solid;
-  font-family: 'Special Elite', 'Noto Serif SC', cursive;
+  font-family: 'Special Elite', 'Noto sans SC', cursive;
   text-transform: lowercase;
   padding: 0.2rem 1rem;
 }
@@ -188,11 +192,12 @@ hr {
 
 /* Sidebar */
 .sidebar, .sidebar-navigation {
-  font-family: "Noto serif", "Noto serif SC", serif;
+  font-family: "Noto sans", "Noto sans SC", sans-serif;
 
   .sidebar-item {
     a.sidebar-link {
       color: $body-color !important;
+      font-size: 0.8rem;
       &:hover {
         color: $link-color !important;
         transform: translateY(1px);
@@ -201,7 +206,7 @@ hr {
       &.active {
         text-decoration: underline;
         text-underline-offset: 3px;
-        font-weight: 600;
+        font-weight: 500;
         color: $link-color !important;
       }
     }
@@ -225,12 +230,13 @@ hr {
 
 /* Table of Contents */
 #TOC {
-  font-family: "Noto serif", "Noto serif SC", serif;
+  font-family: "Noto sans", "Noto sans SC", sans-serif;
 
   a {
     color: $body-color !important;
     text-decoration: none;
     display: inline-block;
+    font-size: 0.8rem;
 
     &:hover {
       color: $link-color !important;
@@ -241,7 +247,7 @@ hr {
     &.active {
       text-decoration: underline;
       text-underline-offset: 3px;
-      font-weight: 600;
+      font-weight: 500;
       color: $link-color !important;
     }
   }
@@ -293,13 +299,13 @@ table {
 .input-group,
 .form-select,
 .quarto-listing-table {
-  font-family: 'Noto Serif', 'Noto Serif SC', serif;
+  font-family: 'Noto sans', 'Noto sans SC', sans-serif;
   background: none !important;
   font-size: 0.9rem;
 }
 
 ::selection {
-  background-color: rgba($link-color, 0.3);
+  background-color: rgba($link-hover-color, 0.3);
 }
 
 #quarto-appendix,
@@ -314,15 +320,15 @@ table {
 .quarto-figure figcaption,
 .figure figcaption,
 .column-margin {
-  font-family: 'Noto serif', 'Noto serif SC', serif;
+  font-family: 'Noto sans', 'Noto sans SC', sans-serif;
   font-size: 0.8rem;
   color: rgba($body-color, 0.8);
 }
 
 .quarto-listing-category {
   color: rgba($body-color, 0.8);
-  font-size: 0.9rem !important;
-  font-family: 'Noto serif', 'Noto serif SC', serif;
+  font-size: 0.8rem !important;
+  font-family: 'Noto sans', 'Noto sans SC', sans-serif;
 }
 
 /*-- scss:actions --*/

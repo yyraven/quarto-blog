@@ -7,7 +7,7 @@ listing:
   image-height: 150px
   max-description-length: 100
   date-format: short
-  categories: true
+  categories: cloud
   sort-ui: true
   filter-ui: true
   fields: [date, image, title, description, categories]

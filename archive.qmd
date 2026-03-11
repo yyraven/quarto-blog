@@ -7,7 +7,7 @@ listing:
   sort: "date desc"
   date-format: short
   type: table
-  categories: true
+  categories: cloud
   sort-ui: true
   filter-ui: true
   fields: [date, title]
