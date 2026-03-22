@@ -1,10 +1,6 @@
 ---
 title: ""
 toc: false
-about:
-  template: solana
-  image-shape: rectangle
-  image: figs/profile.jpg
 ---
 
 ## Me <img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/>

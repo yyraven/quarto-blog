@@ -34,6 +34,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -129,12 +130,13 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <div class="about-contents"><main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+
+
+
 <section id="me" class="level2">
-<h2 data-anchor-id="me">Me <img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"></h2>
+<h2 class="anchored" data-anchor-id="me">Me <img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"></h2>
 <p>You can call me <em>‘Raven’</em>. I am a Ph.D.&nbsp;student major in life sciences. I enjoy digital painting, <a href="./personal/nd_birding/index.html">birdwatching</a>, and listening to music.</p>
 <details>
 <summary>
@@ -145,26 +147,21 @@ ul.task-list li input[type="checkbox"] {
 <p><span class="blur">During primary and school my online nickname was <em>‘Nyan-Nyan Elisa’</em>, which was somehow related to <em>Axis Powers Hetalia</em> for some reason I can’t quite remember.</span></p>
 </details>
 <section id="why-blogging" class="level3">
-<h3 data-anchor-id="why-blogging">Why Blogging</h3>
+<h3 class="anchored" data-anchor-id="why-blogging">Why Blogging</h3>
 <p>This blog started as a class project to build a professional profile. Over time, I decided to make it more personal. Blogging offers a peaceful online experience without big company manipulation - no ads, no infinite scrolling, no censorship. So, what you’ll see here would be a mix of life science-related and more fun/personal posts. You can filter them by tags.</p>
 <p>个人生活/兴趣内容主要用中文写作。</p>
 </section>
 <section id="why-ravens-nest" class="level3">
-<h3 data-anchor-id="why-ravens-nest">Why ‘Raven’s Nest’</h3>
+<h3 class="anchored" data-anchor-id="why-ravens-nest">Why ‘Raven’s Nest’</h3>
 <p>Corvids like shiny trinkets. I think blogging is like collecting and displaying trinkets online - maybe there are some inherent resemblance? When I lived in Baltimore, I used to see flocks of crows gathering on trees, especially during colder times at dusk and dawn. Sometimes what you think that are leaves would actually be a flock of birds. I tried to re-create that effect in the homepage XD</p>
 
 
 </section>
 </section>
+
 <center>
 © 2024-2026 RavensNest.
-</center></main></div>
-    </div>
-    <img src="figs/profile.jpg" class="about-image
-  rectangle " style="width: 15em;">
-  </div>
-</div>
- <!-- /main -->
+</center></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -329,6 +326,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
