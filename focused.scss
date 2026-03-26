@@ -180,6 +180,7 @@ hr {
   .sidebar-item {
     a.sidebar-link {
       color: $body-color !important;
+      font-size: 0.8rem;
       &:hover {
         color: $link-color !important;
         transform: translateY(1px);
@@ -218,6 +219,7 @@ hr {
     color: $body-color !important;
     text-decoration: none;
     display: inline-block;
+    font-size: 0.8rem;
 
     &:hover {
       color: $link-color !important;
