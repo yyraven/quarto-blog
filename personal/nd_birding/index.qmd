@@ -143,7 +143,7 @@ fillOpacity = 1, radius = 5) %>%
 
 ### Midwest, USA
 
-#### West Lafayette, IN: Celery Bog
+#### ![](pixelart/americanwhitepelican_s.png) West Lafayette, IN: Celery Bog
 
 ::: column-margin
 ![View of Celery Bog from Nature Area Trail, Sep 2025](landspics/celerybog.JPG){group="landspics"}
@@ -156,7 +156,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Beautiful and peaceful place. Staff at the natural center are very friendly. It's home to several raptors, and you can also watch blue herons catching fish. I often start walking at Cherry Ln/Purdue University Student Farm, and ends the trail at Walmart supercenter to take CityBus #21 back home, which would typically take 2-3 hours. 
 -   **Link**: [ebird](https://ebird.org/hotspot/L445373)
 
-#### West Lafayette, IN: Celery Bog - North Pond
+#### ![](pixelart/treeswallow_s.png) West Lafayette, IN: Celery Bog - North Pond
 
 ::: column-margin
 ![View of Celery Bog, North Pond from Cattail Trail, Mar 2026](landspics/celerybognorth.JPG){group="landspics"}
@@ -169,7 +169,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Regional migration trap, a great place to see shorebirds and ducks. 
 -   **Link**: [ebird](https://ebird.org/region/L30081358)
 
-#### West Lafayette, IN: Horticulture Park
+#### ![](pixelart/pileatedwoodpecker_s.png) West Lafayette, IN: Horticulture Park
 
 ::: column-margin
 ![Horticulture Park, Oct 2025](landspics/horticulture.JPG){group="landspics"}
@@ -182,7 +182,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Nice trail. A large flock of robins and starlings rest on the trees near the open grass edge, and you can find jays and woodpeckers in the trails through the woods.
 -   **Link**: [ebird](https://ebird.org/region/L457935)
 
-#### Pulaski, IN: Jasper-Pulaski Fish & Wildlife Area
+#### ![](pixelart/sandhillcrane_s.png) Pulaski, IN: Jasper-Pulaski Fish & Wildlife Area
 
 ::: column-margin
 ![Jasper-Pulaski FWA, Nov 2025](landspics/jasperpulaski.JPG){group="landspics"}
@@ -197,7 +197,7 @@ fillOpacity = 1, radius = 5) %>%
 
 ### East Coast, USA
 
-#### Baltimore, MD: Inner Harbor
+#### ![](pixelart/ringbilledgull_s.png) Baltimore, MD: Inner Harbor
 
 ::: column-margin
 ![View of Inner Harbor from Federal Hill Park, Oct 2023](landspics/innerharbor.JPG){group="landspics"}
@@ -210,7 +210,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: From inner harbor to harbor east and locust point, the waterfront of downtown Baltimore is a great place to watch gulls & various kinds of waterfowls. A large flock of gulls rest in front of the harbors near Whole Foods from late fall to early spring in the evening. Check out the Harbor Connector water taxi - you can see gulls and cormorants flying across the harbor.
 -   **Link**: [Harbor Connector Water Taxi (free to ride!)](https://www.baltimorewatertaxi.com/lines) \| [ebird](https://ebird.org/region/L745089)
 
-#### Baltimore, MD: Patterson Park
+#### ![](pixelart/redwingedblackbird_s.png) Baltimore, MD: Patterson Park
 
 ::: column-margin
 ![Patterson Park, May 2025](landspics/pattersonpark.JPeG){group="landspics"}
@@ -223,7 +223,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: The historical park is a great place for birdwatching. If you visit the park at late spring, you can watch flocks of robins, sparrows and blackbirds singing, mallards hanging out, and Canada geese raising their goslings around the pond! They're not afraid of people and happy to interact with visitors.
 -   **Link**: [Friends of Patterson Park](https://pattersonpark.com/#visit-us) \| [ebird](https://ebird.org/hotspot/L449982)
 
-#### Cambridge, MD: Blackwater National Wildlife Refuge
+#### ![](pixelart/baldeagle_s.png) Cambridge, MD: Blackwater National Wildlife Refuge
 
 ::: column-margin
 ![Blackwater National Wildlife Refuge, Jan 2025](landspics/blackwaterNWR.JPG){group="landspics"}
@@ -236,7 +236,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: A perfect place for birding at the east coast of Chesapeake Bay, the most iconic bird being bald eagle. With woods, trails, wetlands and ponds around the wildlife drive, you can see a variety of birds here. Also, the visitor center's pick of merchandises is superb.
 -   **Links**: [Friends of Blackwater](https://friendsofblackwater.org/) *check the webcams* \| [U.S. Fish & Wildlife Service: Blackwater National Wildlife Refuge](https://www.fws.gov/refuge/blackwater) \| [ebird](https://ebird.org/region/L598944)
 
-#### Harpers Ferry, WV: Maryland Heights
+#### ![](pixelart/turkeyvulture_s.png) Harpers Ferry, WV: Maryland Heights
 
 ::: column-margin
 ![View of Harpers Ferry from Maryland Heights, Mar 2024](landspics/harpersferry.JPG){group="landspics"}
@@ -249,7 +249,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: The streams in the woods are a good place to catch up with our geese and heron friends.
 -   **Link**: [National Park Service: Harpers Ferry](https://www.nps.gov/hafe/index.htm) \| [ebird](https://ebird.org/region/L715042)
 
-#### New York City, NY: Liberty Island
+#### ![](pixelart/brant_s.png) New York City, NY: Liberty Island
 
 ::: column-margin
 ![Liberty Island, Jan 2024](landspics/libertyisland.JPG){group="landspics"}
@@ -264,7 +264,7 @@ fillOpacity = 1, radius = 5) %>%
 
 ### The South, USA
 
-#### Durham, NC: Duke University
+#### ![](pixelart/redcardinal_s.png) Durham, NC: Duke University
 
 ::: column-margin
 ![Duke University, May 2022](landspics/dukeuniversity.JPG){group="landspics"}
@@ -277,7 +277,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: With birdfeeders everywhere, the Sarah P. Duke Garden is a great place for backyard birds like northern cardinal and eastern bluebird. I saw a red-tailed hawk with its nest near the old chemistry building. There are also some exotic waterfowls in the ponds of Duke Garden, like mandarin ducks & ruddy shelducks, you can check the link below.
 -   **Links**: [Exotic Waterfowls in Duke Garden](https://www.dpughphoto.com/duke_gardens_exotic_ducks.htm) \| [Duke Gardens](https://gardens.duke.edu/) \| [ebird](https://ebird.org/region/L4754196)
 
-#### New Orleans, LA: Maurepas Swamp
+#### ![](pixelart/greategret_s.png) New Orleans, LA: Maurepas Swamp
 
 ::: column-margin
 ![Maurepas Swamp - Where the Voodoo Swamp Witch Lies, Mar 2022](landspics/maurepasswamp.JPG){group="landspics"}
@@ -292,7 +292,7 @@ fillOpacity = 1, radius = 5) %>%
 
 ### West Coast, USA
 
-#### Los Angeles, CA: Malibu Lagoon
+#### ![](pixelart/brownpelican_s.png) Los Angeles, CA: Malibu Lagoon
 
 ::: column-margin
 ![Malibu Lagoon, June 2025](landspics/malibulagoon.JPG){group="landspics"}
@@ -305,7 +305,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Famous for surfing but the lagoon has striking biodiversity. Mixed groups of brown pelicans and double-crested cormorants fishing in the lagoon.
 -   **Link**: [California State Parks: Malibu Lagoon State Beach](https://www.parks.ca.gov/?page_id=835) \| [eBird](https://ebird.org/region/L597658)
 
-#### Seattle, WA: Discovery Park
+#### ![](pixelart/caspiantern_s.png) Seattle, WA: Discovery Park
 
 ::: column-margin
 ![Discovery Park, July 2024](landspics/discoverypark.JPG){group="landspics"}
@@ -318,7 +318,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: With all its natural beauty, the discovery park is a great place to enjoy the views of volcano, forests and sea at once - and of course, gulls.
 -   **Link**: [Seattle.gov: Discovery Park](https://www.seattle.gov/parks/allparks/discovery-park) \| [ebird](https://ebird.org/region/L128530)
 
-#### Cannon Beach, OR: Haystack Rock
+#### ![](pixelart/tuftedpuffin_s.png) Cannon Beach, OR: Haystack Rock
 
 ::: column-margin
 ![Haystack Rock, July 2024](landspics/cannonbeach.JPG){group="landspics"}
@@ -333,7 +333,7 @@ fillOpacity = 1, radius = 5) %>%
 
 ### China
 
-#### Suzhou, CN: Huqiu Wetland Park 虎丘湿地生态公园
+#### ![](pixelart/blackcrownednightheron_s.png) Suzhou, CN: Huqiu Wetland Park 虎丘湿地生态公园
 
 ::: column-margin
 ![Huqiu Wetland Park during the 'Plum Rain' Season, June 2025](landspics/huqiu.JPG){group="landspics"}
@@ -346,7 +346,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: My hometown. Very beautiful place, regionally well-known birding hotspot and tourist attraction with reeds, waterlilies and lotus planted all over the ponds and wetlands.
 -   **Link**: [ebird](https://ebird.org/region/L17313628)
 
-#### Suzhou, CN: Dushu Lake, East Shore 独墅湖东
+#### ![](pixelart/crestedmyna_s.png) Suzhou, CN: Dushu Lake, East Shore 独墅湖东
 
 ::: column-margin
 ![View of Dushu Lake from Banyue Bay Lawn, Dec 2025](landspics/dushulake.JPG){group="landspics"}
@@ -359,7 +359,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Mostly hardened wetlands, migrating birds come to visit at winter. Pipits and wagtails walk happily on the lawn. Whole trail takes ~3.5 hours. 
 -   **Links**: [ebird-独墅湖公园](https://ebird.org/region/L33441763) \| [ebird-白鹭园](https://ebird.org/region/L26307800)
 
-#### Beijing, CN: Olympic Forest Park 奥林匹克森林公园
+#### ![](pixelart/mandarinduck_s.png) Beijing, CN: Olympic Forest Park 奥林匹克森林公园
 
 ::: column-margin
 ![The 'Big Pit' of Olympic Forest Park, July 2025](landspics/olympicpark.JPG){group="landspics"}
@@ -372,7 +372,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Regional birding hotspot, the 'big pit' of the north park might be one of the most well-known birding hotspot in China with its lush reed marshes. The only problem is that you need to walk 1.5 hours to get to the pit, and there aren't any public transit inside the huge park. DON'T TRY IT IN BEIJING'S SUMMER.
 -   **Link**: [ebird](https://ebird.org/region/L13741681)
 
-#### Linyi, CN: Yi River Water Park 沂河/水上公园
+#### ![](pixelart/littlegrebe_s.png) Linyi, CN: Yi River Water Park 沂河/水上公园
 
 ::: column-margin
 ![Yi River Water Park, Live Streamers Gathering, July 2025](landspics/linyi.JPG){group="landspics"}
@@ -391,7 +391,7 @@ fillOpacity = 1, radius = 5) %>%
 
 -   **General Recourses**
 
-[eBird](https://ebird.org/home) |  [Cornell Lab of Ornithology/Merlin Bird ID](https://merlin.allaboutbirds.org/) |  [BirdWeb](https://birdweb.org/birdweb/) |  [Audubon Society](https://www.audubon.org/) |  [Sibagu The Ornithological Linguist](http://www.sibagu.com/index.html) |  [International Crane Foundation](https://www.savingcranes.org/) | [False Knees - the Bird webcomic by Joshua Barkman](https://www.falseknees.com/)
+[eBird](https://ebird.org/home) |  [Cornell Lab of Ornithology/Merlin Bird ID](https://merlin.allaboutbirds.org/) |  [BirdWeb](https://birdweb.org/birdweb/) |  [Audubon Society](https://www.audubon.org/) |  [Sibagu The Ornithological Linguist](http://www.sibagu.com/index.html) |  [International Crane Foundation](https://www.savingcranes.org/) | [False Knees - the Bird webcomic by Joshua Barkman](https://www.falseknees.com/) | [Ducks Unlimited](https://www.ducks.org/)
 
 -   **Local**: Greater Lafayette Area/Indiana
 
@@ -405,10 +405,8 @@ fillOpacity = 1, radius = 5) %>%
 
 ## End Notes
 
-::: column-margin
 ![](yelu.jpeg)
 
-![My High School - The Place Where It All Begins](footbanner.jpg)
-:::
-
 Thanks my friend who introduced me to the world of birding. I will always remember watching night heron with you sitting next to Bixia Pond back in 2019 in the afternoon before taking a Biology exam.
+
+![My High School - The Place Where It All Begins](footbanner.jpg)
