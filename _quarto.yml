@@ -39,7 +39,7 @@ website:
       foreground: "#635d5d"
       collapse-level: -1
       contents:
-        - section: "Travel"
+        - section: "Cities"
           contents:
             - auto: "personal/*travel*/*.qmd"
         - section: "Birding"

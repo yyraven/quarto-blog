@@ -42,11 +42,11 @@ listing:
 
 \+ I've been constantly updating my birding blog... [**Check it out!**](personal/nd_birding/index.qmd)
 
-[Work](work.qmd){.button}|[Personal](personal.qmd){.button}|[Archive](archive.qmd){.button}
+[Work](work.qmd){.button} [Personal](personal.qmd){.button} [Archive](archive.qmd){.button}
 
-[Log\|Credit](log.qmd){.button}|[About](about.qmd){.button}|[Gallery](gallery.qmd){.button}
+[Log\|Credit](log.qmd){.button} [About](about.qmd){.button} [Gallery](gallery.qmd){.button}
 
-[Email](mailto:cosmicraven0530@gmail.com){.button}|[RSS](index.xml){.button}
+[Email](mailto:cosmicraven0530@gmail.com){.button} [RSS](index.xml){.button}
 
 <center>
 
