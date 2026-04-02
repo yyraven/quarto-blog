@@ -5,7 +5,7 @@ categories: [travel, baltimore, citywalk, 中文]
 image: figs/route6.jpg
 ---
 
-巴尔的摩系列的第三篇是相对轻松的遛弯指南。
+[巴尔的摩系列](../../archive.qmd#category=baltimore)的第三篇是相对轻松的遛弯指南。
 
 我很喜欢散步，本科期间基本每周都要在学校的小池子或者邻近的森林公园逛上一个小时再回去。可惜，以中国城市的标准来衡量，我目前住过的美国城市几乎都与“步行友好”无缘：要么没有人行道，要么有人行道，但是人在街上会觉得背后凉凉的。目前在的中西部大学城属于前者，巴尔的摩属于后者。不过，只要你既没车又闷得慌，再不适宜步行的城市也能被走出几条路来。
 
@@ -15,9 +15,11 @@ image: figs/route6.jpg
 
 由于复杂的历史原因，现在的巴尔的摩是一个非常分裂的城市。摩根州立大学的教授Lawrence Brown提出了非常形象的[“两个巴尔的摩”概念](https://www.religionandcities.org/hope-baltimores)——白人聚居的“L”形区域以两条南北贯穿的街道Saint Paul St和Calvert St为中心，向东延伸到港口周围的Fell's Point和Canton；黑人聚居的“蝴蝶”形区域则散落在城市的东西两端。结构性歧视（主要是房产歧视）等历史原因导致这两个区域的安全程度差别很大。
 
-**一言以蔽之，一个人的话最好还是在这个“L”形区域内呆着，尽量不要独自在东/西巴尔的摩的“蝴蝶”形区域内行走。**——虽然“L”形区域内也时有危险事件，并且有时这个街区一片祥和，下一个街区气氛就变得不妙起来了。随时保持警惕。[但其实呆久了就麻木了（别学）。]{.blur}
+> 'The white neighborhoods on \[the city’s racial mapping\] that form the shape of an ‘L’ accumulate structured advantages, while Black neighborhoods, shaped in the form of a butterfly, accumulate structured disadvantages. Baltimore’s hypersegregation is the root cause of racial inequity, crime, health inequities/disparities, and civil unrest.'
+>
+> ‘在种族分布图中，巴尔的摩呈‘L’型分布的白人社区不断积累结构性优势，而呈‘蝴蝶’状的黑人社区则在承受结构性劣势的积累。巴尔的摩的极度种族隔离是种族不平等、犯罪、医疗不公以及社会动荡的根源。’
 
-> The white neighborhoods on \[the city’s racial mapping\] that form the shape of an ‘L’ accumulate structured advantages, while Black neighborhoods, shaped in the form of a butterfly, accumulate structured disadvantages. Baltimore’s hypersegregation is the root cause of racial inequity, crime, health inequities/disparities, and civil unrest.
+**一言以蔽之，一个人的话最好还是在这个“L”形区域内呆着，尽量不要独自在东/西巴尔的摩的“蝴蝶”形区域内行走。**——虽然“L”形区域内也时有危险事件，并且有时这个街区一片祥和，下一个街区气氛就变得不妙起来了。随时保持警惕。[但其实呆久了就麻木了（别学）。]{.blur}
 
 ![这是The Urban Insitute做的一张[互动式地图](https://apps.urban.org/features/baltimore-investment-flows/)；可以看到巴尔的摩的贫困率/社会经济地位在地域上极度不平等。](figs/bal1.jpg)
 
@@ -29,7 +31,7 @@ image: figs/route6.jpg
 
 ### 街头智慧
 
-想要在巴尔的摩全身而退，我们需要进化出一点streetwise（街头智慧）。博主的经验是：**不要乱凑热闹**；**不要在有浓重大麻味/电线上有绑在一起的运动鞋/建筑门窗封死/没有人慢跑锻炼的地方停留**；尽量不要与他人有眼神接触；别回应奇怪的人的搭话；减少在公共场合掏出手机的频率；别灵机一动探索未知的房子/街道；别把重要个人物品落在车里。这里的黑帮基本上不会主动招惹学生和外国人，只要保持机警，巴尔的摩的生活其实也没那么惊心动魄。
+想要在巴尔的摩全身而退，我们需要进化出一点街头智慧。博主的经验是：**不要乱凑热闹**；**不要在有浓重大麻味/电线上有绑在一起的运动鞋/建筑门窗封死/没有人慢跑锻炼的地方停留**；尽量不要与他人有眼神接触；别回应奇怪的人的搭话；减少在公共场合掏出手机的频率；别灵机一动探索未知的房子/街道；别把重要个人物品落在车里。这里的黑帮基本上不会主动招惹学生和外国人，只要保持机警，巴尔的摩的生活其实也没那么惊心动魄。
 
 ## 遛弯路线
 
