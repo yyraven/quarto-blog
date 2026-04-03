@@ -1,5 +1,5 @@
 ---
-title: "滚妹人格 | 属于我的蒙娜丽莎"
+title: "滚妹人格｜属于我的蒙娜丽莎"
 date: "2024-01-20"
 categories: [music, review, 中文]
 image: figs/pic_2.jpg

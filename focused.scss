@@ -10,6 +10,7 @@ $link-hover-color: #8790d4;
 $code-color: #150e36;
 $code-bg: rgba(#505473,0.1);
 $code-block-bg: $code-bg;
+$chinese-serif: "Noto Serif SC", "Songti SC", "STSongti", "Source Han Serif SC", "Source Han Serif CN", serif;
 
 /* Spacing and Borders */
 $padding: 1.2rem;
@@ -31,7 +32,7 @@ $divider-color: $link-color;
 body {
   background-color: $body-bg;
   color: $body-color;
-  font-family: 'Newsreader', 'Noto serif SC', serif;
+  font-family: 'Newsreader', 'Noto Serif SC', serif;
   font-size: 0.9rem;
   line-height: 1.5;
   margin: 0;
@@ -63,13 +64,13 @@ pre code {
 
 /* Headings */
 h1 {
-  font-family: 'Castoro', 'Noto serif SC', cursive;
+  font-family: 'Castoro', 'Noto Serif SC', cursive;
   color: $link-color;
   margin: $margin 0;
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: 'Newsreader', 'Noto serif SC', serif;
+  font-family: 'Newsreader', 'Noto Serif SC', serif;
   border-bottom: none!important;
   color: $link-color;
   margin: $margin 0;
@@ -81,7 +82,7 @@ h2, h3, h4, h5, h6 {
   color: $body-bg;
   border: 1px solid $link-color;
   padding: 0.1rem 0.1rem;
-  font-family: 'Castoro', 'Noto serif SC', cursive;
+  font-family: 'Castoro', 'Noto Serif SC', cursive;
   font-size: 1rem;
   cursor: pointer;
   letter-spacing: 1px;
@@ -128,7 +129,7 @@ hr {
 
   &::before {
     content: "⇢⇢+~+~+⇠⇠";
-    font-family: 'Castoro', 'Noto serif SC', cursive;
+    font-family: 'Castoro', 'Noto Serif SC', cursive;
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
   }
@@ -138,7 +139,7 @@ hr {
 .navbar {
   background: linear-gradient(90deg, $body-bg, rgba(255,255,255,0.1));
   border-bottom: 1px solid;
-  font-family: 'Castoro', 'Noto serif SC', cursive;
+  font-family: 'Castoro', 'Noto Serif SC', cursive;
   text-transform: lowercase;
   padding: 0.2rem 1rem;
 
@@ -165,7 +166,7 @@ hr {
 
 /* Sidebar */
 .sidebar, .sidebar-navigation {
-  font-family: 'Newsreader', 'Noto serif SC', serif;
+  font-family: 'Newsreader', 'Noto Serif SC', serif;
 
   .sidebar-item {
     a.sidebar-link {
@@ -203,7 +204,7 @@ hr {
 
 /* Table of Contents */
 #TOC {
-  font-family: 'Newsreader', 'Noto serif SC', serif;
+  font-family: 'Newsreader', 'Noto Serif SC', serif;
 
   a {
     color: $body-color !important;
@@ -272,7 +273,7 @@ table {
 .input-group,
 .form-select,
 .quarto-listing-table {
-  font-family: 'Newsreader', 'Noto serif SC', serif;
+  font-family: 'Newsreader', 'Noto Serif SC', serif;
   background: none !important;
   font-size: 0.9rem;
 }
@@ -293,7 +294,7 @@ table {
 .quarto-figure figcaption,
 .figure figcaption,
 .column-margin {
-  font-family: 'Newsreader', 'Noto serif SC', serif;
+  font-family: 'Newsreader', 'Noto Serif SC', serif;
   font-size: 0.8rem;
   color: rgba($body-color, 0.8);
 }
@@ -301,7 +302,7 @@ table {
 .quarto-listing-category {
   color: rgba($body-color, 0.8);
   font-size: 0.8rem !important;
-  font-family: 'Newsreader', 'Noto serif SC', serif;
+  font-family: 'Newsreader', 'Noto Serif SC', serif;
 }
 
 /*-- scss:actions --*/
@@ -348,4 +349,43 @@ table {
   padding-bottom: 1;
   font-size: 0.8rem;
   color: $link-color;
+}
+
+.quarto-category,
+.listing-category {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding-left: 0 !important;
+  padding-right: 12px !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  text-transform: lowercase !important;
+  display: inline-flex !important;
+  align-items: center;
+  color: $body-color !important;
+}
+
+.quarto-category::before,
+.listing-category::before {
+  content: "#";
+  color: $link-color;
+  margin-right: 2px;
+  font-family: system-ui;
+}
+
+.quarto-title-meta-contents .quarto-category {
+  margin-right: 5px;
+}
+
+.quarto-category:hover,
+.listing-category:hover {
+  color: $link-hover-color !important;
+  background-color: transparent !important;
+}
+
+.quarto-category:hover,
+.listing-category:hover {
+  color: $link-hover-color !important;
+  background-color: transparent !important;
 }

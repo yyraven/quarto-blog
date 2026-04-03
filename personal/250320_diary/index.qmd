@@ -1,5 +1,5 @@
 ---
-title: "日记 | 黑狗"
+title: "日记｜黑狗"
 date: "2025-03-20"
 categories: [diary, 中文]
 ---

@@ -1,5 +1,5 @@
 ---
-title: "日记 | 我做小姨，真的假的"
+title: "日记｜我做小姨，真的假的"
 date: "2025-07-14"
 categories: [diary, 中文]
 page-navigation: true

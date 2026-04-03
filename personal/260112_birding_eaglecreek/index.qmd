@@ -1,5 +1,5 @@
 ---
-title: "Birding | A Visit to Eagle Creek Park"
+title: "Birding｜A Visit to Eagle Creek Park"
 date: "2026-01-12"
 categories: [birding, travel, indiana, EN]
 toc: true

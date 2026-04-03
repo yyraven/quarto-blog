@@ -1,5 +1,5 @@
 ---
-title: "日记 | 又是一年青年节"
+title: "日记｜又是一年青年节"
 date: "2022-05-04"
 categories: [diary, 中文]
 ---

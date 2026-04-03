@@ -1,5 +1,5 @@
 ---
-title: "日记 | 荚蒾"
+title: "日记｜荚蒾"
 date: "2021-08-24"
 categories: [diary, 中文]
 ---
