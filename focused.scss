@@ -16,9 +16,8 @@ $code-bg:         rgba(#505473, 0.1);
 $code-block-bg:   $code-bg;
 
 /* Typography Stacks */
-// Fixes Apple mobile fallback by prioritizing native 'Songti SC' & 'STSongti' before web fonts
-$font-serif:      'Newsreader', "Songti SC", "STSongti", "Noto Serif SC", "Source Han Serif SC", "Source Han Serif CN", serif;
-$font-cursive:    'Castoro', "Songti SC", "STSongti", "Noto Serif SC", "Source Han Serif SC", cursive;
+$font-serif:      'Newsreader', 'Noto Serif SC', serif;
+$font-cursive:    'Castoro', 'Noto Serif SC', serif;
 $font-code:       'Fira Code', monospace;
 
 /* Spacing and Borders */
