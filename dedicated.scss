@@ -2,6 +2,10 @@
 /* author: yyraven https://github.com/yyraven */
 
 /*-- scss:defaults --*/
+/* ==========================================================================
+   1. VARIABLES & SETUP
+   ========================================================================== */
+
 /* Color Palette */
 $body-bg: #0e0e0f;
 $body-color: #878994;
@@ -10,34 +14,58 @@ $link-hover-color: #8790d4;
 $code-color: #878994;
 $code-bg: rgba(#b1b1b3, 0.1);
 $code-block-bg: $code-bg;
-$chinese-serif: "Noto Serif SC", "Songti SC", "STSongti", "Source Han Serif SC", "Source Han Serif CN", serif;
+
+/* Typography Stacks */
+// Fixes Apple mobile fallback by prioritizing native 'Songti SC' & 'STSongti' before web fonts
+$font-serif:      'Newsreader', "Songti SC", "STSongti", "Noto Serif SC", "Source Han Serif SC", "Source Han Serif CN", serif;
+$font-cursive:    'Castoro', "Songti SC", "STSongti", "Noto Serif SC", "Source Han Serif SC", cursive;
+$font-code:       'Fira Code', monospace;
 
 /* Spacing and Borders */
-$padding: 1.2rem;
-$margin: 1rem;
-$border-radius: 0;
-$divider-color: $link-color;
+$padding:         1.2rem;
+$margin:          1rem;
+$border-radius:   0;
+$divider-color:   $link-color;
+
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Noto+serif+SC:wght@200..900&family=Noto+serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+
+/*-- scss:rules --*/
+/* ==========================================================================
+   2. GLOBAL RESETS
+   ========================================================================== */
+
 * {
   box-shadow: none !important;
   text-shadow: none !important;
 }
 
-/* Imported Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Noto+serif+SC:wght@200..900&family=Noto+serif:ital,wght@0,100..900;1,100..900&display=swap');
+::selection {
+  background-color: rgba($link-hover-color, 0.3);
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+html {
+  scrollbar-color: rgba($link-color, 0.5) rgba(0,0,0,0);
+  scrollbar-gutter: none !important;
+  scrollbar-width: thin;
+  border-radius: 0;
+}
 
-/*-- scss:rules --*/
-/* Base Styles */
 body {
   background-color: $body-bg;
   color: $body-color;
-  font-family: 'Newsreader', $chinese-serif;
+  font-family: $font-serif;
   font-size: 0.9rem;
   line-height: 1.5;
   margin: 0;
   padding: $padding;
 }
+
+/* ==========================================================================
+   3. TYPOGRAPHY & INLINE ELEMENTS
+   ========================================================================== */
 
 /* Links */
 a {
@@ -55,7 +83,7 @@ a {
 code {
   background-color: $code-bg;
   color: $code-color;
-  font-family: 'Fira Code', monospace;
+  font-family: $font-code;
 }
 
 pre code {
@@ -64,50 +92,16 @@ pre code {
 
 /* Headings */
 h1 {
-  font-family: 'Castoro', 'Noto Serif SC', cursive;
+  font-family: $font-cursive;
   color: $link-color;
   margin: $margin 0;
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: 'Newsreader', $chinese-serif;
-  border-bottom: none!important;
+  font-family: $font-serif;
+  border-bottom: none !important;
   color: $link-color;
   margin: $margin 0;
-}
-
-/* Buttons */
-.button {
-  background-color: $link-color;
-  color: $body-bg;
-  border: 1px solid $link-color;
-  padding: 0.1rem 0.1rem;
-  font-family: 'Castoro', 'Noto Serif SC', cursive;
-  font-size: 1rem;
-  cursor: pointer;
-  letter-spacing: 1px;
-  background-image: none;
-
-  &:hover {
-    color: $body-bg;
-    background-color: $link-hover-color;
-    border-color: $link-hover-color;
-  }
-}
-
-/* Blockquotes */
-blockquote {
-  background-color: $code-block-bg;
-  color: $code-color !important;
-  border-left: 3px solid $link-color;
-  padding: 1rem;
-  font-style: italic;
-}
-
-.callout {
-  background-color: $code-block-bg;
-  color: $code-color;
-  padding: 0rem;
 }
 
 /* Lists */
@@ -129,56 +123,94 @@ hr {
 
   &::before {
     content: "⇢⇢+~+~+⇠⇠";
-    font-family: 'Castoro', 'Noto Serif SC', cursive;
+    font-family: $font-cursive;
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
   }
 }
 
+/* Blockquotes & Callouts */
+blockquote {
+  background-color: $code-block-bg;
+  color: $code-color !important;
+  border-left: 4px solid $link-color;
+  padding: 1rem;
+  font-style: italic;
+}
+
+.callout {
+  background-color: $code-block-bg;
+  color: $code-color;
+  padding: 0rem;
+}
+
+/* Details */
+details p {
+  margin: 0.3em 0;
+  color: $link-color;
+  font-size: 0.8rem;
+}
+
+/* ==========================================================================
+   4. COMPONENTS (Buttons, Navbar, Sidebar)
+   ========================================================================== */
+
+/* Buttons */
+.button {
+  background-color: $link-color;
+  color: $body-bg;
+  border: 1px solid $link-color;
+  padding: 0.1rem;
+  font-family: $font-cursive;
+  font-size: 1rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+  background-image: none;
+
+  &:hover {
+    color: $body-bg;
+    background-color: $link-hover-color;
+    border-color: $link-hover-color;
+  }
+}
+
 /* Navbar */
 .navbar {
-  background: linear-gradient(90deg, $body-bg, rgba($link-color,0.1));
+  background: linear-gradient(90deg, $body-bg, rgba(255,255,255,0.1));
   border-bottom: 1px solid;
-  font-family: 'Castoro', 'Noto Serif SC', cursive;
+  font-family: $font-cursive;
   text-transform: lowercase;
   padding: 0.2rem 1rem;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+
+  /* Target all children directly */
+  &, .navbar-brand, .nav-link, .navbar-text, .navbar-toggler, * {
+    color: $link-color !important;
+    border-color: $link-color !important;
+  }
 }
 
-.navbar,
-.navbar .navbar-brand,
-.navbar .nav-link,
-.navbar .navbar-text,
-.navbar .navbar-toggler,
-.navbar * {
-  color: $link-color !important;
-  border-color: $link-color !important;
-}
-
-.quarto-secondary-nav,
-.quarto-secondary-nav * {
-  color: $link-color;
-  border-bottom: none !important;
-}
-
-/* Sidebar */
+/* Sidebar & Navigation */
 .sidebar, .sidebar-navigation {
-  font-family: 'Newsreader', $chinese-serif;
+  font-family: $font-serif;
 
-  .sidebar-item {
-    a.sidebar-link {
-      color: $body-color !important;
-      font-size: 0.8rem;
-      &:hover {
-        color: $link-color !important;
-        transform: translateY(1px);
-        opacity: 1;
-      }
-      &.active {
-        text-decoration: underline;
-        text-underline-offset: 3px;
-        font-weight: 500;
-        color: $link-color !important;
-      }
+  .sidebar-item a.sidebar-link {
+    color: $body-color !important;
+    font-size: 0.8rem;
+
+    &:hover {
+      color: $link-color !important;
+      transform: translateY(1px);
+      opacity: 1;
+    }
+    &.active {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      font-weight: 500;
+      color: $link-color !important;
     }
   }
 
@@ -188,19 +220,9 @@ hr {
   }
 }
 
-/* disable responsive sidebar on mobile */
-@media (max-width: 992px) {
-  .quarto-btn-toggle {
-    display: none;
-  }
-  .flex-grow-1 {
-    pointer-events: none;
-  }
-}
-
 /* Table of Contents */
 #TOC {
-  font-family: 'Newsreader', $chinese-serif;
+  font-family: $font-serif;
 
   a {
     color: $body-color !important;
@@ -213,7 +235,6 @@ hr {
       transform: translateY(1px);
       transition: all 0s ease;
     }
-
     &.active {
       text-decoration: underline;
       text-underline-offset: 3px;
@@ -223,21 +244,15 @@ hr {
   }
 }
 
-/* Details */
-details p {
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
-  color: $link-color;
-  font-size: 0.8rem;
+/* Disable responsive sidebar on mobile */
+@media (max-width: 992px) {
+  .quarto-btn-toggle { display: none; }
+  .flex-grow-1 { pointer-events: none; }
 }
 
-/* Scrollbar */
-html {
-  scrollbar-color: rgba($link-color, 0.5) rgba(0,0,0,0);
-  scrollbar-gutter: none!important;
-  scrollbar-width: thin;
-  border-radius: 0;
-}
+/* ==========================================================================
+   5. QUARTO SPECIFIC STYLES & OVERRIDES
+   ========================================================================== */
 
 /* Drop borders */
 .callout,
@@ -245,39 +260,42 @@ html {
 .quarto-post,
 .quarto-header,
 .zindex-over-content,
-.quarto-appendix, {
+.quarto-appendix {
   border: none !important;
 }
 
-table {
-  thead {
-    border-bottom: 0.8px solid $body-color !important;
+table thead {
+  border-bottom: 0.8px solid $body-color !important;
+}
+
+.quarto-secondary-nav,
+.quarto-secondary-nav * {
+  color: $link-color;
+  border-bottom: none !important;
+}
+
+/* Margin Sidebar Hidden Scrollbars */
+#quarto-margin-sidebar {
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
   }
 }
 
-#quarto-margin-sidebar {
-  overflow-y: auto;     /* or scroll */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE 10+ */
-}
-
-#quarto-margin-sidebar::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Edge */
-}
-
+/* Form Elements & Tables */
 .listing-actions-group,
 .input-group,
 .form-select,
 .quarto-listing-table {
-  font-family: 'Newsreader', $chinese-serif;
+  font-family: $font-serif;
   background: none !important;
   font-size: 0.9rem;
 }
 
-::selection {
-  background-color: rgba($link-hover-color, 0.3);
-}
-
+/* Appendix transparent backgrounds */
 #quarto-appendix,
 #quarto-appendix *,
 .quarto-appendix,
@@ -287,32 +305,61 @@ table {
   box-shadow: none !important;
 }
 
+/* Captions */
 .quarto-figure figcaption,
 .figure figcaption,
-.column-margin {
-  font-family: 'Newsreader', $chinese-serif;
+.column-margin,
+.quarto-listing-category {
+  font-family: $font-serif;
   font-size: 0.8rem;
   color: rgba($body-color, 0.8);
 }
 
-.quarto-listing-category {
-  color: rgba($body-color, 0.8);
-  font-size: 0.8rem !important;
-  font-family: 'Newsreader', $chinese-serif;
+/* Categories & Tags */
+.quarto-category,
+.listing-category {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 12px 0 0 !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  text-transform: lowercase !important;
+  display: inline-flex !important;
+  align-items: center;
+  color: $body-color !important;
+
+  &::before {
+    content: "#";
+    color: $link-color;
+    margin-right: 2px;
+    font-family: system-ui;
+  }
+
+  &:hover {
+    color: $link-hover-color !important;
+  }
 }
 
-/*-- scss:actions --*/
-/* bird swap */
+.quarto-title-meta-contents .quarto-category {
+  margin-right: 5px;
+}
+
+/* ==========================================================================
+   6. CUSTOM ACTIONS & MEDIA
+   ========================================================================== */
+
+/* Bird Swap */
 .bird-swap {
   content: url("figs/crow_s.png");
   transition: 0.3s ease;
+
+  &:hover {
+    content: url("figs/crow_s_flip.png");
+  }
 }
 
-.bird-swap:hover {
-  content: url("figs/crow_s_flip.png");
-}
-
-/* photo row */
+/* Photo Row Gallery */
 .photo-row {
   display: flex;
   flex-direction: row;
@@ -321,64 +368,31 @@ table {
   gap: 1rem;
   overflow-x: auto;
   padding: 0.5rem 0;
+
+  img {
+    max-height: min(60vh, 28vw);
+    width: auto;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
 }
 
-.photo-row img {
-  max-height: min(60vh, 28vw);
-  width: auto;
-  flex-shrink: 0;
-  object-fit: contain;
-}
-
-/* blur */
+/* Utilities */
 .blur {
   filter: blur(3px);
   transition: filter 0.3s ease;
-}
 
-.blur:hover {
-  filter: blur(0);
+  &:hover {
+    filter: blur(0);
+  }
 }
 
 .wordcount {
-  padding-top: 0;
-  padding-bottom: 1;
+  padding: 0 0 1rem 0; /* Shorthand for top:0, right:0, bottom:1, left:0 */
   font-size: 0.8rem;
   color: $link-color;
 }
 
-.quarto-category,
-.listing-category {
-  background-color: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-  padding-left: 0 !important;
-  padding-right: 12px !important;
-  font-weight: 500 !important;
-  text-decoration: none !important;
-  text-transform: lowercase !important;
-  display: inline-flex !important;
-  align-items: center;
-  color: $body-color !important;
-}
-
-.quarto-category::before,
-.listing-category::before {
-  content: "#";
-  color: $link-color;
-  margin-right: 2px;
-  font-family: system-ui;
-}
-
-.quarto-title-meta-contents .quarto-category {
-  margin-right: 5px;
-}
-
-.quarto-category:hover,
-.listing-category:hover {
-  color: $link-hover-color !important;
-  background-color: transparent !important;
-}
 
 .quarto-dark .navbar-toggler-icon,
 .quarto-dark .quarto-color-scheme-toggle{
