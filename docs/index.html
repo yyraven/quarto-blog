@@ -270,10 +270,13 @@ document.getElementById('random-post-btn').addEventListener('click', function(e)
     const originalText = btn.innerHTML;
     
     btn.innerHTML = 'Picking...';
-    btn.style.pointerEvents = 'none'; 
+    btn.style.pointerEvents = 'none';
 
     fetch('search.json')
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) throw new Error('File not found');
+            return response.json();
+        })
         .then(data => {
             const posts = data.filter(item => 
                 item.href && 
@@ -283,7 +286,11 @@ document.getElementById('random-post-btn').addEventListener('click', function(e)
 
             if (posts.length > 0) {
                 const randomIndex = Math.floor(Math.random() * posts.length);
-                window.location.href = '/' + posts[randomIndex].href;
+                let targetRelativePath = posts[randomIndex].href;
+
+                const basePath = window.location.pathname.replace(/\/[^\/]*$/, '/');
+                
+                window.location.href = window.location.origin + basePath + targetRelativePath;
             } else {
                 alert('No posts found!');
                 btn.innerHTML = originalText;
@@ -291,7 +298,8 @@ document.getElementById('random-post-btn').addEventListener('click', function(e)
             }
         })
         .catch(error => {
-            alert('Error loading posts.');
+            console.error('Error:', error);
+            alert('Oops! Could not load the blog index.');
             btn.innerHTML = originalText;
             btn.style.pointerEvents = 'auto';
         });
