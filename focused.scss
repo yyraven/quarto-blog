@@ -7,13 +7,13 @@
    ========================================================================== */
 
 /* Color Palette */
-$body-bg:         #f7f8fa;
-$body-color:      #150e36;
-$link-color:      #505473;
-$link-hover-color:#8790d4;
-$code-color:      #150e36;
-$code-bg:         rgba(#505473, 0.1);
-$code-block-bg:   $code-bg;
+$body-bg:           #f2f5f0;
+$body-color:        #3d443a;
+$link-color:        #82947d;
+$link-hover-color:  #5e705a;
+$code-color:        #4a5d45;
+$code-bg:           rgba(#82947d, 0.1);
+$code-block-bg:     $code-bg;
 
 /* Typography Stacks */
 $font-serif:      'Newsreader', 'Noto Serif SC', serif;
@@ -121,7 +121,7 @@ hr {
   opacity: 1;
 
   &::before {
-    content: "⇢⇢+~+~+⇠⇠";
+    content: ". . .";
     font-family: $font-cursive;
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
@@ -342,6 +342,79 @@ table thead {
 
 .quarto-title-meta-contents .quarto-category {
   margin-right: 5px;
+}
+
+/* Pagination */
+.pagination {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.pagination .page-link {
+    background-color: transparent !important;
+    color: $link-color !important;
+    border-color: transparent !important;
+}
+
+.page-item:not(.active) .page-link:hover {
+    background-color: transparent !important;
+    color: $link-hover-color !important;
+}
+
+.page-item.active .page-link {
+    background-color: transparent !important;
+    color: $body-color !important;
+    text-decoration: underline;
+}
+
+/* ==========================================================================
+   7. MOBILE TABLE OVERRIDE (Responsive Tracklist Vibe)
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  .quarto-listing-table {
+    display: block;
+  }
+
+  .quarto-listing-table thead {
+    display: none !important;
+  }
+
+  .quarto-listing-table tbody,
+  .quarto-listing-table tr,
+  .quarto-listing-table td {
+    display: block;
+    width: 100%;
+    text-align: left !important;
+  }
+
+  .quarto-listing-table tr {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px dashed rgba($link-color, 0.5);
+    padding-bottom: 0.8rem;
+  }
+
+  .quarto-listing-table td {
+    padding: 0.1rem 0 !important;
+    border: none !important;
+  }
+
+  .quarto-listing-table td.listing-date {
+    font-family: $font-code;
+    font-size: 0.75rem;
+    color: rgba($body-color, 0.7);
+    margin-bottom: 0.2rem;
+  }
+
+  .quarto-listing-table td.listing-title {
+    font-size: 1.05rem;
+  }
+
+  .quarto-listing-table td.listing-description {
+    font-size: 0.85rem;
+    margin-top: 0.3rem;
+    opacity: 0.8;
+  }
 }
 
 /* ==========================================================================
