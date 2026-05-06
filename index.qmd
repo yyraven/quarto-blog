@@ -71,7 +71,7 @@ document.getElementById('random-post-btn').addEventListener('click', function(e)
     btn.innerHTML = 'Picking...';
     btn.style.pointerEvents = 'none'; 
 
-    fetch('/search.json')
+    fetch('search.json')
         .then(response => response.json())
         .then(data => {
             const posts = data.filter(item => 
