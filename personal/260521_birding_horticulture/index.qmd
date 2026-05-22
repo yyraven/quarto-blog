@@ -43,7 +43,7 @@ If you (or your Merlin bird ID app) hear a bird near a tree, and you can't find 
 
 You always see robins, starlings, corvids, pigeons and doves, sparrows, and finches on the open ground. They are braver than other birds, and they usually allow you to approach them closer. 
 
-![Fluffy **chipping sparrow**](figs/cps.jpg){group='grp'}
+![Fluffy **chipping sparrow** with a rufous-colored hat.](figs/cps.jpg){group='grp'}
 
 Wrens like to hide in the bushes. You need to bow to see them, and those birds fly away as soon as you stare at them for too long.
 
@@ -51,7 +51,7 @@ Waxwings, mockingbirds, thrashers, cardinals, and catbirds sometimes jump on the
 
 Pewees, vireos, and orioles are very shy. They usually skulk in the canopy of large trees, and most times you can only identify them by their songs. 
 
-![It's almost 30 meters from me to this beautiful little **oriole** bird.](figs/bo.jpg){group='grp'}
+![**Baltimore oriole** were not named after the city Baltimore; rather, they were named after the flag of Lord Baltimore because of their black-and-yellow plumage. You can also see that color from the famous Maryland flag. It's almost 30 meters from me to this beautiful little **oriole** bird.](figs/bo.jpg){group='grp'}
 
 ::: callout-tip
 **Read more** about niche partitioning, the classic ecology concept: [Spruce-Woods Warblers Revisited: 60 Years Later, the Cast of Characters Has Changed - Cornell Lab](https://www.allaboutbirds.org/news/spruce-woods-warblers-revisited-60-years-later-the-cast-of-characters-has-changed/)
@@ -69,7 +69,7 @@ Size and vibe of a bird really matter when trying to identify it in the wild.
 
 For example, people often confuse **orioles** with **robins**, since they both have a darker back and a bright orange belly; but if you know that orioles are smaller, and robins like to walk with their heads held high and chests out, you'll be able to differentiate them immediately. **American goldfinches** like to fly in pairs, if you see some little lemon-yellow bullets flying up and down while glittering under the sun, that's them!
 
-![Comparing to their Chinese relatives spotted doves, **mourning doves** are demure, and you can see that from their silhouette.](figs/md.jpg){group='grp'}
+![Comparing to their Chinese relatives spotted doves which chase and bow to the female birds every 5 seconds in mating seasons, **mourning doves** look calm and demure, and you can see that from their silhouette.](figs/md.jpg){group='grp'}
 
 Sometimes you can see large waterfowl and raptors flying overhead, and it's possible to identify them only by the way they fly. For example, **double-crested cormorants** fly by flapping their wings really fast, and if you see some huge bird with its neck retracted, that's almost always a **great blue heron**.
 
@@ -81,7 +81,7 @@ Sometimes you can see large waterfowl and raptors flying overhead, and it's poss
 
 Three days ago, for the first time, I saw a female **red-winged blackbird**. She was an incredibly cute little bird, with facial features that subtly mirrored her male counterpart. She was diligently pulling algae from the pond. I initially thought I was seeing some kind of American dipper or waterthrush. After discussing with my friends, we confirmed that it's not a new lifer, which was a bit of a disappointment. Then I remembered her mate flying nearby, calling out loudly. Okay, who am I to stop the happy couple from being there? 
 
-![She likes washing herself.](figs/rwbb.jpg){group='grp'}
+![Unlike its male counterpart, the female **red-winged blackbird** does not have those striking red-and-white epaulettes. This one likes washing herself.](figs/rwbb.jpg){group='grp'}
 
 I also heard some **gray catbirds** meowing, which reminded me of two summers I'd spent on the East Coast before. These light and fluffy gray birds always evoked memories of summer. They are braver birds, slightly smaller than a robin, and like their relatives, mockingbirds, they can mock other birds' songs. Someone called it 'buzz-cut bird' - okay, that's fair - but I'd like to call it 'nun bird' since I think that small patch of gray feathers on its head looks like a 
 nun's hat. 
