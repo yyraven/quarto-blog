@@ -1,7 +1,7 @@
 ---
 title: "Birding｜Summertime: Watching Songbirds in Your Favourite Park"
 date: "2026-05-21"
-categories: [birding, travel, indiana, EN]
+categories: [birding, travel, indiana, popular science, EN]
 toc: true
 image: figs/gcb.jpg
 output:
@@ -36,7 +36,7 @@ If you (or your Merlin bird ID app) hear a bird near a tree, and you can't find 
 ![I spent 20 minutes waiting for **indigo buntings** yesterday, and today they just sit on the trail.](figs/ib.jpg){group='grp'}
 
 ::: callout-tip
-**Read More:** [Why Are Buntings All So Good? - Audubon](https://www.audubon.org/magazine/why-are-buntings-all-so-good?int_src=site_search&int_query=bunting)
+**Read more** about the colorful nine-primaried oscines: [Why Are Buntings All So Good? - Audubon](https://www.audubon.org/magazine/why-are-buntings-all-so-good?int_src=site_search&int_query=bunting)
 :::
 
 ### 3. Different birds have different preferences for privacy.
@@ -53,25 +53,29 @@ Pewees, vireos, and orioles are very shy. They usually skulk in the canopy of la
 
 ![It's almost 30 meters from me to this beautiful little **oriole** bird.](figs/bo.jpg){group='grp'}
 
+::: callout-tip
+**Read more** about niche partitioning, the classic ecology concept: [Spruce-Woods Warblers Revisited: 60 Years Later, the Cast of Characters Has Changed - Cornell Lab](https://www.allaboutbirds.org/news/spruce-woods-warblers-revisited-60-years-later-the-cast-of-characters-has-changed/)
+:::
+
 ### 4. Stand still, and use your Dynamic Visual Acuity to find them.
 
-That's it. Use your DVA. If you find a 'singing' tree, stand still under it and wait for 15 minutes, it's highly likely that you'll find that singing bird. Goldfinches like to fly in pairs, and it's a pleasure to watch those golden little bullets fly over the ground. 
+That's it. Use your DVA. If you find a 'singing' tree, stand still under it and wait for 15 minutes, it's highly likely that you'll find that singing bird. 
 
 ![Due to their camouflage, it's almost impossible to find this little **vireo** with your naked eyes - unless you see it flying to a branch.](figs/ewv.jpg){group='grp'}
 
 ### 5. Size and vibe matter.
 
-::: callout-tip
-**Read More**: [Identifying Birds with GISS or JIZZ - Ornithology, the Science of Birds](https://ornithology.com/identifying-birds-with-giss-or-jizz/)
-:::
-
 Size and vibe of a bird really matter when trying to identify it in the wild. 
 
-For example, people often confuse orioles with robins, since they both have a darker back and a bright orange belly; but if you know that orioles are smaller, and robins like to walk with their heads held high and chests out, you'll be able to differentiate them immediately.
+For example, people often confuse **orioles** with **robins**, since they both have a darker back and a bright orange belly; but if you know that orioles are smaller, and robins like to walk with their heads held high and chests out, you'll be able to differentiate them immediately. **American goldfinches** like to fly in pairs, if you see some little lemon-yellow bullets flying up and down while glittering under the sun, that's them!
 
-![**Mourning doves** are demure, and you can see that from its silhouette.](figs/md.jpg){group='grp'}
+![Comparing to their Chinese relatives spotted doves, **mourning doves** are demure, and you can see that from their silhouette.](figs/md.jpg){group='grp'}
 
-Sometimes you can see large waterfowl and raptors flying overhead, and it's possible to identify them only by the way they fly. For example, cormorants fly by flapping their wings really fast, and if you see some huge bird with its neck retracted, that's almost always a great blue heron. 
+Sometimes you can see large waterfowl and raptors flying overhead, and it's possible to identify them only by the way they fly. For example, **double-crested cormorants** fly by flapping their wings really fast, and if you see some huge bird with its neck retracted, that's almost always a **great blue heron**.
+
+::: callout-tip
+**Read more** about the birds' 'vibe': [Identifying Birds with GISS or JIZZ - Ornithology, the Science of Birds](https://ornithology.com/identifying-birds-with-giss-or-jizz/)
+:::
 
 ## Some Memories
 
@@ -88,8 +92,9 @@ Additionally, I saw a **common nighthawk** flying overhead, with two prominent w
 
 Speaking of which, I got bitten four times by mosquitoes that day. Even fully covered, going into the woods always comes at a price. The good thing is that we don't have *Aedes* here. Back in my hometown, I have got blisters all over my legs because of *Aedes* bites, and trust me, that's an absolute nightmare. 
 
-::: callout-note
-## The reason we need a scientific name
+---
+
+## The Reason We Need a Scientific Name
 
 If you're a Chinese birder like me, you might also be fascinated by the New World birds' beautiful feathers while easily get confused by their common names. 
 
@@ -101,7 +106,7 @@ What do you mean by 'indigo bunting is indeed a cardinal'? Why are 'new world sp
 
 - American robin is a thrush (*Turdus*), like Chinese blackbird. It has nothing to do with European robin (*Muscicapidae*, aka Old World Flycatchers). 
 
-- Paul McCartney was singing about European blackbird/common blackbird, which looks exactly like Chinese blackbirds. Read this interesting article: [Does a Blackbird Sing in a Beatles’ Song?](https://www.birdwatchersgeneralstore.com/does-a-blackbird-sing-in-a-beatles-song/)
+- Paul McCartney was singing about European blackbirds/common blackbirds, which look exactly like Chinese blackbirds. Read this interesting article: [Does a Blackbird Sing in a Beatles’ Song?](https://www.birdwatchersgeneralstore.com/does-a-blackbird-sing-in-a-beatles-song/)
 
 - Speaking of new world sparrows and old world buntings, [this reply on the iNaturalist forum](https://forum.inaturalist.org/t/are-old-world-sparrows-new-world-sparrows-and-old-world-buntings-part-of-one-superfamily-or-suborder/64113/4) answers it perfectly: 
 
@@ -113,22 +118,8 @@ What do you mean by 'indigo bunting is indeed a cardinal'? Why are 'new world sp
 >
 >So, in the grand scheme of things, the Passerellidae are fairly closely related to the Emberizidae (both in Emberizoidea), though they are not each other’s closest relatives (Emberizidae is closer to the longspurs, Paserellidae is closer to new world warblers/cardinals/tanagers/etc.
 >
->The Passeridae sparrows are even more distantly related: the common ancestor of the Passeridae and Emberizoidea probably lived in Eurasia a little over 20 million years ago. After Passeridae split off, that lineage did not produce any other families, so technically the Emberizoidea are their closest relatives, but so are the Fringillidae finches and Motacillidae wagtails that branched off before Emberizoidea started to radiate into its different families.
->
->The exact dates vary in different studies, but here is a timeline from the paper “Earth history and the passerine superradiation” to give some perspective:
->
-> - 47 Mya: common ancestor of all passerines lived in Australasia
-  - 44 Mya: oscines and suboscines diverged from each other, still in Australasia
-  - ~30 Mya: Corvides (mostly crow-like groups) and Passerides (mostly sparrow-like groups) diverged from each other (still in Australasia).
-  - ~27 Mya: ancestor of Sylviida, Muscicapida, and Passerida begin to diversify in Eurasia
-  - ~19 Mya: Passeridae branches off from their sister (Motacillidae, Fringillidae, and Emberizoidea) in Eurasia
-  - ~18 Mya: Motacillidae branches off from their sister (Fringillidae, and Emberizoidea) in Eurasia
-  - ~17 Mya: Fringillidae branches off from Emberizoidea. Their ancestor was probably in the Americas at this point
-  - ~16-10 Mya: the Emberizoidea families radiate in the Americas
-  - ~14 Mya: the ancestor of Emberizidae and Calcariidae goes back to Eurasia
-  - ~13-14 Mya Passerellidae splits from its sister (Parulidae, Icteridae, and some small families)'
-:::
-
+>The Passeridae sparrows are even more distantly related: the common ancestor of the Passeridae and Emberizoidea probably lived in Eurasia a little over 20 million years ago. After Passeridae split off, that lineage did not produce any other families, so technically the Emberizoidea are their closest relatives, but so are the Fringillidae finches and Motacillidae wagtails that branched off before Emberizoidea started to radiate into its different families.'
+  
 ---
 
 ## 'Let's just forget everything said'

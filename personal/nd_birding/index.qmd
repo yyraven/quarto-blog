@@ -157,7 +157,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Birds**: Mallard, American Goldfinch, Red-tailed Hawk, Killdeer, Northern Cardinal, Double-crested Cormorant, Song Sparrow, Red-bellied Woodpecker, Tennessee Warbler, Belted Kingfisher, Great Blue Heron, Yellow-rumped Warbler, Northern Flicker, Pileated Woodpecker, Hairy Woodpecker, American Robin, White-breasted Nuthatch, Eastern Phoebe, Cooper's Hawk, Dark-eyed Junco, Brown Creeper, Mourning Dove, Canada Goose, Red-winged Blackbird, Brown-headed Cowbird, American Tree Sparrow
 -   **Comments**: Beautiful and peaceful place. Staff at the natural center are very friendly. It's home to several raptors, and you can also watch blue herons catching fish. I often start walking at Cherry Ln/Purdue University Student Farm, and ends the trail at Walmart supercenter to take CityBus #21 back home, which would typically take 2-3 hours. 
 -   **Link**: [ebird](https://ebird.org/hotspot/L445373)
--   **My Review**: [Mar '26 Spring Migration](../260326_birding_celerybog/index.qmd)
+-   **Related Posts**: [Mar '26 Spring Migration](../260326_birding_celerybog/index.qmd)
 
 #### ![](pixelart/treeswallow_s.png) West Lafayette, IN: Celery Bog - North Pond
 
@@ -184,6 +184,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Birds**: American Robin, Red-winged Blackbird, Eastern Bluebird, Chipping Sparrow, White-throated Sparrow, European Starling, Northern Cardinal, Northern Flicker, Hairy Woodpecker, Pileated Woodpecker, Red-bellied Woodpecker, Tufted Titmouse, Killdeer, White-breasted Nuthatch, American Crow, Blue Jay
 -   **Comments**: Nice trail. A large flock of robins and starlings rest on the trees near the open grass edge, and you can find jays and woodpeckers in the trails through the woods. During summer, a lot of songbirds rest and sing on trees near the woods edges. 
 -   **Link**: [ebird](https://ebird.org/region/L457935)
+-   **Related Posts**: [May '26 Songbirds](../260521_birding_horticulture/index.qmd)
 
 #### ![](pixelart/sandhillcrane_s.png) Pulaski, IN: Jasper-Pulaski Fish & Wildlife Area
 
