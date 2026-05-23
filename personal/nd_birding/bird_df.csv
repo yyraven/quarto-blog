@@ -1,4 +1,4 @@
-Picture,Common Name,Scientific Name,Family,Last Seen,Random Comments,location
+﻿Picture,Common Name,Scientific Name,Family,Last Seen,Random Comments,location
 ![](birdspics/brant_2401.JPG),Brant 黑雁 ![](pixelart/brant_s.png),*branta bernicla*,Waterfowl,"June '25, Malibu CA",can be identified by white neckline,US
 ![](birdspics/canadian_goose_2501.JPG),Canada Goose 加拿大雁 ![](pixelart/canadagoose_s.png),*branta canadensis*,Waterfowl,"Mar '26, West Lafayette IN",countless of them in blackwater NWR in January,US
 ![](birdspics/bar_headed_goose_1912.jpg),Bar-headed Goose 斑头雁 ![](pixelart/barheadedgoose_s.png),*anser indicus*,Waterfowl,"Dec '19, Lhasa Tibet",Seen with ruddy shelduck in the pond behind Potala palace,CN
@@ -136,13 +136,16 @@ NA,Belted Kingfisher 白腹鱼狗 ![](pixelart/beltedkingfisher_s.png),*megacery
 ![](birdspics/tufted_titmouse_2504.JPG),Tufted Titmouse 美洲凤头山雀 ![](pixelart/tuftedtitmouse_s.png),*baeolophus bicolor*,"Tits, Chickadees, and Titmice","Oct '25, West Lafayette IN",small round fluffy ball,US
 ![](birdspics/white_breasted_nuthatch_2203.jpg),White-breasted Nuthatch 白胸䴓 ![](pixelart/whitebreastednuthatch_s.png),*sitta carolinensis*,Nuthatches,"May '26, West Lafayette IN",NA,US
 ![](birdspics/brown_creeper_2603.jpg),Brown Creeper 美洲旋木雀,*certhia americana*,Treecreepers,"Mar '26, West Lafayette IN","of the size of a nuthatch but goes upwards, has a bent bill",US
-![](birdspics/carolina_wren_2501.JPG),Carolina Wren 卡罗苇鹪鹩 ![](pixelart/carolinawren_s.png),*thryothorus ludovicianus*,Wrens,"Jan '25, Cambridge MD",NA,US
+![](birdspics/northern_house_wren_2605.jpg),Northern House Wren 家鹪鹩,*troglodytes aedon*,Wrens,"May '26, West Lafayette IN",NA,US
+![](birdspics/carolina_wren_2501.JPG),Carolina Wren 卡罗苇鹪鹩 ![](pixelart/carolinawren_s.png),*thryothorus ludovicianus*,Wrens,"May '26, West Lafayette IN",NA,US
 ![](birdspics/oriental_reed_warbler_2507.JPG),Oriental Reed Warbler 东方大苇莺 ![](pixelart/orientalreedwarbler_s.png),*acrocephalus orientalis*,Warblers,"July '25, Beijing",have a noisy song,CN
 ![](birdspics/blue_gray_gnatcatcher_2605.JPG),Blue-gray Gnatcatcher 灰蓝蚋莺,*polioptila caerulea*,Gnatcatchers,"May '26, West Lafayette IN",have a distinguishable song,US
 ![](birdspics/ruby_crowned_kinglet_2203.jpg),Ruby-crowned Kinglet 红冠戴菊 ![](pixelart/rubycrownedkinglet_s.png),*corthylio calendula*,Kinglets,"Mar '22, Durham NC",NA,US
 ![](birdspics/eastern_warbling_vireo_2605.JPG),Eastern Warbling Vireo 歌莺雀,*vireo gilvus*,Vireos,"May '26, West Lafayette IN",can be very loud,
 ![](birdspics/ovenbird_2510.JPeG),Ovenbird 灯顶灶莺 ![](pixelart/ovenbird_s.png),*seiurus aurocapilla*,Wood-Warblers,"Oct '25, West Lafayette IN",dead due to bird strike,US
 ![](birdspics/tennessee_warbler_2510.JPG),Tennessee Warbler 灰冠虫森莺 ![](pixelart/tennesseewarbler_s.png),*leiothlypis peregrina*,Wood-Warblers,"Oct '25, West Lafayette IN",actually really hard to ID so not sure,US
+![](birdspics/american_redstart_2605.jpg),American Redstart 橙尾鸲莺,*setophaga ruticilla*,Wood-Warblers,"May '26, West Lafayette IN",NA,US
+![](birdspics/northern_parula_2605.jpg),Northern Parula 北森莺,*setophaga americana*,Wood-Warblers,"May '26, West Lafayette IN",NA,US
 ![](birdspics/yellow_rumped_warbler_2511.JPG),Yellow-rumped Warbler 黄腰白喉林莺 ![](pixelart/yellowrumpedwarbler_s.png),*setophaga auduboni*,Wood-Warblers,"Nov '25, West Lafayette IN",NA,US
 NA,Grey Wagtail 灰鹡鸰,*motacilla cinerea*,Wagtails and Pipits,"Dec '25, Suzhou Jiangsu","although called 'grey wagtail', its most distinguishable feature is its yellow belly",CN
 ![](birdspics/white_wagtail_2512.JPG),White Wagtail 白鹡鸰 ![](pixelart/whitewagtail_s.png),*motacilla alba*,Wagtails and Pipits,"Dec '25, Suzhou Jiangsu","tail wags endlessly, and flies in 'sine function'",CN
