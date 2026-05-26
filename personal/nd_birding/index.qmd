@@ -181,7 +181,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Type**: Rural \| Woods
 -   **First Visited**: Sep 2025
 -   **Last Visited**: May 2026
--   **Birds**: American Robin, Red-winged Blackbird, Eastern Bluebird, Chipping Sparrow, White-throated Sparrow, European Starling, Northern Cardinal, Northern Flicker, Hairy Woodpecker, Pileated Woodpecker, Red-bellied Woodpecker, Tufted Titmouse, Killdeer, White-breasted Nuthatch, American Crow, Blue Jay
+-   **Birds**: American Robin, Red-winged Blackbird, Eastern Bluebird, Chipping Sparrow, White-throated Sparrow, European Starling, Northern Cardinal, Northern Flicker, Hairy Woodpecker, Downy Woodpecker, Pileated Woodpecker, Red-bellied Woodpecker, Tufted Titmouse, Killdeer, White-breasted Nuthatch, American Crow, Blue Jay, Great Blue Heron, Turkey Vulture, Eastern Wood-Pewee, Blue-gray Gnatcatcher, Northern House Wren, House Finch, American Goldfinch, Baltimore Oriole, Brown-headed Cowbird, American Redstart, Northern Parula, Mallard, Mourning Dove, Eastern Phoebe, Eastern Warbling Vireo, Carolina Wren, Gray Catbird, House Sparrow, Chipping Sparrow, Song Sparrow, Indigo Bunting, Double-crested Cormorant, Carolina Chickadee, Cedar Waxwing, Common Nighthawk, Barn Swallow
 -   **Comments**: Nice trail. A large flock of robins and starlings rest on the trees near the open grass edge, and you can find jays and woodpeckers in the trails through the woods. During summer, a lot of songbirds rest and sing on trees near the woods edges. 
 -   **Link**: [ebird](https://ebird.org/region/L457935)
 -   **Related Posts**: [May '26 Songbirds](../260521_birding_horticulture/index.qmd)
@@ -199,6 +199,19 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Dreamy and Beautiful at sunset.
 -   **Link**: [IN.gov DNR](https://www.in.gov/dnr/fish-and-wildlife/properties/jasper-pulaski-fwa/sandhill-cranes/) \| [ebird](https://ebird.org/hotspot/L1004877)
 
+#### ![](pixelart/redwingedblackbird_s.png) Porter, IN: Indiana Dunes National Park
+
+::: column-margin
+![Beach on Cowles Bog Trail, May 2026](landspics/dunes.JPG){group="landspics"}
+:::
+
+-   **Type**: Rural \| Freshwater; Marsh, Pond, Woods, Beach
+-   **First Visited**: May 2026
+-   **Last Visited**: May 2026
+-   **Birds**: Canada Goose, Mute Swan, Killdeer, Ring-billed Gull, Caspian Tern, Double-crested Cormorant, Great Egret, Great Blue Heron, Turkey Vulture, Belted Kingfisher, Great Crested Flycatcher, Red-eyed Vireo, Blue Jay, Northern Rough-winged Swallow, Barn Swallow, Gray Catbird, American Robin, House Sparrow, Eastern Towhee, Baltimore Oriole, Red-winged Blackbird, Common Grackle, Common Yellowthroat, Northern Yellow Warbler, Summer Tanager
+-   **Comments**: A much bigger celery bog. The [Cowles Bog trail](https://www.nps.gov/indu/planyourvisit/cb16.htm) takes a good amount of walk to complete but biodiversity is great. Only regret is not seeing any gallinule or sora. Loads of caspian terns flying on the Michigan Lake shores. 
+-   **Link**: [National Park Service](https://www.nps.gov/indu/index.htm) \| [ebird (Cowles Bog)](https://ebird.org/hotspot/L152744)
+
 ### East Coast, USA
 
 #### ![](pixelart/ringbilledgull_s.png) Baltimore, MD: Inner Harbor
@@ -214,7 +227,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: From inner harbor to harbor east and locust point, the waterfront of downtown Baltimore is a great place to watch gulls & various kinds of waterfowls. A large flock of gulls rest in front of the harbors near Whole Foods from late fall to early spring in the evening. Check out the Harbor Connector water taxi - you can see gulls and cormorants flying across the harbor.
 -   **Link**: [Harbor Connector Water Taxi (free to ride!)](https://www.baltimorewatertaxi.com/lines) \| [ebird](https://ebird.org/region/L745089)
 
-#### ![](pixelart/redwingedblackbird_s.png) Baltimore, MD: Patterson Park
+#### ![](pixelart/canadagoose_s.png) Baltimore, MD: Patterson Park
 
 ::: column-margin
 ![Patterson Park, May 2025](landspics/pattersonpark.JPeG){group="landspics"}

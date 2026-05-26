@@ -5,7 +5,7 @@
 ![](birdspics/ruddy_shelduck_1912.jpg),Ruddy Shelduck 赤麻鸭 ![](pixelart/ruddyshelduck_s.png),*tadorna ferruginea*,Waterfowl,"Dec '19, Lhasa Tibet",NA,CN
 ![](birdspics/black_swan_juv_2302.jpg),Black Swan 黑天鹅 ![](pixelart/blackswan_s.png),*cygnus atratus*,Waterfowl,"Feb '23, Suzhou Jiangsu",juvenile + escaped species,CN
 ![](birdspics/whistling_swan_2501.JPG),Tundra Swan 小天鹅 ![](pixelart/tundraswan_s.png),*cygnus columbianus*,Waterfowl,"Jan '25, Cambridge MD",small part of yellow on bills,US
-![](birdspics/mute_swan_1607.jpg),Mute Swan 疣鼻天鹅 ![](pixelart/muteswan_s.png),*cygnus olor*,Waterfowl,"July '16, Luzern Swiss",NA,EU
+![](birdspics/mute_swan_2605.jpg),Mute Swan 疣鼻天鹅 ![](pixelart/muteswan_s.png),*cygnus olor*,Waterfowl,"May '26, Porter IN",NA,"EU, US"
 ![](birdspics/blue_winged_teal_2603.jpg),Blue-Winged Teal 蓝翅鸭,*spatula discors*,Waterfowl,"Mar '26, West Lafayette IN",NA,US
 ![](birdspics/mallard_2501.jpeg),Mallard 绿头鸭 ![](pixelart/mallard_s.png),*anas platyrhynchos*,Waterfowl,"Mar '26, West Lafayette IN",sometimes mixed with domestic ducks,"US, CN"
 ![](birdspics/northern_pintail_2603.jpg),Northern Pintail 针尾鸭 ![](pixelart/northernpintail_s.png),*anas acuta*,Waterfowl,"Mar '26, West Lafayette IN",NA,US
@@ -40,7 +40,7 @@ NA,Tufted Puffin 花魁鸟 ![](pixelart/tuftedpuffin_s.png),*fratercula cirrhata
 ![](birdspics/western_gull_2506.jpg),Western Gull 西美鸥 ![](pixelart/westerngull_s.png),*larus occidentals*,"Gulls, Terns, Skimmers","June '25, Santa Monica CA",dark grey back,US
 ![](birdspics/glaucous_winged_gull_2407.JPG),Glaucous-winged Gull 灰翅鸥  ![](pixelart/glaucouswingedgull_s.png),*larus glaucescens*,"Gulls, Terns, Skimmers","July '24, Seattle WA",juveniles were seen eating a starfish - sadly they failed.,US
 ![](birdspics/least_tern_2504.JPG),Least Tern 普通燕鸥  ![](pixelart/leasttern_s.png),*sternula antillarum*,"Gulls, Terns, Skimmers","Apr '25, Cambridge MD",fall straight from the sky to catch fishes,US
-![](birdspics/caspian_tern_2407.JPG),Caspian Tern 红嘴巨燕鸥  ![](pixelart/caspiantern_s.png),*hydroprogne caspia*,"Gulls, Terns, Skimmers","July '24, Seattle WA",NA,US
+![](birdspics/caspian_tern_2605.JPG),Caspian Tern 红嘴巨燕鸥  ![](pixelart/caspiantern_s.png),*hydroprogne caspia*,"Gulls, Terns, Skimmers","May '26, Porter IN",NA,US
 ![](birdspics/whiskered_tern_2507.jpg),Whiskered Tern 须浮鸥  ![](pixelart/whiskeredtern_s.png),*chlidonias hybrida*,"Gulls, Terns, Skimmers","July '25, Linyi Shandong",does not have forked tail,CN
 ![](birdspics/black_winged_stilt_2512.jpg),Black-winged Stilt 黑翅长脚鹬,*himantopus himantopus*,Shorebirds,"Dec '25, Suzhou Jiangsu",look like red-legged mosquitoes…,CN
 ![](birdspics/killdeer_2510.JPG),Killdeer 双领鸻 ![](pixelart/killdeer_s.png),*charadrius vociferus*,Shorebirds,"Oct '25, West Lafayette IN",didn't know they can also live in land,US
@@ -91,7 +91,7 @@ NA,Chimney Swift 烟囱雨燕,*chaetura pelagica*,Swifts,"May '26, West Lafayett
 ![](birdspics/red_rumped_swallow_2507.JPG),Red-rumped Swallow 金腰燕 ![](pixelart/redrumpedswallow_s.png),*cecropis daurica*,Martins and Swallows,"July '25, Suzhou Jiangsu",NA,CN
 NA,Common Cuckoo 大杜鹃 ![](pixelart/commoncuckoo_s.png),*cuculus canorus*,Cuckoos,"July '25, Beijing",singing *Cuckoo* endlessly. Chinese people refer it as 布谷 which literally translate as 'sowing seeds',CN
 ![](birdspics/common_kingfisher_2507.jpg),Common Kingfisher 普通翠鸟 ![](pixelart/commonkingfisher_s.png),*alcedo atthis*,Kingfishers,"Dec '25, Suzhou Jiangsu",very shy,CN
-NA,Belted Kingfisher 白腹鱼狗 ![](pixelart/beltedkingfisher_s.png),*megaceryle alcyon*,Kingfishers,"Nov '25, West Lafayette IN",suprisingly large,US
+![](birdspics/belted_kingfisher_2605.jpg),Belted Kingfisher 白腹鱼狗 ![](pixelart/beltedkingfisher_s.png),*megaceryle alcyon*,Kingfishers,"May '26, Porter IN",suprisingly large,US
 ![](birdspics/eurasian_hoopoe_2512.JPG),Eurasian Hoopoe 戴胜 ![](pixelart/eurasianhoopoe_s.png),*upupa epops*,Hoopoes,"Apr '23, Suzhou Jiangsu",NA,CN
 ![](birdspics/yellow_bellied_sapsucker_2503.JPG),Yellow-bellied Sapsucker 黄腹吸汁啄木鸟 ![](pixelart/yellowbelliedsapsucker_s.png),*sphyrapicus varius*,Woodpeckers,"Mar '25, Baltimore MD",dead due to bird strike,US
 ![](birdspics/red_bellied_woodpecker_2510.JPG),Red-bellied Woodpecker 红腹啄木鸟 ![](pixelart/redbelliedwoodpecker_s.png),*melanerpes carolinus*,Woodpeckers,"Mar '26, West Lafayette IN",NA,US
@@ -112,6 +112,7 @@ NA,Belted Kingfisher 白腹鱼狗 ![](pixelart/beltedkingfisher_s.png),*megacery
 ![](birdspics/eastern_wood_pewee_2605.JPG),Eastern Wood-Pewee 东部木鹟,*contopus virens*,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies","May '26, West Lafayette IN",its call is 'pewee'. I think birds are like pokemons,US
 ![](birdspics/black_phoebe_2506.jpg),Black Phoebe 黑长尾霸鹟 ![](pixelart/blackphoebe_s.png),*sayornis nigricans*,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies","June '25, Malibu CA",NA,US
 ![](birdspics/eastern_phoebe_2511.jpg),Eastern Phoebe 东菲比霸鹟 ![](pixelart/easternphoebe_s.png),*sayornis phoebe*,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies","May '26, West Lafayette IN",slightly yellow on sides,US
+![](birdspics/great_crested_flycatcher_2605.jpg),Great Crested Flycatcher 大冠蝇霸鹟,*myiachus crinitus*,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies","May '26, Porter IN",NA,US
 ![](birdspics/oriental_magpie_robin_2507.JPG),Oriental Magpie-Robin 鹊鸲 ![](pixelart/orientalmagpierobin_s.png),*copsychus saularis*,Old World Flycathers,"Dec '25, Suzhou Jiangsu","very common in Eastern China, sings beautifully",CN
 ![](birdspics/verditer_flycatcher_2601.jpg),Verditer Flycatcher 铜蓝鹟,*eumyias thalassinus*,Old World Flycathers,"Jan '26, Suzhou Jiangsu","not common in Suzhou, but I saw it",CN
 ![](birdspics/daurian_redstart_2512.jpg),Daurian Redstart 北红尾鸲,*phoenicurus auroreus*,Old World Flycathers,"Dec '25, Suzhou Jiangsu",cute orange bird,CN
@@ -142,10 +143,13 @@ NA,Belted Kingfisher 白腹鱼狗 ![](pixelart/beltedkingfisher_s.png),*megacery
 ![](birdspics/blue_gray_gnatcatcher_2605.JPG),Blue-gray Gnatcatcher 灰蓝蚋莺,*polioptila caerulea*,Gnatcatchers,"May '26, West Lafayette IN",have a distinguishable song,US
 ![](birdspics/ruby_crowned_kinglet_2203.jpg),Ruby-crowned Kinglet 红冠戴菊 ![](pixelart/rubycrownedkinglet_s.png),*corthylio calendula*,Kinglets,"Mar '22, Durham NC",NA,US
 ![](birdspics/eastern_warbling_vireo_2605.JPG),Eastern Warbling Vireo 歌莺雀,*vireo gilvus*,Vireos,"May '26, West Lafayette IN",can be very loud,
+![](birdspics/red_eyed_vireo_2605.JPG),Red-eyed Vireo 红眼莺雀,*vireo olivaceus*,Vireos,"May '26, Porter IN",NA,US
 ![](birdspics/ovenbird_2510.JPeG),Ovenbird 灯顶灶莺 ![](pixelart/ovenbird_s.png),*seiurus aurocapilla*,Wood-Warblers,"Oct '25, West Lafayette IN",dead due to bird strike,US
 ![](birdspics/tennessee_warbler_2510.JPG),Tennessee Warbler 灰冠虫森莺 ![](pixelart/tennesseewarbler_s.png),*leiothlypis peregrina*,Wood-Warblers,"Oct '25, West Lafayette IN",actually really hard to ID so not sure,US
+![](birdspics/common_yellowthroat_2605.jpg),Common Yellowthroat 黄喉地莺,*geothlypis trichas*,Wood-Warblers,"May '26, Porter IN",NA,US
 ![](birdspics/american_redstart_2605.jpg),American Redstart 橙尾鸲莺,*setophaga ruticilla*,Wood-Warblers,"May '26, West Lafayette IN",NA,US
 ![](birdspics/northern_parula_2605.jpg),Northern Parula 北森莺,*setophaga americana*,Wood-Warblers,"May '26, West Lafayette IN",NA,US
+![](birdspics/northern_yellow_warbler_2605.jpg),Northern Yellow Warbler 北美黄林莺,*setophaga aestiva*,Wood-Warblers,"May '26, Porter IN",NA,US
 ![](birdspics/yellow_rumped_warbler_2511.JPG),Yellow-rumped Warbler 黄腰白喉林莺 ![](pixelart/yellowrumpedwarbler_s.png),*setophaga auduboni*,Wood-Warblers,"Nov '25, West Lafayette IN",NA,US
 NA,Grey Wagtail 灰鹡鸰,*motacilla cinerea*,Wagtails and Pipits,"Dec '25, Suzhou Jiangsu","although called 'grey wagtail', its most distinguishable feature is its yellow belly",CN
 ![](birdspics/white_wagtail_2512.JPG),White Wagtail 白鹡鸰 ![](pixelart/whitewagtail_s.png),*motacilla alba*,Wagtails and Pipits,"Dec '25, Suzhou Jiangsu","tail wags endlessly, and flies in 'sine function'",CN
@@ -156,6 +160,7 @@ NA,Grey Wagtail 灰鹡鸰,*motacilla cinerea*,Wagtails and Pipits,"Dec '25, Suzh
 ![](birdspics/american_tree_sparrow_2603.jpg),American Tree Sparrow 树雀鹀 ![](pixelart/americantreesparrow_s.png),*spizelloides arborea*,New World Sparrows,"Mar '26, West Lafayette IN",NA,US
 ![](birdspics/white_throated_sparrow_2410.JPG),White-throated Sparrow 白喉带鹀 ![](pixelart/whitethroatedsparrow_s.png),*zonotrichia albicollis*,New World Sparrows,"Oct '24, Baltimore MD","found dead around MICA, bird strike",US
 ![](birdspics/song_sparrow_2510.jpg),Song Sparrow 歌带鹀 ![](pixelart/songsparrow_s.png),*melospiza melodia*,New World Sparrows,"May '26, West Lafayette IN",NA,US
+![](birdspics/eastern_towhee_2605.jpg),Eastern Towhee 棕胁唧鹀,*pipilo erythrophthalmus*,New World Sparrows,"May '26, Porter IN",very big one,US
 ![](birdspics/dark_eyed_junco_2506.jpg),Dark-eyed Junco (Oregon) 暗眼灯草鹀 ![](pixelart/darkeyedjunco_s.png),*junco hyemalis*,New World Sparrows,"June '25, Malibu CA",west coast and east coast juncos look different,US
 ![](birdspics/dark_eyed_junco_slate_2603.jpg),Dark-eyed Junco (Slate-colored) 暗眼灯草鹀 ![](pixelart/darkeyedjuncoslate_s.png),*junco hyemalis*,New World Sparrows,"Mar '26, West Lafayette IN",winter birds at indiana,US
 ![](birdspics/black_faced_bunting_2601.jpg),Black-faced Bunting 灰头鹀 ![](pixelart/blackfacedbunting_s.png),*emberiza apodocephala*,Old World Buntings,"Jan '26, Suzhou Jiangsu",NA,CN
@@ -167,6 +172,7 @@ NA,Grey Wagtail 灰鹡鸰,*motacilla cinerea*,Wagtails and Pipits,"Dec '25, Suzh
 ![](birdspics/grey_capped_greenfinch_2507.jpg),Grey-capped Greenfinch 金翅雀 ![](pixelart/greycappedgoldfinch_s.png),*chloris sinica*,"Finches, Euphonias, and allies","July '25, Yantai Shandong",NA,CN
 ![](birdspics/american_goldfinch_2605.jpg),American Goldfinch 北美金翅雀 ![](pixelart/americangoldfinch_s.png),*spinus tristis*,"Finches, Euphonias, and allies","May '26, West Lafayette IN",beautiful yellow fairies,US
 ![](birdspics/lesser_goldfinch_2506.jpg),Lesser Goldfinch 暗背金翅雀 ![](pixelart/lessergoldfinch_s.png),*carduelis psaltria*,"Finches, Euphonias, and allies","June '25, Los Angeles CA",NA,US
+![](birdspics/summer_tanager_2605.jpg),Summer Tanager 玫红丽唐纳雀,*piranga rubra*,"Cardinals, Grosbeaks, and allies","May '26, Porter IN",stunning red bird,US
 ![](birdspics/northern_cardinal_2203.jpg),Northern Cardinal 主红雀 ![](pixelart/redcardinal_s.png),*cardinalis cardinalis*,"Cardinals, Grosbeaks, and allies","May '26, West Lafayette IN","cutest and most iconic bird in the USA, state bird of Indiana",US
 ![](birdspics/indigo_bunting_2605.jpg),Indigo Bunting 靛蓝彩鹀,*passerina cyanea*,"Cardinals, Grosbeaks, and allies","May '26, West Lafayette IN",strikingly indigo,US
 NA,Eastern Meadowlark 东草地鹨 ![](pixelart/easternmeadowlark_s.png),*sturnella magna*,Blackbirds,"Mar '26, West Lafayette IN",only heard them singing. never seen with eyes,US

@@ -124,6 +124,8 @@ gig_2026 <- gig %>%
 kable(lib_book_2026[,c(1,3,4,5,6,7)])
 
 kable(lib_mov_2026[,c(1,3,4,5,6,7)])
+
+kable(gig_2026[,c(1,2,3,4,5,6,7)])
 ```
 
 ongoing...
