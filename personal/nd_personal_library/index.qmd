@@ -219,7 +219,6 @@ base1 +
        fill = '种类')
 ```
 
-很明显，冬天没法出门所以在装文艺。
 
 #### + 比大时代晚了*千分之一*秒
 
@@ -234,7 +233,7 @@ years <- rbind(gig[,c("publish","type")], lib[,c("publish","type")])
 years <- years %>%
   drop_na() %>%
   rename(year = publish) %>%
-  mutate(decade = paste0(round(year/10)*10,"s")
+  mutate(decade = paste0(floor(year / 10) * 10, "s")
   )
 
 base2 <- ggplot(years, aes(x = decade, color = type, fill = type)) + 
@@ -254,9 +253,7 @@ base2 +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 ```
 
-看书比较平均，60年代**较**多，这也确实是我想要的；电影看的都是最近上映的（本来就并非狂热电影迷）；音乐嘛，我是狂热的90年代爱好者，这确实也体现出来了…
-
-&居然最近三年完全没有看过19世纪及以前的书。震撼。
+看书比较平均，60年代**较**多，这也确实是我想要的；电影看的都是最近上映的（本来就并非狂热电影迷）；音乐嘛，我是狂热的80-90年代爱好者，这确实也体现出来了…
 
 #### + 我是一个慷慨的打分者吗？
 
