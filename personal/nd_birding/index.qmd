@@ -17,6 +17,8 @@ output:
 
 You can see birds I've sighted at [bird list](#birdlist) (including an [interactive map](#map)) and all my favorite birding destinations at [places I went for birding](#places). [Links and resources](#links) are also provided. 
 
+Besides this megapost, I sometimes also write separate [posts](../../archive.qmd#category=birding) about birding trips I went to. 
+
 You can also check my [eBird profile](https://ebird.org/profile/NTk5NDQ1OQ). 
 
 ***Note**: Only wild birds were recorded. All photos taken by me (most with Sony WX800). All pixel arts created by me.*
@@ -26,7 +28,7 @@ The next bird I want to see is:
 
 - ***Eastern Screech-Owl***, Ruby, I heard that you reside in a dead tree near the Celery Bog Natural Center, let me find you! 
 
-- ***American Woodcock***, the hype is up when spring comes...
+- ***Wood Duck***, Oh the American Yuan-yang...
 :::
 
 ------------------------------------------------------------------------
@@ -40,6 +42,21 @@ library(tidyverse)
 library(knitr)
 library(DT)
 
+# theme
+pekosz_theme <- theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = 'bold'),
+    axis.line = element_line(size = 0.5),
+    axis.ticks = element_line(),
+    legend.title = element_text(face = 'bold'),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
+    rect = element_rect(fill = "transparent")
+  )
+theme_set(pekosz_theme)
+
+
 # list
 bird_list <- read.csv("bird_df.csv", fileEncoding = "UTF-8")
 
@@ -48,6 +65,8 @@ kable(
   col.names = gsub("[.]", " ", names(bird_list)[c(1,2,3,4,5,6)])
 )
 ```
+
+### Summary & Milestones
 
 ```{r results = FALSE, echo = FALSE, warning = FALSE}
 
@@ -58,31 +77,44 @@ result <- as.data.frame(
 
 colnames(result) <- c("location", "count")
 result
-
-# summary charadriiformes
-charadriiformes_n <- nrow(
-  bird_list[bird_list$Family %in% 
-    c("Gulls, Terns, Skimmers", "Shorebirds"), ]
-)
-
-# summary corvidae
-corvidae_n <- nrow(
-  bird_list[bird_list$Family %in% 
-    c("Jays, Magpies, Crows, Ravens"), ]
-)
 ```
 
-#### Milestones
+Now I've observed <code>`r nrow(bird_list)`</code> bird species, in which <code>`r result$count[result$location == "US"]`</code> of them were spotted in the United States.
 
-Now I've observed <code>`r nrow(bird_list)`</code> bird species, in which <code>`r result$count[result$location == "US"]`</code> of them were found in the United States.
+```{r time, echo = FALSE, message = FALSE, warning = FALSE}
+library(lubridate)
 
-- **100 birds spotted**: June 2025
+lifer <- read.csv("lifer_df.csv", fileEncoding = "UTF-8")
 
-- **125 birds spotted**: Oct 2025
+lifer <- lifer %>%
+  mutate(date = mdy(date))
 
-- **150 birds spotted**: Jan 2026
+ggplot(lifer, aes(x = date, y = lifer)) + 
+  geom_line() +
+  labs(title = 'Lifers by Time')
+```
 
-- **175 birds spotted**: May 2026
+- **100 bird species spotted**: June 2025
+
+- **125 bird species spotted**: Oct 2025
+
+- **150 bird species spotted**: Jan 2026
+
+- **175 bird species spotted**: May 2026
+
+The bird family of most lifers for me is currently <code>Waterfowl</code>.
+
+```{r barplot, echo = FALSE, message = FALSE, warning = FALSE}
+ggplot(bird_list, aes(x = fct_infreq(Family))) + 
+  geom_bar(aes(fill = after_stat(count))) +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    axis.ticks.x = element_blank(),
+    legend.position = "none"
+  ) +
+  labs(x = "Family", y = "Count", title = 'Lifers by Family')
+```
+
 
 ### Birding Around the World: Interactive Map {#map}
 
@@ -236,7 +268,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Type**: Urban \| Freshwater; Woods, Pond
 -   **First Visited**: Mar 2025
 -   **Last Visited**: May 2025
--   **Birds**: American Robin, Canada Goose, Mallard, Rock Pigeon, Fish Crow, House Finch, Red-winged Black Bird, Little Blue Heron, House Sparrow, Blue Jay, Mourning Dove
+-   **Birds**: American Robin, Canada Goose, Mallard, Rock Pigeon, Fish Crow, House Finch, Red-winged Black Bird, Green Heron, House Sparrow, Blue Jay, Mourning Dove
 -   **Comments**: The historical park is a great place for birdwatching. If you visit the park at late spring, you can watch flocks of robins, sparrows and blackbirds singing, mallards hanging out, and Canada geese raising their goslings around the pond! They're not afraid of people and happy to interact with visitors.
 -   **Link**: [Friends of Patterson Park](https://pattersonpark.com/#visit-us) \| [ebird](https://ebird.org/hotspot/L449982)
 
@@ -266,18 +298,18 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: The streams in the woods are a good place to catch up with our geese and heron friends.
 -   **Link**: [National Park Service: Harpers Ferry](https://www.nps.gov/hafe/index.htm) \| [ebird](https://ebird.org/region/L715042)
 
-#### ![](pixelart/brant_s.png) New York City, NY: Liberty Island
+#### ![](pixelart/brant_s.png) New York, NY/Hudson, NJ: Liberty Island/Liberty State Park
 
 ::: column-margin
 ![Liberty Island, Jan 2024](landspics/libertyisland.JPG){group="landspics"}
 :::
 
--   **Type**: Urban \| Saltwater; Island
+-   **Type**: Urban \| Saltwater; Shore, Wetland
 -   **First Visited**: Jan 2024
--   **Last Visited**: Jan 2024
--   **Birds**: American Herring Gull, Brant, European Starling, Ring-billed Gull
--   **Comments**: While New York City resides mainly fat pigeons, the liberty island is surprisingly a good place to watch waterfowls, and of course, gulls. Just mind your food, the gulls are really aggressive.
--   **Link**: [ebird](https://ebird.org/region/L2686238)
+-   **Last Visited**: May 2026
+-   **Birds**: American Herring Gull, Brant, European Starling, Ring-billed Gull, Laughing Gull, Boat-tailed Grackle, American Black Duck, Double-Crested Cormorant, Red-winged Blackbird, Song Sparrow
+-   **Comments**: While New York City resides mainly fat pigeons, the Liberty Island and the nearby Liberty State Park are surprisingly good places to watch waterfowls, and of course, gulls. Just mind your food, the gulls are really aggressive.
+-   **Link**: [ebird (Liberty Island)](https://ebird.org/region/L2686238)\| [ebird (Liberty SP)](https://ebird.org/region/L189035)
 
 ### The South, USA
 
