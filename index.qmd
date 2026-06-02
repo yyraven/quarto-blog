@@ -26,6 +26,8 @@ listing:
   feed: true
 ---
 
+<body id="welcome">
+
 # raven's nest
 
 \+ 渡鸦巢 welcome, my friend +

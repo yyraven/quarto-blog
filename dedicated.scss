@@ -7,7 +7,7 @@
    ========================================================================== */
 
 /* Color Palette */
-$body-bg:           #252625;
+$body-bg:           #121212;
 $body-color:        #e8e3e6;
 $link-color:        #a2e0b0;
 $link-hover-color:  #de9bb9;
@@ -179,7 +179,7 @@ details p {
 
 /* Navbar */
 .navbar {
-  background: linear-gradient(90deg, $body-bg, rgba(255,255,255,0));
+  background-color: none !important;
   border-bottom: 2px dashed;
   font-family: $font-cursive-sans;
   text-transform: lowercase;
@@ -477,4 +477,57 @@ table thead {
 .quarto-dark .navbar-toggler-icon,
 .quarto-dark .quarto-color-scheme-toggle{
     filter: invert(100%) !important;
+}
+
+/* Welcome Pages Special Background */
+@function create-streaks($n) {
+  $shadows: '#{random(100)}vw #{random(200)}vh 0 rgba(255, 255, 255, 0.#{random(8) + 1})';
+  @for $i from 2 through $n {
+    $shadows: '#{$shadows}, #{random(100)}vw #{random(200)}vh 0 rgba(255, 255, 255, 0.#{random(8) + 1})';
+  }
+  @return unquote($shadows);
+}
+
+$streaks-small: create-streaks(30);
+$streaks-long: create-streaks(10);
+
+#welcome {
+  background-color: $body-bg;
+  background-image: none !important;
+  position: relative;
+
+  z-index: 1;
+
+  &::before,
+  &::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1px;
+    background: transparent;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  &::before {
+    height: 12px;
+    box-shadow: $streaks-small;
+    animation: riseUp 17s linear infinite;
+  }
+
+  &::after {
+    height: 24px;
+    box-shadow: $streaks-long;
+    animation: riseUp 25s linear infinite;
+  }
+}
+
+@keyframes riseUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100vh);
+  }
 }
