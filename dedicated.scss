@@ -7,12 +7,12 @@
    ========================================================================== */
 
 /* Color Palette */
-$body-bg:           #22202e;
+$body-bg:           #20272e;
 $body-color:        #dcd7e6;
-$link-color:        #64dfdf;
-$link-hover-color:  #ffb3c6;
-$code-color:        #9bdede;
-$code-bg:           rgba(#64dfdf, 0.02);
+$link-color:        #7f90c9;
+$link-hover-color:  #dec59b;
+$code-color:        #b3d1ff;
+$code-bg:           rgba(#7f90c9, 0.02);
 $code-block-bg:     $code-bg;
 
 /* Typography Stacks */
@@ -114,7 +114,7 @@ ul {
 
 /* Divider */
 hr {
-  color: $link-hover-color;
+  color: $link-color;
   border: none;
   text-align: center;
   margin: 2rem 0;
