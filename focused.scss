@@ -17,20 +17,21 @@ $code-block-bg:     $code-bg;
 
 /* Typography Stacks */
 $font-serif:      'Newsreader', 'Noto Serif SC', serif;
-$font-sans:       'Noto Sans Display', 'Noto Sans SC', sans-serif;
+$font-sans:       'Quicksand', 'Noto Sans SC', sans-serif;
 $font-cursive:    'Castoro', 'Noto Serif SC', serif;
-$font-cursive-sans: 'Poppins', 'Noto Sans SC', sans-serif;
+$font-cursive-sans: 'Comfortaa', 'Noto Sans SC', sans-serif;
 $font-code:       'Fira Code', monospace;
 
 /* Spacing and Borders */
 $padding:         1.2rem;
 $margin:          1rem;
-$border-radius:   0;
+$border-radius:   0.5rem;
 
 /* Imported Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Noto+Sans+SC:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fira+Code:wght@400;500;600&family=Noto+Sans+SC:wght@300;400;500;700&family=Quicksand:wght@300..700&display=swap');
 
 
 /*-- scss:rules --*/
@@ -62,6 +63,24 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: $padding;
+  border-radius: $border-radius;
+}
+
+img,
+video,
+figure {
+  border-radius: none !important;
+}
+
+pre,
+.sourceCode,
+blockquote,
+.callout,
+.card,
+.alert,
+table {
+  border-radius: $border-radius !important;
+  overflow: hidden;
 }
 
 /* ==========================================================================
@@ -96,10 +115,12 @@ h1 {
   font-family: $font-cursive-sans;
   color: $link-color;
   margin: $margin 0;
+  font-weight: 400;
 }
 
 h2, h3, h4, h5, h6 {
   font-family: $font-sans;
+  font-weight: 400;
   border-bottom: none !important;
   color: $link-color;
   margin: $margin 0;
@@ -178,7 +199,7 @@ details p {
 
 /* Navbar */
 .navbar {
-  background-color: none !important;
+  background-color: rgba($body-bg,0);
   border-bottom: 2px dashed;
   font-family: $font-cursive-sans;
   text-transform: lowercase;
@@ -197,6 +218,17 @@ details p {
     color: $link-color !important;
     border-color: $link-color !important;
   }
+}
+.quarto-dark .quarto-color-scheme-toggle{
+filter: invert(100%) !important;
+}
+
+.navbar-toggler-icon {
+  background-image: none !important;
+  background-color: $link-color !important;
+
+  -webkit-mask: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") center/100% 100% no-repeat;
+  mask: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") center/100% 100% no-repeat;
 }
 
 /* Sidebar & Navigation */
@@ -474,31 +506,20 @@ table thead {
 
 /* Welcome Pages Special Background */
 #welcome {
-  position: relative;
   background-color: $body-bg;
-  z-index: 1;
 
-  &::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
+  background-image:
+    radial-gradient(circle at 0% 50%, rgba($link-hover-color, 0.15) 0%, transparent 70%);
 
-    background-image: radial-gradient(circle at 0% 50%, rgba($link-hover-color, 0.4) 0%, transparent 60%);
-    background-repeat: no-repeat;
-    z-index: -1;
-    pointer-events: none;
-    animation: slowBlink 15s ease-in-out infinite;
-  }
-}
+  background-size:
+    100% 100vh;
 
-@keyframes slowBlink {
-  0%, 100% {
-    opacity: 0.2;
-  }
-  50% {
-    opacity: 1;
-  }
+  background-position:
+    0 0;
+
+  background-repeat:
+    no-repeat;
+
+  background-attachment:
+    fixed;
 }

@@ -17,5 +17,6 @@ I mainly use [RStudio](https://posit.co/products/open-source/rstudio/?sid=1) as 
 - **260127** Dark theme
 - **260401** Better dark theme; use '#sample' tag format
 - **260506** New feature 'Surprise Me' added on homepage; better listing page styling for mobile devices
+- **260602** Summer theme
 
 I share the CSS themes I made  [here](work.qmd#category=css). Check them out :->
