@@ -1,5 +1,5 @@
 ---
-title: "Log | Credit"
+title: "更新日志｜Change Log"
 toc: false
 ---
 
@@ -17,6 +17,6 @@ I mainly use [RStudio](https://posit.co/products/open-source/rstudio/?sid=1) as 
 - **260127** Dark theme
 - **260401** Better dark theme; use '#sample' tag format
 - **260506** New feature 'Surprise Me' added on homepage; better listing page styling for mobile devices
-- **260602** Summer theme
+- **260602** Summer theme + Suzhou theme since I miss it
 
 I share the CSS themes I made  [here](work.qmd#category=css). Check them out :->

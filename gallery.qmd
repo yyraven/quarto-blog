@@ -1,10 +1,8 @@
 ---
-title: "Gallery"
+title: "影集｜Gallery"
 lightbox: true
 toc: true
 ---
-
-## Seasons
 
 ![May '26 fluffy little fairy](figs/2605.jpg){group="home"}
 

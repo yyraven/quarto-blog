@@ -5,13 +5,13 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Raven&#39;s Nest</title>
+<title>raven&#39;s nest</title>
 <link>https://yyraven.github.io/quarto-blog/</link>
 <atom:link href="https://yyraven.github.io/quarto-blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Raven&#39;s Nest, a personal blog</description>
 <image>
 <url>https://yyraven.github.io/quarto-blog/figs/preview.png</url>
-<title>Raven&#39;s Nest</title>
+<title>raven&#39;s nest</title>
 <link>https://yyraven.github.io/quarto-blog/</link>
 <height>69</height>
 <width>144</width>

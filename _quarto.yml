@@ -4,7 +4,7 @@ project:
 
 website:
   favicon: figs/crow_s.png
-  title: "Raven's Nest"
+  title: "raven's nest"
   image: figs/preview.png
   open-graph: true
   description: "Raven's Nest, a personal blog"
