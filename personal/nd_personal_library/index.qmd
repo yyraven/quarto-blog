@@ -103,9 +103,7 @@ gig_2026 <- gig %>%
 ```
 
 
-自 2023 年 8 月以来所有（已完成的）书籍/电影/动漫/现场音乐记录 + 一些统计数据。
-
-不准沉迷短视频！也不准半途而废了！
+自 2023 年 8 月以来所有（已完成的）书籍/电影/动漫/现场音乐记录 + 一些统计数据。主要是为了激励我摆脱2020年代的人类之毒aka短视频。
 
 ------------------------------------------------------------------------
 
@@ -117,7 +115,13 @@ gig_2026 <- gig %>%
 
 <summary>2026</summary>
 
-2026年，我一共看了 <code>`r nrow(lib_book_2026)`</code> 本书，<code>`r nrow(lib_mov_2026)`</code> 部电影/动画，<code>`r nrow(gig_2026)`</code> 场演出。
+2026年，我一共看了 <code>`r nrow(lib_book_2026)`</code> 本书，<code>`r nrow(lib_mov_2026)`</code> 部电影/电视剧/动画，<code>`r nrow(gig_2026)`</code> 场演出。
+
+::: callout
+- 最喜欢的书：？
+- 最喜欢的电影/电视剧/动画：？
+- 最喜欢的现场：？
+:::
 
 ```{r 2026 summ, echo = FALSE, message = FALSE, warning = FALSE}
 #list
@@ -136,7 +140,13 @@ ongoing...
 
 <summary>2025</summary>
 
-2025年，我一共看了 <code>`r nrow(lib_book_2025)`</code> 本书，<code>`r nrow(lib_mov_2025)`</code> 部电影/动画，<code>`r nrow(gig_2025)`</code> 场演出。
+2025年，我一共看了 <code>`r nrow(lib_book_2025)`</code> 本书，<code>`r nrow(lib_mov_2025)`</code> 部电影/电视剧/动画，<code>`r nrow(gig_2025)`</code> 场演出。
+
+::: callout
+- 最喜欢的书：在路上
+- 最喜欢的电影/电视剧/动画：没有最喜欢的
+- 最喜欢的现场：Alcest
+:::
 
 ```{r 2025 summ, echo = FALSE, message = FALSE, warning = FALSE}
 #list
@@ -155,7 +165,13 @@ kable(gig_2025[,c(1,2,3,4,5,6,7)])
 
 <summary>2024</summary>
 
-2024年，我一共看了 <code>`r nrow(lib_book_2024)`</code> 本书，<code>`r nrow(lib_mov_2024)`</code> 部电影/动画，<code>`r nrow(gig_2024)`</code> 场演出。
+2024年，我一共看了 <code>`r nrow(lib_book_2024)`</code> 本书，<code>`r nrow(lib_mov_2024)`</code> 部电影/电视剧/动画，<code>`r nrow(gig_2024)`</code> 场演出。
+
+::: callout
+- 最喜欢的书：仿生人会梦见电子羊吗？
+- 最喜欢的电影/电视剧/动画：The Shape of Water/My Own Private Idaho/Lost in Translation
+- 最喜欢的现场：Ride
+:::
 
 ```{r 2024 summ, echo = FALSE, message = FALSE, warning = FALSE}
 #list
@@ -174,7 +190,13 @@ kable(gig_2024[,c(1,2,3,4,5,6,7)])
 
 <summary>2023</summary>
 
-2023年，我一共看了 <code>`r nrow(lib_book_2023)`</code> 本书，<code>`r nrow(lib_mov_2023)`</code> 部电影/动画，<code>`r nrow(gig_2023)`</code> 场演出。
+2023年，我一共看了 <code>`r nrow(lib_book_2023)`</code> 本书，<code>`r nrow(lib_mov_2023)`</code> 部电影/电视剧/动画，<code>`r nrow(gig_2023)`</code> 场演出。
+
+::: callout
+- 最喜欢的书：那不勒斯四部曲
+- 最喜欢的电影/电视剧/动画：没有最喜欢的
+- 最喜欢的现场：没有最喜欢的
+:::
 
 ```{r 2023 summ, echo = FALSE, message = FALSE, warning = FALSE}
 
@@ -257,9 +279,7 @@ base2 +
 
 #### + 我是一个慷慨的打分者吗？
 
-我打分一般遵循这个原则：“有无法忽视的问题” - 6分及以下，“还不错” - 7分，“蛮喜欢” - 8分，“超喜欢” - 9分，“我愿意对出门后遇到的每一个人卖安利” - 10分。
-
-根据统计知识可知，只要我看得够多，最后分数会呈现出一个平均数为7的正态分布。但，果真如此吗？
+打分一般遵循这个原则：“有无法忽视的问题” - 5分及以下，“无聊但合格” - 6分，“还不错” - 7分，“蛮喜欢” - 8分，“超喜欢” - 9分，“我愿意对出门后遇到的每一个人卖安利” - 10分。
 
 ```{r rating, echo = FALSE, message = FALSE, warning = FALSE}
 ratings <- rbind(gig[,c("rating","type")], lib[,c("rating","type")])
@@ -282,7 +302,7 @@ base3 +
        fill = '种类') +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 ```
-非也。是因为一般只有好看才会看完吧。对于书尤其如此，看不下去的我就不会看完（这是一个坏习惯），所以也不会记到这里。
+——我是一个慷慨的打分者吗？从统计数据的角度上，是的。因为一般只有好看才会看完吧。对于书尤其如此，看不下去的我就不会看完（这是一个坏习惯），所以也不会记到这里。
 
 #### + 所以到底每年花了多少时间读书？
 

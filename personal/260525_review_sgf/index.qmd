@@ -1,7 +1,7 @@
 ---
 title: "滚妹人格｜夏日&盯鞋&音乐节初体验"
 date: "2026-05-25"
-categories: [music, review, 中文]
+categories: [music, review, shoegaze, 中文]
 image: figs/tb_2.jpeg
 ---
 
