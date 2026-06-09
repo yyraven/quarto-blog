@@ -4,7 +4,7 @@ lightbox: true
 toc: true
 ---
 
-## + seasons +
+## Seasons
 
 ![May '26 fluffy little fairy](figs/2605.jpg){group="home"}
 
