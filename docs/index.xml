@@ -2324,7 +2324,7 @@ font-style: inherit;">:</span> $code-bg;</span></code></pre></div>
 <summary>
 2026
 </summary>
-<p>2026年，我一共看了 <code>3</code> 本书，<code>15</code> 部电影/电视剧/动画，<code>2</code> 场演出。</p>
+<p>2026年，我一共看了 <code>3</code> 本书，<code>16</code> 部电影/电视剧/动画，<code>2</code> 场演出。</p>
 <div class="callout callout-style-simple callout-none no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -2528,6 +2528,14 @@ font-style: inherit;">:</span> $code-bg;</span></code></pre></div>
 <td style="text-align: right;">2007</td>
 <td style="text-align: right;">9</td>
 <td style="text-align: left;">非常棒的公路电影。养蜂人那段故事真好，西南大地的风景真美，让人有了更多活下去的力量</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2026-06-09</td>
+<td style="text-align: left;">Montréal, ma belle</td>
+<td style="text-align: left;">何晓丹</td>
+<td style="text-align: right;">2026</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">太好看的爱情片，陈冲把我迷得神魂颠倒，那种70后优雅女人的气质太传神了</td>
 </tr>
 </tbody>
 </table>
@@ -3345,7 +3353,7 @@ font-style: inherit;">:</span> $code-bg;</span></code></pre></div>
 <section id="数据分析" class="level3">
 <h3 class="anchored" data-anchor-id="数据分析">数据分析</h3>
 <section id="哪些天不是读书天" class="level4">
-<h4 class="anchored" data-anchor-id="哪些天不是读书天">+ 哪些天不是读书天</h4>
+<h4 class="anchored" data-anchor-id="哪些天不是读书天">哪些天不是读书天</h4>
 <p>看看啥时候我最不务正业吧。</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -3358,7 +3366,7 @@ font-style: inherit;">:</span> $code-bg;</span></code></pre></div>
 </div>
 </section>
 <section id="比大时代晚了千分之一秒" class="level4">
-<h4 class="anchored" data-anchor-id="比大时代晚了千分之一秒">+ 比大时代晚了<em>千分之一</em>秒</h4>
+<h4 class="anchored" data-anchor-id="比大时代晚了千分之一秒">比大时代晚了<em>千分之一</em>秒</h4>
 <blockquote class="blockquote">
 <p>“你和我出生在尘埃落定后的时代，晚了千分之一秒” ——乔伊斯（极乐迪斯科）</p>
 </blockquote>
@@ -3375,7 +3383,7 @@ font-style: inherit;">:</span> $code-bg;</span></code></pre></div>
 <p>看书比较平均，60年代<strong>较</strong>多，这也确实是我想要的；电影看的都是最近上映的（本来就并非狂热电影迷）；音乐嘛，我是狂热的80-90年代爱好者，这确实也体现出来了…</p>
 </section>
 <section id="我是一个慷慨的打分者吗" class="level4">
-<h4 class="anchored" data-anchor-id="我是一个慷慨的打分者吗">+ 我是一个慷慨的打分者吗？</h4>
+<h4 class="anchored" data-anchor-id="我是一个慷慨的打分者吗">我是一个慷慨的打分者吗？</h4>
 <p>打分一般遵循这个原则：“有无法忽视的问题” - 5分及以下，“无聊但合格” - 6分，“还不错” - 7分，“蛮喜欢” - 8分，“超喜欢” - 9分，“我愿意对出门后遇到的每一个人卖安利” - 10分。</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -3389,7 +3397,7 @@ font-style: inherit;">:</span> $code-bg;</span></code></pre></div>
 <p>——我是一个慷慨的打分者吗？从统计数据的角度上，是的。因为一般只有好看才会看完吧。对于书尤其如此，看不下去的我就不会看完（这是一个坏习惯），所以也不会记到这里。</p>
 </section>
 <section id="所以到底每年花了多少时间读书" class="level4">
-<h4 class="anchored" data-anchor-id="所以到底每年花了多少时间读书">+ 所以到底每年花了多少时间读书？</h4>
+<h4 class="anchored" data-anchor-id="所以到底每年花了多少时间读书">所以到底每年花了多少时间读书？</h4>
 <p>丢人时间到（用总字数算的）：</p>
 <div class="cell">
 <div class="cell-output-display">

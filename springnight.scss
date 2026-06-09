@@ -77,8 +77,8 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: rgba($body-bg,0.1);
-    backdrop-filter: blur(8px) brightness(0.95);
-    -webkit-backdrop-filter: blur(8px) brightness(0.95);
+    backdrop-filter: blur(12px) brightness(0.8);
+    -webkit-backdrop-filter: blur(12px) brightness(0.8);
     z-index: -1;
   }
 }
@@ -162,7 +162,7 @@ h2, h3, h4, h5, h6 {
   font-family: $font-cursive;
   font-weight: 400;
   border-bottom: none !important;
-  color: rgba($title-color, 1.2);
+  color: $title-color;
   margin: 2rem 0 1rem 0;
   letter-spacing: 2px;
   text-indent: 0;
@@ -399,6 +399,12 @@ table thead {
   font-size: 0.9rem;
 }
 
+/* Summary */
+summary {
+  color: $body-color !important;
+  cursor: pointer !important;
+}
+
 /* Captions */
 .quarto-figure figcaption,
 .figure figcaption,
@@ -418,6 +424,7 @@ table thead {
   padding: 2px 8px !important;
   font-size: 0.8rem;
   color: $link-color !important;
+  text-transform: none !important;
 
   &::before {
     content: "";
@@ -458,8 +465,8 @@ table thead {
 
     background-color: rgba(0, 0, 0, 0.2);
 
-    backdrop-filter: blur(8px) brightness(0.7);
-    -webkit-backdrop-filter: blur(8px) brightness(0.7);
+    backdrop-filter: blur(12px) brightness(0.7);
+    -webkit-backdrop-filter: blur(12px) brightness(0.7);
 
     z-index: -1;
   }
