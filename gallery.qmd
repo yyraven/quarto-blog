@@ -1,5 +1,5 @@
 ---
-title: "影集｜Gallery"
+title: "影集"
 lightbox: true
 toc: true
 ---

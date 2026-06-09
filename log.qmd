@@ -1,5 +1,5 @@
 ---
-title: "更新日志｜Change Log"
+title: "更新日志"
 toc: false
 ---
 

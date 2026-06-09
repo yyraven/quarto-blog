@@ -1,5 +1,5 @@
 ---
-title: "作品｜Work"
+title: "作品"
 listing:
   contents: work/**/*.qmd
   sort: "date desc"
