@@ -7,7 +7,7 @@
    ========================================================================== */
 
 /* Color Palette */
-$body-bg:           rgba(#1e2530, 0.35);
+$body-bg:           rgba(#1e2530, 0.25);
 $body-color:        rgba(#e2e8f0, 0.85);
 $title-color:       rgba(#ffffff, 0.7);
 $link-color:        rgba(#a4c2eb, 0.7);
@@ -17,8 +17,8 @@ $code-bg:           rgba(#000000, 0.25);
 $code-block-bg:     $code-bg;
 
 /* Typography Stacks */
-$font-serif:      "Times New Roman", "Times", "Baskerville", "Georgia", "KaiTi", "楷体", STKaiti, "华文楷体", serif;
-$font-cursive:    "Times New Roman", "Times", "Baskerville", "Georgia", "KaiTi", "楷体", STKaiti, "华文楷体", serif;
+$font-serif:   "Times New Roman", "Times", "Baskerville", "Georgia", "Kaiti SC", "Kaiti TC", "BiauKai", "KaiTi", "楷体", STKaiti, "华文楷体", "LXGW WenKai Lite", serif;
+$font-cursive: "Times New Roman", "Times", "Baskerville", "Georgia", "Kaiti SC", "Kaiti TC", "BiauKai", "KaiTi", "楷体", STKaiti, "华文楷体", "LXGW WenKai Lite", serif;
 $font-code:       "Cascadia Code", "Consolas", "SF Mono", "Menlo", "Monaco", "Noto Sans Mono", "KaiTi", monospace;
 
 /* Spacing and Borders */
@@ -27,6 +27,7 @@ $margin:          1.5rem;
 $border-radius:   0rem;
 
 /* Imported Fonts */
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css');
 
 /*-- scss:rules --*/
 /* ==========================================================================
@@ -157,6 +158,7 @@ h1 {
   font-weight: 400;
   letter-spacing: 4px;
   line-height: 1.3;
+  text-shadow: 0px 0px 8px rgba($title-color, 0.6);
 }
 
 h2, h3, h4, h5, h6 {
@@ -252,6 +254,8 @@ details p {
   text-transform: lowercase;
   padding: 1rem 0;
   background-image: none;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 
   &:hover {
     color: $link-hover-color;
@@ -384,14 +388,14 @@ table thead {
 .quarto-listing-category {
   font-family: $font-serif;
   font-size: 0.85rem;
-  color: rgba($body-color, 0.6);
+  color: rgba($body-color, 0.4);
   text-indent: 0;
 }
 
 /* Categories & Tags */
 .quarto-category,
 .listing-category {
-  background-color: rgba(0,0,0,0.2) !important;
+  background-color: rgba(0,0,0,0.1) !important;
   border: 1px solid rgba($link-color, 0.3) !important;
   padding: 2px 8px !important;
   font-size: 0.8rem;
@@ -416,21 +420,12 @@ table thead {
 #welcome {
   background: transparent;
   min-height: 100vh;
+  text-align: center;
 }
 
 /* ==========================================================================
    6. CUSTOM ACTIONS & MEDIA
    ========================================================================== */
-
-/* Bird Swap */
-.bird-swap {
-  content: url("figs/crow_s.png");
-  transition: 0.3s ease;
-
-  &:hover {
-    content: url("figs/crow_s_flip.png");
-  }
-}
 
 /* Photo Row Gallery */
 .photo-row {
@@ -490,7 +485,7 @@ table thead {
 }
 
 /* ==========================================================================
-   7. MOBILE TABLE OVERRIDE (Responsive Tracklist Vibe)
+   7. MOBILE TABLE OVERRIDE
    ========================================================================== */
 
 @media (max-width: 992px) {
@@ -537,5 +532,29 @@ table thead {
     font-size: 0.85rem !important;
     margin-top: 0.3rem;
     opacity: 0.8;
+  }
+}
+
+/* ==========================================================================
+   8. MOBILE RESPONSIVENESS
+   ========================================================================== */
+
+@media (max-width: 992px) {
+  body {
+    padding: 1rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    margin: 2rem 0 1rem 0;
+  }
+
+  h2, h3, h4 {
+    font-size: 1.3rem;
+  }
+
+  .photo-row {
+    gap: 0.5rem;
   }
 }
