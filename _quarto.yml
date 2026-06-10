@@ -78,8 +78,12 @@ format:
     grid:
       body-width: 800px
     theme:
+      light:
         - morph
-        - springnight.scss
+        - focused.scss
+      dark:
+        - morph
+        - dedicated.scss
 
 callout-appearance: simple
 

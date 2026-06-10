@@ -204,6 +204,7 @@ details p {
   font-family: $font-cursive-sans;
   text-transform: lowercase;
   padding: 0.2rem 1rem;
+  backdrop-filter: blur(2px);
   background-image:
     radial-gradient(rgba($link-color, 0.15) 20%, transparent 30%),
     radial-gradient(rgba($link-color, 0.15) 20%, transparent 30%);
