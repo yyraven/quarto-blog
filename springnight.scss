@@ -158,9 +158,19 @@ h1 {
   text-shadow: 0px 0px 8px rgba($title-color, 0.6);
 }
 
-h2, h3, h4, h5, h6 {
+h2 {
   font-family: $font-cursive;
   font-weight: 400;
+  border-bottom: none !important;
+  color: $title-color;
+  margin: 2rem 0 1rem 0;
+  letter-spacing: 2px;
+  text-indent: 0;
+}
+
+h3, h4, h5, h6 {
+  font-family: $font-cursive;
+  font-weight: 300;
   border-bottom: none !important;
   color: $title-color;
   margin: 2rem 0 1rem 0;
