@@ -15,6 +15,7 @@ $link-hover-color:  rgba(#ffffff, 0.9);
 $code-color:        rgba(#cbe1cf, 0.9);
 $code-bg:           rgba(#000000, 0.25);
 $code-block-bg:     $code-bg;
+$text-muted:        rgba($body-color, 0.6);
 
 /* Typography Stacks */
 $font-serif:   "Times New Roman", "Times", "Baskerville", "Georgia", "Kaiti SC", "Kaiti TC", "BiauKai", "KaiTi", "楷体", STKaiti, "华文楷体", "LXGW WenKai Lite", serif;
@@ -222,12 +223,9 @@ blockquote, .callout {
   }
 }
 
-/* Details */
-details p {
-  margin: 0.3em 0;
-  color: $link-color;
-  font-size: 0.9rem;
-  text-indent: 0;
+/* Page Navigation */
+.nav-page .nav-page-text {
+  font-size: 0.8rem;
 }
 
 /* ==========================================================================

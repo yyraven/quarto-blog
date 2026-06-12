@@ -7,14 +7,14 @@
    ========================================================================== */
 
 /* Color Palette */
-$body-bg:           #001010;
-$body-color:        #cce1d2;
-$link-color:        #519c6f;
-$link-hover-color:  #6cb98a;
-$code-color:        #8cc0a1;
-$code-bg:           rgba(#519c6f, 0.15);
+$body-bg:           #1c1a19;
+$body-color:        #e3deda;
+$link-color:        #7ce0b5;
+$link-hover-color:  #ff9854;
+$code-color:        #9fdec2;
+$code-bg:           rgba(#7ce0b5, 0.12);
 $code-block-bg:     $code-bg;
-$text-muted:        rgba($body-color, 0.55);
+$text-muted:        rgba($body-color, 0.6);
 
 /* Typography Stacks */
 $font-serif:      'Newsreader', 'Noto Serif SC', serif;
@@ -388,7 +388,7 @@ table thead {
    7. MOBILE TABLE OVERRIDE (Responsive Tracklist Vibe)
    ========================================================================== */
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .quarto-listing-table {
     display: block;
   }
@@ -501,41 +501,5 @@ $streaks-long: create-streaks(10);
 
 #welcome {
   background-color: $body-bg;
-  background-image: none !important;
-  position: relative;
-
-  z-index: 1;
-
-  &::before,
-  &::after {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 1px;
-    background: transparent;
-    pointer-events: none;
-    z-index: -1;
-  }
-
-  &::before {
-    height: 12px;
-    box-shadow: $streaks-small;
-    animation: riseUp 17s linear infinite;
-  }
-
-  &::after {
-    height: 24px;
-    box-shadow: $streaks-long;
-    animation: riseUp 25s linear infinite;
-  }
-}
-
-@keyframes riseUp {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-100vh);
-  }
+  background-image: none!important;
 }

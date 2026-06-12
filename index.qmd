@@ -13,13 +13,14 @@ listing:
     - personal/**/*.qmd
     - work/**/*.qmd
   sort: "date desc"
-  max-items: 5
-  type: table
+  max-items: 3
+  type: grid
   sort-ui: false
   filter-ui: false
   max-description-length: 100
+  grid-columns: 3
   date-format: short
-  fields: [date, title, description]
+  fields: [date, title, image, description]
   exclude:
     categories: 
     - "draft*"

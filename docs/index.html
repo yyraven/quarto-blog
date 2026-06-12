@@ -78,9 +78,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      valueNames: ['listing-date','listing-title','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 18,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -166,79 +167,75 @@ window.Quarto = {
 <p><img src="figs/crow_s.png" class="img-fluid"><img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"> <img src="figs/crow_s_flip.png" class="img-fluid"><img src="figs/crow_s.png" class="img-fluid"> <img src="figs/crow_s.png" class="img-fluid"> <img src="figs/crow_s_flip.png" class="img-fluid"><img src="figs/crow_s.png" class="img-fluid"><img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"><img src="figs/crow_s_flip.png" class="img-fluid"> <img src="figs/crow_s_flip.png" class="img-fluid"><img src="figs/crow_s_flip.png" class="img-fluid"><img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"> <img src="figs/crow_s_flip.png" class="img-fluid"><img src="figs/crow_s.png" class="img-fluid"> <img src="figs/crow_s_flip.png" class="img-fluid"><img src="figs/crow_s.png" class="img-fluid"></p>
 <section id="最新-全部" class="level3">
 <h3 data-anchor-id="最新-全部">最新 | <a href="./archive.html">全部</a></h3>
-<div id="listing-latest" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Date
-</th>
-<th>
-Title
-</th>
-<th>
-Description
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="review,movie,中文" data-listing-date-sort="1780977600000" data-listing-file-modified-sort="1781189198757" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="69" data-listing-title-sort="观后感｜心血来潮的爱情片马拉松" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">6/9/26</span>
-</td>
-<td>
-<a href="./personal/260609_review_romance/index.html" class="title listing-title">观后感｜心血来潮的爱情片马拉松</a>
-</td>
-<td>
-<span class="listing-description">最近一口气看了六部电影，居然都不错，来写篇观后感卖卖安利。</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="music,review,shoegaze,中文" data-listing-date-sort="1779681600000" data-listing-file-modified-sort="1780968115738" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153" data-listing-title-sort="滚妹人格｜夏日&amp;盯鞋&amp;音乐节初体验" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">5/25/26</span>
-</td>
-<td>
-<a href="./personal/260525_review_sgf/index.html" class="title listing-title">滚妹人格｜夏日&amp;盯鞋&amp;音乐节初体验</a>
-</td>
-<td>
-<span class="listing-description">这个周末终于去了心心念念的Slide Away Festival。</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="birding,travel,indiana,popular science,EN" data-listing-date-sort="1779336000000" data-listing-file-modified-sort="1779479766475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1576" data-listing-title-sort="Birding｜Summertime: Watching Songbirds in Your Favourite Park" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">5/21/26</span>
-</td>
-<td>
-<a href="./personal/260521_birding_horticulture/index.html" class="title listing-title">Birding｜Summertime: Watching Songbirds in Your Favourite Park</a>
-</td>
-<td>
-<span class="listing-description">Summer has come - <em>almost</em>.</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="gaming,review,中文" data-listing-date-sort="1777953600000" data-listing-file-modified-sort="1778104422577" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33" data-listing-title-sort="游戏评测｜公路旅行模拟器们" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">5/5/26</span>
-</td>
-<td>
-<a href="./personal/260505_review_westgames/index.html" class="title listing-title">游戏评测｜公路旅行模拟器们</a>
-</td>
-<td>
-<span class="listing-description">最近有在断断续续地玩一些公路旅行主题的游戏，简单写个安利/评测贴。</span>
-</td>
-</tr>
-<tr data-index="4" data-categories="travel,baltimore,citywalk,中文" data-listing-date-sort="1774670400000" data-listing-file-modified-sort="1774819710365" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1106" data-listing-title-sort="巴尔的摩｜遛弯指南" data-listing-filename-sort="index.qmd">
-<td>
-<span class="listing-date">3/28/26</span>
-</td>
-<td>
-<a href="./personal/260328_travel_baltimore_citywalk/index.html" class="title listing-title">巴尔的摩｜遛弯指南</a>
-</td>
-<td>
-<span class="listing-description">巴尔的摩系列的第三篇是相对轻松的遛弯指南。</span>
-</td>
-</tr>
-</tbody>
-</table>
+<div id="listing-latest" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="review,movie,中文" data-listing-date-sort="1780977600000" data-listing-file-modified-sort="1781189198757" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
+<a href="./personal/260609_review_romance/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./personal/260609_review_romance/figs/tvs.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+观后感｜心血来潮的爱情片马拉松
+</h5>
+<div class="card-text listing-description">
+最近一口气看了六部电影，居然都不错，来写篇观后感卖卖安利。
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+6/9/26
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="music,review,shoegaze,中文" data-listing-date-sort="1779681600000" data-listing-file-modified-sort="1780968115738" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
+<a href="./personal/260525_review_sgf/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./personal/260525_review_sgf/figs/tb_2.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+滚妹人格｜夏日&amp;盯鞋&amp;音乐节初体验
+</h5>
+<div class="card-text listing-description">
+这个周末终于去了心心念念的Slide Away Festival。
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+5/25/26
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="birding,travel,indiana,popular science,EN" data-listing-date-sort="1779336000000" data-listing-file-modified-sort="1779479766475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1576">
+<a href="./personal/260521_birding_horticulture/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./personal/260521_birding_horticulture/figs/gcb.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Birding｜Summertime: Watching Songbirds in Your Favourite Park
+</h5>
+<div class="card-text listing-description">
+Summer has come - <em>almost</em>.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+5/21/26
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
