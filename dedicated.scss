@@ -7,13 +7,14 @@
    ========================================================================== */
 
 /* Color Palette */
-$body-bg:           #101010;
-$body-color:        #e8e3e6;
-$link-color:        #a2e0b0;
-$link-hover-color:  #de9bb9;
-$code-color:        #bfe0c7;
-$code-bg:           rgba(#a2e0b0, 0.02);
+$body-bg:           #261e1b;
+$body-color:        #e8dbce;
+$link-color:        #7ce0b5;
+$link-hover-color:  #ff9854;
+$code-color:        #9fdec2;
+$code-bg:           rgba(#7ce0b5, 0.12);
 $code-block-bg:     $code-bg;
+$text-muted:        rgba($body-color, 0.6);
 
 /* Typography Stacks */
 $font-serif:      'Newsreader', 'Noto Serif SC', serif;
@@ -149,13 +150,6 @@ blockquote, .callout {
   background-position: 0 0, 3px 3px;
 }
 
-/* Details */
-details p {
-  margin: 0.3em 0;
-  color: $link-color;
-  font-size: 0.8rem;
-}
-
 /* ==========================================================================
    4. COMPONENTS (Buttons, Navbar, Sidebar)
    ========================================================================== */
@@ -181,7 +175,7 @@ details p {
 
 /* Navbar */
 .navbar {
-  background-color: rgba($body-bg,0);
+  background-color: $code-block-bg;
   border-bottom: 2px dashed;
   font-family: $font-cursive-sans;
   text-transform: lowercase;
@@ -413,7 +407,7 @@ table thead {
 
   .quarto-listing-table tr {
     margin-bottom: 1.5rem;
-    border-bottom: 1px dashed rgba($link-color, 0.5);
+    border-bottom: 1px dashed rgba($link-color, 0.5) !important;
     padding-bottom: 0.8rem;
   }
 
@@ -438,6 +432,11 @@ table thead {
     margin-top: 0.3rem;
     opacity: 0.8;
   }
+}
+
+/* Page Navigation */
+.nav-page .nav-page-text {
+  font-size: 0.8rem;
 }
 
 /* ==========================================================================

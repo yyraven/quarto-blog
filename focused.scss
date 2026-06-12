@@ -14,6 +14,7 @@ $link-hover-color:  #ff9f1c;
 $code-color:        #006a80;
 $code-bg:           rgba(#00b4d8, 0.08);
 $code-block-bg:     $code-bg;
+$text-muted:        rgba($body-color, 0.6);
 
 /* Typography Stacks */
 $font-serif:      'Newsreader', 'Noto Serif SC', serif;
@@ -168,13 +169,6 @@ blockquote, .callout {
   background-position: 0 0, 3px 3px;
 }
 
-/* Details */
-details p {
-  margin: 0.3em 0;
-  color: $link-color;
-  font-size: 0.8rem;
-}
-
 /* ==========================================================================
    4. COMPONENTS (Buttons, Navbar, Sidebar)
    ========================================================================== */
@@ -199,7 +193,7 @@ details p {
 
 /* Navbar */
 .navbar {
-  background-color: rgba($body-bg,0);
+  background-color: $code-block-bg;
   border-bottom: 2px dashed;
   font-family: $font-cursive-sans;
   text-transform: lowercase;
@@ -455,6 +449,11 @@ table thead {
     margin-top: 0.3rem;
     opacity: 0.8;
   }
+}
+
+/* Page Navigation */
+.nav-page .nav-page-text {
+  font-size: 0.8rem;
 }
 
 /* ==========================================================================
