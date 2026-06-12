@@ -23,7 +23,6 @@ from: markdown+emoji
 comments:
   utterances:
     repo:  yyraven/quarto-blog-comments
-    theme: github-dark
 
 format:
   html:
