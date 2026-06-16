@@ -4,6 +4,8 @@ lightbox: true
 toc: true
 ---
 
+![June '26 'ditto'](figs/2606.jpg){group="home"}
+
 ![May '26 fluffy little fairy](figs/2605.jpg){group="home"}
 
 ![Apr '26 the U.S. feels mosquito-free unless you’re in the prairies](figs/2604.jpg){group="home"}
