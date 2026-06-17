@@ -1,5 +1,5 @@
 ---
-title: "全部"
+title: "Archive"
 listing:
   contents: 
     - personal/**/*.qmd

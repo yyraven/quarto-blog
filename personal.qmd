@@ -1,5 +1,5 @@
 ---
-title: "个人"
+title: "Personal"
 listing:
   contents: personal/**/*.qmd
   sort: "date desc"

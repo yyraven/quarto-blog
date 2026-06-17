@@ -1,0 +1,112 @@
+---
+title: "Nature｜Finding Wildness in a Forgotten Game Day Parking Lot"
+date: "2026-06-17"
+categories: [indiana, nature, EN]
+image: figs/buttercups.jpg
+---
+
+I'm very much interested in the forgotten game day parking lot in front of the Purdue Horticulture Park. Without lawn mowers, the field becomes overgrown and now filled with wildflowers in summer. What kind of wildflowers are they? Are they native or non-native? These are the questions I want to answer in this post. 
+
+I learnt the word 'overgrown' when birding. I want to find dickcissels and bobolinks this summer, since they are typical Midwest summer birds. The field guide says 'look for overgrown fields or tallgrass prairies'. Without a car, it's hard to go to these places - there are no sidewalks in rural Indiana, and last time I tried biking north, I freaked myself out on the biking trail-less McCormick Rd crossings. So, I decide to try my luck on the game day parking lot. Unfortunately, this specific field may not be overgrown enough to fulfill a dickcissel's needs. Still quite beautiful, though; as is written below, it still fulfills a lot of other animals' needs -- I even saw someone taking her maternity shoots there!
+
+---
+
+## Plants
+
+It's surprising that most plants I've found are non-native. 
+
+### Buttercups
+
+![Buttercups *Ranunculus spp.*](figs/buttercups.jpg){group='dft'}
+
+- non-native, native to Eurasia. Can be [toxic to grazing animals](https://extension.entm.purdue.edu/newsletters/pestandcrop/article/control-of-buttercups-in-indiana-fields/).
+- bright yellow blossoms
+
+### Red Clover
+
+![Red Clover *Trifolium pratense*](figs/redclover.jpg){group='dft'}
+
+- non-native, native to Eurasia
+- beautiful, look similar to the common white clovers
+
+### Salsify
+
+![Salsify *Tragopogon spp.*](figs/salsify.jpg){group='dft'}
+
+- non-native, native to Eurasia
+- looks like a giant dandelion, and is extremely tall
+- deer eat them. You can see that in the [last picture](#white-tailed-deer) of this post. 
+
+### Plantain & Fleabane
+
+![L: Ribwort Plantain *Plantago lanceolata* (long stems with brown caps); R: Annual Fleabane *Erigeron annuus* (white flowers)](figs/plantainfleabane.JPG){group='dft'}
+
+- Ribwort Plantain: non-native, native to Eurasia
+- Annual Fleabane: native! Yeah!
+
+### Dyer's Rocket
+
+![Dyer's Rocket *Reseda luteola*](figs/dyersrocket.jpg){group='dft'}
+
+- non-native, native to Asia
+
+### Orange Daylily
+
+![Orange Daylily *Hemerocallis fulva*](figs/orangedaylily.jpg){group='dft'}
+
+- non-native, native to Asia
+- grows near water, individual blossoms only last 24 hours. 'Hemerocallis' means 'beauty for a day'.
+
+## Animals
+
+::: callout-warning
+Close-ups of various kinds of insects.
+:::
+
+### Common Whitetail
+
+![Common Whitetail *Plathemis lydia*](figs/commonwhitetail.jpeg){group='dft'}
+
+- native
+- striking
+
+### Ebony Jewelwing
+
+![Ebony Jewelwing *Calopteryx maculata* (L: male; R: female)](figs/ebonyjewelwing.jpg){group='dft'}
+
+- native
+- male iridescent blue, female iridescent brown with small white dots on wings
+- fly gently when interrupted, like small pieces of midnight
+
+### Fragile Forktail
+
+![Fragile Forktail *Ischnura posita*](figs/FragileForktail.jpg){group='dft'}
+
+- native
+- very small damselflies
+
+### Giant Ichneumon Wasp
+
+![Giant Ichneumon Wasp *Megarhyssa macrurus*](figs/giantichneumonwasp.jpg){group='dft'}
+
+- native
+- scary with its massive ovipositor, but harmless to humans
+
+### Some kinda Moth
+
+![Some kinda Moth](figs/moth.jpg){group='dft'}
+
+- native?
+- hard to identify
+
+### White-tailed Deer
+
+![White-tailed Deer *Odocoileus virginianus*](figs/whitetaileddeer.jpg){group='dft'}
+
+- native
+- dreamy baby, eating [salsify](#salsify) - you can see that flower head dangling near its mouth. Read more on their diet in Indiana [here](https://www.in.gov/dnr/fish-and-wildlife/wildlife-resources/animals/white-tailed-deer-biology/).
+- saw their traces on snow during winter
+
+---
+
+I'm also currently reading [Chris Helzer](https://prairieecologist.com/about/)'s *the Ecology and Management of Prairies in the Central United States* to get some idea of this kind of ecosystem. Will share my thoughts when finished!

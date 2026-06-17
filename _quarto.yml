@@ -45,7 +45,11 @@ website:
             - auto: "personal/*travel*/*.qmd"
         - section: "Birding"
           contents:
+            - personal/nd_birding/index.qmd
             - auto: "personal/*birding*/*.qmd"
+        - section: "Nature"
+          contents:
+            - auto: "personal/*nature*/*.qmd"
         - section: "Review"
           contents:
             - personal/nd_personal_library/index.qmd

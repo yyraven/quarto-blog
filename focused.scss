@@ -7,14 +7,14 @@
    ========================================================================== */
 
 /* Color Palette */
-$body-bg:           #d5e6db;
-$body-color:        #091c1f;
-$link-color:        #275747;
-$link-hover-color:  #35685a;
-$code-color:        #0e3519;
-$code-bg:           rgba(#275747, 0.08);
+$body-bg:           #ebf7f3;
+$body-color:        #1e463c;
+$link-color:        #10b981;
+$link-hover-color:  #34d399;
+$code-color:        #059669;
+$code-bg:           rgba(#dbf4ec, 0.12);
 $code-block-bg:     $code-bg;
-$text-muted:        rgba($body-color, 0.6);
+$text-muted:        #6b9e90;
 
 /* Typography Stacks */
 $font-serif:      'Newsreader', 'Noto Serif SC', serif;
@@ -214,6 +214,7 @@ blockquote, .callout {
     border-color: $link-color !important;
   }
 }
+
 .quarto-dark .quarto-color-scheme-toggle{
 filter: invert(100%) !important;
 }
@@ -224,6 +225,15 @@ filter: invert(100%) !important;
 
   -webkit-mask: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") center/100% 100% no-repeat;
   mask: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") center/100% 100% no-repeat;
+
+  transition: transform 0.25s ease-in-out, mask 0.25s ease-in-out, -webkit-mask 0.25s ease-in-out;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  -webkit-mask: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M7 7l16 16M23 7L7 23'/%3e%3c/svg%3e") center/100% 100% no-repeat;
+  mask: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M7 7l16 16M23 7L7 23'/%3e%3c/svg%3e") center/100% 100% no-repeat;
+
+  transform: rotate(90deg);
 }
 
 /* Sidebar & Navigation */
