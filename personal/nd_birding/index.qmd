@@ -131,6 +131,7 @@ bird_markers <- read.csv("bird_markers.csv", stringsAsFactors = FALSE)
 rural <- subset(bird_markers, type == "rural")
 urban <- subset(bird_markers, type == "urban")
 
+# Customize pop-up
 popup_css <- tags$style(HTML("
   .leaflet-popup-content-wrapper {
     background: rgba(255, 255, 255, 0.5);
@@ -143,7 +144,7 @@ popup_css <- tags$style(HTML("
     background: rgba(255, 255, 255, 0.7);
   }
   .leaflet-popup-content {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: sans-serif;
     line-height: 1.1;
     white-space: pre-wrap;
   }
@@ -166,7 +167,7 @@ stroke = TRUE, fillColor = 'white',
 fillOpacity = 1, radius = 5) %>%
   # Add custom CSS to the map
   addControl(html = popup_css, position = "topleft") %>%
-  addProviderTiles(providers$Esri.NatGeoWorldMap)
+  addProviderTiles(providers$Stadia.Outdoors)
 ```
 
 ------------------------------------------------------------------------
@@ -187,7 +188,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **First Visited**: Sep 2025
 -   **Last Visited**: Mar 2026
 -   **Birds**: Mallard, American Goldfinch, Red-tailed Hawk, Killdeer, Northern Cardinal, Double-crested Cormorant, Song Sparrow, Red-bellied Woodpecker, Tennessee Warbler, Belted Kingfisher, Great Blue Heron, Yellow-rumped Warbler, Northern Flicker, Pileated Woodpecker, Hairy Woodpecker, American Robin, White-breasted Nuthatch, Eastern Phoebe, Cooper's Hawk, Dark-eyed Junco, Brown Creeper, Mourning Dove, Canada Goose, Red-winged Blackbird, Brown-headed Cowbird, American Tree Sparrow
--   **Comments**: Beautiful and peaceful place. Staff at the natural center are very friendly. It's home to several raptors, and you can also watch blue herons catching fish. I often start walking at Cherry Ln/Purdue University Student Farm, and ends the trail at Walmart supercenter to take CityBus #21 back home, which would typically take 2-3 hours. 
+-   **Comments**: Beautiful and peaceful place, one of the best birding destinations near Purdue. Staff at the natural center are very friendly. It's home to several raptors, and you can also watch blue herons catching fish. I often start walking at Cherry Ln/Purdue University Student Farm, and ends the trail at Walmart supercenter to take CityBus #21 back home, which would typically take 2-3 hours. 
 -   **Link**: [ebird](https://ebird.org/hotspot/L445373)
 -   **Related Posts**: [Mar '26 Spring Migration](../260326_birding_celerybog/index.qmd)
 
@@ -212,9 +213,9 @@ fillOpacity = 1, radius = 5) %>%
 
 -   **Type**: Rural \| Woods
 -   **First Visited**: Sep 2025
--   **Last Visited**: May 2026
--   **Birds**: American Robin, Red-winged Blackbird, Eastern Bluebird, Chipping Sparrow, White-throated Sparrow, European Starling, Northern Cardinal, Northern Flicker, Hairy Woodpecker, Downy Woodpecker, Pileated Woodpecker, Red-bellied Woodpecker, Tufted Titmouse, Killdeer, White-breasted Nuthatch, American Crow, Blue Jay, Great Blue Heron, Turkey Vulture, Eastern Wood-Pewee, Blue-gray Gnatcatcher, Northern House Wren, House Finch, American Goldfinch, Baltimore Oriole, Brown-headed Cowbird, American Redstart, Northern Parula, Mallard, Mourning Dove, Eastern Phoebe, Eastern Warbling Vireo, Carolina Wren, Gray Catbird, House Sparrow, Chipping Sparrow, Song Sparrow, Indigo Bunting, Double-crested Cormorant, Carolina Chickadee, Cedar Waxwing, Common Nighthawk, Barn Swallow
--   **Comments**: Nice trail. A large flock of robins and starlings rest on the trees near the open grass edge, and you can find jays and woodpeckers in the trails through the woods. During summer, a lot of songbirds rest and sing on trees near the woods edges. 
+-   **Last Visited**: June 2026
+-   **Birds**: American Robin, Red-winged Blackbird, Eastern Bluebird, Chipping Sparrow, White-throated Sparrow, European Starling, Northern Cardinal, Northern Flicker, Hairy Woodpecker, Downy Woodpecker, Pileated Woodpecker, Red-bellied Woodpecker, Tufted Titmouse, Killdeer, White-breasted Nuthatch, American Crow, Blue Jay, Great Blue Heron, Turkey Vulture, Eastern Wood-Pewee, Blue-gray Gnatcatcher, Northern House Wren, House Finch, American Goldfinch, Baltimore Oriole, Brown-headed Cowbird, American Redstart, Northern Parula, Mallard, Mourning Dove, Eastern Phoebe, Eastern Warbling Vireo, Carolina Wren, Gray Catbird, House Sparrow, Chipping Sparrow, Song Sparrow, Indigo Bunting, Double-crested Cormorant, Carolina Chickadee, Cedar Waxwing, Common Nighthawk, Barn Swallow, White-eyed Vireo, Yellow-throated Warbler
+-   **Comments**: Nice trail. 'My patch' - kind of. A large flock of robins and starlings rest on the trees near the open grass edge, and you can find jays and woodpeckers in the trails through the woods. During spring migration, a lot of songbirds rest and sing on trees near the woods edges. Indigo buntings nest here. 
 -   **Link**: [ebird](https://ebird.org/region/L457935)
 -   **Related Posts**: [May '26 Songbirds](../260521_birding_horticulture/index.qmd)
 
@@ -255,7 +256,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Type**: Urban \| Saltwater; Shore
 -   **First Visited**: Aug 2023
 -   **Last Visited**: Apr 2025
--   **Birds**: Canada Goose, Double-crested Cormorant, Laughing Gull, Mallard, Ring-billed Gull, Rock Pigeon, Osprey, Northern Rough-winged Swallow, Fish Crow
+-   **Birds**: Canada Goose, Double-crested Cormorant, Laughing Gull, Mallard, Ring-billed Gull, Rock Pigeon, Osprey, Northern Rough-winged Swallow, Fish Crow, Black-crowned Night Heron, Least Tern
 -   **Comments**: From inner harbor to harbor east and locust point, the waterfront of downtown Baltimore is a great place to watch gulls & various kinds of waterfowls. A large flock of gulls rest in front of the harbors near Whole Foods from late fall to early spring in the evening. Check out the Harbor Connector water taxi - you can see gulls and cormorants flying across the harbor.
 -   **Link**: [Harbor Connector Water Taxi (free to ride!)](https://www.baltimorewatertaxi.com/lines) \| [ebird](https://ebird.org/region/L745089)
 
@@ -380,7 +381,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: It's just heaven if you love seabirds and shorebirds - in summer, various birds are nesting on the cliff of haystack rock. Remember to bring your binoculars since there's a sign saying 'birds only beyond this point' - you would not be able to get too close to that rock. The volunteer is very friendly and helpful, and tide pools are also great fun to explore. Also, if you reside in Portland, be sure to check out Powell's books, it has a great collection of field guides as well as other gems.
 -   **Links**: [Friends of Haystack Rock](https://www.friendsofhaystackrock.org/) *check the webcams* \| [U.S. Fish & Wildlife Service: Oregon Islands National Wildlife Refuge](https://www.fws.gov/refuge/oregon-islands/) \| [ebird](https://ebird.org/region/L548476)
 
-### China
+### Eastern China
 
 #### ![](pixelart/blackcrownednightheron_s.png) Suzhou, CN: Huqiu Wetland Park 虎丘湿地生态公园
 
@@ -395,6 +396,19 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: My hometown. Very beautiful place, regionally well-known birding hotspot and tourist attraction with reeds, waterlilies and lotus planted all over the ponds and wetlands.
 -   **Link**: [ebird](https://ebird.org/region/L17313628)
 
+#### ![](pixelart/blackheadedgull_s.png) Suzhou, CN: Chongshan Island 冲山岛
+
+::: column-margin
+![Black headed gulls gathering, Dec 2025](landspics/chong.JPG){group="landspics"}
+:::
+
+-   **Type**: Urban \| Freshwater; Lake
+-   **First Visited**: Dec 2025
+-   **Last Visited**: Dec 2025
+-   **Birds**: Black-headed gull, white wagtail, little grebe, great crested grebe, eurasian coot, spotted dove
+-   **Comments**: Part of Taihu Lake. The urban myth is that the Suzhou government use Salmon sashimi to attract black-headed gulls from Wuxi (the city on the other side of Taihu).
+-   **Links**: NA
+
 #### ![](pixelart/crestedmyna_s.png) Suzhou, CN: Dushu Lake, East Shore 独墅湖东
 
 ::: column-margin
@@ -407,6 +421,34 @@ fillOpacity = 1, radius = 5) %>%
 -   **Birds**: Black-crowned Night Heron, Little Grebe, Great Crested Grebe, Light-vented Bulbul, Little Egret, White-cheeked Starling, Eurasian Hoopoe, Chinese Blackbird, Oriental Magpie-Robin, Vega Gull, White Wagtail, Olive-backed Pipit, Richard's Pipit, Eurasian Tree Sparrow, Crested Myna, Long-tailed Shrike
 -   **Comments**: Mostly hardened wetlands, migrating birds come to visit at winter. Pipits and wagtails walk happily on the lawn. Whole trail takes ~3.5 hours. 
 -   **Links**: [ebird-独墅湖公园](https://ebird.org/region/L33441763) \| [ebird-白鹭园](https://ebird.org/region/L26307800)
+
+#### ![](pixelart/greatcormorant_s.png) Suzhou, CN: Shuibaxian Eco-cultural Park 水八仙生态文化园
+
+::: column-margin
+![Flock of black-winged stilts in paddy fields, Dec 2025](landspics/shuibaxian2.JPG){group="landspics"}
+:::
+
+-   **Type**: Urban \| Freshwater; Lake, Paddy fields
+-   **First Visited**: Dec 2025
+-   **Last Visited**: Dec 2025
+-   **Birds**: Green-winged teal, tufted duck, rock pigeon, eurasian moorhen, eurasian coot, black-winged stilt, northern lapwing, common snipe, marsh sandpiper, spotted redshank, black-headed gull, little grebe, great crested grebe, great cormorant, little egret, great egret, gray heron, common kingfisher, long-tailed shrike, oriental magpie, light-vented bulbul, red-billed starling, crested myna, chinese blackbird, daurian redstart, gray wagtail, white wagtail
+-   **Comments**: Paddy fields + part of Chenhu Lake. People raise fish in Chenhu Lake so it attracts a lot of fish-eating bird species. Nice place to watch shorebirds and ducks, has a relatively high entrance fee, though. 'Shuibaxian' means 8 different water-borne vegetables. 
+-   **Links**: [ebird-水八仙生态文化园](https://ebird.org/hotspot/L17507817)
+
+#### ![](pixelart/orientalturtledove_s.png) Suzhou, CN: Baitang Arboretum 白塘生态植物园
+
+::: column-margin
+![Dawn redwood in Baitang Arboretum, Jan 2026](landspics/baitang.JPG){group="landspics"}
+:::
+
+-   **Type**: Urban \| Freshwater; Lake, Lawn
+-   **First Visited**: Jan 2026
+-   **Last Visited**: Jan 2026
+-   **Birds**: Eastern spot-billed duck, oriental turtle-dove, eurasian collared-dove, spotted dove, eurasian moorhen, white-breasted waterhen, little grebe, long-tailed shrike, oriental magpie, light-vented bulbul, silver-throated tit, white-cheeked starling, crested myna, chinese blackbird, pale thrush, dusky thrush, verditer flycatcher, eurasian tree sparrow, white wagtail, yellow-billed grosbeak, oriental greenfinch, black-faced bunting
+-   **Comments**: City park in SIP, nice place with a bunch of man-made microenvironments, mostly wetlands. Regional migration trap. Most loved bird among local birders is a white-breasted waterhen which resides near the north-western corner of the arboretum. 
+-   **Links**: [ebird-白塘生态植物园](https://ebird.org/hotspot/L13265445)
+
+### Northern China
 
 #### ![](pixelart/mandarinduck_s.png) Beijing, CN: Olympic Forest Park 奥林匹克森林公园
 
