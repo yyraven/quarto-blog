@@ -19,7 +19,7 @@ lightbox: false
 ![从左至右：处女之死；蒙特利尔，我的美人；面子；戏梦巴黎；分手的决心](figs/movie1.jpg){group="grp"}
 ---
 
-## 处女之死 The Virgin Suicides
+## 处女之死 The Virgin Suicides {#1}
 
 - 导演：Sophia Coppola｜年份：1999｜我的评分：8/10
 
@@ -33,7 +33,7 @@ lightbox: false
 
 电影的镜头和音乐也非常好。导演选择使用旁观者（男孩们）的视角来讲述这一个故事，没有人真的知道女孩们心里是怎么想的，只留给观众一个侧影。原声是法国Ambient乐团Air的作品。
 
-## 戏梦巴黎 The Dreamers
+## 戏梦巴黎 The Dreamers {#2}
 
 - 导演：Bernardo Bertolucci｜年份：2003｜我的评分：9/10
 
@@ -49,7 +49,7 @@ Matthew是这个家的外来者，也是美国文化的象征，他为人处世�
 
 总之是象征意义很大的一部片子，但想象这样的情节真实地发生在欧洲人的身上，居然也觉得很合理。我很喜欢。
 
-## 分手的决心 Decision to Leave
+## 分手的决心 Decision to Leave {#3}
 
 - 导演：朴赞郁｜年份：2022｜我的评分：7/10
 
@@ -61,7 +61,7 @@ Matthew是这个家的外来者，也是美国文化的象征，他为人处世�
 
 导演的分镜很有水平，最后的海景特别美。两人在审讯室里吃高级寿司那一段的暧昧氛围真棒，看完后我立刻给自己点了一份。
 
-## 落叶归根 Getting Home
+## 落叶归根 Getting Home {#4}
 
 - 导演：张扬｜年份：2007｜我的评分：9/10
 
@@ -78,7 +78,7 @@ Matthew是这个家的外来者，也是美国文化的象征，他为人处世�
 <div class="pride-strip"></div>
 
 
-## 蒙特利尔，我的美人 Montréal, ma belle
+## 蒙特利尔，我的美人 Montréal, ma belle {#5}
 
 - 导演：和晓丹｜年份：2025｜我的评分：9/10
 
@@ -92,7 +92,7 @@ Matthew是这个家的外来者，也是美国文化的象征，他为人处世�
 
 <div class="pride-strip"></div>
 
-## 面子 Saving Face
+## 面子 Saving Face {#6}
 
 - 导演：伍思薇｜年份：2004｜我的评分：10/10
 
