@@ -232,7 +232,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Dreamy and Beautiful at sunset.
 -   **Link**: [IN.gov DNR](https://www.in.gov/dnr/fish-and-wildlife/properties/jasper-pulaski-fwa/sandhill-cranes/) \| [ebird](https://ebird.org/hotspot/L1004877)
 
-#### ![](pixelart/redwingedblackbird_s.png) Porter, IN: Indiana Dunes National Park
+#### ![](pixelart/northernyellowwarbler_s.png) Porter, IN: Indiana Dunes National Park
 
 ::: column-margin
 ![Beach on Cowles Bog Trail, May 2026](landspics/dunes.JPG){group="landspics"}
@@ -244,6 +244,19 @@ fillOpacity = 1, radius = 5) %>%
 -   **Birds**: Canada Goose, Mute Swan, Killdeer, Ring-billed Gull, Caspian Tern, Double-crested Cormorant, Great Egret, Great Blue Heron, Turkey Vulture, Belted Kingfisher, Great Crested Flycatcher, Red-eyed Vireo, Blue Jay, Northern Rough-winged Swallow, Barn Swallow, Gray Catbird, American Robin, House Sparrow, Eastern Towhee, Baltimore Oriole, Red-winged Blackbird, Common Grackle, Common Yellowthroat, Northern Yellow Warbler, Summer Tanager
 -   **Comments**: A much bigger celery bog. The [Cowles Bog trail](https://www.nps.gov/indu/planyourvisit/cb16.htm) takes a good amount of walk to complete but biodiversity is great. Only regret is not seeing any gallinule or sora. Loads of caspian terns flying on the Michigan Lake shores. 
 -   **Link**: [National Park Service](https://www.nps.gov/indu/index.htm) \| [ebird (Cowles Bog)](https://ebird.org/hotspot/L152744)
+
+#### ![](pixelart/redwingedblackbird_s.png) Chicago, IL: Northerly Islands
+
+::: column-margin
+![Northerly Islands, June 2026](landspics/northerlyislands.JPG){group="landspics"}
+:::
+
+-   **Type**: Rural \| Grasslands; Wetlands (freshwater); Open water (freshwater)
+-   **First Visited**: June 2026
+-   **Last Visited**: June 2026
+-   **Birds**: Canada Goose, Mallard, Killdeer, Spotted Sandpiper, Ring-billed Gull, Caspian Tern, Double-crested Cormorant, Northern Rough-winged Swallow, Barn Swallow, Cliff Swallow, American Robin, American Goldfinch, Savannah Sparrow, Red-winged Blackbirds, Northern Yellow Warbler, Dickcissel
+-   **Comments**: Sat next to Lake Michigan and Chicago downtown, Northerly Islands provide various environments for birds to live, including grasslands full of native plants and wetlands - making it perfect for grassland birds like savannah sparrows and dickcissels. Trails are a bit rugged and usually takes ~2 hours to finish. 
+-   **Link**: [ebird](https://ebird.org/hotspot/L294426)
 
 ### East Coast, USA
 

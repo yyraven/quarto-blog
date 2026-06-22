@@ -14,6 +14,7 @@ library(tidyverse)
 library(knitr)
 library(purrr)
 library(infer)
+library(scales)
 library(lubridate) # deal w/ date
 library(showtext) # deal w/ chinese characters
 
@@ -233,7 +234,8 @@ base1 +
                    limits = c("1","2","3","4","5","6","7","8","9","10","11","12"),
                    expand = c(0,0)) +
   scale_y_continuous(name = "不务正业次数",
-                     expand = c(0,0)) +
+                     expand = c(0,0),
+                     breaks = breaks_pretty()) +
   scale_color_brewer(palette = "PuBuGn") +
   scale_fill_brewer(palette = "PuBuGn") +
   labs(title = "",
