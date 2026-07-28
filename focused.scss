@@ -7,14 +7,14 @@
    ========================================================================== */
 
 /* Color Palette */
-$body-bg:           #ebf7f3;
-$body-color:        #1e463c;
-$link-color:        #10b981;
-$link-hover-color:  #34d399;
-$code-color:        #059669;
-$code-bg:           rgba(#dbf4ec, 0.12);
+$body-bg:           #fdfbf7;
+$body-color:        #2d4059;
+$link-color:        #00b4d8;
+$link-hover-color:  #ff9f1c;
+$code-color:        #006a80;
+$code-bg:           rgba(#00b4d8, 0.08);
 $code-block-bg:     $code-bg;
-$text-muted:        #6b9e90;
+$text-muted:        #778391;
 
 /* Typography Stacks */
 $font-serif:      'Newsreader', 'Noto Serif SC', serif;
@@ -26,7 +26,7 @@ $font-code:       'Fira Code', monospace;
 /* Spacing and Borders */
 $padding:         1.2rem;
 $margin:          1rem;
-$border-radius:   0.5rem;
+$border-radius:   0.2rem;
 
 /* Imported Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
@@ -512,24 +512,4 @@ table thead {
   padding: 0 0 1rem 0; /* Shorthand for top:0, right:0, bottom:1, left:0 */
   font-size: 0.8rem;
   color: $link-color;
-}
-
-/* Welcome Pages Special Background */
-#welcome {
-  background-color: $body-bg;
-
-  background-image:
-    radial-gradient(circle at 0% 50%, rgba($link-hover-color, 0.15) 0%, transparent 70%);
-
-  background-size:
-    100% 100vh;
-
-  background-position:
-    0 0;
-
-  background-repeat:
-    no-repeat;
-
-  background-attachment:
-    fixed;
 }

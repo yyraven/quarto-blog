@@ -7,14 +7,14 @@
    ========================================================================== */
 
 /* Color Palette */
-$body-bg:           #181f1d;
-$body-color:        #e1f0ec;
-$link-color:        #74cfad;
-$link-hover-color:  #13d487;
-$code-color:        #4db391;
-$code-bg:           rgba(#4db391, 0.08);
+$body-bg:           #060a0f;
+$body-color:        #e5e1d8;
+$link-color:        #2cd0ed;
+$link-hover-color:  #ff9f1c;
+$code-color:        #88d9eb;
+$code-bg:           rgba(#2cd0ed, 0.12);
 $code-block-bg:     $code-bg;
-$text-muted:        #8fae9f;
+$text-muted:        #8c9ba8;
 
 /* Typography Stacks */
 $font-serif:      'Newsreader', 'Noto Serif SC', serif;
@@ -33,6 +33,7 @@ $border-radius:   0.2rem;
 @import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fira+Code:wght@400;500;600&family=Noto+Sans+SC:wght@300;400;500;700&family=Quicksand:wght@300..700&display=swap');
+
 
 /*-- scss:rules --*/
 /* ==========================================================================
@@ -63,6 +64,24 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: $padding;
+  border-radius: $border-radius;
+}
+
+img,
+video,
+figure {
+  border-radius: none !important;
+}
+
+pre,
+.sourceCode,
+blockquote,
+.callout,
+.card,
+.alert,
+table {
+  border-radius: $border-radius !important;
+  overflow: hidden;
 }
 
 /* ==========================================================================
@@ -164,7 +183,6 @@ blockquote, .callout {
   font-size: 1rem;
   cursor: pointer;
   letter-spacing: 1px;
-  background-image: none;
 
   &:hover {
     color: $body-bg;
@@ -416,7 +434,7 @@ table thead {
 
   .quarto-listing-table tr {
     margin-bottom: 1.5rem;
-    border-bottom: 1px dashed rgba($link-color, 0.5) !important;
+    border-bottom: 1px dashed rgba($link-color, 0.5);
     padding-bottom: 0.8rem;
   }
 
@@ -494,21 +512,4 @@ table thead {
   padding: 0 0 1rem 0; /* Shorthand for top:0, right:0, bottom:1, left:0 */
   font-size: 0.8rem;
   color: $link-color;
-}
-
-/* Welcome Pages Special Background */
-@function create-streaks($n) {
-  $shadows: '#{random(100)}vw #{random(200)}vh 0 rgba(255, 255, 255, 0.#{random(8) + 1})';
-  @for $i from 2 through $n {
-    $shadows: '#{$shadows}, #{random(100)}vw #{random(200)}vh 0 rgba(255, 255, 255, 0.#{random(8) + 1})';
-  }
-  @return unquote($shadows);
-}
-
-$streaks-small: create-streaks(30);
-$streaks-long: create-streaks(10);
-
-#welcome {
-  background-color: $body-bg;
-  background-image: none!important;
 }
