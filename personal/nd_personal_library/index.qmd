@@ -16,7 +16,7 @@ library(purrr)
 library(infer)
 library(scales)
 library(lubridate) # deal w/ date
-library(showtext) # deal w/ chinese characters
+library(showtext) # deal w/ Chinese characters
 
 showtext_auto()
 

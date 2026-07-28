@@ -9,7 +9,7 @@ output:
     code_folding: hide
 ---
 
-![Flocks of Black-headed Gulls in Winter Coat, Suzhou Jiangsu, Dec '25](headline.jpg)
+![4 Goldfinches, Chicago IL, Jun '26](headline.jpg)
 
 ## Introduction
 
@@ -166,8 +166,8 @@ fillOpacity = 1, radius = 5) %>%
 stroke = TRUE, fillColor = 'white',
 fillOpacity = 1, radius = 5) %>%
   # Add custom CSS to the map
-  addControl(html = popup_css, position = "topleft") %>%
-  addProviderTiles(providers$Stadia.Outdoors)
+  addControl(html = popup_css, position = "topleft") # %>%
+  # addProviderTiles(providers$Stadia.Outdoors)
 ```
 
 ------------------------------------------------------------------------
