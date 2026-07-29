@@ -8,13 +8,13 @@
 
 /* Color Palette */
 $body-bg:           #fdfbf7;
-$body-color:        #2d4059;
-$link-color:        #00b4d8;
-$link-hover-color:  #ff9f1c;
-$code-color:        #006a80;
-$code-bg:           rgba(#00b4d8, 0.08);
+$body-color:        #445466;
+$link-color:        #4b9ab0;
+$link-hover-color:  #d68c3a;
+$code-color:        #2d6a78;
+$code-bg:           rgba(#4b9ab0, 0.12);
 $code-block-bg:     $code-bg;
-$text-muted:        #778391;
+$text-muted:        #8e9ba8;
 
 /* Typography Stacks */
 $font-serif:      'Newsreader', 'Noto Serif SC', serif;
@@ -46,7 +46,7 @@ $border-radius:   0.2rem;
 }
 
 ::selection {
-  background-color: rgba($link-hover-color, 0.3);
+  background-color: rgba($link-color, 0.5);
 }
 
 html {
@@ -59,7 +59,7 @@ html {
 body {
   background-color: $body-bg;
   color: $body-color;
-  font-family: $font-sans;
+  font-family: $font-serif;
   font-size: 0.9rem;
   line-height: 1.5;
   margin: 0;
@@ -92,7 +92,7 @@ table {
 a {
   color: $link-color;
   text-decoration: underline;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 1px;
 
   &:hover {
     color: $link-hover-color;
@@ -113,14 +113,14 @@ pre code {
 
 /* Headings */
 h1 {
-  font-family: $font-cursive-sans;
+  font-family: $font-cursive;
   color: $link-color;
   margin: $margin 0;
   font-weight: 400;
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: $font-sans;
+  font-family: $font-serif;
   font-weight: 400;
   border-bottom: none !important;
   color: $link-color;
@@ -147,7 +147,7 @@ hr {
 
   &::before {
     content: "~~~";
-    font-family: $font-cursive-sans;
+    font-family: $font-cursive;
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
   }
@@ -157,14 +157,9 @@ hr {
 blockquote, .callout {
   background-color: $code-block-bg;
   color: $code-color !important;
-  border-left: 2px dashed $link-color;
+  border-left: 1px solid $link-color;
   padding: 1rem;
   font-style: italic;
-
-  background-image:
-    radial-gradient(rgba($link-color, 0.15) 20%, transparent 30%),
-    radial-gradient(rgba($link-color, 0.15) 20%, transparent 30%);
-
   background-size: 6px 6px;
   background-position: 0 0, 3px 3px;
 }
@@ -177,9 +172,9 @@ blockquote, .callout {
 .button {
   background-color: $link-color;
   color: $body-bg;
-  border: 1px dashed $link-color;
+  border: 1px solid $link-color;
   padding: 0.1rem;
-  font-family: $font-cursive-sans;
+  font-family: $font-cursive;
   font-size: 1rem;
   cursor: pointer;
   letter-spacing: 1px;
@@ -194,14 +189,11 @@ blockquote, .callout {
 /* Navbar */
 .navbar {
   background-color: $code-block-bg;
-  border-bottom: 2px dashed;
-  font-family: $font-cursive-sans;
+  border-bottom: 1px solid;
+  font-family: $font-cursive;
   text-transform: lowercase;
   padding: 0.2rem 1rem;
   backdrop-filter: blur(2px);
-  background-image:
-    radial-gradient(rgba($link-color, 0.15) 20%, transparent 30%),
-    radial-gradient(rgba($link-color, 0.15) 20%, transparent 30%);
   background-size: 6px 6px;
   background-position: 0 0, 3px 3px;
 
@@ -238,7 +230,7 @@ filter: invert(100%) !important;
 
 /* Sidebar & Navigation */
 .sidebar, .sidebar-navigation {
-  font-family: $font-sans;
+  font-family: $font-serif;
 
   .sidebar-item a.sidebar-link {
     color: $body-color !important;
@@ -265,7 +257,7 @@ filter: invert(100%) !important;
 
 /* Table of Contents */
 #TOC {
-  font-family: $font-sans;
+  font-family: $font-serif;
 
   a {
     color: $body-color !important;
@@ -308,7 +300,7 @@ filter: invert(100%) !important;
 }
 
 table thead {
-  border-bottom: 0.8px dashed $body-color !important;
+  border-bottom: 0.8px solid $body-color !important;
 }
 
 .quarto-secondary-nav,
@@ -333,7 +325,7 @@ table thead {
 .input-group,
 .form-select,
 .quarto-listing-table {
-  font-family: $font-sans;
+  font-family: $font-serif;
   background: none !important;
   font-size: 0.9rem;
 }
@@ -353,7 +345,7 @@ table thead {
 .figure figcaption,
 .column-margin,
 .quarto-listing-category {
-  font-family: $font-sans;
+  font-family: $font-serif;
   font-size: 0.8rem;
   color: rgba($body-color, 0.8);
 }
@@ -434,7 +426,7 @@ table thead {
 
   .quarto-listing-table tr {
     margin-bottom: 1.5rem;
-    border-bottom: 1px dashed rgba($link-color, 0.5);
+    border-bottom: 1px solid rgba($link-color, 0.5);
     padding-bottom: 0.8rem;
   }
 
@@ -509,7 +501,7 @@ table thead {
 }
 
 .wordcount {
-  padding: 0 0 1rem 0; /* Shorthand for top:0, right:0, bottom:1, left:0 */
+  padding: 0 0 1rem 0;
   font-size: 0.8rem;
   color: $link-color;
 }

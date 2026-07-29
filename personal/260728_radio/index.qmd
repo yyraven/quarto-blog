@@ -1,6 +1,6 @@
 ---
 title: "音乐电台｜2026 音乐与我的四季"
-date: "2026-03-04"
+date: "2026-07-28"
 categories: [radio, music, 中文]
 image: covers/chenli.jpeg
 ---
@@ -60,3 +60,51 @@ Sufjan这张讲的是“失去一个既陌生又熟悉的人”——他的生�
 ***推荐曲目：**祝星/奇妙能力歌*
 
 ---
+
+## 春日电台
+
+### 音乐与我的春天
+
+-   四月: 做了0件事。一切都没有好起来，想去看Magdalena Bay但也失败了。
+
+-   五月: 去看了两个音乐节！请看[这篇博文](../260525_review_sgf.qmd)。
+
+-   六月: 做了0件事。
+
+### 我的春日专辑
+
+#### [缺省 - California Nebula (2017)](https://defaultplab.bandcamp.com/album/california-nebula)
+
+::: column-margin
+![](covers/default.jpeg){group="cover"}
+:::
+
+> *‘愚梦不醒，逝者如川。情绪丢在光程千年外的星云。故事编造从未存在的灵魂。’ - bandcamp介绍*
+
+就是很美。会让人想起北京的冬天吗？虽然我从未在北京度过冬天。玉米地的冬天还是太狂暴了，这张专辑的气质灰蒙蒙的。
+
+***推荐曲目**：全专*
+
+#### [sunshy - I don't care what comes next (2024)](https://sunshyily.bandcamp.com/album/i-dont-care-what-comes-next)
+
+::: column-margin
+![](covers/sunshy.jpeg){group="cover"}
+:::
+
+> *（一般不会给盯鞋专辑写歌词推荐）*
+
+在芝加哥[Slide Away](../260525_review_sgf.qmd)上听的乐队！已经在那篇博文里倾情推荐过了。很好听，非常正统盯鞋非常清纯。
+
+***推荐曲目：**시작/On the Train/Poison*
+
+#### [PinkPantheress - Fancy That (2025)](https://music.apple.com/us/album/fancy-that/1806614239)
+
+::: column-margin
+![](covers/fancythat.jpeg){group="cover"}
+:::
+
+> *'Is this illegal? It feels illegal.'*
+
+幻想自己在平行世界的都市生活的时候会听这张专，轻飘飘的！
+
+***推荐曲目：**Illegal/Girl Like Me/Stateside*
